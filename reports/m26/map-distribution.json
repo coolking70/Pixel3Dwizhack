@@ -1,0 +1,748 @@
+{
+  "sourceSha256": "1eb1cd6cf2da438558a19cd1b9c09c1d89119ac947ce717765a4bc896958db6f",
+  "schema": 1,
+  "generation": "alpha4-loot-v1",
+  "seeds": 1000,
+  "seedStart": 1,
+  "independentSeeds": 1000,
+  "config": {
+    "slotsLimit": 16,
+    "capacity": "unequipped-v1",
+    "generation": "alpha4-loot-v1",
+    "lootSeedSalt": 1327931709,
+    "lootBudgetByDepth": [
+      12,
+      10,
+      10,
+      11,
+      11,
+      12
+    ],
+    "encounterLootCap": 2,
+    "maxVisibleLooseItemsPerScreen": 5,
+    "screenCells": 13,
+    "ownerWeights": {
+      "ground": 5,
+      "container": 3,
+      "enemy": 2
+    },
+    "categoryWeights": {
+      "potion": 4,
+      "food": 4,
+      "scroll": 2,
+      "wand": 1,
+      "weapon": 2,
+      "armor": 2,
+      "accessory": 1,
+      "tool": 1
+    }
+  },
+  "groups": [
+    {
+      "identity": "alpha3",
+      "floors": [
+        {
+          "floor": {
+            "mean": 0,
+            "min": 0,
+            "max": 0
+          },
+          "items": {
+            "mean": 11,
+            "min": 11,
+            "max": 11
+          },
+          "totalBudget": {
+            "mean": 12,
+            "min": 12,
+            "max": 12
+          },
+          "nativeCorpses": {
+            "mean": 1,
+            "min": 1,
+            "max": 1
+          },
+          "loose": {
+            "mean": 9,
+            "min": 9,
+            "max": 9
+          },
+          "container": {
+            "mean": 2,
+            "min": 2,
+            "max": 2
+          },
+          "enemy": {
+            "mean": 0,
+            "min": 0,
+            "max": 0
+          },
+          "peakWindow": {
+            "mean": 7,
+            "min": 7,
+            "max": 7
+          },
+          "peakStack": {
+            "mean": 4,
+            "min": 4,
+            "max": 4
+          },
+          "healing": {
+            "mean": 1.072,
+            "min": 1,
+            "max": 3
+          },
+          "food": {
+            "mean": 4.334,
+            "min": 4,
+            "max": 6
+          },
+          "accessibleGuaranteed": true
+        },
+        {
+          "floor": {
+            "mean": 1,
+            "min": 1,
+            "max": 1
+          },
+          "items": {
+            "mean": 7.672,
+            "min": 7,
+            "max": 9
+          },
+          "totalBudget": {
+            "mean": 8.679,
+            "min": 7,
+            "max": 12
+          },
+          "nativeCorpses": {
+            "mean": 1.007,
+            "min": 0,
+            "max": 3
+          },
+          "loose": {
+            "mean": 5,
+            "min": 5,
+            "max": 5
+          },
+          "container": {
+            "mean": 2.672,
+            "min": 2,
+            "max": 4
+          },
+          "enemy": {
+            "mean": 0,
+            "min": 0,
+            "max": 0
+          },
+          "peakWindow": {
+            "mean": 3,
+            "min": 3,
+            "max": 3
+          },
+          "peakStack": {
+            "mean": 1,
+            "min": 1,
+            "max": 1
+          },
+          "healing": {
+            "mean": 2.258,
+            "min": 2,
+            "max": 4
+          },
+          "food": {
+            "mean": 2.704,
+            "min": 1,
+            "max": 8
+          },
+          "accessibleGuaranteed": true
+        },
+        {
+          "floor": {
+            "mean": 2,
+            "min": 2,
+            "max": 2
+          },
+          "items": {
+            "mean": 9.65,
+            "min": 9,
+            "max": 11
+          },
+          "totalBudget": {
+            "mean": 10.532,
+            "min": 9,
+            "max": 14
+          },
+          "nativeCorpses": {
+            "mean": 0.882,
+            "min": 0,
+            "max": 3
+          },
+          "loose": {
+            "mean": 5,
+            "min": 5,
+            "max": 5
+          },
+          "container": {
+            "mean": 4.65,
+            "min": 4,
+            "max": 6
+          },
+          "enemy": {
+            "mean": 0,
+            "min": 0,
+            "max": 0
+          },
+          "peakWindow": {
+            "mean": 3,
+            "min": 3,
+            "max": 3
+          },
+          "peakStack": {
+            "mean": 1,
+            "min": 1,
+            "max": 1
+          },
+          "healing": {
+            "mean": 2.24,
+            "min": 2,
+            "max": 5
+          },
+          "food": {
+            "mean": 4.551,
+            "min": 3,
+            "max": 9
+          },
+          "accessibleGuaranteed": true
+        },
+        {
+          "floor": {
+            "mean": 3,
+            "min": 3,
+            "max": 3
+          },
+          "items": {
+            "mean": 9.664,
+            "min": 9,
+            "max": 11
+          },
+          "totalBudget": {
+            "mean": 10.409,
+            "min": 9,
+            "max": 14
+          },
+          "nativeCorpses": {
+            "mean": 0.745,
+            "min": 0,
+            "max": 3
+          },
+          "loose": {
+            "mean": 5,
+            "min": 5,
+            "max": 5
+          },
+          "container": {
+            "mean": 4.664,
+            "min": 4,
+            "max": 6
+          },
+          "enemy": {
+            "mean": 0,
+            "min": 0,
+            "max": 0
+          },
+          "peakWindow": {
+            "mean": 3,
+            "min": 3,
+            "max": 3
+          },
+          "peakStack": {
+            "mean": 1,
+            "min": 1,
+            "max": 1
+          },
+          "healing": {
+            "mean": 3.269,
+            "min": 3,
+            "max": 6
+          },
+          "food": {
+            "mean": 2.552,
+            "min": 1,
+            "max": 8
+          },
+          "accessibleGuaranteed": true
+        },
+        {
+          "floor": {
+            "mean": 4,
+            "min": 4,
+            "max": 4
+          },
+          "items": {
+            "mean": 7.652,
+            "min": 7,
+            "max": 9
+          },
+          "totalBudget": {
+            "mean": 8.475,
+            "min": 7,
+            "max": 12
+          },
+          "nativeCorpses": {
+            "mean": 0.823,
+            "min": 0,
+            "max": 3
+          },
+          "loose": {
+            "mean": 5,
+            "min": 5,
+            "max": 5
+          },
+          "container": {
+            "mean": 2.652,
+            "min": 2,
+            "max": 4
+          },
+          "enemy": {
+            "mean": 0,
+            "min": 0,
+            "max": 0
+          },
+          "peakWindow": {
+            "mean": 3,
+            "min": 3,
+            "max": 3
+          },
+          "peakStack": {
+            "mean": 1,
+            "min": 1,
+            "max": 1
+          },
+          "healing": {
+            "mean": 2.24,
+            "min": 2,
+            "max": 5
+          },
+          "food": {
+            "mean": 2.558,
+            "min": 1,
+            "max": 8
+          },
+          "accessibleGuaranteed": true
+        },
+        {
+          "floor": {
+            "mean": 5,
+            "min": 5,
+            "max": 5
+          },
+          "items": {
+            "mean": 7,
+            "min": 7,
+            "max": 7
+          },
+          "totalBudget": {
+            "mean": 7,
+            "min": 7,
+            "max": 7
+          },
+          "nativeCorpses": {
+            "mean": 0,
+            "min": 0,
+            "max": 0
+          },
+          "loose": {
+            "mean": 5,
+            "min": 5,
+            "max": 5
+          },
+          "container": {
+            "mean": 2,
+            "min": 2,
+            "max": 2
+          },
+          "enemy": {
+            "mean": 0,
+            "min": 0,
+            "max": 0
+          },
+          "peakWindow": {
+            "mean": 3,
+            "min": 3,
+            "max": 3
+          },
+          "peakStack": {
+            "mean": 1,
+            "min": 1,
+            "max": 1
+          },
+          "healing": {
+            "mean": 2.099,
+            "min": 2,
+            "max": 4
+          },
+          "food": {
+            "mean": 1.362,
+            "min": 1,
+            "max": 4
+          },
+          "accessibleGuaranteed": true
+        }
+      ]
+    },
+    {
+      "identity": "alpha4",
+      "floors": [
+        {
+          "floor": {
+            "mean": 0,
+            "min": 0,
+            "max": 0
+          },
+          "items": {
+            "mean": 11,
+            "min": 11,
+            "max": 11
+          },
+          "totalBudget": {
+            "mean": 12,
+            "min": 12,
+            "max": 12
+          },
+          "nativeCorpses": {
+            "mean": 1,
+            "min": 1,
+            "max": 1
+          },
+          "loose": {
+            "mean": 5.964,
+            "min": 4,
+            "max": 8
+          },
+          "container": {
+            "mean": 3.827,
+            "min": 3,
+            "max": 4
+          },
+          "enemy": {
+            "mean": 1.209,
+            "min": 0,
+            "max": 3
+          },
+          "peakWindow": {
+            "mean": 3.998,
+            "min": 2,
+            "max": 5
+          },
+          "peakStack": {
+            "mean": 1,
+            "min": 1,
+            "max": 1
+          },
+          "healing": {
+            "mean": 1.219,
+            "min": 1,
+            "max": 3
+          },
+          "food": {
+            "mean": 2.855,
+            "min": 2,
+            "max": 6
+          },
+          "accessibleGuaranteed": true
+        },
+        {
+          "floor": {
+            "mean": 1,
+            "min": 1,
+            "max": 1
+          },
+          "items": {
+            "mean": 8.993,
+            "min": 7,
+            "max": 10
+          },
+          "totalBudget": {
+            "mean": 10,
+            "min": 10,
+            "max": 10
+          },
+          "nativeCorpses": {
+            "mean": 1.007,
+            "min": 0,
+            "max": 3
+          },
+          "loose": {
+            "mean": 5.109,
+            "min": 1,
+            "max": 9
+          },
+          "container": {
+            "mean": 2.234,
+            "min": 1,
+            "max": 4
+          },
+          "enemy": {
+            "mean": 1.65,
+            "min": 0,
+            "max": 6
+          },
+          "peakWindow": {
+            "mean": 3.61,
+            "min": 1,
+            "max": 5
+          },
+          "peakStack": {
+            "mean": 1,
+            "min": 1,
+            "max": 1
+          },
+          "healing": {
+            "mean": 1.302,
+            "min": 1,
+            "max": 4
+          },
+          "food": {
+            "mean": 3.061,
+            "min": 1,
+            "max": 8
+          },
+          "accessibleGuaranteed": true
+        },
+        {
+          "floor": {
+            "mean": 2,
+            "min": 2,
+            "max": 2
+          },
+          "items": {
+            "mean": 9.118,
+            "min": 7,
+            "max": 10
+          },
+          "totalBudget": {
+            "mean": 10,
+            "min": 10,
+            "max": 10
+          },
+          "nativeCorpses": {
+            "mean": 0.882,
+            "min": 0,
+            "max": 3
+          },
+          "loose": {
+            "mean": 4.685,
+            "min": 1,
+            "max": 9
+          },
+          "container": {
+            "mean": 2.965,
+            "min": 1,
+            "max": 6
+          },
+          "enemy": {
+            "mean": 1.468,
+            "min": 0,
+            "max": 5
+          },
+          "peakWindow": {
+            "mean": 3.364,
+            "min": 1,
+            "max": 5
+          },
+          "peakStack": {
+            "mean": 1,
+            "min": 1,
+            "max": 1
+          },
+          "healing": {
+            "mean": 1.258,
+            "min": 1,
+            "max": 4
+          },
+          "food": {
+            "mean": 2.993,
+            "min": 1,
+            "max": 6
+          },
+          "accessibleGuaranteed": true
+        },
+        {
+          "floor": {
+            "mean": 3,
+            "min": 3,
+            "max": 3
+          },
+          "items": {
+            "mean": 10.255,
+            "min": 8,
+            "max": 11
+          },
+          "totalBudget": {
+            "mean": 11,
+            "min": 11,
+            "max": 11
+          },
+          "nativeCorpses": {
+            "mean": 0.745,
+            "min": 0,
+            "max": 3
+          },
+          "loose": {
+            "mean": 5.321,
+            "min": 2,
+            "max": 9
+          },
+          "container": {
+            "mean": 3.24,
+            "min": 1,
+            "max": 6
+          },
+          "enemy": {
+            "mean": 1.694,
+            "min": 0,
+            "max": 6
+          },
+          "peakWindow": {
+            "mean": 3.719,
+            "min": 1,
+            "max": 5
+          },
+          "peakStack": {
+            "mean": 1,
+            "min": 1,
+            "max": 1
+          },
+          "healing": {
+            "mean": 1.303,
+            "min": 1,
+            "max": 4
+          },
+          "food": {
+            "mean": 3.076,
+            "min": 1,
+            "max": 7
+          },
+          "accessibleGuaranteed": true
+        },
+        {
+          "floor": {
+            "mean": 4,
+            "min": 4,
+            "max": 4
+          },
+          "items": {
+            "mean": 10.177,
+            "min": 8,
+            "max": 11
+          },
+          "totalBudget": {
+            "mean": 11,
+            "min": 11,
+            "max": 11
+          },
+          "nativeCorpses": {
+            "mean": 0.823,
+            "min": 0,
+            "max": 3
+          },
+          "loose": {
+            "mean": 5.927,
+            "min": 2,
+            "max": 10
+          },
+          "container": {
+            "mean": 2.329,
+            "min": 1,
+            "max": 4
+          },
+          "enemy": {
+            "mean": 1.921,
+            "min": 0,
+            "max": 6
+          },
+          "peakWindow": {
+            "mean": 4.013,
+            "min": 1,
+            "max": 5
+          },
+          "peakStack": {
+            "mean": 1,
+            "min": 1,
+            "max": 1
+          },
+          "healing": {
+            "mean": 1.334,
+            "min": 1,
+            "max": 4
+          },
+          "food": {
+            "mean": 3.099,
+            "min": 1,
+            "max": 8
+          },
+          "accessibleGuaranteed": true
+        },
+        {
+          "floor": {
+            "mean": 5,
+            "min": 5,
+            "max": 5
+          },
+          "items": {
+            "mean": 12,
+            "min": 12,
+            "max": 12
+          },
+          "totalBudget": {
+            "mean": 12,
+            "min": 12,
+            "max": 12
+          },
+          "nativeCorpses": {
+            "mean": 0,
+            "min": 0,
+            "max": 0
+          },
+          "loose": {
+            "mean": 7.553,
+            "min": 6,
+            "max": 10
+          },
+          "container": {
+            "mean": 1.98,
+            "min": 1,
+            "max": 2
+          },
+          "enemy": {
+            "mean": 2.467,
+            "min": 0,
+            "max": 4
+          },
+          "peakWindow": {
+            "mean": 4.669,
+            "min": 3,
+            "max": 5
+          },
+          "peakStack": {
+            "mean": 1,
+            "min": 1,
+            "max": 1
+          },
+          "healing": {
+            "mean": 1.378,
+            "min": 1,
+            "max": 5
+          },
+          "food": {
+            "mean": 2.576,
+            "min": 1,
+            "max": 8
+          },
+          "accessibleGuaranteed": true
+        }
+      ]
+    }
+  ]
+}

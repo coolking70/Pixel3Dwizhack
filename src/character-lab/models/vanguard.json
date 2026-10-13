@@ -1,0 +1,1727 @@
+{
+  "version": 1,
+  "id": "vanguard-1",
+  "rigId": "block-humanoid-kay-v1",
+  "source": {
+    "author": "Dungeon Descent project",
+    "license": "MIT",
+    "method": "Original box meshes; scripts/build-character-pack.mjs"
+  },
+  "body": [
+    {
+      "bone": "Spine",
+      "size": [
+        0.52,
+        0.47,
+        0.34
+      ],
+      "position": [
+        0,
+        0.16,
+        0
+      ],
+      "color": 3492969,
+      "region": "torso",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "Chest",
+      "size": [
+        0.55,
+        0.25,
+        0.35
+      ],
+      "position": [
+        0,
+        0.07,
+        0
+      ],
+      "color": 3492969,
+      "region": "torso",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "Pelvis",
+      "size": [
+        0.46,
+        0.23,
+        0.33
+      ],
+      "position": [
+        0,
+        0.14,
+        0
+      ],
+      "color": 2570060,
+      "region": "hips",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "Head",
+      "size": [
+        0.21,
+        0.19,
+        0.24
+      ],
+      "position": [
+        0,
+        -0.06,
+        0
+      ],
+      "color": 11108188,
+      "region": "head",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "Head",
+      "size": [
+        0.42,
+        0.4,
+        0.39
+      ],
+      "position": [
+        0,
+        0.19,
+        0
+      ],
+      "color": 13412995,
+      "region": "head",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "Head",
+      "size": [
+        0.44,
+        0.105,
+        0.41
+      ],
+      "position": [
+        0,
+        0.43,
+        -0.012
+      ],
+      "color": 2436150,
+      "region": "hair",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "Head",
+      "size": [
+        0.2,
+        0.14,
+        0.09
+      ],
+      "position": [
+        -0.13,
+        0.35,
+        0.16
+      ],
+      "color": 2436150,
+      "region": "hair",
+      "rotation": [
+        0,
+        0,
+        -0.18
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "Head",
+      "size": [
+        0.12,
+        0.06,
+        0.075
+      ],
+      "position": [
+        0,
+        0.2,
+        0.224
+      ],
+      "color": 14465172,
+      "region": "head",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "Head",
+      "size": [
+        0.25,
+        0.055,
+        0.025
+      ],
+      "position": [
+        0,
+        0.07,
+        0.211
+      ],
+      "color": 8872774,
+      "region": "head",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "Head",
+      "size": [
+        0.062,
+        0.037,
+        0.014
+      ],
+      "position": [
+        -0.1,
+        0.27,
+        0.2
+      ],
+      "color": 2107956,
+      "region": "head",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "Head",
+      "size": [
+        0.058,
+        0.018,
+        0.022
+      ],
+      "position": [
+        -0.1,
+        0.31,
+        0.205
+      ],
+      "color": 3551546,
+      "region": "head",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "Head",
+      "size": [
+        0.062,
+        0.037,
+        0.014
+      ],
+      "position": [
+        0.1,
+        0.27,
+        0.2
+      ],
+      "color": 2107956,
+      "region": "head",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "Head",
+      "size": [
+        0.058,
+        0.018,
+        0.022
+      ],
+      "position": [
+        0.1,
+        0.31,
+        0.205
+      ],
+      "color": 3551546,
+      "region": "head",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "UpperArmL",
+      "size": [
+        0.2,
+        0.29,
+        0.22
+      ],
+      "position": [
+        0,
+        0.145,
+        0
+      ],
+      "color": 3492969,
+      "region": "upperArmL",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "ForearmL",
+      "size": [
+        0.17,
+        0.31,
+        0.19
+      ],
+      "position": [
+        0,
+        0.155,
+        0
+      ],
+      "color": 10253911,
+      "region": "armL",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "WristL",
+      "size": [
+        0.18,
+        0.1,
+        0.18
+      ],
+      "position": [
+        0,
+        0.05,
+        0
+      ],
+      "color": 3556947,
+      "region": "armL",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "ThighL",
+      "size": [
+        0.235,
+        0.35,
+        0.26
+      ],
+      "position": [
+        0,
+        0.17,
+        0
+      ],
+      "color": 2570060,
+      "region": "thighL",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "ShinL",
+      "size": [
+        0.21,
+        0.23,
+        0.24
+      ],
+      "position": [
+        0,
+        0.11,
+        0
+      ],
+      "color": 3556947,
+      "region": "shinL",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "FootL",
+      "size": [
+        0.2,
+        0.17,
+        0.19
+      ],
+      "position": [
+        0,
+        0.075,
+        0
+      ],
+      "color": 3878954,
+      "region": "footL",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "FootL",
+      "size": [
+        0.25,
+        0.12,
+        0.37
+      ],
+      "position": [
+        0.2478703,
+        0.06,
+        0.055
+      ],
+      "color": 3878954,
+      "region": "footL",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0,
+      "space": "bind"
+    },
+    {
+      "bone": "UpperArmR",
+      "size": [
+        0.2,
+        0.29,
+        0.22
+      ],
+      "position": [
+        0,
+        0.145,
+        0
+      ],
+      "color": 3492969,
+      "region": "upperArmR",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "ForearmR",
+      "size": [
+        0.17,
+        0.31,
+        0.19
+      ],
+      "position": [
+        0,
+        0.155,
+        0
+      ],
+      "color": 10253911,
+      "region": "armR",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "WristR",
+      "size": [
+        0.18,
+        0.1,
+        0.18
+      ],
+      "position": [
+        0,
+        0.05,
+        0
+      ],
+      "color": 3556947,
+      "region": "armR",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "ThighR",
+      "size": [
+        0.235,
+        0.35,
+        0.26
+      ],
+      "position": [
+        0,
+        0.17,
+        0
+      ],
+      "color": 2570060,
+      "region": "thighR",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "ShinR",
+      "size": [
+        0.21,
+        0.23,
+        0.24
+      ],
+      "position": [
+        0,
+        0.11,
+        0
+      ],
+      "color": 3556947,
+      "region": "shinR",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "FootR",
+      "size": [
+        0.2,
+        0.17,
+        0.19
+      ],
+      "position": [
+        0,
+        0.075,
+        0
+      ],
+      "color": 3878954,
+      "region": "footR",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0
+    },
+    {
+      "bone": "FootR",
+      "size": [
+        0.25,
+        0.12,
+        0.37
+      ],
+      "position": [
+        -0.2478703,
+        0.06,
+        0.055
+      ],
+      "color": 3878954,
+      "region": "footR",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "metal": 0,
+      "space": "bind"
+    }
+  ],
+  "armor": {
+    "id": "brigandine",
+    "slot": "chest",
+    "masks": [
+      "torso",
+      "armL",
+      "armR"
+    ],
+    "parts": [
+      {
+        "bone": "Chest",
+        "size": [
+          0.59,
+          0.5,
+          0.095
+        ],
+        "position": [
+          0,
+          -0.075,
+          0.205
+        ],
+        "color": 3165808,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.59,
+          0.49,
+          0.095
+        ],
+        "position": [
+          0,
+          -0.075,
+          -0.21
+        ],
+        "color": 3165808,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.51,
+          0.105,
+          0.43
+        ],
+        "position": [
+          0,
+          0.19,
+          0
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.08,
+          0.48,
+          0.38
+        ],
+        "position": [
+          -0.27,
+          -0.07,
+          0
+        ],
+        "color": 4349305,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          -0.2,
+          0.075,
+          -0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          0,
+          0.075,
+          -0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          0.2,
+          0.075,
+          -0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          -0.2,
+          -0.02500000000000001,
+          -0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          0,
+          -0.02500000000000001,
+          -0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          0.2,
+          -0.02500000000000001,
+          -0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          -0.2,
+          -0.125,
+          -0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          0,
+          -0.125,
+          -0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          0.2,
+          -0.125,
+          -0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          -0.2,
+          -0.22500000000000003,
+          -0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          0,
+          -0.22500000000000003,
+          -0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          0.2,
+          -0.22500000000000003,
+          -0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Pelvis",
+        "size": [
+          0.235,
+          0.33,
+          0.075
+        ],
+        "position": [
+          -0.145,
+          -0.04,
+          0.21
+        ],
+        "color": 3165808,
+        "region": "hips",
+        "rotation": [
+          0,
+          0,
+          -0.1
+        ],
+        "metal": 0
+      },
+      {
+        "bone": "Pelvis",
+        "size": [
+          0.065,
+          0.3,
+          0.37
+        ],
+        "position": [
+          -0.29,
+          -0.035,
+          0
+        ],
+        "color": 4349305,
+        "region": "hips",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.08,
+          0.48,
+          0.38
+        ],
+        "position": [
+          0.27,
+          -0.07,
+          0
+        ],
+        "color": 4349305,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          -0.2,
+          0.075,
+          0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          0,
+          0.075,
+          0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          0.2,
+          0.075,
+          0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          -0.2,
+          -0.02500000000000001,
+          0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          0,
+          -0.02500000000000001,
+          0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          0.2,
+          -0.02500000000000001,
+          0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          -0.2,
+          -0.125,
+          0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          0,
+          -0.125,
+          0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          0.2,
+          -0.125,
+          0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          -0.2,
+          -0.22500000000000003,
+          0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          0,
+          -0.22500000000000003,
+          0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Chest",
+        "size": [
+          0.025,
+          0.025,
+          0.027
+        ],
+        "position": [
+          0.2,
+          -0.22500000000000003,
+          0.26
+        ],
+        "color": 12887150,
+        "region": "torso",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.55
+      },
+      {
+        "bone": "Pelvis",
+        "size": [
+          0.235,
+          0.33,
+          0.075
+        ],
+        "position": [
+          0.145,
+          -0.04,
+          0.21
+        ],
+        "color": 3165808,
+        "region": "hips",
+        "rotation": [
+          0,
+          0,
+          0.1
+        ],
+        "metal": 0
+      },
+      {
+        "bone": "Pelvis",
+        "size": [
+          0.065,
+          0.3,
+          0.37
+        ],
+        "position": [
+          0.29,
+          -0.035,
+          0
+        ],
+        "color": 4349305,
+        "region": "hips",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0
+      },
+      {
+        "bone": "UpperArmL",
+        "size": [
+          0.29,
+          0.08,
+          0.32
+        ],
+        "position": [
+          0,
+          0.03,
+          0
+        ],
+        "color": 12887150,
+        "region": "upperArmL",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.25
+      },
+      {
+        "bone": "UpperArmL",
+        "size": [
+          0.27199999999999996,
+          0.08,
+          0.32
+        ],
+        "position": [
+          0,
+          0.1,
+          0
+        ],
+        "color": 4349305,
+        "region": "upperArmL",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.25
+      },
+      {
+        "bone": "UpperArmL",
+        "size": [
+          0.254,
+          0.08,
+          0.32
+        ],
+        "position": [
+          0,
+          0.17,
+          0
+        ],
+        "color": 4349305,
+        "region": "upperArmL",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.25
+      },
+      {
+        "bone": "ForearmL",
+        "size": [
+          0.22,
+          0.22,
+          0.26
+        ],
+        "position": [
+          0,
+          0.17,
+          0
+        ],
+        "color": 6651017,
+        "region": "armL",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.45
+      },
+      {
+        "bone": "UpperArmR",
+        "size": [
+          0.29,
+          0.08,
+          0.32
+        ],
+        "position": [
+          0,
+          0.03,
+          0
+        ],
+        "color": 12887150,
+        "region": "upperArmR",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.25
+      },
+      {
+        "bone": "UpperArmR",
+        "size": [
+          0.27199999999999996,
+          0.08,
+          0.32
+        ],
+        "position": [
+          0,
+          0.1,
+          0
+        ],
+        "color": 4349305,
+        "region": "upperArmR",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.25
+      },
+      {
+        "bone": "UpperArmR",
+        "size": [
+          0.254,
+          0.08,
+          0.32
+        ],
+        "position": [
+          0,
+          0.17,
+          0
+        ],
+        "color": 4349305,
+        "region": "upperArmR",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.25
+      },
+      {
+        "bone": "ForearmR",
+        "size": [
+          0.22,
+          0.22,
+          0.26
+        ],
+        "position": [
+          0,
+          0.17,
+          0
+        ],
+        "color": 6651017,
+        "region": "armR",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "metal": 0.45
+      }
+    ]
+  },
+  "weapons": [
+    {
+      "id": "sword",
+      "grip": [
+        0,
+        0.08,
+        0
+      ],
+      "parts": [
+        {
+          "bone": "GripR",
+          "size": [
+            0.07,
+            0.2,
+            0.075
+          ],
+          "position": [
+            0,
+            0.08,
+            0
+          ],
+          "color": 4603186,
+          "region": "weapon",
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "metal": 0
+        },
+        {
+          "bone": "GripR",
+          "size": [
+            0.12,
+            0.075,
+            0.1
+          ],
+          "position": [
+            0,
+            -0.055,
+            0
+          ],
+          "color": 12230247,
+          "region": "weapon",
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "metal": 0.55
+        },
+        {
+          "bone": "GripR",
+          "size": [
+            0.34,
+            0.065,
+            0.09
+          ],
+          "position": [
+            0,
+            0.22,
+            0
+          ],
+          "color": 12230247,
+          "region": "weapon",
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "metal": 0.55
+        },
+        {
+          "bone": "GripR",
+          "size": [
+            0.125,
+            0.63,
+            0.034
+          ],
+          "position": [
+            0,
+            0.56,
+            0
+          ],
+          "color": 11256262,
+          "region": "weapon",
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "metal": 0.65
+        },
+        {
+          "bone": "GripR",
+          "size": [
+            0.045,
+            0.63,
+            0.042
+          ],
+          "position": [
+            0,
+            0.56,
+            0
+          ],
+          "color": 14803916,
+          "region": "weapon",
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "metal": 0.65
+        },
+        {
+          "bone": "GripR",
+          "size": [
+            0.095,
+            0.095,
+            0.034
+          ],
+          "position": [
+            0,
+            0.9,
+            0
+          ],
+          "color": 11256262,
+          "region": "weapon",
+          "rotation": [
+            0,
+            0,
+            0.7853981633974483
+          ],
+          "metal": 0.65
+        }
+      ]
+    },
+    {
+      "id": "mace",
+      "grip": [
+        0,
+        0.08,
+        0
+      ],
+      "parts": [
+        {
+          "bone": "GripR",
+          "size": [
+            0.075,
+            0.61,
+            0.075
+          ],
+          "position": [
+            0,
+            0.3,
+            0
+          ],
+          "color": 6113073,
+          "region": "weapon",
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "metal": 0
+        },
+        {
+          "bone": "GripR",
+          "size": [
+            0.11,
+            0.08,
+            0.11
+          ],
+          "position": [
+            0,
+            -0.04,
+            0
+          ],
+          "color": 12230247,
+          "region": "weapon",
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "metal": 0.55
+        },
+        {
+          "bone": "GripR",
+          "size": [
+            0.21,
+            0.23,
+            0.21
+          ],
+          "position": [
+            0,
+            0.74,
+            0
+          ],
+          "color": 6849936,
+          "region": "weapon",
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "metal": 0.55
+        },
+        {
+          "bone": "GripR",
+          "size": [
+            0.36,
+            0.28,
+            0.055
+          ],
+          "position": [
+            0,
+            0.74,
+            0
+          ],
+          "color": 12045260,
+          "region": "weapon",
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "metal": 0.65
+        },
+        {
+          "bone": "GripR",
+          "size": [
+            0.36,
+            0.28,
+            0.055
+          ],
+          "position": [
+            0,
+            0.74,
+            0
+          ],
+          "color": 12045260,
+          "region": "weapon",
+          "rotation": [
+            0,
+            1.0471975511965976,
+            0
+          ],
+          "metal": 0.65
+        },
+        {
+          "bone": "GripR",
+          "size": [
+            0.36,
+            0.28,
+            0.055
+          ],
+          "position": [
+            0,
+            0.74,
+            0
+          ],
+          "color": 12045260,
+          "region": "weapon",
+          "rotation": [
+            0,
+            2.0943951023931953,
+            0
+          ],
+          "metal": 0.65
+        }
+      ]
+    }
+  ]
+}

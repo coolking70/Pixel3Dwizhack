@@ -1,0 +1,4142 @@
+{
+  "browser": "156.0.8078.4",
+  "device": {
+    "os": "win32 10.0.26300 x64",
+    "cpu": "12th Gen Intel(R) Core(TM) i5-12600KF",
+    "logicalCpus": 16,
+    "totalMemoryBytes": 68523843584
+  },
+  "viewports": [
+    {
+      "mode": "hardware",
+      "width": 1440,
+      "height": 900,
+      "measuredCycles": 30,
+      "initial": {
+        "tick": "48",
+        "revision": "9"
+      },
+      "archiveMatches": true,
+      "archiveSha256": "a6703fd234c52ea77c45ec8fd55d7c7ed41287f63ecb573347fe1b27da2c0533",
+      "capabilities": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "dpr": 1,
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4070 Ti SUPER (0x00002705) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (NVIDIA)",
+        "jsHeapAvailable": true
+      },
+      "byPhase": {
+        "bag": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 0.7,
+            "p95": 1.2,
+            "peak": 2.1,
+            "minimum": 0.4
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 50,
+            "p95": 50,
+            "peak": 50,
+            "minimum": 50
+          },
+          "triangles": {
+            "count": 30,
+            "median": 846,
+            "p95": 846,
+            "peak": 846,
+            "minimum": 846
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17842431,
+            "p95": 17991419,
+            "peak": 32696165,
+            "minimum": 17182791
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 174.5712999999996,
+            "p95": 227.10040000000117,
+            "peak": 271.37719999999536,
+            "minimum": 129.27790000000005
+          }
+        },
+        "detail": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 0.2,
+            "p95": 0.3,
+            "peak": 0.4,
+            "minimum": 0.1
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 30,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17355001,
+            "p95": 18154881,
+            "peak": 33658681,
+            "minimum": 16774067
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 62.63119999999617,
+            "p95": 116.33719999999994,
+            "peak": 121.38160000000062,
+            "minimum": 55.294300000001385
+          }
+        },
+        "world-target": {
+          "geometry": {
+            "count": 15,
+            "median": 213,
+            "p95": 213,
+            "peak": 213,
+            "minimum": 213
+          },
+          "textures": {
+            "count": 15,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 15,
+            "median": 1.4,
+            "p95": 2.8,
+            "peak": 2.8,
+            "minimum": 1.2
+          },
+          "drawCalls": {
+            "count": 15,
+            "median": 169,
+            "p95": 169,
+            "peak": 169,
+            "minimum": 169
+          },
+          "triangles": {
+            "count": 15,
+            "median": 7614,
+            "p95": 7614,
+            "peak": 7614,
+            "minimum": 7614
+          },
+          "jsHeapBytes": {
+            "count": 15,
+            "median": 18175066,
+            "p95": 22425785,
+            "peak": 22425785,
+            "minimum": 17113050
+          },
+          "transitionMs": {
+            "count": 15,
+            "median": 143.46819999999934,
+            "p95": 161.40740000000005,
+            "peak": 161.40740000000005,
+            "minimum": 107.26610000000073
+          }
+        },
+        "cancel-detail": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 0.4,
+            "p95": 0.7,
+            "peak": 0.7,
+            "minimum": 0.3
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 30,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17842514,
+            "p95": 18215415,
+            "peak": 22935162,
+            "minimum": 17345819
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 29.19629999999961,
+            "p95": 46.197800000001735,
+            "peak": 59.4416999999994,
+            "minimum": 25.546400000002905
+          }
+        },
+        "cancel-bag": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 0.9,
+            "p95": 1.6,
+            "peak": 2.2,
+            "minimum": 0.7
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 50,
+            "p95": 50,
+            "peak": 50,
+            "minimum": 50
+          },
+          "triangles": {
+            "count": 30,
+            "median": 846,
+            "p95": 846,
+            "peak": 846,
+            "minimum": 846
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17622867,
+            "p95": 18328182,
+            "peak": 23209346,
+            "minimum": 16899995
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 28.850800000000163,
+            "p95": 30.316900000005262,
+            "peak": 30.872999999999593,
+            "minimum": 26.23829999999998
+          }
+        },
+        "world": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 0.9,
+            "p95": 2.3,
+            "peak": 3.7,
+            "minimum": 0.6
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 161,
+            "p95": 161,
+            "peak": 161,
+            "minimum": 161
+          },
+          "triangles": {
+            "count": 30,
+            "median": 7326,
+            "p95": 7326,
+            "peak": 7326,
+            "minimum": 7326
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17747561,
+            "p95": 19195658,
+            "peak": 24267498,
+            "minimum": 17161645
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 62.582900000001246,
+            "p95": 141.23379999999815,
+            "peak": 141.57990000000063,
+            "minimum": 60.42249999999876
+          }
+        },
+        "pile-hover": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 1.4,
+            "p95": 2.6,
+            "peak": 2.7,
+            "minimum": 0.9
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 161,
+            "p95": 161,
+            "peak": 161,
+            "minimum": 161
+          },
+          "triangles": {
+            "count": 30,
+            "median": 7326,
+            "p95": 7326,
+            "peak": 7326,
+            "minimum": 7326
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17966166,
+            "p95": 19159163,
+            "peak": 26010258,
+            "minimum": 17274618
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 596.9049999999988,
+            "p95": 628.1734000000015,
+            "peak": 629.1236999999965,
+            "minimum": 558.7287999999999
+          }
+        },
+        "pile-dismiss": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 0.9,
+            "p95": 1.5,
+            "peak": 1.8,
+            "minimum": 0.6
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 161,
+            "p95": 161,
+            "peak": 161,
+            "minimum": 161
+          },
+          "triangles": {
+            "count": 30,
+            "median": 7326,
+            "p95": 7326,
+            "peak": 7326,
+            "minimum": 7326
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 18193090,
+            "p95": 19512447,
+            "peak": 26370310,
+            "minimum": 17055287
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 28.870499999997264,
+            "p95": 30.352999999999156,
+            "peak": 30.710299999998824,
+            "minimum": 25.895700000000943
+          }
+        },
+        "bag-target": {
+          "geometry": {
+            "count": 15,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 15,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 15,
+            "median": 0.8,
+            "p95": 1.6,
+            "peak": 1.6,
+            "minimum": 0.5
+          },
+          "drawCalls": {
+            "count": 15,
+            "median": 50,
+            "p95": 50,
+            "peak": 50,
+            "minimum": 50
+          },
+          "triangles": {
+            "count": 15,
+            "median": 846,
+            "p95": 846,
+            "peak": 846,
+            "minimum": 846
+          },
+          "jsHeapBytes": {
+            "count": 15,
+            "median": 17568169,
+            "p95": 17774489,
+            "peak": 17774489,
+            "minimum": 17046593
+          },
+          "transitionMs": {
+            "count": 15,
+            "median": 94.08459999999832,
+            "p95": 143.03610000000117,
+            "peak": 143.03610000000117,
+            "minimum": 78.0596000000005
+          }
+        }
+      },
+      "trends": {
+        "geometry": {
+          "first": 205,
+          "last": 205,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 205,
+              "p95": 205,
+              "peak": 205,
+              "minimum": 205
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 205,
+              "p95": 205,
+              "peak": 205,
+              "minimum": 205
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 205,
+              "p95": 205,
+              "peak": 205,
+              "minimum": 205
+            }
+          ]
+        },
+        "textures": {
+          "first": 6,
+          "last": 6,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            }
+          ]
+        },
+        "heapUsedBytes": {
+          "first": 13437636,
+          "last": 14501512,
+          "delta": 1063876,
+          "positiveSteps": 15,
+          "negativeSteps": 14,
+          "longestNondecreasingRun": 2,
+          "slopePerCycle": 26419.713459399332,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 13911124,
+              "p95": 14170224,
+              "peak": 14170224,
+              "minimum": 13437636
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 14265016,
+              "p95": 14410444,
+              "peak": 14410444,
+              "minimum": 14068576
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 14393140,
+              "p95": 14501512,
+              "peak": 14501512,
+              "minimum": 14311884
+            }
+          ]
+        },
+        "nodes": {
+          "first": 474,
+          "last": 474,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 474,
+              "p95": 474,
+              "peak": 474,
+              "minimum": 474
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 474,
+              "p95": 474,
+              "peak": 474,
+              "minimum": 474
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 474,
+              "p95": 474,
+              "peak": 474,
+              "minimum": 474
+            }
+          ]
+        },
+        "eventListeners": {
+          "first": 104,
+          "last": 104,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 104,
+              "p95": 104,
+              "peak": 104,
+              "minimum": 104
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 104,
+              "p95": 104,
+              "peak": 104,
+              "minimum": 104
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 104,
+              "p95": 104,
+              "peak": 104,
+              "minimum": 104
+            }
+          ]
+        }
+      },
+      "liveWebGLRanges": {
+        "buffers": {
+          "min": 651,
+          "max": 651
+        },
+        "textures": {
+          "min": 10,
+          "max": 10
+        }
+      }
+    },
+    {
+      "mode": "hardware",
+      "width": 844,
+      "height": 390,
+      "measuredCycles": 30,
+      "initial": {
+        "tick": "48",
+        "revision": "9"
+      },
+      "archiveMatches": true,
+      "archiveSha256": "a6703fd234c52ea77c45ec8fd55d7c7ed41287f63ecb573347fe1b27da2c0533",
+      "capabilities": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "dpr": 1,
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4070 Ti SUPER (0x00002705) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (NVIDIA)",
+        "jsHeapAvailable": true
+      },
+      "byPhase": {
+        "bag": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 0.6,
+            "p95": 1.1,
+            "peak": 1.4,
+            "minimum": 0.4
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 50,
+            "p95": 50,
+            "peak": 50,
+            "minimum": 50
+          },
+          "triangles": {
+            "count": 30,
+            "median": 846,
+            "p95": 846,
+            "peak": 846,
+            "minimum": 846
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17735237,
+            "p95": 17911349,
+            "peak": 28978433,
+            "minimum": 16550845
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 112.34599999999773,
+            "p95": 135.6035999999949,
+            "peak": 139.00400000000081,
+            "minimum": 94.6160000000018
+          }
+        },
+        "detail": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 0.3,
+            "p95": 0.4,
+            "peak": 0.6,
+            "minimum": 0.1
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 30,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17282651,
+            "p95": 17426763,
+            "peak": 29973353,
+            "minimum": 16584101
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 60.85349999999744,
+            "p95": 62.77529999999388,
+            "peak": 63.46330000000307,
+            "minimum": 57.492099999995844
+          }
+        },
+        "world-target": {
+          "geometry": {
+            "count": 15,
+            "median": 213,
+            "p95": 213,
+            "peak": 213,
+            "minimum": 213
+          },
+          "textures": {
+            "count": 15,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 15,
+            "median": 1.4,
+            "p95": 3,
+            "peak": 3,
+            "minimum": 1.2
+          },
+          "drawCalls": {
+            "count": 15,
+            "median": 169,
+            "p95": 169,
+            "peak": 169,
+            "minimum": 169
+          },
+          "triangles": {
+            "count": 15,
+            "median": 7614,
+            "p95": 7614,
+            "peak": 7614,
+            "minimum": 7614
+          },
+          "jsHeapBytes": {
+            "count": 15,
+            "median": 18323458,
+            "p95": 18494798,
+            "peak": 18494798,
+            "minimum": 17054434
+          },
+          "transitionMs": {
+            "count": 15,
+            "median": 113.25269999999728,
+            "p95": 130.2969000000012,
+            "peak": 130.2969000000012,
+            "minimum": 112.26380000000063
+          }
+        },
+        "cancel-detail": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 0.4,
+            "p95": 0.6,
+            "peak": 0.7,
+            "minimum": 0.2
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 30,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17906392,
+            "p95": 18984383,
+            "peak": 18990115,
+            "minimum": 17317896
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 29.122300000002724,
+            "p95": 30.95570000000589,
+            "peak": 44.04179999999906,
+            "minimum": 27.587899999998626
+          }
+        },
+        "cancel-bag": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 0.9,
+            "p95": 1.5,
+            "peak": 1.6,
+            "minimum": 0.7
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 50,
+            "p95": 50,
+            "peak": 50,
+            "minimum": 50
+          },
+          "triangles": {
+            "count": 30,
+            "median": 846,
+            "p95": 846,
+            "peak": 846,
+            "minimum": 846
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17425640,
+            "p95": 18440695,
+            "peak": 19139702,
+            "minimum": 16703445
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 29.19129999999859,
+            "p95": 31.290499999988242,
+            "peak": 31.32520000000659,
+            "minimum": 26.311699999998382
+          }
+        },
+        "world": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 1.1,
+            "p95": 2.2,
+            "peak": 2.3,
+            "minimum": 0.7
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 161,
+            "p95": 161,
+            "peak": 161,
+            "minimum": 161
+          },
+          "triangles": {
+            "count": 30,
+            "median": 7326,
+            "p95": 7326,
+            "peak": 7326,
+            "minimum": 7326
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17595887,
+            "p95": 18750742,
+            "peak": 20265386,
+            "minimum": 17004711
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 62.80439999999362,
+            "p95": 63.98199999999633,
+            "peak": 76.65620000001218,
+            "minimum": 60.2610999999888
+          }
+        },
+        "pile-hover": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 1,
+            "p95": 2.3,
+            "peak": 2.4,
+            "minimum": 0.8
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 161,
+            "p95": 161,
+            "peak": 161,
+            "minimum": 161
+          },
+          "triangles": {
+            "count": 30,
+            "median": 7326,
+            "p95": 7326,
+            "peak": 7326,
+            "minimum": 7326
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17762582,
+            "p95": 19035065,
+            "peak": 22096326,
+            "minimum": 17170862
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 562.479800000001,
+            "p95": 579.2801000000036,
+            "peak": 580.0288,
+            "minimum": 560.6771000000008
+          }
+        },
+        "pile-dismiss": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 1.1,
+            "p95": 1.8,
+            "peak": 1.9,
+            "minimum": 0.7
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 161,
+            "p95": 161,
+            "peak": 161,
+            "minimum": 161
+          },
+          "triangles": {
+            "count": 30,
+            "median": 7326,
+            "p95": 7326,
+            "peak": 7326,
+            "minimum": 7326
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17828161,
+            "p95": 18350137,
+            "peak": 22465382,
+            "minimum": 16893191
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 29.32170000000042,
+            "p95": 30.42829999999958,
+            "peak": 30.464599999999336,
+            "minimum": 27.62460000000283
+          }
+        },
+        "bag-target": {
+          "geometry": {
+            "count": 15,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 15,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 15,
+            "median": 0.8,
+            "p95": 1.5,
+            "peak": 1.5,
+            "minimum": 0.6
+          },
+          "drawCalls": {
+            "count": 15,
+            "median": 50,
+            "p95": 50,
+            "peak": 50,
+            "minimum": 50
+          },
+          "triangles": {
+            "count": 15,
+            "median": 846,
+            "p95": 846,
+            "peak": 846,
+            "minimum": 846
+          },
+          "jsHeapBytes": {
+            "count": 15,
+            "median": 17407099,
+            "p95": 17600867,
+            "peak": 17600867,
+            "minimum": 16883515
+          },
+          "transitionMs": {
+            "count": 15,
+            "median": 62.494200000001,
+            "p95": 64.12779999999475,
+            "peak": 64.12779999999475,
+            "minimum": 60.237899999992806
+          }
+        }
+      },
+      "trends": {
+        "geometry": {
+          "first": 205,
+          "last": 205,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 205,
+              "p95": 205,
+              "peak": 205,
+              "minimum": 205
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 205,
+              "p95": 205,
+              "peak": 205,
+              "minimum": 205
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 205,
+              "p95": 205,
+              "peak": 205,
+              "minimum": 205
+            }
+          ]
+        },
+        "textures": {
+          "first": 6,
+          "last": 6,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            }
+          ]
+        },
+        "heapUsedBytes": {
+          "first": 13288940,
+          "last": 14351632,
+          "delta": 1062692,
+          "positiveSteps": 16,
+          "negativeSteps": 13,
+          "longestNondecreasingRun": 4,
+          "slopePerCycle": 26634.511234705227,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 13773044,
+              "p95": 14035580,
+              "peak": 14035580,
+              "minimum": 13288940
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 14113756,
+              "p95": 14267980,
+              "peak": 14267980,
+              "minimum": 13952920
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 14249548,
+              "p95": 14351632,
+              "peak": 14351632,
+              "minimum": 14172324
+            }
+          ]
+        },
+        "nodes": {
+          "first": 473,
+          "last": 473,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 473,
+              "p95": 473,
+              "peak": 473,
+              "minimum": 473
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 473,
+              "p95": 473,
+              "peak": 473,
+              "minimum": 473
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 473,
+              "p95": 473,
+              "peak": 473,
+              "minimum": 473
+            }
+          ]
+        },
+        "eventListeners": {
+          "first": 104,
+          "last": 104,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 104,
+              "p95": 104,
+              "peak": 104,
+              "minimum": 104
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 104,
+              "p95": 104,
+              "peak": 104,
+              "minimum": 104
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 104,
+              "p95": 104,
+              "peak": 104,
+              "minimum": 104
+            }
+          ]
+        }
+      },
+      "liveWebGLRanges": {
+        "buffers": {
+          "min": 651,
+          "max": 651
+        },
+        "textures": {
+          "min": 10,
+          "max": 10
+        }
+      }
+    },
+    {
+      "mode": "hardware",
+      "width": 390,
+      "height": 844,
+      "measuredCycles": 30,
+      "initial": {
+        "tick": "48",
+        "revision": "9"
+      },
+      "archiveMatches": true,
+      "archiveSha256": "a6703fd234c52ea77c45ec8fd55d7c7ed41287f63ecb573347fe1b27da2c0533",
+      "capabilities": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "dpr": 1,
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4070 Ti SUPER (0x00002705) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (NVIDIA)",
+        "jsHeapAvailable": true
+      },
+      "byPhase": {
+        "bag": {
+          "geometry": {
+            "count": 30,
+            "median": 191,
+            "p95": 191,
+            "peak": 191,
+            "minimum": 191
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 0.3,
+            "p95": 0.4,
+            "peak": 0.4,
+            "minimum": 0.2
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 1,
+            "p95": 1,
+            "peak": 1,
+            "minimum": 1
+          },
+          "triangles": {
+            "count": 30,
+            "median": 2,
+            "p95": 2,
+            "peak": 2,
+            "minimum": 2
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17361612,
+            "p95": 17539240,
+            "peak": 26258948,
+            "minimum": 16640188
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 99.6927999999898,
+            "p95": 125.00710000000254,
+            "peak": 131.92199999999139,
+            "minimum": 90.19220000000496
+          }
+        },
+        "detail": {
+          "geometry": {
+            "count": 30,
+            "median": 191,
+            "p95": 191,
+            "peak": 191,
+            "minimum": 191
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 0.3,
+            "p95": 0.4,
+            "peak": 0.5,
+            "minimum": 0.1
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 30,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17307359,
+            "p95": 18345013,
+            "peak": 27054480,
+            "minimum": 16801687
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 61.27950000000419,
+            "p95": 62.73559999999998,
+            "peak": 69.67879999999423,
+            "minimum": 57.36839999999211
+          }
+        },
+        "world-target": {
+          "geometry": {
+            "count": 15,
+            "median": 198,
+            "p95": 198,
+            "peak": 198,
+            "minimum": 198
+          },
+          "textures": {
+            "count": 15,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 15,
+            "median": 1.4,
+            "p95": 3.1,
+            "peak": 3.1,
+            "minimum": 1.1
+          },
+          "drawCalls": {
+            "count": 15,
+            "median": 157,
+            "p95": 157,
+            "peak": 157,
+            "minimum": 157
+          },
+          "triangles": {
+            "count": 15,
+            "median": 7318,
+            "p95": 7318,
+            "peak": 7318,
+            "minimum": 7318
+          },
+          "jsHeapBytes": {
+            "count": 15,
+            "median": 17423013,
+            "p95": 28806144,
+            "peak": 28806144,
+            "minimum": 16857301
+          },
+          "transitionMs": {
+            "count": 15,
+            "median": 79.60640000000421,
+            "p95": 111.93950000000768,
+            "peak": 111.93950000000768,
+            "minimum": 76.58430000000226
+          }
+        },
+        "cancel-detail": {
+          "geometry": {
+            "count": 30,
+            "median": 191,
+            "p95": 191,
+            "peak": 191,
+            "minimum": 191
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 0.4,
+            "p95": 0.7,
+            "peak": 0.7,
+            "minimum": 0.3
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 30,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17820052,
+            "p95": 18714244,
+            "peak": 29325892,
+            "minimum": 17076452
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 29.310700000001816,
+            "p95": 40.418699999994715,
+            "peak": 41.90670000000682,
+            "minimum": 25.049700000003213
+          }
+        },
+        "cancel-bag": {
+          "geometry": {
+            "count": 30,
+            "median": 191,
+            "p95": 191,
+            "peak": 191,
+            "minimum": 191
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 0.5,
+            "p95": 0.8,
+            "peak": 1,
+            "minimum": 0.4
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 1,
+            "p95": 1,
+            "peak": 1,
+            "minimum": 1
+          },
+          "triangles": {
+            "count": 30,
+            "median": 2,
+            "p95": 2,
+            "peak": 2,
+            "minimum": 2
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17290964,
+            "p95": 18887195,
+            "peak": 29538800,
+            "minimum": 16716920
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 29.020000000004075,
+            "p95": 30.81489999999758,
+            "peak": 31.089999999996508,
+            "minimum": 24.048500000004424
+          }
+        },
+        "world": {
+          "geometry": {
+            "count": 30,
+            "median": 191,
+            "p95": 191,
+            "peak": 191,
+            "minimum": 191
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 0.9,
+            "p95": 1.9,
+            "peak": 2.3,
+            "minimum": 0.7
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "triangles": {
+            "count": 30,
+            "median": 7078,
+            "p95": 7078,
+            "peak": 7078,
+            "minimum": 7078
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17913892,
+            "p95": 19070911,
+            "peak": 30382116,
+            "minimum": 16657912
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 62.64869999999064,
+            "p95": 74.13320000001113,
+            "peak": 74.69890000000305,
+            "minimum": 58.04670000000624
+          }
+        },
+        "pile-hover": {
+          "geometry": {
+            "count": 30,
+            "median": 191,
+            "p95": 191,
+            "peak": 191,
+            "minimum": 191
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 1,
+            "p95": 1.5,
+            "peak": 2.1,
+            "minimum": 0.8
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "triangles": {
+            "count": 30,
+            "median": 7078,
+            "p95": 7078,
+            "peak": 7078,
+            "minimum": 7078
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17781215,
+            "p95": 18948040,
+            "peak": 18951955,
+            "minimum": 16912964
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 562.5475000000006,
+            "p95": 579.3362000000052,
+            "peak": 579.6674000000057,
+            "minimum": 557.0222999999969
+          }
+        },
+        "pile-dismiss": {
+          "geometry": {
+            "count": 30,
+            "median": 191,
+            "p95": 191,
+            "peak": 191,
+            "minimum": 191
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 0.8,
+            "p95": 1.5,
+            "peak": 1.5,
+            "minimum": 0.7
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "triangles": {
+            "count": 30,
+            "median": 7078,
+            "p95": 7078,
+            "peak": 7078,
+            "minimum": 7078
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17945227,
+            "p95": 19304436,
+            "peak": 19306019,
+            "minimum": 17283488
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 29.2841000000044,
+            "p95": 30.264400000000023,
+            "peak": 30.387900000001537,
+            "minimum": 25.77160000000731
+          }
+        },
+        "bag-target": {
+          "geometry": {
+            "count": 15,
+            "median": 191,
+            "p95": 191,
+            "peak": 191,
+            "minimum": 191
+          },
+          "textures": {
+            "count": 15,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 15,
+            "median": 1.2,
+            "p95": 2.5,
+            "peak": 2.5,
+            "minimum": 0.8
+          },
+          "drawCalls": {
+            "count": 15,
+            "median": 50,
+            "p95": 50,
+            "peak": 50,
+            "minimum": 50
+          },
+          "triangles": {
+            "count": 15,
+            "median": 846,
+            "p95": 846,
+            "peak": 846,
+            "minimum": 846
+          },
+          "jsHeapBytes": {
+            "count": 15,
+            "median": 17303816,
+            "p95": 18283906,
+            "peak": 18283906,
+            "minimum": 16646835
+          },
+          "transitionMs": {
+            "count": 15,
+            "median": 62.85989999999583,
+            "p95": 77.90619999999763,
+            "peak": 77.90619999999763,
+            "minimum": 60.199099999998
+          }
+        }
+      },
+      "trends": {
+        "geometry": {
+          "first": 191,
+          "last": 191,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 191,
+              "p95": 191,
+              "peak": 191,
+              "minimum": 191
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 191,
+              "p95": 191,
+              "peak": 191,
+              "minimum": 191
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 191,
+              "p95": 191,
+              "peak": 191,
+              "minimum": 191
+            }
+          ]
+        },
+        "textures": {
+          "first": 6,
+          "last": 6,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            }
+          ]
+        },
+        "heapUsedBytes": {
+          "first": 13231616,
+          "last": 14287600,
+          "delta": 1055984,
+          "positiveSteps": 16,
+          "negativeSteps": 13,
+          "longestNondecreasingRun": 4,
+          "slopePerCycle": 26579.416240266964,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 13675820,
+              "p95": 14001336,
+              "peak": 14001336,
+              "minimum": 13231616
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 14092260,
+              "p95": 14209080,
+              "peak": 14209080,
+              "minimum": 13893832
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 14186752,
+              "p95": 14291832,
+              "peak": 14291832,
+              "minimum": 14112952
+            }
+          ]
+        },
+        "nodes": {
+          "first": 474,
+          "last": 474,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 474,
+              "p95": 474,
+              "peak": 474,
+              "minimum": 474
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 474,
+              "p95": 474,
+              "peak": 474,
+              "minimum": 474
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 474,
+              "p95": 474,
+              "peak": 474,
+              "minimum": 474
+            }
+          ]
+        },
+        "eventListeners": {
+          "first": 104,
+          "last": 104,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 104,
+              "p95": 104,
+              "peak": 104,
+              "minimum": 104
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 104,
+              "p95": 104,
+              "peak": 104,
+              "minimum": 104
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 104,
+              "p95": 104,
+              "peak": 104,
+              "minimum": 104
+            }
+          ]
+        }
+      },
+      "liveWebGLRanges": {
+        "buffers": {
+          "min": 623,
+          "max": 623
+        },
+        "textures": {
+          "min": 10,
+          "max": 10
+        }
+      }
+    },
+    {
+      "mode": "software",
+      "width": 1440,
+      "height": 900,
+      "measuredCycles": 30,
+      "initial": {
+        "tick": "48",
+        "revision": "9"
+      },
+      "archiveMatches": true,
+      "archiveSha256": "a6703fd234c52ea77c45ec8fd55d7c7ed41287f63ecb573347fe1b27da2c0533",
+      "capabilities": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "dpr": 1,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "vendor": "Google Inc. (Google)",
+        "jsHeapAvailable": true
+      },
+      "byPhase": {
+        "bag": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 5.5,
+            "p95": 8.5,
+            "peak": 9.9,
+            "minimum": 5
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 50,
+            "p95": 50,
+            "peak": 50,
+            "minimum": 50
+          },
+          "triangles": {
+            "count": 30,
+            "median": 846,
+            "p95": 846,
+            "peak": 846,
+            "minimum": 846
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17823651,
+            "p95": 17973947,
+            "peak": 31639726,
+            "minimum": 17177103
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 433.18820000000414,
+            "p95": 483.95240000000194,
+            "peak": 486.9951000000001,
+            "minimum": 405.7510000000002
+          }
+        },
+        "detail": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 4.8,
+            "p95": 5.3,
+            "peak": 6.9,
+            "minimum": 4.4
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 30,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17373521,
+            "p95": 18240093,
+            "peak": 32605018,
+            "minimum": 16745945
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 162.17730000000302,
+            "p95": 179.2172999999966,
+            "peak": 190.6892000000007,
+            "minimum": 158.91190000000097
+          }
+        },
+        "world-target": {
+          "geometry": {
+            "count": 15,
+            "median": 213,
+            "p95": 213,
+            "peak": 213,
+            "minimum": 213
+          },
+          "textures": {
+            "count": 15,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 15,
+            "median": 6.6,
+            "p95": 8.8,
+            "peak": 8.8,
+            "minimum": 5.2
+          },
+          "drawCalls": {
+            "count": 15,
+            "median": 169,
+            "p95": 169,
+            "peak": 169,
+            "minimum": 169
+          },
+          "triangles": {
+            "count": 15,
+            "median": 7614,
+            "p95": 7614,
+            "peak": 7614,
+            "minimum": 7614
+          },
+          "jsHeapBytes": {
+            "count": 15,
+            "median": 18144654,
+            "p95": 34357212,
+            "peak": 34357212,
+            "minimum": 17035654
+          },
+          "transitionMs": {
+            "count": 15,
+            "median": 312.5025999999998,
+            "p95": 345.99929999999586,
+            "peak": 345.99929999999586,
+            "minimum": 293.79509999999937
+          }
+        },
+        "cancel-detail": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 5,
+            "p95": 6.6,
+            "peak": 6.9,
+            "minimum": 4.5
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 30,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17877991,
+            "p95": 18700151,
+            "peak": 18865607,
+            "minimum": 17536895
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 80.56590000000142,
+            "p95": 111.86139999999978,
+            "peak": 111.97439999999915,
+            "minimum": 76.16219999999885
+          }
+        },
+        "cancel-bag": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 6.2,
+            "p95": 8.3,
+            "peak": 10,
+            "minimum": 5.1
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 50,
+            "p95": 50,
+            "peak": 50,
+            "minimum": 50
+          },
+          "triangles": {
+            "count": 30,
+            "median": 846,
+            "p95": 846,
+            "peak": 846,
+            "minimum": 846
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 18013403,
+            "p95": 18349983,
+            "peak": 18978705,
+            "minimum": 16911619
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 46.77059999999983,
+            "p95": 60.53979999999865,
+            "peak": 61.004000000000815,
+            "minimum": 28.83049999999639
+          }
+        },
+        "world": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 5.7,
+            "p95": 7.6,
+            "peak": 8.5,
+            "minimum": 4.9
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 161,
+            "p95": 161,
+            "peak": 161,
+            "minimum": 161
+          },
+          "triangles": {
+            "count": 30,
+            "median": 7326,
+            "p95": 7326,
+            "peak": 7326,
+            "minimum": 7326
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 18090134,
+            "p95": 18549118,
+            "peak": 20059963,
+            "minimum": 17278134
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 242.1108000000022,
+            "p95": 262.0069999999996,
+            "peak": 262.22550000000047,
+            "minimum": 225.7342000000026
+          }
+        },
+        "pile-hover": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 6.8,
+            "p95": 8.3,
+            "peak": 8.4,
+            "minimum": 5.6
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 161,
+            "p95": 161,
+            "peak": 161,
+            "minimum": 161
+          },
+          "triangles": {
+            "count": 30,
+            "median": 7326,
+            "p95": 7326,
+            "peak": 7326,
+            "minimum": 7326
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 18100879,
+            "p95": 18569595,
+            "peak": 21861208,
+            "minimum": 17542903
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 895.0872999999992,
+            "p95": 928.4904999999999,
+            "peak": 929.6784999999945,
+            "minimum": 877.633799999996
+          }
+        },
+        "pile-dismiss": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 5.4,
+            "p95": 7,
+            "peak": 7.1,
+            "minimum": 4.7
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 161,
+            "p95": 161,
+            "peak": 161,
+            "minimum": 161
+          },
+          "triangles": {
+            "count": 30,
+            "median": 7326,
+            "p95": 7326,
+            "peak": 7326,
+            "minimum": 7326
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 18382267,
+            "p95": 18940191,
+            "peak": 22224056,
+            "minimum": 17010587
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 95.16630000000441,
+            "p95": 127.84389999999257,
+            "peak": 129.02329999999347,
+            "minimum": 86.8773000000001
+          }
+        },
+        "bag-target": {
+          "geometry": {
+            "count": 15,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 15,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 15,
+            "median": 6.2,
+            "p95": 8.5,
+            "peak": 8.5,
+            "minimum": 5.3
+          },
+          "drawCalls": {
+            "count": 15,
+            "median": 50,
+            "p95": 50,
+            "peak": 50,
+            "minimum": 50
+          },
+          "triangles": {
+            "count": 15,
+            "median": 846,
+            "p95": 846,
+            "peak": 846,
+            "minimum": 846
+          },
+          "jsHeapBytes": {
+            "count": 15,
+            "median": 17650457,
+            "p95": 18443193,
+            "peak": 18443193,
+            "minimum": 17450997
+          },
+          "transitionMs": {
+            "count": 15,
+            "median": 195.40270000000055,
+            "p95": 241.97069999999076,
+            "peak": 241.97069999999076,
+            "minimum": 177.76360000000204
+          }
+        }
+      },
+      "trends": {
+        "geometry": {
+          "first": 205,
+          "last": 205,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 205,
+              "p95": 205,
+              "peak": 205,
+              "minimum": 205
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 205,
+              "p95": 205,
+              "peak": 205,
+              "minimum": 205
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 205,
+              "p95": 205,
+              "peak": 205,
+              "minimum": 205
+            }
+          ]
+        },
+        "textures": {
+          "first": 6,
+          "last": 6,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            }
+          ]
+        },
+        "heapUsedBytes": {
+          "first": 13431956,
+          "last": 14494372,
+          "delta": 1062416,
+          "positiveSteps": 15,
+          "negativeSteps": 14,
+          "longestNondecreasingRun": 2,
+          "slopePerCycle": 26081.28676307008,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 13916596,
+              "p95": 14163292,
+              "peak": 14163292,
+              "minimum": 13431956
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 14258660,
+              "p95": 14403652,
+              "peak": 14403652,
+              "minimum": 14061468
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 14386620,
+              "p95": 14494372,
+              "peak": 14494372,
+              "minimum": 14304424
+            }
+          ]
+        },
+        "nodes": {
+          "first": 474,
+          "last": 474,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 474,
+              "p95": 474,
+              "peak": 474,
+              "minimum": 474
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 474,
+              "p95": 474,
+              "peak": 474,
+              "minimum": 474
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 474,
+              "p95": 474,
+              "peak": 474,
+              "minimum": 474
+            }
+          ]
+        },
+        "eventListeners": {
+          "first": 104,
+          "last": 104,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 104,
+              "p95": 104,
+              "peak": 104,
+              "minimum": 104
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 104,
+              "p95": 104,
+              "peak": 104,
+              "minimum": 104
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 104,
+              "p95": 104,
+              "peak": 104,
+              "minimum": 104
+            }
+          ]
+        }
+      },
+      "liveWebGLRanges": {
+        "buffers": {
+          "min": 651,
+          "max": 651
+        },
+        "textures": {
+          "min": 10,
+          "max": 10
+        }
+      }
+    },
+    {
+      "mode": "software",
+      "width": 844,
+      "height": 390,
+      "measuredCycles": 30,
+      "initial": {
+        "tick": "48",
+        "revision": "9"
+      },
+      "archiveMatches": true,
+      "archiveSha256": "a6703fd234c52ea77c45ec8fd55d7c7ed41287f63ecb573347fe1b27da2c0533",
+      "capabilities": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "dpr": 1,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "vendor": "Google Inc. (Google)",
+        "jsHeapAvailable": true
+      },
+      "byPhase": {
+        "bag": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 2.4,
+            "p95": 3,
+            "peak": 3,
+            "minimum": 1.9
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 50,
+            "p95": 50,
+            "peak": 50,
+            "minimum": 50
+          },
+          "triangles": {
+            "count": 30,
+            "median": 846,
+            "p95": 846,
+            "peak": 846,
+            "minimum": 846
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17769769,
+            "p95": 17899477,
+            "peak": 28985382,
+            "minimum": 16559225
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 208.590200000006,
+            "p95": 247.83309999998892,
+            "peak": 248.08090000000084,
+            "minimum": 190.5639999999985
+          }
+        },
+        "detail": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 1.7,
+            "p95": 2.5,
+            "peak": 2.5,
+            "minimum": 1.3
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 30,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17277523,
+            "p95": 17433175,
+            "peak": 29979442,
+            "minimum": 16580637
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 93.75990000000456,
+            "p95": 109.26540000000386,
+            "peak": 109.97000000000116,
+            "minimum": 67.2222000000038
+          }
+        },
+        "world-target": {
+          "geometry": {
+            "count": 15,
+            "median": 213,
+            "p95": 213,
+            "peak": 213,
+            "minimum": 213
+          },
+          "textures": {
+            "count": 15,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 15,
+            "median": 3,
+            "p95": 3.8,
+            "peak": 3.8,
+            "minimum": 2.5
+          },
+          "drawCalls": {
+            "count": 15,
+            "median": 169,
+            "p95": 169,
+            "peak": 169,
+            "minimum": 169
+          },
+          "triangles": {
+            "count": 15,
+            "median": 7614,
+            "p95": 7614,
+            "peak": 7614,
+            "minimum": 7614
+          },
+          "jsHeapBytes": {
+            "count": 15,
+            "median": 18324542,
+            "p95": 18493022,
+            "peak": 18493022,
+            "minimum": 17025154
+          },
+          "transitionMs": {
+            "count": 15,
+            "median": 226.8173999999999,
+            "p95": 277.2517999999982,
+            "peak": 277.2517999999982,
+            "minimum": 211.18339999999444
+          }
+        },
+        "cancel-detail": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 1.8,
+            "p95": 2.8,
+            "peak": 3.4,
+            "minimum": 1.4
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 30,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17907260,
+            "p95": 18983675,
+            "peak": 18993823,
+            "minimum": 17326208
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 31.88180000000284,
+            "p95": 57.37390000000596,
+            "peak": 59.451499999995576,
+            "minimum": 29.81150000001071
+          }
+        },
+        "cancel-bag": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 2.5,
+            "p95": 4.2,
+            "peak": 4.4,
+            "minimum": 2.1
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 50,
+            "p95": 50,
+            "peak": 50,
+            "minimum": 50
+          },
+          "triangles": {
+            "count": 30,
+            "median": 846,
+            "p95": 846,
+            "peak": 846,
+            "minimum": 846
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17420999,
+            "p95": 18472331,
+            "peak": 18907523,
+            "minimum": 16749309
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 28.207599999994272,
+            "p95": 40.633600000001024,
+            "peak": 40.95610000001034,
+            "minimum": 25.13850000000093
+          }
+        },
+        "world": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 2.4,
+            "p95": 2.9,
+            "peak": 3.5,
+            "minimum": 2
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 161,
+            "p95": 161,
+            "peak": 161,
+            "minimum": 161
+          },
+          "triangles": {
+            "count": 30,
+            "median": 7326,
+            "p95": 7326,
+            "peak": 7326,
+            "minimum": 7326
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17589139,
+            "p95": 18846434,
+            "peak": 20036587,
+            "minimum": 17014683
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 128.92519999999786,
+            "p95": 130.46270000000368,
+            "peak": 130.613400000002,
+            "minimum": 112.2615000000078
+          }
+        },
+        "pile-hover": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 2.9,
+            "p95": 3.8,
+            "peak": 3.9,
+            "minimum": 2
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 161,
+            "p95": 161,
+            "peak": 161,
+            "minimum": 161
+          },
+          "triangles": {
+            "count": 30,
+            "median": 7326,
+            "p95": 7326,
+            "peak": 7326,
+            "minimum": 7326
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17774382,
+            "p95": 19050061,
+            "peak": 21855331,
+            "minimum": 17188782
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 679.3435000000027,
+            "p95": 696.3768999999884,
+            "peak": 712.2081999999937,
+            "minimum": 660.5264999999927
+          }
+        },
+        "pile-dismiss": {
+          "geometry": {
+            "count": 30,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 2.1,
+            "p95": 3,
+            "peak": 3.2,
+            "minimum": 1.9
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 161,
+            "p95": 161,
+            "peak": 161,
+            "minimum": 161
+          },
+          "triangles": {
+            "count": 30,
+            "median": 7326,
+            "p95": 7326,
+            "peak": 7326,
+            "minimum": 7326
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17912338,
+            "p95": 19404461,
+            "peak": 22227295,
+            "minimum": 16901759
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 44.807199999995646,
+            "p95": 50.161800000001676,
+            "peak": 74.74579999998969,
+            "minimum": 41.88589999999385
+          }
+        },
+        "bag-target": {
+          "geometry": {
+            "count": 15,
+            "median": 205,
+            "p95": 205,
+            "peak": 205,
+            "minimum": 205
+          },
+          "textures": {
+            "count": 15,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 15,
+            "median": 2.3,
+            "p95": 3.2,
+            "peak": 3.2,
+            "minimum": 2
+          },
+          "drawCalls": {
+            "count": 15,
+            "median": 50,
+            "p95": 50,
+            "peak": 50,
+            "minimum": 50
+          },
+          "triangles": {
+            "count": 15,
+            "median": 846,
+            "p95": 846,
+            "peak": 846,
+            "minimum": 846
+          },
+          "jsHeapBytes": {
+            "count": 15,
+            "median": 17413555,
+            "p95": 17597699,
+            "peak": 17597699,
+            "minimum": 16896467
+          },
+          "transitionMs": {
+            "count": 15,
+            "median": 112.17530000000261,
+            "p95": 113.60779999999795,
+            "peak": 113.60779999999795,
+            "minimum": 76.10670000000391
+          }
+        }
+      },
+      "trends": {
+        "geometry": {
+          "first": 205,
+          "last": 205,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 205,
+              "p95": 205,
+              "peak": 205,
+              "minimum": 205
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 205,
+              "p95": 205,
+              "peak": 205,
+              "minimum": 205
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 205,
+              "p95": 205,
+              "peak": 205,
+              "minimum": 205
+            }
+          ]
+        },
+        "textures": {
+          "first": 6,
+          "last": 6,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            }
+          ]
+        },
+        "heapUsedBytes": {
+          "first": 13294584,
+          "last": 14357224,
+          "delta": 1062640,
+          "positiveSteps": 16,
+          "negativeSteps": 13,
+          "longestNondecreasingRun": 4,
+          "slopePerCycle": 26564.36573971079,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 13781760,
+              "p95": 14040924,
+              "peak": 14040924,
+              "minimum": 13294584
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 14119528,
+              "p95": 14274412,
+              "peak": 14274412,
+              "minimum": 13958836
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 14255136,
+              "p95": 14357224,
+              "peak": 14357224,
+              "minimum": 14178104
+            }
+          ]
+        },
+        "nodes": {
+          "first": 473,
+          "last": 473,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 473,
+              "p95": 473,
+              "peak": 473,
+              "minimum": 473
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 473,
+              "p95": 473,
+              "peak": 473,
+              "minimum": 473
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 473,
+              "p95": 473,
+              "peak": 473,
+              "minimum": 473
+            }
+          ]
+        },
+        "eventListeners": {
+          "first": 104,
+          "last": 104,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 104,
+              "p95": 104,
+              "peak": 104,
+              "minimum": 104
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 104,
+              "p95": 104,
+              "peak": 104,
+              "minimum": 104
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 104,
+              "p95": 104,
+              "peak": 104,
+              "minimum": 104
+            }
+          ]
+        }
+      },
+      "liveWebGLRanges": {
+        "buffers": {
+          "min": 651,
+          "max": 651
+        },
+        "textures": {
+          "min": 10,
+          "max": 10
+        }
+      }
+    },
+    {
+      "mode": "software",
+      "width": 390,
+      "height": 844,
+      "measuredCycles": 30,
+      "initial": {
+        "tick": "48",
+        "revision": "9"
+      },
+      "archiveMatches": true,
+      "archiveSha256": "a6703fd234c52ea77c45ec8fd55d7c7ed41287f63ecb573347fe1b27da2c0533",
+      "capabilities": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "dpr": 1,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "vendor": "Google Inc. (Google)",
+        "jsHeapAvailable": true
+      },
+      "byPhase": {
+        "bag": {
+          "geometry": {
+            "count": 30,
+            "median": 191,
+            "p95": 191,
+            "peak": 191,
+            "minimum": 191
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 1.7,
+            "p95": 2.6,
+            "peak": 2.8,
+            "minimum": 1.4
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 1,
+            "p95": 1,
+            "peak": 1,
+            "minimum": 1
+          },
+          "triangles": {
+            "count": 30,
+            "median": 2,
+            "p95": 2,
+            "peak": 2,
+            "minimum": 2
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17444312,
+            "p95": 17639232,
+            "peak": 26339892,
+            "minimum": 16656336
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 175.05879999999888,
+            "p95": 202.0268999999971,
+            "peak": 203.74319999999716,
+            "minimum": 154.5951000000059
+          }
+        },
+        "detail": {
+          "geometry": {
+            "count": 30,
+            "median": 191,
+            "p95": 191,
+            "peak": 191,
+            "minimum": 191
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 1.6,
+            "p95": 2.4,
+            "peak": 2.4,
+            "minimum": 1.3
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 30,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17362683,
+            "p95": 17801275,
+            "peak": 27134664,
+            "minimum": 16839791
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 93.31399999998393,
+            "p95": 95.62930000000051,
+            "peak": 95.7320999999938,
+            "minimum": 61.50229999999283
+          }
+        },
+        "world-target": {
+          "geometry": {
+            "count": 15,
+            "median": 198,
+            "p95": 198,
+            "peak": 198,
+            "minimum": 198
+          },
+          "textures": {
+            "count": 15,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 15,
+            "median": 2.4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 2.2
+          },
+          "drawCalls": {
+            "count": 15,
+            "median": 157,
+            "p95": 157,
+            "peak": 157,
+            "minimum": 157
+          },
+          "triangles": {
+            "count": 15,
+            "median": 7318,
+            "p95": 7318,
+            "peak": 7318,
+            "minimum": 7318
+          },
+          "jsHeapBytes": {
+            "count": 15,
+            "median": 17461765,
+            "p95": 28901348,
+            "peak": 28901348,
+            "minimum": 16855389
+          },
+          "transitionMs": {
+            "count": 15,
+            "median": 178.03689999997732,
+            "p95": 180.16459999998915,
+            "peak": 180.16459999998915,
+            "minimum": 160.68009999999776
+          }
+        },
+        "cancel-detail": {
+          "geometry": {
+            "count": 30,
+            "median": 191,
+            "p95": 191,
+            "peak": 191,
+            "minimum": 191
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 1.8,
+            "p95": 2.6,
+            "peak": 2.6,
+            "minimum": 1.6
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 30,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17844404,
+            "p95": 18067419,
+            "peak": 29406960,
+            "minimum": 17095300
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 30.603800000011688,
+            "p95": 34.35009999998147,
+            "peak": 60.39790000001085,
+            "minimum": 28.902100000006612
+          }
+        },
+        "cancel-bag": {
+          "geometry": {
+            "count": 30,
+            "median": 191,
+            "p95": 191,
+            "peak": 191,
+            "minimum": 191
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 2.1,
+            "p95": 3.4,
+            "peak": 3.6,
+            "minimum": 1.7
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 1,
+            "p95": 1,
+            "peak": 1,
+            "minimum": 1
+          },
+          "triangles": {
+            "count": 30,
+            "median": 2,
+            "p95": 2,
+            "peak": 2,
+            "minimum": 2
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17309824,
+            "p95": 17556547,
+            "peak": 29619252,
+            "minimum": 16777800
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 27.60010000001057,
+            "p95": 36.693700000003446,
+            "peak": 38.012000000017,
+            "minimum": 25.408599999995204
+          }
+        },
+        "world": {
+          "geometry": {
+            "count": 30,
+            "median": 191,
+            "p95": 191,
+            "peak": 191,
+            "minimum": 191
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 2.1,
+            "p95": 3.6,
+            "peak": 3.6,
+            "minimum": 1.9
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "triangles": {
+            "count": 30,
+            "median": 7078,
+            "p95": 7078,
+            "peak": 7078,
+            "minimum": 7078
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17449076,
+            "p95": 18240504,
+            "peak": 30481372,
+            "minimum": 16705024
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 112.33349999999336,
+            "p95": 114.41249999999127,
+            "peak": 128.12049999999,
+            "minimum": 110.397799999977
+          }
+        },
+        "pile-hover": {
+          "geometry": {
+            "count": 30,
+            "median": 191,
+            "p95": 191,
+            "peak": 191,
+            "minimum": 191
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 2.6,
+            "p95": 3,
+            "peak": 3.1,
+            "minimum": 2.1
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "triangles": {
+            "count": 30,
+            "median": 7078,
+            "p95": 7078,
+            "peak": 7078,
+            "minimum": 7078
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 17697520,
+            "p95": 18199015,
+            "peak": 18903300,
+            "minimum": 16937056
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 629.8472000000183,
+            "p95": 646.6411999999837,
+            "peak": 646.9886000000115,
+            "minimum": 627.2666000000027
+          }
+        },
+        "pile-dismiss": {
+          "geometry": {
+            "count": 30,
+            "median": 191,
+            "p95": 191,
+            "peak": 191,
+            "minimum": 191
+          },
+          "textures": {
+            "count": 30,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 30,
+            "median": 2.1,
+            "p95": 2.9,
+            "peak": 4.4,
+            "minimum": 1.8
+          },
+          "drawCalls": {
+            "count": 30,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "triangles": {
+            "count": 30,
+            "median": 7078,
+            "p95": 7078,
+            "peak": 7078,
+            "minimum": 7078
+          },
+          "jsHeapBytes": {
+            "count": 30,
+            "median": 18057164,
+            "p95": 18567067,
+            "peak": 19257624,
+            "minimum": 17307636
+          },
+          "transitionMs": {
+            "count": 30,
+            "median": 36.492900000012014,
+            "p95": 41.648999999975786,
+            "peak": 41.716400000004796,
+            "minimum": 33.695899999991525
+          }
+        },
+        "bag-target": {
+          "geometry": {
+            "count": 15,
+            "median": 191,
+            "p95": 191,
+            "peak": 191,
+            "minimum": 191
+          },
+          "textures": {
+            "count": 15,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 15,
+            "median": 2.5,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 2
+          },
+          "drawCalls": {
+            "count": 15,
+            "median": 50,
+            "p95": 50,
+            "peak": 50,
+            "minimum": 50
+          },
+          "triangles": {
+            "count": 15,
+            "median": 846,
+            "p95": 846,
+            "peak": 846,
+            "minimum": 846
+          },
+          "jsHeapBytes": {
+            "count": 15,
+            "median": 17368350,
+            "p95": 17513354,
+            "peak": 17513354,
+            "minimum": 16652567
+          },
+          "transitionMs": {
+            "count": 15,
+            "median": 96.33239999998477,
+            "p95": 128.88060000000405,
+            "peak": 128.88060000000405,
+            "minimum": 77.02629999999772
+          }
+        }
+      },
+      "trends": {
+        "geometry": {
+          "first": 191,
+          "last": 191,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 191,
+              "p95": 191,
+              "peak": 191,
+              "minimum": 191
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 191,
+              "p95": 191,
+              "peak": 191,
+              "minimum": 191
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 191,
+              "p95": 191,
+              "peak": 191,
+              "minimum": 191
+            }
+          ]
+        },
+        "textures": {
+          "first": 6,
+          "last": 6,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            }
+          ]
+        },
+        "heapUsedBytes": {
+          "first": 13238624,
+          "last": 14293012,
+          "delta": 1054388,
+          "positiveSteps": 16,
+          "negativeSteps": 13,
+          "longestNondecreasingRun": 4,
+          "slopePerCycle": 26509.87675194661,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 13681956,
+              "p95": 14007640,
+              "peak": 14007640,
+              "minimum": 13238624
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 14098628,
+              "p95": 14215868,
+              "peak": 14215868,
+              "minimum": 13900080
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 14192716,
+              "p95": 14296792,
+              "peak": 14296792,
+              "minimum": 14118364
+            }
+          ]
+        },
+        "nodes": {
+          "first": 474,
+          "last": 474,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 474,
+              "p95": 474,
+              "peak": 474,
+              "minimum": 474
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 474,
+              "p95": 474,
+              "peak": 474,
+              "minimum": 474
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 474,
+              "p95": 474,
+              "peak": 474,
+              "minimum": 474
+            }
+          ]
+        },
+        "eventListeners": {
+          "first": 104,
+          "last": 104,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 30,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 104,
+              "p95": 104,
+              "peak": 104,
+              "minimum": 104
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 104,
+              "p95": 104,
+              "peak": 104,
+              "minimum": 104
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 104,
+              "p95": 104,
+              "peak": 104,
+              "minimum": 104
+            }
+          ]
+        }
+      },
+      "liveWebGLRanges": {
+        "buffers": {
+          "min": 623,
+          "max": 623
+        },
+        "textures": {
+          "min": 10,
+          "max": 10
+        }
+      }
+    }
+  ],
+  "cycles": 180,
+  "phases": 1440,
+  "archiveChecks": 6,
+  "notes": [
+    "Thirty measured cycles plus two warmups per viewport/path. Every phase checks tick/revision; each group checks exact full archive at the end.",
+    "Includes bag/detail/aim/cancel/world plus readonly pile longpress, actual-model hover and dismissal.",
+    "Longpress transition includes deliberate450ms dwell; not a frame-time metric.",
+    "GC heap grows in all six runs; geometry/textures/DOM/listeners stable does not prove no JS or GPU leak."
+  ]
+}

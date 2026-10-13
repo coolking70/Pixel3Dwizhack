@@ -1,0 +1,413 @@
+{
+  "source": "output\\desktop-0-1791714526307.json",
+  "status": "passed",
+  "title": "Alpha 2 natural full item route is playable through real UI and exports exact validated history",
+  "ui": [
+    "legacy"
+  ],
+  "traceCount": 2141,
+  "allKeys": {
+    "count": 363,
+    "minMs": 5,
+    "medianMs": 9.7,
+    "p95Ms": 109.8,
+    "maxMs": 249.1,
+    "p95Method": "nearest-rank ceil(0.95*n)",
+    "maxPair": {
+      "code": "KeyR",
+      "key": "r",
+      "downIndex": 509,
+      "upIndex": 511,
+      "downAt": 64724.90000000596,
+      "upAt": 64974,
+      "durationMs": 249.09999999403954,
+      "eventStampDurationMs": 49.8999999910593,
+      "downTick": 1040,
+      "upTick": 1056,
+      "downBusy": "false",
+      "upBusy": "true",
+      "tickChanges": [
+        {
+          "index": 510,
+          "at": 64774,
+          "from": 1040,
+          "to": 1056,
+          "kind": "state"
+        }
+      ]
+    }
+  },
+  "movementKeys": {
+    "count": 317,
+    "minMs": 5,
+    "medianMs": 9.3,
+    "p95Ms": 109.8,
+    "maxMs": 200.2,
+    "p95Method": "nearest-rank ceil(0.95*n)",
+    "maxPair": {
+      "code": "KeyD",
+      "key": "d",
+      "downIndex": 1091,
+      "upIndex": 1093,
+      "downAt": 128419.40000000596,
+      "upAt": 128619.60000000894,
+      "durationMs": 200.20000000298023,
+      "eventStampDurationMs": 42.1000000089407,
+      "downTick": 2260,
+      "upTick": 2270,
+      "downBusy": "false",
+      "upBusy": "true",
+      "tickChanges": [
+        {
+          "index": 1092,
+          "at": 128460.60000000894,
+          "from": 2260,
+          "to": 2270,
+          "kind": "state"
+        }
+      ]
+    }
+  },
+  "byKey": {
+    "KeyD": {
+      "count": 158,
+      "minMs": 5,
+      "medianMs": 10.4,
+      "p95Ms": 109.9,
+      "maxMs": 200.2,
+      "p95Method": "nearest-rank ceil(0.95*n)",
+      "maxPair": {
+        "code": "KeyD",
+        "key": "d",
+        "downIndex": 1091,
+        "upIndex": 1093,
+        "downAt": 128419.40000000596,
+        "upAt": 128619.60000000894,
+        "durationMs": 200.20000000298023,
+        "eventStampDurationMs": 42.1000000089407,
+        "downTick": 2260,
+        "upTick": 2270,
+        "downBusy": "false",
+        "upBusy": "true",
+        "tickChanges": [
+          {
+            "index": 1092,
+            "at": 128460.60000000894,
+            "from": 2260,
+            "to": 2270,
+            "kind": "state"
+          }
+        ]
+      }
+    },
+    "KeyA": {
+      "count": 159,
+      "minMs": 5.3,
+      "medianMs": 8.9,
+      "p95Ms": 109.3,
+      "maxMs": 141.7,
+      "p95Method": "nearest-rank ceil(0.95*n)",
+      "maxPair": {
+        "code": "KeyA",
+        "key": "a",
+        "downIndex": 1923,
+        "upIndex": 1925,
+        "downAt": 216958.5,
+        "upAt": 217100.20000000298,
+        "durationMs": 141.70000000298023,
+        "eventStampDurationMs": 9.299999997019768,
+        "downTick": 3942,
+        "upTick": 3952,
+        "downBusy": "false",
+        "upBusy": "true",
+        "tickChanges": [
+          {
+            "index": 1924,
+            "at": 216967.10000000894,
+            "from": 3942,
+            "to": 3952,
+            "kind": "state"
+          }
+        ]
+      }
+    },
+    "KeyS": {
+      "count": 5,
+      "minMs": 39.5,
+      "medianMs": 53.3,
+      "p95Ms": 73.8,
+      "maxMs": 73.8,
+      "p95Method": "nearest-rank ceil(0.95*n)",
+      "maxPair": {
+        "code": "KeyS",
+        "key": "s",
+        "downIndex": 679,
+        "upIndex": 681,
+        "downAt": 79426.10000000894,
+        "upAt": 79499.90000000596,
+        "durationMs": 73.79999999701977,
+        "eventStampDurationMs": 72.69999998807907,
+        "downTick": 1376,
+        "upTick": 1392,
+        "downBusy": "false",
+        "upBusy": "true",
+        "tickChanges": [
+          {
+            "index": 680,
+            "at": 79498.10000000894,
+            "from": 1376,
+            "to": 1392,
+            "kind": "state"
+          }
+        ]
+      }
+    },
+    "KeyR": {
+      "count": 34,
+      "minMs": 6.4,
+      "medianMs": 14.2,
+      "p95Ms": 153.6,
+      "maxMs": 249.1,
+      "p95Method": "nearest-rank ceil(0.95*n)",
+      "maxPair": {
+        "code": "KeyR",
+        "key": "r",
+        "downIndex": 509,
+        "upIndex": 511,
+        "downAt": 64724.90000000596,
+        "upAt": 64974,
+        "durationMs": 249.09999999403954,
+        "eventStampDurationMs": 49.8999999910593,
+        "downTick": 1040,
+        "upTick": 1056,
+        "downBusy": "false",
+        "upBusy": "true",
+        "tickChanges": [
+          {
+            "index": 510,
+            "at": 64774,
+            "from": 1040,
+            "to": 1056,
+            "kind": "state"
+          }
+        ]
+      }
+    },
+    "KeyF": {
+      "count": 1,
+      "minMs": 9,
+      "medianMs": 9,
+      "p95Ms": 9,
+      "maxMs": 9,
+      "p95Method": "nearest-rank ceil(0.95*n)",
+      "maxPair": {
+        "code": "KeyF",
+        "key": "f",
+        "downIndex": 1902,
+        "upIndex": 1904,
+        "downAt": 212534.5,
+        "upAt": 212543.5,
+        "durationMs": 9,
+        "eventStampDurationMs": 7.799999997019768,
+        "downTick": 3900,
+        "upTick": 3906,
+        "downBusy": "false",
+        "upBusy": "true",
+        "tickChanges": [
+          {
+            "index": 1903,
+            "at": 212541.70000000298,
+            "from": 3900,
+            "to": 3906,
+            "kind": "state"
+          }
+        ]
+      }
+    },
+    "KeyW": {
+      "count": 5,
+      "minMs": 50.6,
+      "medianMs": 54.4,
+      "p95Ms": 60,
+      "maxMs": 60,
+      "p95Method": "nearest-rank ceil(0.95*n)",
+      "maxPair": {
+        "code": "KeyW",
+        "key": "w",
+        "downIndex": 2062,
+        "upIndex": 2064,
+        "downAt": 233322.70000000298,
+        "upAt": 233382.70000000298,
+        "durationMs": 60,
+        "eventStampDurationMs": 59.900000005960464,
+        "downTick": 4184,
+        "upTick": 4200,
+        "downBusy": "false",
+        "upBusy": "true",
+        "tickChanges": [
+          {
+            "index": 2063,
+            "at": 233381.79999999702,
+            "from": 4184,
+            "to": 4200,
+            "kind": "state"
+          }
+        ]
+      }
+    },
+    "KeyQ": {
+      "count": 1,
+      "minMs": 11.7,
+      "medianMs": 11.7,
+      "p95Ms": 11.7,
+      "maxMs": 11.7,
+      "p95Method": "nearest-rank ceil(0.95*n)",
+      "maxPair": {
+        "code": "KeyQ",
+        "key": "q",
+        "downIndex": 1952,
+        "upIndex": 1954,
+        "downAt": 221718.29999999702,
+        "upAt": 221730,
+        "durationMs": 11.700000002980232,
+        "eventStampDurationMs": 11.400000005960464,
+        "downTick": 3998,
+        "upTick": 4010,
+        "downBusy": "false",
+        "upBusy": "true",
+        "tickChanges": [
+          {
+            "index": 1953,
+            "at": 221729,
+            "from": 3998,
+            "to": 4010,
+            "kind": "state"
+          }
+        ]
+      }
+    }
+  },
+  "unmatchedUps": [],
+  "unmatchedDowns": [],
+  "repeatedDowns": [],
+  "beforeKeyupTwoTickTransitions": [],
+  "originalBoundary": {
+    "commandIndex": 165,
+    "command": "right",
+    "expectedBefore": 1776,
+    "expectedAfter": 1786,
+    "expectedMotionMs": 260,
+    "pair": {
+      "code": "KeyD",
+      "key": "d",
+      "downIndex": 858,
+      "upIndex": 860,
+      "downAt": 103529.60000000894,
+      "upAt": 103540.5,
+      "durationMs": 10.899999991059303,
+      "eventStampDurationMs": 11,
+      "downTick": 1776,
+      "upTick": 1786,
+      "downBusy": "false",
+      "upBusy": "true",
+      "tickChanges": [
+        {
+          "index": 859,
+          "at": 103539.5,
+          "from": 1776,
+          "to": 1786,
+          "kind": "state"
+        }
+      ]
+    },
+    "timeline": [
+      {
+        "kind": "keydown",
+        "code": "KeyD",
+        "key": "d",
+        "repeat": false,
+        "trusted": true,
+        "stamp": 103529.29999999702,
+        "ui": "legacy",
+        "panel": null,
+        "tick": "1776",
+        "busy": "false",
+        "at": 103529.60000000894
+      },
+      {
+        "kind": "state",
+        "ui": "legacy",
+        "panel": null,
+        "tick": "1786",
+        "busy": "true",
+        "at": 103539.5
+      },
+      {
+        "kind": "longtask",
+        "at": 103539.60000000894,
+        "duration": 88
+      },
+      {
+        "kind": "keyup",
+        "code": "KeyD",
+        "key": "d",
+        "repeat": false,
+        "trusted": true,
+        "stamp": 103540.29999999702,
+        "ui": "legacy",
+        "panel": null,
+        "tick": "1786",
+        "busy": "true",
+        "at": 103540.5
+      },
+      {
+        "kind": "state",
+        "ui": "legacy",
+        "panel": null,
+        "tick": "1786",
+        "busy": "false",
+        "at": 103824.60000000894
+      },
+      {
+        "kind": "keydown",
+        "code": "KeyD",
+        "key": "d",
+        "repeat": false,
+        "trusted": true,
+        "stamp": 103944.29999999702,
+        "ui": "legacy",
+        "panel": null,
+        "tick": "1786",
+        "busy": "false",
+        "at": 103944.70000000298
+      },
+      {
+        "kind": "state",
+        "ui": "legacy",
+        "panel": null,
+        "tick": "1796",
+        "busy": "true",
+        "at": 103952.79999999702
+      },
+      {
+        "kind": "longtask",
+        "at": 103952.79999999702,
+        "duration": 87
+      },
+      {
+        "kind": "keyup",
+        "code": "KeyD",
+        "key": "d",
+        "repeat": false,
+        "trusted": true,
+        "stamp": 103953.40000000596,
+        "ui": "legacy",
+        "panel": null,
+        "tick": "1796",
+        "busy": "true",
+        "at": 104040.20000000298
+      }
+    ]
+  },
+  "conclusion": "Original 1786-versus-1796 mismatch was not reproduced in this passing run. No original failing event trace exists; delayed-keyup/held-repeat remains an unconfirmed hypothesis. MutationObserver is sampled after DOM updates and does not expose internal command history; this output reports observed tick changes only."
+}

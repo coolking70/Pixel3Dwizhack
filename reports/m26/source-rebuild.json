@@ -1,0 +1,15 @@
+{
+  "frozenFiles": 391,
+  "candidateManifestSha256": "18763e5a8bcd0bc7cc01ad0be8925852a6ef50cb88b152ea2ed0e0833603a242",
+  "rebuiltFiles": 174,
+  "allRebuiltFilesMatch": true,
+  "npmCiExit": 0,
+  "npmCheckExclusiveExit": 0,
+  "firstRun": "316 passed, expedition100seed timed out at unchanged30000ms under competing jobs; 334.20 seconds",
+  "scopeNote": "After first extraction, only retained browser-test ordinary-bag index and lifecycle sampler extension were synchronized. All391 source/assets/tests/scripts compared before final check; product source unchanged. No timeout increased.",
+  "finalTests": {
+    "passed": 317,
+    "files": 39,
+    "durationSeconds": 143.8
+  }
+}

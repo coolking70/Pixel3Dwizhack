@@ -1,0 +1,52 @@
+{
+  "updated": "2026-10-13T10:31:36.293993+00:00",
+  "events": [
+    {
+      "issue": "First M26 production batches stopped by session interruption",
+      "result": "No complete reports; balance142/180 retained as incomplete, complete fresh run started."
+    },
+    {
+      "issue": "844x390 chooser hid entry-camera pile despite x-based side selection",
+      "evidence": "UI independent round2",
+      "fix": "Screen projection and conservative visual margin placement",
+      "verification": "Final production desktop and 844x390 landscape natural pile center visibility, readonly longpress, exact archive passed; screenshots inspected by integrator."
+    },
+    {
+      "issue": "844x390 ladder down segment hit bottom HUD menu",
+      "evidence": "production-m26-restart landscape visible ladder: expected revision61, actual60/menu",
+      "fix": "Move physical lower segment center from -.8 to -.25 relative floor; add committed destination cue at destination floor",
+      "verification": "Final production desktop and 844x390 landscape directional climb archives and committed destination cue passed; full six-floor matrix ongoing."
+    },
+    {
+      "issue": "Global Firefox1555 launch UNKNOWN, SideBySide mozglue assembly missing",
+      "fix": "Fresh same-version Playwright Firefox157 installed in external browser-tools; global install retained",
+      "verification": "Fresh Firefox lifecycle1/1 passed18.6s; full7 running."
+    },
+    {
+      "issue": "45-definition UI test fixture lacked fillRect and mislabeled accessory as charm",
+      "fix": "Corrected test canvas mock and actual ItemCategory; no product assertion removed",
+      "verification": "All45 known definitions checked against actual public offers."
+    },
+    {
+      "issue": "Firefox and WebKit exact-ID pile test chose an ambiguous rounded pixel",
+      "evidence": "firefox-pointer-probe.json: requested387.221683/628.491680 unique ID4, actual pointer387/628 hits ID4+ID2, panel groundPile revision9 unchanged",
+      "fix": "Test chooses integer pixels with a .6 CSS pixel safety margin; exact specified ID/archive requirement retained, no game hit tolerance changed",
+      "verification": "Firefox1/1 retake passed27.7s; same helper four other viewport/browser retakes running. WebKit trace confirmed old floating coordinates despite updated source excerpt."
+    },
+    {
+      "issue": "Retained M25 cancellation test used old bag ordinal including equipment",
+      "fix": "Source index calculated from ordinary unequipped bag before opening existing throw operation",
+      "verification": "Full archive assertions unchanged; retake pending after current retained matrix."
+    },
+    {
+      "issue": "Fresh extracted full tests under competing work: expedition100seed exceeded original30000ms",
+      "first": "316/317 passed,334.20s",
+      "retake": "Standalone npm run check:317/317,39files,143.80s, same assertions and original timeout; type/build passed."
+    },
+    {
+      "issue": "Windows WebKit retained door route stalled below final revision within15000ms",
+      "first": "doorPush still busy at revision123 instead of125 during simultaneous browser jobs",
+      "retake": "Unchanged case and15000ms budget passed18.7s alone. Exact first scheduling cause not established; retained timing observation."
+    }
+  ]
+}

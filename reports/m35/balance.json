@@ -1,0 +1,547 @@
+{
+  "source": [
+    {
+      "path": "src/balance/agents.ts",
+      "sha256": "8c698fbd62616c57eb2498026c23f010bb3e6bcade71874ef9e0589525067744"
+    },
+    {
+      "path": "src/balance/analysis.ts",
+      "sha256": "526aec759c716760d52b556711b07eb7ed98dfd2bd91e7a1c591eab01e07b834"
+    },
+    {
+      "path": "src/balance/compare.ts",
+      "sha256": "00ed6b4eb3f600513009085f7668a4e75c8714ee00000e9a86ddd09b15ee450a"
+    },
+    {
+      "path": "src/balance/experiment-agent.ts",
+      "sha256": "7aa840ad3edff5d897510f8e76361096495b693a96ec9b08a0f1c6cb72c90213"
+    },
+    {
+      "path": "src/balance/experiment-observation.ts",
+      "sha256": "3fee27edd4b7f36bdebc9946fc037ee9aee00db8ba349e3e5b6b6dff46bc4810"
+    },
+    {
+      "path": "src/balance/experiments.ts",
+      "sha256": "b2f2ae863004603533fc1f7d068b278fa0a6e442cbe7c55c50fb338a0b7c4ed4"
+    },
+    {
+      "path": "src/balance/report.ts",
+      "sha256": "b1ba6ef4a8ccc36c019433d146f92c507db089a66438c1948d2140be3e3ce41a"
+    },
+    {
+      "path": "src/balance/runner.ts",
+      "sha256": "3410678033c4ae9614761601ea257b513e3e30764f9200dbe5b33665552ea5a1"
+    },
+    {
+      "path": "src/balance/types.ts",
+      "sha256": "a17d3a27063bd205d08d5e0d7902a303a77cb60654c354b801c443dd8787e3d1"
+    },
+    {
+      "path": "src/balance4/agents.ts",
+      "sha256": "3694264f8a79d9d2a8719a6dd185f682dcd9fffd8fe9a0d0cf6a77bdd7bbeb55"
+    },
+    {
+      "path": "src/balance4/distribution.ts",
+      "sha256": "f380cf13e4c313bef925b7da6d486d08740b97d0253693bcc778843d81ac9f35"
+    },
+    {
+      "path": "src/balance4/resources.ts",
+      "sha256": "afaa23fdfffc6d136273932c674c20e3ba8b43f7b41426afea1df6a41b7556c4"
+    },
+    {
+      "path": "src/balance4/runner.ts",
+      "sha256": "2ca4631aae862d928369f2e0cee59c1af45a240bcc0fbddc3c49bf6df4b78147"
+    },
+    {
+      "path": "src/balance5/agents.ts",
+      "sha256": "ff741537bd30d32d15bddb8743affab48734343c4e027c8b391cea897da16ea9"
+    },
+    {
+      "path": "src/balance5/agents6.ts",
+      "sha256": "11188421182095998377bda654d08a9b722688c88cc933289aa8493b44e69c23"
+    },
+    {
+      "path": "src/content/alpha.ts",
+      "sha256": "d211d2056bd883457c4984c52703f48bb97c7d5debf0905fc736a4c3c9c69487"
+    },
+    {
+      "path": "src/content/alpha2.ts",
+      "sha256": "db778a08d89f6b21b25d22220c216413aea1e9f3f0364aec548350594a4a370c"
+    },
+    {
+      "path": "src/content/alpha3.ts",
+      "sha256": "ff5d475b18763dedd583dbc315bce0b1264fc23a241f5956b558d61dcb2754f6"
+    },
+    {
+      "path": "src/content/alpha4.ts",
+      "sha256": "a5854bc4645c5fa28ab50c38457d589fb93e3d24283df8658a2c23e67b13d7bc"
+    },
+    {
+      "path": "src/content/alpha5-catalog.ts",
+      "sha256": "b0e1b770bd744dabf2f0d7db45233b119fd0d5f7544a8cadebdc4d44bbc4d2aa"
+    },
+    {
+      "path": "src/content/alpha5.ts",
+      "sha256": "1f2eb43d907625bc894931db745fb51e6d1c327e7b2a4e72f8f7e41b24e5061b"
+    },
+    {
+      "path": "src/content/alpha6-catalog.ts",
+      "sha256": "464c75aac05bd5903e42ec8f4b7fa4420b592f846fa33760d2df0c3cceed0c3f"
+    },
+    {
+      "path": "src/content/alpha6.ts",
+      "sha256": "1ba5e0096ab847a56edb80ec9700a971140aa93092f2aa4720c80e8c83ae231c"
+    },
+    {
+      "path": "src/content/catalog-access.ts",
+      "sha256": "60f91e1128995b5f0798a4a54d60eb91b856c16ab345795be6a0f888e420d2c6"
+    },
+    {
+      "path": "src/content/dungeon.ts",
+      "sha256": "ca86d875813eb93e2c55c03621e8adc5badd4b88e4a6bdd51c17d0ece71d9427"
+    },
+    {
+      "path": "src/content/expedition.ts",
+      "sha256": "5dfaaa5d4f0bcd385893eab74694a117025a24107df9325f07126e0a2a51791e"
+    },
+    {
+      "path": "src/content/mine.ts",
+      "sha256": "5f4f76b8568280ce5e874c822a005bce07d6bd2a77fc4ec05da911e51dba310b"
+    },
+    {
+      "path": "src/content/room.ts",
+      "sha256": "9ee94b8fe60d1f389e88cf3b9f6d54d2a1870b90028c9c522117f17542fd17bb"
+    },
+    {
+      "path": "src/core/action-query.ts",
+      "sha256": "79d01f6deaf058a78ed8268107baa92f7a87091506ba80d65a9ce0ec9a34d75c"
+    },
+    {
+      "path": "src/core/action-query4.ts",
+      "sha256": "71df07fe6b1b85f3e759bbe7e0a4c191e2eaf20dc937b14fc92a1cf6603602c1"
+    },
+    {
+      "path": "src/core/action-types.ts",
+      "sha256": "9906d88e55ceb31e5a140ee64ef2b57cda2278acbbb2799474131e1cb84ce519"
+    },
+    {
+      "path": "src/core/alpha-map.ts",
+      "sha256": "fff80ea01ee8a97082815b8bace8ee274876e59c536d377b48d4b039b2c532a6"
+    },
+    {
+      "path": "src/core/alpha-types.ts",
+      "sha256": "fad96af480143f3f2b8dc071a4a74d96f128d0d3df505af1cc8b0f0cb46e749a"
+    },
+    {
+      "path": "src/core/alpha.ts",
+      "sha256": "2252a5b6c81afe8def1dd5ff316c724f277f7ac16d30dc1a9a62865dae75ffec"
+    },
+    {
+      "path": "src/core/alpha2-clock.ts",
+      "sha256": "9b25ce3b9d2a36245ad5b468df901eb745631d8ef29b8f13ba2035f605746090"
+    },
+    {
+      "path": "src/core/alpha2-effects.ts",
+      "sha256": "954c391bff63c04e1bdb2e12daff01db6815cf23a51d991e57d2d555d88e87d7"
+    },
+    {
+      "path": "src/core/alpha2-map.ts",
+      "sha256": "f4eb8310060911c1c6deaae9469c9bbe0471df5c081a456dac16ad0fd7a47a15"
+    },
+    {
+      "path": "src/core/alpha2-shared.ts",
+      "sha256": "69acfe62ed5be991d149be2c3bce8282844ecdb9a1fc55cdcc709edc454809ef"
+    },
+    {
+      "path": "src/core/alpha2-types.ts",
+      "sha256": "5351a63c0e6ab0ec25c72c577d0230bee1d1dfd9b6d45a1445b2f458fb5c312d"
+    },
+    {
+      "path": "src/core/alpha2-view.ts",
+      "sha256": "68b049e8ee7854c5dd50bb3d73d08aca4d3f95daff5759762536e74faf53197e"
+    },
+    {
+      "path": "src/core/alpha2.ts",
+      "sha256": "1c3e9660b2b6600e76bb2692bc3ca7c351f259bbdb1d7880e3a788fb9b965d6c"
+    },
+    {
+      "path": "src/core/alpha3-query.ts",
+      "sha256": "c800ff37d8db5fd6d3f71c68bb0b4e10445f2a4b93e5760cca39f53bf80a0a76"
+    },
+    {
+      "path": "src/core/alpha3-types.ts",
+      "sha256": "531b432e09d3777e306bfd9a0a17715e72c7fdb2ea10ed768e8871d486afcf7f"
+    },
+    {
+      "path": "src/core/alpha3.ts",
+      "sha256": "5d82b21e2278abed4e76a0bb5fafbd1ee80de9ad70b12a0a29a222fc5009ac39"
+    },
+    {
+      "path": "src/core/alpha4-commands.ts",
+      "sha256": "574c007df2a590ddec53c7589cba476dbce8a601835ff2125d5d5366404ffe0a"
+    },
+    {
+      "path": "src/core/alpha4-map.ts",
+      "sha256": "d0d7156834facd88e509b41d0b867eac6f8f82ccf2f23ea7a2b4917a1c80677b"
+    },
+    {
+      "path": "src/core/alpha4-query.ts",
+      "sha256": "7f54798ffaff78e26f481c3bdb01bb425575f18291fa4b327c134b2f16f7a082"
+    },
+    {
+      "path": "src/core/alpha4-shared.ts",
+      "sha256": "3eaba582c3dd235ffad83c14e1f58ab3c8950bedfeec3f478d82bf19f4b6a950"
+    },
+    {
+      "path": "src/core/alpha4-types.ts",
+      "sha256": "307728f40e86d938bffd600a9ee1a7a2cc67073e59bb279d514f07d96d22c95c"
+    },
+    {
+      "path": "src/core/alpha4.ts",
+      "sha256": "1116f2737b1910c1adbde35349f40feaf42747652793ced388276cc9bff73af4"
+    },
+    {
+      "path": "src/core/alpha5-ecology.ts",
+      "sha256": "b0ba786b43a2042ff6239a4c6c920d62b98dafcc84f6630f61e9472884fb7071"
+    },
+    {
+      "path": "src/core/alpha5-map.ts",
+      "sha256": "5c70242bbf618de7ff54a498dbe852a7b3103b24838f4d4272f3d13fa95b4bd7"
+    },
+    {
+      "path": "src/core/alpha5-query.ts",
+      "sha256": "e0e42182beb9c0335a9dbb6e78786314a2a4ae08fe2effb23f119425ec2fd776"
+    },
+    {
+      "path": "src/core/alpha5-types.ts",
+      "sha256": "fd5358de890a61242506a79f24478dd82ee7baa78112f63422f71da37d866d62"
+    },
+    {
+      "path": "src/core/alpha5.ts",
+      "sha256": "8158150fee3374e52948d5e85b9da32d04f50788282f43d36014e7d2a30f7b69"
+    },
+    {
+      "path": "src/core/alpha6-ecology.ts",
+      "sha256": "03e9432efcfc44bb365a332930f14fc538e4ca7ba99051102ccb5f09a3d36cdf"
+    },
+    {
+      "path": "src/core/alpha6-query.ts",
+      "sha256": "72d53e7e8ac43985fdc04be0a443f67c413ac138f15d587b6213f9f7f006ebaf"
+    },
+    {
+      "path": "src/core/alpha6.ts",
+      "sha256": "7e19a1fb4231fd89a8452087d23baeae59a041347418b1097a4fbf31c0f3fb3b"
+    },
+    {
+      "path": "src/core/digest.ts",
+      "sha256": "b01be197c6f4dcf57cf38909042d96b80fd771affb9988ecf8616c7b87c11074"
+    },
+    {
+      "path": "src/core/expedition-map.ts",
+      "sha256": "420c68047a555c3139de4b7e378cb81ce8b0ceb9775d318179a306ad3cfd9c49"
+    },
+    {
+      "path": "src/core/expedition-types.ts",
+      "sha256": "8af42ead8bf8c21cc8b505100029bc1ebfe43902f8d3ac360c4763c46f88b3c5"
+    },
+    {
+      "path": "src/core/expedition.ts",
+      "sha256": "3562c4c9e35b38c69022c3e3ff582c3d055f673dc59bc527f4aa9118172c9595"
+    },
+    {
+      "path": "src/core/item-slot-view.ts",
+      "sha256": "b0ad4478e9fafcf9f49fbfd38611e88a2dc5cecebf3c011b9b3e6b5169f6da4b"
+    },
+    {
+      "path": "src/core/simulation.ts",
+      "sha256": "10f6ae98c9881f7625bb207433c42b90cfd474634121ba84717bcd8c51411527"
+    },
+    {
+      "path": "src/core/types.ts",
+      "sha256": "ed3856412da3d5d497633b974f5b00d474909e734e702e5b64057a7a6c1ad3db"
+    },
+    {
+      "path": "src/session/session.ts",
+      "sha256": "e678e8543562026321160539567ed5eb67a92d60ba713127922c85cdebe4db40"
+    },
+    {
+      "path": "src/session/storage.ts",
+      "sha256": "9d68a32b2d80a7ac190c23dd41cf6ea84b616640b8a65561b494b70cc459fd47"
+    }
+  ],
+  "sourceSha256": "0b0d159bac3e83b86eb29ed821249dd44a2d8f1cb6a0b31c56a4da3505a12f54",
+  "elapsedMs": 106940.21639999999,
+  "rows": [
+    {
+      "config": {
+        "seed": 1,
+        "loadout": "vanguard",
+        "strategy": "novice",
+        "scenario": "alpha6",
+        "maxActions": 1600,
+        "maxTicks": 40000,
+        "stuckLimit": 12
+      },
+      "outcome": "won",
+      "actions": 401,
+      "digest": "00731614",
+      "traceSha256": "4cbedca8b81b42c5f9c6d9b851e0be6874210cd98a23365f4b9719c89a890889"
+    },
+    {
+      "config": {
+        "seed": 1,
+        "loadout": "vanguard",
+        "strategy": "survivor",
+        "scenario": "alpha6",
+        "maxActions": 1600,
+        "maxTicks": 40000,
+        "stuckLimit": 12
+      },
+      "outcome": "won",
+      "actions": 467,
+      "digest": "e1421493",
+      "traceSha256": "4d87fe19d02493ac330fb2f9eed8fb96e219417016782f2c72a7e1cc9f7e1898"
+    },
+    {
+      "config": {
+        "seed": 1,
+        "loadout": "vanguard",
+        "strategy": "fighter",
+        "scenario": "alpha6",
+        "maxActions": 1600,
+        "maxTicks": 40000,
+        "stuckLimit": 12
+      },
+      "outcome": "won",
+      "actions": 431,
+      "digest": "b4551a6e",
+      "traceSha256": "268f8628eeeb1f7b23bf69b7e8f32fd2e2bdbe0e4e79b4daac9554ca79392095"
+    },
+    {
+      "config": {
+        "seed": 1,
+        "loadout": "breaker",
+        "strategy": "novice",
+        "scenario": "alpha6",
+        "maxActions": 1600,
+        "maxTicks": 40000,
+        "stuckLimit": 12
+      },
+      "outcome": "won",
+      "actions": 402,
+      "digest": "2af5efa7",
+      "traceSha256": "23076b6b680b4a71bc09e6ae501878cdfd52e9c704829278f9e643451d6e40d3"
+    },
+    {
+      "config": {
+        "seed": 1,
+        "loadout": "breaker",
+        "strategy": "survivor",
+        "scenario": "alpha6",
+        "maxActions": 1600,
+        "maxTicks": 40000,
+        "stuckLimit": 12
+      },
+      "outcome": "won",
+      "actions": 445,
+      "digest": "06113308",
+      "traceSha256": "1caf22892c1917211662fb3710ab6fe56027d41eb4744f00a33b2f9c43c5fc5e"
+    },
+    {
+      "config": {
+        "seed": 1,
+        "loadout": "breaker",
+        "strategy": "fighter",
+        "scenario": "alpha6",
+        "maxActions": 1600,
+        "maxTicks": 40000,
+        "stuckLimit": 12
+      },
+      "outcome": "won",
+      "actions": 453,
+      "digest": "80198868",
+      "traceSha256": "65fc99286ff92eb957a9ab9beb107a57410f9c8cf6af86eb91f1a51794836dd6"
+    },
+    {
+      "config": {
+        "seed": 1,
+        "loadout": "channeler",
+        "strategy": "novice",
+        "scenario": "alpha6",
+        "maxActions": 1600,
+        "maxTicks": 40000,
+        "stuckLimit": 12
+      },
+      "outcome": "won",
+      "actions": 462,
+      "digest": "6e3aca8c",
+      "traceSha256": "1b5e5f6532a78cbf93e30a92bdc68c35479bdd6febab764254fd23e11ed422db"
+    },
+    {
+      "config": {
+        "seed": 1,
+        "loadout": "channeler",
+        "strategy": "survivor",
+        "scenario": "alpha6",
+        "maxActions": 1600,
+        "maxTicks": 40000,
+        "stuckLimit": 12
+      },
+      "outcome": "won",
+      "actions": 420,
+      "digest": "49c5b623",
+      "traceSha256": "e7042a810cd7519a277636b4b86b0f7289c23b4f76f1331f5a4495d39eab705d"
+    },
+    {
+      "config": {
+        "seed": 1,
+        "loadout": "channeler",
+        "strategy": "fighter",
+        "scenario": "alpha6",
+        "maxActions": 1600,
+        "maxTicks": 40000,
+        "stuckLimit": 12
+      },
+      "outcome": "won",
+      "actions": 406,
+      "digest": "7387754e",
+      "traceSha256": "ba375665d92d528c8181116c5a5c314ad88409ac6bfb3a899062f0eda4ff1438"
+    },
+    {
+      "config": {
+        "seed": 24681,
+        "loadout": "vanguard",
+        "strategy": "novice",
+        "scenario": "alpha6",
+        "maxActions": 1600,
+        "maxTicks": 40000,
+        "stuckLimit": 12
+      },
+      "outcome": "won",
+      "actions": 413,
+      "digest": "4fa49bc1",
+      "traceSha256": "0bde05bd8eb189eb9561582ed8dcb313f2f13b7afff995af378f890e8b668107"
+    },
+    {
+      "config": {
+        "seed": 24681,
+        "loadout": "vanguard",
+        "strategy": "survivor",
+        "scenario": "alpha6",
+        "maxActions": 1600,
+        "maxTicks": 40000,
+        "stuckLimit": 12
+      },
+      "outcome": "won",
+      "actions": 462,
+      "digest": "863a8717",
+      "traceSha256": "a4414a64096212ef2dc3eb12c151bfa59ec363b980d9bd79fc4035d165fdd1cf"
+    },
+    {
+      "config": {
+        "seed": 24681,
+        "loadout": "vanguard",
+        "strategy": "fighter",
+        "scenario": "alpha6",
+        "maxActions": 1600,
+        "maxTicks": 40000,
+        "stuckLimit": 12
+      },
+      "outcome": "won",
+      "actions": 431,
+      "digest": "c249beda",
+      "traceSha256": "6b57564cf203b3be2bb25ff90ac65f5d1c950da85a5c8bf5a737f773f4b9e682"
+    },
+    {
+      "config": {
+        "seed": 24681,
+        "loadout": "breaker",
+        "strategy": "novice",
+        "scenario": "alpha6",
+        "maxActions": 1600,
+        "maxTicks": 40000,
+        "stuckLimit": 12
+      },
+      "outcome": "won",
+      "actions": 404,
+      "digest": "177d03bd",
+      "traceSha256": "b46585046eb3ff2cf5616be6d5c90ce4315da4be0be2c15aff7c5e75bf05a6c6"
+    },
+    {
+      "config": {
+        "seed": 24681,
+        "loadout": "breaker",
+        "strategy": "survivor",
+        "scenario": "alpha6",
+        "maxActions": 1600,
+        "maxTicks": 40000,
+        "stuckLimit": 12
+      },
+      "outcome": "won",
+      "actions": 454,
+      "digest": "5a5e71d7",
+      "traceSha256": "35cda20bcab0ff24d211fa03d00608a3c6005e728fbca5790ad32bb3b6751a8a"
+    },
+    {
+      "config": {
+        "seed": 24681,
+        "loadout": "breaker",
+        "strategy": "fighter",
+        "scenario": "alpha6",
+        "maxActions": 1600,
+        "maxTicks": 40000,
+        "stuckLimit": 12
+      },
+      "outcome": "won",
+      "actions": 437,
+      "digest": "8e8159eb",
+      "traceSha256": "c19e54ed30ac10c303a2ee2893cddb2f77aadd4ca78d9df9de55a5899d3b609d"
+    },
+    {
+      "config": {
+        "seed": 24681,
+        "loadout": "channeler",
+        "strategy": "novice",
+        "scenario": "alpha6",
+        "maxActions": 1600,
+        "maxTicks": 40000,
+        "stuckLimit": 12
+      },
+      "outcome": "won",
+      "actions": 465,
+      "digest": "727078cf",
+      "traceSha256": "83dc4f5237c8ccabb26c555d2497a9564176b178ae3ff46693d75b2e7fd404c1"
+    },
+    {
+      "config": {
+        "seed": 24681,
+        "loadout": "channeler",
+        "strategy": "survivor",
+        "scenario": "alpha6",
+        "maxActions": 1600,
+        "maxTicks": 40000,
+        "stuckLimit": 12
+      },
+      "outcome": "won",
+      "actions": 419,
+      "digest": "4bb4b103",
+      "traceSha256": "d281255f1d2ee6400a14f1f9ce2dfcc948d40aa84d82137f858dbb3df9da217b"
+    },
+    {
+      "config": {
+        "seed": 24681,
+        "loadout": "channeler",
+        "strategy": "fighter",
+        "scenario": "alpha6",
+        "maxActions": 1600,
+        "maxTicks": 40000,
+        "stuckLimit": 12
+      },
+      "outcome": "won",
+      "actions": 410,
+      "digest": "aa72d06e",
+      "traceSha256": "58dee907e6f3c2a027b14d8e35d1d0fc4b7ae235a9ab716ade8ee7508ce62c41"
+    }
+  ],
+  "scope": "2 seeds x 3 loadouts x 3 policies; double run and per-attempt replay; no 9000 expansion"
+}

@@ -1,0 +1,3155 @@
+{
+  "metadata": {
+    "preset": "smoke",
+    "sourceSha256": "16f77a010e4465cbececebdb20b157751036847e83efc103e19101bcc0646b38",
+    "node": "v24.14.0",
+    "platform": "win32 10.0.26300 x64",
+    "cpu": "12th Gen Intel(R) Core(TM) i5-12600KF",
+    "concurrency": 2,
+    "games": 90,
+    "durationMs": 48679.5314,
+    "perGameMs": {
+      "median": 1032.8700000000026,
+      "p95": 1322.858555000003,
+      "peak": 1683.4141
+    },
+    "workerHeapBytes": {
+      "median": 59110884,
+      "p95": 100363344.8,
+      "peak": 107463720
+    },
+    "notes": "Node headless throughput; heap sampled after each game, not peak process RSS/GPU memory; includes deterministic trace/digest costs."
+  },
+  "schema": 1,
+  "agentVersion": "m16-public-1",
+  "identity": {
+    "rules": "alpha2-1",
+    "commands": 6,
+    "content": "144ae545"
+  },
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "total": {
+    "games": 90,
+    "wins": 89,
+    "winRate": 0.9888888888888889,
+    "winCI95": [
+      0.9397159168824657,
+      0.9980359158990818
+    ],
+    "outcomes": {
+      "won": 89,
+      "dead": 1
+    },
+    "deathCauses": {
+      "Emberling": 1
+    },
+    "actions": {
+      "median": 416,
+      "p95": 469.55,
+      "peak": 486
+    },
+    "ticks": {
+      "median": 4377,
+      "p95": 4949.1,
+      "peak": 5120
+    },
+    "minHp": {
+      "median": 27,
+      "p95": 51,
+      "peak": 51
+    },
+    "minFood": {
+      "median": 71,
+      "p95": 125,
+      "peak": 125
+    },
+    "healing": {
+      "median": 118,
+      "p95": 170.75,
+      "peak": 198
+    },
+    "foodUsed": {
+      "median": 1,
+      "p95": 2,
+      "peak": 2
+    },
+    "healingPerAction": {
+      "median": 22.6,
+      "p95": 24.692857142857143,
+      "peak": 30
+    },
+    "foodPressureActions": {
+      "median": 0,
+      "p95": 0,
+      "peak": 0
+    },
+    "itemUses": {
+      "median": 4,
+      "p95": 6,
+      "peak": 7
+    },
+    "unknownUses": 0,
+    "unknownHarmfulOutcomes": 0,
+    "goldSpent": {
+      "median": 0,
+      "p95": 0,
+      "peak": 0
+    },
+    "goldEarned": {
+      "median": 140,
+      "p95": 141,
+      "peak": 142
+    },
+    "conditionsAcquired": {
+      "median": 16,
+      "p95": 18,
+      "peak": 19
+    },
+    "conditionsCleared": {
+      "median": 16,
+      "p95": 18,
+      "peak": 19
+    },
+    "kills": {
+      "median": 16,
+      "p95": 17,
+      "peak": 18
+    },
+    "collected": {
+      "median": 9,
+      "p95": 11,
+      "peak": 12
+    },
+    "knownItems": {
+      "median": 13,
+      "p95": 14,
+      "peak": 15
+    },
+    "damageSources": {
+      "crawler": 216,
+      "environment-or-periodic": 11682,
+      "venomfang": 71,
+      "raider": 84,
+      "shade": 277,
+      "warden": 966,
+      "hexer": 121,
+      "sentinel": 192,
+      "scavenger": 68,
+      "rimebeast": 67,
+      "emberling": 350,
+      "brood": 1,
+      "acidmaw": 56
+    },
+    "equipmentSelections": {
+      "cap": 90,
+      "brigandine": 31,
+      "boots": 90,
+      "sword": 33,
+      "shield": 60,
+      "helm": 10,
+      "plate": 34,
+      "maul": 30,
+      "tower": 32,
+      "fireblade": 3,
+      "leather": 30,
+      "staff": 30,
+      "silverblade": 1,
+      "knife": 2
+    },
+    "depths": [
+      {
+        "depth": 0,
+        "entered": 90,
+        "deaths": 0,
+        "deathRiskAmongEntered": 0,
+        "deathCI95": [
+          0,
+          0.04093562556432678
+        ],
+        "eventualWins": 89
+      },
+      {
+        "depth": 1,
+        "entered": 90,
+        "deaths": 0,
+        "deathRiskAmongEntered": 0,
+        "deathCI95": [
+          0,
+          0.04093562556432678
+        ],
+        "eventualWins": 89
+      },
+      {
+        "depth": 2,
+        "entered": 90,
+        "deaths": 0,
+        "deathRiskAmongEntered": 0,
+        "deathCI95": [
+          0,
+          0.04093562556432678
+        ],
+        "eventualWins": 89
+      },
+      {
+        "depth": 3,
+        "entered": 90,
+        "deaths": 0,
+        "deathRiskAmongEntered": 0,
+        "deathCI95": [
+          0,
+          0.04093562556432678
+        ],
+        "eventualWins": 89
+      },
+      {
+        "depth": 4,
+        "entered": 90,
+        "deaths": 1,
+        "deathRiskAmongEntered": 0.011111111111111112,
+        "deathCI95": [
+          0.0019640841009183445,
+          0.06028408311753451
+        ],
+        "eventualWins": 89
+      },
+      {
+        "depth": 5,
+        "entered": 89,
+        "deaths": 0,
+        "deathRiskAmongEntered": 0,
+        "deathCI95": [
+          0,
+          0.04137654523625252
+        ],
+        "eventualWins": 89
+      }
+    ]
+  },
+  "groups": {
+    "loadout:vanguard": {
+      "games": 30,
+      "wins": 30,
+      "winRate": 1,
+      "winCI95": [
+        0.8864866068260312,
+        1
+      ],
+      "outcomes": {
+        "won": 30
+      },
+      "deathCauses": {},
+      "actions": {
+        "median": 427.5,
+        "p95": 437.55,
+        "peak": 444
+      },
+      "ticks": {
+        "median": 4308,
+        "p95": 4422.4,
+        "peak": 4464
+      },
+      "minHp": {
+        "median": 27,
+        "p95": 47.55,
+        "peak": 49
+      },
+      "minFood": {
+        "median": 71,
+        "p95": 125,
+        "peak": 125
+      },
+      "healing": {
+        "median": 118,
+        "p95": 143.55,
+        "peak": 146
+      },
+      "foodUsed": {
+        "median": 1,
+        "p95": 2,
+        "peak": 2
+      },
+      "healingPerAction": {
+        "median": 22.8,
+        "p95": 24.144999999999996,
+        "peak": 24.6
+      },
+      "foodPressureActions": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "itemUses": {
+        "median": 4,
+        "p95": 6,
+        "peak": 6
+      },
+      "unknownUses": 0,
+      "unknownHarmfulOutcomes": 0,
+      "goldSpent": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "goldEarned": {
+        "median": 140,
+        "p95": 141,
+        "peak": 142
+      },
+      "conditionsAcquired": {
+        "median": 16,
+        "p95": 18.099999999999994,
+        "peak": 19
+      },
+      "conditionsCleared": {
+        "median": 16,
+        "p95": 18.099999999999994,
+        "peak": 19
+      },
+      "kills": {
+        "median": 16,
+        "p95": 17,
+        "peak": 18
+      },
+      "collected": {
+        "median": 9,
+        "p95": 10.549999999999997,
+        "peak": 11
+      },
+      "knownItems": {
+        "median": 10,
+        "p95": 12,
+        "peak": 12
+      },
+      "damageSources": {
+        "crawler": 83,
+        "environment-or-periodic": 3930,
+        "venomfang": 22,
+        "raider": 31,
+        "shade": 85,
+        "warden": 314,
+        "hexer": 33,
+        "sentinel": 65,
+        "scavenger": 8,
+        "rimebeast": 24,
+        "emberling": 63,
+        "brood": 1,
+        "acidmaw": 21
+      },
+      "equipmentSelections": {
+        "cap": 30,
+        "brigandine": 30,
+        "boots": 30,
+        "sword": 30,
+        "shield": 30,
+        "helm": 3,
+        "plate": 2,
+        "tower": 1
+      },
+      "depths": [
+        {
+          "depth": 0,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 1,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 2,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 3,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 4,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 5,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        }
+      ]
+    },
+    "loadout:breaker": {
+      "games": 30,
+      "wins": 29,
+      "winRate": 0.9666666666666667,
+      "winCI95": [
+        0.8332960900859082,
+        0.9940914096183874
+      ],
+      "outcomes": {
+        "won": 29,
+        "dead": 1
+      },
+      "deathCauses": {
+        "Emberling": 1
+      },
+      "actions": {
+        "median": 409.5,
+        "p95": 430.2,
+        "peak": 441
+      },
+      "ticks": {
+        "median": 4528,
+        "p95": 4651.1,
+        "peak": 4684
+      },
+      "minHp": {
+        "median": 26.5,
+        "p95": 46,
+        "peak": 49
+      },
+      "minFood": {
+        "median": 71,
+        "p95": 125,
+        "peak": 125
+      },
+      "healing": {
+        "median": 123,
+        "p95": 171.04999999999995,
+        "peak": 183
+      },
+      "foodUsed": {
+        "median": 1,
+        "p95": 2,
+        "peak": 2
+      },
+      "healingPerAction": {
+        "median": 23.125,
+        "p95": 25.33928571428571,
+        "peak": 30
+      },
+      "foodPressureActions": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "itemUses": {
+        "median": 4.5,
+        "p95": 7,
+        "peak": 7
+      },
+      "unknownUses": 0,
+      "unknownHarmfulOutcomes": 0,
+      "goldSpent": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "goldEarned": {
+        "median": 140,
+        "p95": 141.55,
+        "peak": 142
+      },
+      "conditionsAcquired": {
+        "median": 17,
+        "p95": 18,
+        "peak": 19
+      },
+      "conditionsCleared": {
+        "median": 17,
+        "p95": 18,
+        "peak": 19
+      },
+      "kills": {
+        "median": 16,
+        "p95": 17.549999999999997,
+        "peak": 18
+      },
+      "collected": {
+        "median": 9,
+        "p95": 11.549999999999997,
+        "peak": 12
+      },
+      "knownItems": {
+        "median": 14,
+        "p95": 15,
+        "peak": 15
+      },
+      "damageSources": {
+        "crawler": 79,
+        "scavenger": 39,
+        "environment-or-periodic": 4232,
+        "venomfang": 31,
+        "raider": 34,
+        "sentinel": 13,
+        "shade": 129,
+        "warden": 118,
+        "rimebeast": 25,
+        "emberling": 217,
+        "hexer": 44,
+        "acidmaw": 14
+      },
+      "equipmentSelections": {
+        "cap": 30,
+        "plate": 30,
+        "boots": 30,
+        "maul": 30,
+        "tower": 30,
+        "helm": 4,
+        "fireblade": 3,
+        "silverblade": 1,
+        "sword": 3,
+        "knife": 2
+      },
+      "depths": [
+        {
+          "depth": 0,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 29
+        },
+        {
+          "depth": 1,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 29
+        },
+        {
+          "depth": 2,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 29
+        },
+        {
+          "depth": 3,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 29
+        },
+        {
+          "depth": 4,
+          "entered": 30,
+          "deaths": 1,
+          "deathRiskAmongEntered": 0.03333333333333333,
+          "deathCI95": [
+            0.005908590381612455,
+            0.16670390991409173
+          ],
+          "eventualWins": 29
+        },
+        {
+          "depth": 5,
+          "entered": 29,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11696979849974075
+          ],
+          "eventualWins": 29
+        }
+      ]
+    },
+    "loadout:channeler": {
+      "games": 30,
+      "wins": 30,
+      "winRate": 1,
+      "winCI95": [
+        0.8864866068260312,
+        1
+      ],
+      "outcomes": {
+        "won": 30
+      },
+      "deathCauses": {},
+      "actions": {
+        "median": 402,
+        "p95": 474.1,
+        "peak": 486
+      },
+      "ticks": {
+        "median": 4272,
+        "p95": 5012.4,
+        "peak": 5120
+      },
+      "minHp": {
+        "median": 26,
+        "p95": 51,
+        "peak": 51
+      },
+      "minFood": {
+        "median": 71,
+        "p95": 125,
+        "peak": 125
+      },
+      "healing": {
+        "median": 102,
+        "p95": 182.89999999999995,
+        "peak": 198
+      },
+      "foodUsed": {
+        "median": 1,
+        "p95": 2,
+        "peak": 2
+      },
+      "healingPerAction": {
+        "median": 22,
+        "p95": 24.692857142857143,
+        "peak": 24.75
+      },
+      "foodPressureActions": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "itemUses": {
+        "median": 4,
+        "p95": 5.549999999999997,
+        "peak": 6
+      },
+      "unknownUses": 0,
+      "unknownHarmfulOutcomes": 0,
+      "goldSpent": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "goldEarned": {
+        "median": 140,
+        "p95": 141,
+        "peak": 141
+      },
+      "conditionsAcquired": {
+        "median": 11,
+        "p95": 13,
+        "peak": 16
+      },
+      "conditionsCleared": {
+        "median": 11,
+        "p95": 13,
+        "peak": 16
+      },
+      "kills": {
+        "median": 16,
+        "p95": 17,
+        "peak": 17
+      },
+      "collected": {
+        "median": 8.5,
+        "p95": 10,
+        "peak": 11
+      },
+      "knownItems": {
+        "median": 13,
+        "p95": 14,
+        "peak": 15
+      },
+      "damageSources": {
+        "crawler": 54,
+        "scavenger": 21,
+        "environment-or-periodic": 3520,
+        "venomfang": 18,
+        "raider": 19,
+        "sentinel": 114,
+        "shade": 63,
+        "warden": 534,
+        "rimebeast": 18,
+        "emberling": 70,
+        "hexer": 44,
+        "acidmaw": 21
+      },
+      "equipmentSelections": {
+        "cap": 30,
+        "leather": 30,
+        "boots": 30,
+        "staff": 30,
+        "shield": 30,
+        "helm": 3,
+        "plate": 2,
+        "tower": 1,
+        "brigandine": 1
+      },
+      "depths": [
+        {
+          "depth": 0,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 1,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 2,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 3,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 4,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 5,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        }
+      ]
+    },
+    "strategy:novice": {
+      "games": 30,
+      "wins": 30,
+      "winRate": 1,
+      "winCI95": [
+        0.8864866068260312,
+        1
+      ],
+      "outcomes": {
+        "won": 30
+      },
+      "deathCauses": {},
+      "actions": {
+        "median": 419.5,
+        "p95": 474.1,
+        "peak": 486
+      },
+      "ticks": {
+        "median": 4474,
+        "p95": 5012.4,
+        "peak": 5120
+      },
+      "minHp": {
+        "median": 15,
+        "p95": 18.549999999999997,
+        "peak": 19
+      },
+      "minFood": {
+        "median": 71,
+        "p95": 71,
+        "peak": 71
+      },
+      "healing": {
+        "median": 118,
+        "p95": 182.89999999999995,
+        "peak": 198
+      },
+      "foodUsed": {
+        "median": 1,
+        "p95": 1,
+        "peak": 1
+      },
+      "healingPerAction": {
+        "median": 23.6,
+        "p95": 24.692857142857143,
+        "peak": 24.75
+      },
+      "foodPressureActions": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "itemUses": {
+        "median": 4,
+        "p95": 5,
+        "peak": 6
+      },
+      "unknownUses": 0,
+      "unknownHarmfulOutcomes": 0,
+      "goldSpent": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "goldEarned": {
+        "median": 140,
+        "p95": 141,
+        "peak": 142
+      },
+      "conditionsAcquired": {
+        "median": 16,
+        "p95": 18,
+        "peak": 19
+      },
+      "conditionsCleared": {
+        "median": 16,
+        "p95": 18,
+        "peak": 19
+      },
+      "kills": {
+        "median": 16,
+        "p95": 17,
+        "peak": 18
+      },
+      "collected": {
+        "median": 8,
+        "p95": 10,
+        "peak": 10
+      },
+      "knownItems": {
+        "median": 13,
+        "p95": 14,
+        "peak": 14
+      },
+      "damageSources": {
+        "crawler": 98,
+        "environment-or-periodic": 3996,
+        "venomfang": 37,
+        "raider": 38,
+        "shade": 139,
+        "warden": 598,
+        "scavenger": 35,
+        "sentinel": 121,
+        "rimebeast": 35,
+        "emberling": 126,
+        "hexer": 44,
+        "acidmaw": 14
+      },
+      "equipmentSelections": {
+        "cap": 30,
+        "brigandine": 10,
+        "boots": 30,
+        "sword": 10,
+        "shield": 20,
+        "plate": 10,
+        "maul": 10,
+        "tower": 10,
+        "leather": 10,
+        "staff": 10
+      },
+      "depths": [
+        {
+          "depth": 0,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 1,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 2,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 3,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 4,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 5,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        }
+      ]
+    },
+    "strategy:survivor": {
+      "games": 30,
+      "wins": 30,
+      "winRate": 1,
+      "winCI95": [
+        0.8864866068260312,
+        1
+      ],
+      "outcomes": {
+        "won": 30
+      },
+      "deathCauses": {},
+      "actions": {
+        "median": 414,
+        "p95": 437.55,
+        "peak": 444
+      },
+      "ticks": {
+        "median": 4393,
+        "p95": 4645.7,
+        "peak": 4684
+      },
+      "minHp": {
+        "median": 46,
+        "p95": 51,
+        "peak": 51
+      },
+      "minFood": {
+        "median": 125,
+        "p95": 125,
+        "peak": 125
+      },
+      "healing": {
+        "median": 137,
+        "p95": 171.04999999999995,
+        "peak": 183
+      },
+      "foodUsed": {
+        "median": 2,
+        "p95": 2,
+        "peak": 2
+      },
+      "healingPerAction": {
+        "median": 19.714285714285715,
+        "p95": 23.769999999999996,
+        "peak": 25.142857142857142
+      },
+      "foodPressureActions": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "itemUses": {
+        "median": 5,
+        "p95": 7,
+        "peak": 7
+      },
+      "unknownUses": 0,
+      "unknownHarmfulOutcomes": 0,
+      "goldSpent": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "goldEarned": {
+        "median": 140,
+        "p95": 141.55,
+        "peak": 142
+      },
+      "conditionsAcquired": {
+        "median": 12,
+        "p95": 18,
+        "peak": 19
+      },
+      "conditionsCleared": {
+        "median": 12,
+        "p95": 18,
+        "peak": 19
+      },
+      "kills": {
+        "median": 16,
+        "p95": 17.549999999999997,
+        "peak": 18
+      },
+      "collected": {
+        "median": 10,
+        "p95": 11.549999999999997,
+        "peak": 12
+      },
+      "knownItems": {
+        "median": 13,
+        "p95": 14.549999999999997,
+        "peak": 15
+      },
+      "damageSources": {
+        "crawler": 60,
+        "environment-or-periodic": 3766,
+        "venomfang": 17,
+        "raider": 27,
+        "hexer": 77,
+        "sentinel": 45,
+        "shade": 74,
+        "warden": 206,
+        "scavenger": 17,
+        "rimebeast": 17,
+        "emberling": 49,
+        "brood": 1,
+        "acidmaw": 35
+      },
+      "equipmentSelections": {
+        "cap": 30,
+        "brigandine": 11,
+        "boots": 30,
+        "sword": 10,
+        "shield": 20,
+        "helm": 10,
+        "plate": 14,
+        "maul": 10,
+        "tower": 12,
+        "leather": 10,
+        "staff": 10
+      },
+      "depths": [
+        {
+          "depth": 0,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 1,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 2,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 3,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 4,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        },
+        {
+          "depth": 5,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 30
+        }
+      ]
+    },
+    "strategy:fighter": {
+      "games": 30,
+      "wins": 29,
+      "winRate": 0.9666666666666667,
+      "winCI95": [
+        0.8332960900859082,
+        0.9940914096183874
+      ],
+      "outcomes": {
+        "won": 29,
+        "dead": 1
+      },
+      "deathCauses": {
+        "Emberling": 1
+      },
+      "actions": {
+        "median": 417.5,
+        "p95": 435.65,
+        "peak": 441
+      },
+      "ticks": {
+        "median": 4278,
+        "p95": 4555.2,
+        "peak": 4650
+      },
+      "minHp": {
+        "median": 27,
+        "p95": 30,
+        "peak": 30
+      },
+      "minFood": {
+        "median": 71,
+        "p95": 71,
+        "peak": 81
+      },
+      "healing": {
+        "median": 118,
+        "p95": 140.75,
+        "peak": 153
+      },
+      "foodUsed": {
+        "median": 1,
+        "p95": 1,
+        "peak": 1
+      },
+      "healingPerAction": {
+        "median": 23.6,
+        "p95": 25.095,
+        "peak": 30
+      },
+      "foodPressureActions": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "itemUses": {
+        "median": 4,
+        "p95": 5,
+        "peak": 6
+      },
+      "unknownUses": 0,
+      "unknownHarmfulOutcomes": 0,
+      "goldSpent": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "goldEarned": {
+        "median": 140,
+        "p95": 141,
+        "peak": 141
+      },
+      "conditionsAcquired": {
+        "median": 16,
+        "p95": 18,
+        "peak": 19
+      },
+      "conditionsCleared": {
+        "median": 16,
+        "p95": 18,
+        "peak": 19
+      },
+      "kills": {
+        "median": 16,
+        "p95": 17,
+        "peak": 17
+      },
+      "collected": {
+        "median": 9,
+        "p95": 10,
+        "peak": 11
+      },
+      "knownItems": {
+        "median": 13,
+        "p95": 14.549999999999997,
+        "peak": 15
+      },
+      "damageSources": {
+        "crawler": 58,
+        "environment-or-periodic": 3920,
+        "venomfang": 17,
+        "raider": 19,
+        "shade": 64,
+        "warden": 162,
+        "scavenger": 16,
+        "sentinel": 26,
+        "emberling": 175,
+        "rimebeast": 15,
+        "acidmaw": 7
+      },
+      "equipmentSelections": {
+        "cap": 30,
+        "brigandine": 10,
+        "boots": 30,
+        "sword": 13,
+        "shield": 20,
+        "plate": 10,
+        "maul": 10,
+        "tower": 10,
+        "fireblade": 3,
+        "leather": 10,
+        "staff": 10,
+        "silverblade": 1,
+        "knife": 2
+      },
+      "depths": [
+        {
+          "depth": 0,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 29
+        },
+        {
+          "depth": 1,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 29
+        },
+        {
+          "depth": 2,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 29
+        },
+        {
+          "depth": 3,
+          "entered": 30,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11351339317396876
+          ],
+          "eventualWins": 29
+        },
+        {
+          "depth": 4,
+          "entered": 30,
+          "deaths": 1,
+          "deathRiskAmongEntered": 0.03333333333333333,
+          "deathCI95": [
+            0.005908590381612455,
+            0.16670390991409173
+          ],
+          "eventualWins": 29
+        },
+        {
+          "depth": 5,
+          "entered": 29,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.11696979849974075
+          ],
+          "eventualWins": 29
+        }
+      ]
+    },
+    "vanguard/novice": {
+      "games": 10,
+      "wins": 10,
+      "winRate": 1,
+      "winCI95": [
+        0.7224672001371107,
+        1
+      ],
+      "outcomes": {
+        "won": 10
+      },
+      "deathCauses": {},
+      "actions": {
+        "median": 419.5,
+        "p95": 422.65,
+        "peak": 424
+      },
+      "ticks": {
+        "median": 4239,
+        "p95": 4261.1,
+        "peak": 4262
+      },
+      "minHp": {
+        "median": 16.5,
+        "p95": 18.549999999999997,
+        "peak": 19
+      },
+      "minFood": {
+        "median": 71,
+        "p95": 71,
+        "peak": 71
+      },
+      "healing": {
+        "median": 113,
+        "p95": 128.99999999999997,
+        "peak": 138
+      },
+      "foodUsed": {
+        "median": 1,
+        "p95": 1,
+        "peak": 1
+      },
+      "healingPerAction": {
+        "median": 22.6,
+        "p95": 23.6,
+        "peak": 23.6
+      },
+      "foodPressureActions": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "itemUses": {
+        "median": 3,
+        "p95": 4,
+        "peak": 4
+      },
+      "unknownUses": 0,
+      "unknownHarmfulOutcomes": 0,
+      "goldSpent": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "goldEarned": {
+        "median": 140,
+        "p95": 141,
+        "peak": 141
+      },
+      "conditionsAcquired": {
+        "median": 16.5,
+        "p95": 18.099999999999998,
+        "peak": 19
+      },
+      "conditionsCleared": {
+        "median": 16.5,
+        "p95": 18.099999999999998,
+        "peak": 19
+      },
+      "kills": {
+        "median": 16,
+        "p95": 17,
+        "peak": 17
+      },
+      "collected": {
+        "median": 8,
+        "p95": 9,
+        "peak": 9
+      },
+      "knownItems": {
+        "median": 10,
+        "p95": 11,
+        "peak": 11
+      },
+      "damageSources": {
+        "crawler": 30,
+        "environment-or-periodic": 1402,
+        "venomfang": 10,
+        "raider": 11,
+        "shade": 30,
+        "warden": 88,
+        "scavenger": 3,
+        "rimebeast": 8,
+        "emberling": 28,
+        "sentinel": 8
+      },
+      "equipmentSelections": {
+        "cap": 10,
+        "brigandine": 10,
+        "boots": 10,
+        "sword": 10,
+        "shield": 10
+      },
+      "depths": [
+        {
+          "depth": 0,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 1,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 2,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 3,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 4,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 5,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        }
+      ]
+    },
+    "vanguard/survivor": {
+      "games": 10,
+      "wins": 10,
+      "winRate": 1,
+      "winCI95": [
+        0.7224672001371107,
+        1
+      ],
+      "outcomes": {
+        "won": 10
+      },
+      "deathCauses": {},
+      "actions": {
+        "median": 434,
+        "p95": 441.3,
+        "peak": 444
+      },
+      "ticks": {
+        "median": 4393,
+        "p95": 4446.9,
+        "peak": 4464
+      },
+      "minHp": {
+        "median": 45,
+        "p95": 48.55,
+        "peak": 49
+      },
+      "minFood": {
+        "median": 125,
+        "p95": 125,
+        "peak": 125
+      },
+      "healing": {
+        "median": 137,
+        "p95": 145.1,
+        "peak": 146
+      },
+      "foodUsed": {
+        "median": 2,
+        "p95": 2,
+        "peak": 2
+      },
+      "healingPerAction": {
+        "median": 20.07142857142857,
+        "p95": 22.80571428571428,
+        "peak": 24.4
+      },
+      "foodPressureActions": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "itemUses": {
+        "median": 5,
+        "p95": 6,
+        "peak": 6
+      },
+      "unknownUses": 0,
+      "unknownHarmfulOutcomes": 0,
+      "goldSpent": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "goldEarned": {
+        "median": 140,
+        "p95": 141.55,
+        "peak": 142
+      },
+      "conditionsAcquired": {
+        "median": 11,
+        "p95": 13.099999999999998,
+        "peak": 14
+      },
+      "conditionsCleared": {
+        "median": 11,
+        "p95": 13.099999999999998,
+        "peak": 14
+      },
+      "kills": {
+        "median": 16,
+        "p95": 17.549999999999997,
+        "peak": 18
+      },
+      "collected": {
+        "median": 10,
+        "p95": 11,
+        "peak": 11
+      },
+      "knownItems": {
+        "median": 11,
+        "p95": 12,
+        "peak": 12
+      },
+      "damageSources": {
+        "crawler": 27,
+        "environment-or-periodic": 1134,
+        "venomfang": 5,
+        "raider": 13,
+        "hexer": 33,
+        "sentinel": 33,
+        "shade": 25,
+        "warden": 130,
+        "scavenger": 4,
+        "rimebeast": 9,
+        "emberling": 7,
+        "brood": 1,
+        "acidmaw": 21
+      },
+      "equipmentSelections": {
+        "cap": 10,
+        "brigandine": 10,
+        "boots": 10,
+        "sword": 10,
+        "shield": 10,
+        "helm": 3,
+        "plate": 2,
+        "tower": 1
+      },
+      "depths": [
+        {
+          "depth": 0,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 1,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 2,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 3,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 4,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 5,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        }
+      ]
+    },
+    "vanguard/fighter": {
+      "games": 10,
+      "wins": 10,
+      "winRate": 1,
+      "winCI95": [
+        0.7224672001371107,
+        1
+      ],
+      "outcomes": {
+        "won": 10
+      },
+      "deathCauses": {},
+      "actions": {
+        "median": 427.5,
+        "p95": 435.65,
+        "peak": 437
+      },
+      "ticks": {
+        "median": 4308,
+        "p95": 4396.5,
+        "peak": 4410
+      },
+      "minHp": {
+        "median": 27,
+        "p95": 30,
+        "peak": 30
+      },
+      "minFood": {
+        "median": 71,
+        "p95": 71,
+        "peak": 71
+      },
+      "healing": {
+        "median": 118,
+        "p95": 140.75,
+        "peak": 143
+      },
+      "foodUsed": {
+        "median": 1,
+        "p95": 1,
+        "peak": 1
+      },
+      "healingPerAction": {
+        "median": 23.6,
+        "p95": 24.255,
+        "peak": 24.6
+      },
+      "foodPressureActions": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "itemUses": {
+        "median": 4,
+        "p95": 4.549999999999999,
+        "peak": 5
+      },
+      "unknownUses": 0,
+      "unknownHarmfulOutcomes": 0,
+      "goldSpent": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "goldEarned": {
+        "median": 140,
+        "p95": 140.55,
+        "peak": 141
+      },
+      "conditionsAcquired": {
+        "median": 17,
+        "p95": 18.099999999999998,
+        "peak": 19
+      },
+      "conditionsCleared": {
+        "median": 17,
+        "p95": 18.099999999999998,
+        "peak": 19
+      },
+      "kills": {
+        "median": 16,
+        "p95": 16.549999999999997,
+        "peak": 17
+      },
+      "collected": {
+        "median": 9,
+        "p95": 9.549999999999999,
+        "peak": 10
+      },
+      "knownItems": {
+        "median": 10,
+        "p95": 11,
+        "peak": 11
+      },
+      "damageSources": {
+        "crawler": 26,
+        "environment-or-periodic": 1394,
+        "venomfang": 7,
+        "raider": 7,
+        "shade": 30,
+        "warden": 96,
+        "sentinel": 24,
+        "emberling": 28,
+        "rimebeast": 7,
+        "scavenger": 1
+      },
+      "equipmentSelections": {
+        "cap": 10,
+        "brigandine": 10,
+        "boots": 10,
+        "sword": 10,
+        "shield": 10
+      },
+      "depths": [
+        {
+          "depth": 0,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 1,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 2,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 3,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 4,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 5,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        }
+      ]
+    },
+    "breaker/novice": {
+      "games": 10,
+      "wins": 10,
+      "winRate": 1,
+      "winCI95": [
+        0.7224672001371107,
+        1
+      ],
+      "outcomes": {
+        "won": 10
+      },
+      "deathCauses": {},
+      "actions": {
+        "median": 402.5,
+        "p95": 405.55,
+        "peak": 406
+      },
+      "ticks": {
+        "median": 4474,
+        "p95": 4562.7,
+        "peak": 4578
+      },
+      "minHp": {
+        "median": 16,
+        "p95": 18.549999999999997,
+        "peak": 19
+      },
+      "minFood": {
+        "median": 71,
+        "p95": 71,
+        "peak": 71
+      },
+      "healing": {
+        "median": 113,
+        "p95": 128.99999999999997,
+        "peak": 138
+      },
+      "foodUsed": {
+        "median": 1,
+        "p95": 1,
+        "peak": 1
+      },
+      "healingPerAction": {
+        "median": 23.125,
+        "p95": 23.6,
+        "peak": 23.6
+      },
+      "foodPressureActions": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "itemUses": {
+        "median": 3.5,
+        "p95": 4,
+        "peak": 4
+      },
+      "unknownUses": 0,
+      "unknownHarmfulOutcomes": 0,
+      "goldSpent": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "goldEarned": {
+        "median": 140,
+        "p95": 141.55,
+        "peak": 142
+      },
+      "conditionsAcquired": {
+        "median": 17,
+        "p95": 18,
+        "peak": 18
+      },
+      "conditionsCleared": {
+        "median": 17,
+        "p95": 18,
+        "peak": 18
+      },
+      "kills": {
+        "median": 16,
+        "p95": 17.549999999999997,
+        "peak": 18
+      },
+      "collected": {
+        "median": 8,
+        "p95": 9,
+        "peak": 9
+      },
+      "knownItems": {
+        "median": 13.5,
+        "p95": 14,
+        "peak": 14
+      },
+      "damageSources": {
+        "crawler": 22,
+        "scavenger": 13,
+        "environment-or-periodic": 1416,
+        "venomfang": 12,
+        "raider": 9,
+        "sentinel": 5,
+        "shade": 46,
+        "warden": 40,
+        "rimebeast": 9,
+        "emberling": 42
+      },
+      "equipmentSelections": {
+        "cap": 10,
+        "plate": 10,
+        "boots": 10,
+        "maul": 10,
+        "tower": 10
+      },
+      "depths": [
+        {
+          "depth": 0,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 1,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 2,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 3,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 4,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 5,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        }
+      ]
+    },
+    "breaker/survivor": {
+      "games": 10,
+      "wins": 10,
+      "winRate": 1,
+      "winCI95": [
+        0.7224672001371107,
+        1
+      ],
+      "outcomes": {
+        "won": 10
+      },
+      "deathCauses": {},
+      "actions": {
+        "median": 414,
+        "p95": 417.1,
+        "peak": 418
+      },
+      "ticks": {
+        "median": 4585,
+        "p95": 4669.6,
+        "peak": 4684
+      },
+      "minHp": {
+        "median": 44.5,
+        "p95": 47.65,
+        "peak": 49
+      },
+      "minFood": {
+        "median": 125,
+        "p95": 125,
+        "peak": 125
+      },
+      "healing": {
+        "median": 158.5,
+        "p95": 179.85,
+        "peak": 183
+      },
+      "foodUsed": {
+        "median": 2,
+        "p95": 2,
+        "peak": 2
+      },
+      "healingPerAction": {
+        "median": 20.598214285714285,
+        "p95": 24.178571428571427,
+        "peak": 25.142857142857142
+      },
+      "foodPressureActions": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "itemUses": {
+        "median": 6,
+        "p95": 7,
+        "peak": 7
+      },
+      "unknownUses": 0,
+      "unknownHarmfulOutcomes": 0,
+      "goldSpent": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "goldEarned": {
+        "median": 140.5,
+        "p95": 141.55,
+        "peak": 142
+      },
+      "conditionsAcquired": {
+        "median": 17,
+        "p95": 18.549999999999997,
+        "peak": 19
+      },
+      "conditionsCleared": {
+        "median": 17,
+        "p95": 18.549999999999997,
+        "peak": 19
+      },
+      "kills": {
+        "median": 16.5,
+        "p95": 17.549999999999997,
+        "peak": 18
+      },
+      "collected": {
+        "median": 11,
+        "p95": 12,
+        "peak": 12
+      },
+      "knownItems": {
+        "median": 14,
+        "p95": 15,
+        "peak": 15
+      },
+      "damageSources": {
+        "crawler": 29,
+        "scavenger": 12,
+        "environment-or-periodic": 1444,
+        "venomfang": 11,
+        "raider": 13,
+        "sentinel": 6,
+        "shade": 49,
+        "warden": 42,
+        "hexer": 44,
+        "rimebeast": 8,
+        "emberling": 35,
+        "acidmaw": 7
+      },
+      "equipmentSelections": {
+        "cap": 10,
+        "plate": 10,
+        "boots": 10,
+        "maul": 10,
+        "tower": 10,
+        "helm": 4
+      },
+      "depths": [
+        {
+          "depth": 0,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 1,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 2,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 3,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 4,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 5,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        }
+      ]
+    },
+    "breaker/fighter": {
+      "games": 10,
+      "wins": 9,
+      "winRate": 0.9,
+      "winCI95": [
+        0.5958499732047615,
+        0.9821237869049271
+      ],
+      "outcomes": {
+        "won": 9,
+        "dead": 1
+      },
+      "deathCauses": {
+        "Emberling": 1
+      },
+      "actions": {
+        "median": 417.5,
+        "p95": 436.95,
+        "peak": 441
+      },
+      "ticks": {
+        "median": 4469,
+        "p95": 4612.2,
+        "peak": 4650
+      },
+      "minHp": {
+        "median": 26.5,
+        "p95": 29.099999999999998,
+        "peak": 30
+      },
+      "minFood": {
+        "median": 71,
+        "p95": 76.49999999999999,
+        "peak": 81
+      },
+      "healing": {
+        "median": 121.5,
+        "p95": 139.49999999999997,
+        "peak": 153
+      },
+      "foodUsed": {
+        "median": 1,
+        "p95": 1,
+        "peak": 1
+      },
+      "healingPerAction": {
+        "median": 24.6,
+        "p95": 27.974999999999994,
+        "peak": 30
+      },
+      "foodPressureActions": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "itemUses": {
+        "median": 4.5,
+        "p95": 5.549999999999999,
+        "peak": 6
+      },
+      "unknownUses": 0,
+      "unknownHarmfulOutcomes": 0,
+      "goldSpent": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "goldEarned": {
+        "median": 140,
+        "p95": 141,
+        "peak": 141
+      },
+      "conditionsAcquired": {
+        "median": 17,
+        "p95": 18,
+        "peak": 18
+      },
+      "conditionsCleared": {
+        "median": 17,
+        "p95": 18,
+        "peak": 18
+      },
+      "kills": {
+        "median": 16,
+        "p95": 17,
+        "peak": 17
+      },
+      "collected": {
+        "median": 9,
+        "p95": 10.549999999999999,
+        "peak": 11
+      },
+      "knownItems": {
+        "median": 14,
+        "p95": 14.549999999999999,
+        "peak": 15
+      },
+      "damageSources": {
+        "crawler": 28,
+        "scavenger": 14,
+        "environment-or-periodic": 1372,
+        "venomfang": 8,
+        "raider": 12,
+        "shade": 34,
+        "warden": 36,
+        "rimebeast": 8,
+        "emberling": 140,
+        "acidmaw": 7,
+        "sentinel": 2
+      },
+      "equipmentSelections": {
+        "cap": 10,
+        "plate": 10,
+        "boots": 10,
+        "maul": 10,
+        "tower": 10,
+        "fireblade": 3,
+        "silverblade": 1,
+        "sword": 3,
+        "knife": 2
+      },
+      "depths": [
+        {
+          "depth": 0,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 9
+        },
+        {
+          "depth": 1,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 9
+        },
+        {
+          "depth": 2,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 9
+        },
+        {
+          "depth": 3,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 9
+        },
+        {
+          "depth": 4,
+          "entered": 10,
+          "deaths": 1,
+          "deathRiskAmongEntered": 0.1,
+          "deathCI95": [
+            0.017876213095072896,
+            0.4041500267952385
+          ],
+          "eventualWins": 9
+        },
+        {
+          "depth": 5,
+          "entered": 9,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2991450484195441
+          ],
+          "eventualWins": 9
+        }
+      ]
+    },
+    "channeler/novice": {
+      "games": 10,
+      "wins": 10,
+      "winRate": 1,
+      "winCI95": [
+        0.7224672001371107,
+        1
+      ],
+      "outcomes": {
+        "won": 10
+      },
+      "deathCauses": {},
+      "actions": {
+        "median": 469.5,
+        "p95": 481.05,
+        "peak": 486
+      },
+      "ticks": {
+        "median": 4949,
+        "p95": 5081.3,
+        "peak": 5120
+      },
+      "minHp": {
+        "median": 13.5,
+        "p95": 17,
+        "peak": 17
+      },
+      "minFood": {
+        "median": 71,
+        "p95": 71,
+        "peak": 71
+      },
+      "healing": {
+        "median": 158,
+        "p95": 194.85,
+        "peak": 198
+      },
+      "foodUsed": {
+        "median": 1,
+        "p95": 1,
+        "peak": 1
+      },
+      "healingPerAction": {
+        "median": 24.666666666666668,
+        "p95": 24.73392857142857,
+        "peak": 24.75
+      },
+      "foodPressureActions": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "itemUses": {
+        "median": 5,
+        "p95": 5.549999999999999,
+        "peak": 6
+      },
+      "unknownUses": 0,
+      "unknownHarmfulOutcomes": 0,
+      "goldSpent": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "goldEarned": {
+        "median": 140,
+        "p95": 141,
+        "peak": 141
+      },
+      "conditionsAcquired": {
+        "median": 11.5,
+        "p95": 12.549999999999999,
+        "peak": 13
+      },
+      "conditionsCleared": {
+        "median": 11.5,
+        "p95": 12.549999999999999,
+        "peak": 13
+      },
+      "kills": {
+        "median": 16,
+        "p95": 17,
+        "peak": 17
+      },
+      "collected": {
+        "median": 9,
+        "p95": 10,
+        "peak": 10
+      },
+      "knownItems": {
+        "median": 13,
+        "p95": 13,
+        "peak": 13
+      },
+      "damageSources": {
+        "crawler": 46,
+        "scavenger": 19,
+        "environment-or-periodic": 1178,
+        "venomfang": 15,
+        "raider": 18,
+        "sentinel": 108,
+        "shade": 63,
+        "warden": 470,
+        "rimebeast": 18,
+        "emberling": 56,
+        "hexer": 44,
+        "acidmaw": 14
+      },
+      "equipmentSelections": {
+        "cap": 10,
+        "leather": 10,
+        "boots": 10,
+        "staff": 10,
+        "shield": 10
+      },
+      "depths": [
+        {
+          "depth": 0,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 1,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 2,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 3,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 4,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 5,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        }
+      ]
+    },
+    "channeler/survivor": {
+      "games": 10,
+      "wins": 10,
+      "winRate": 1,
+      "winCI95": [
+        0.7224672001371107,
+        1
+      ],
+      "outcomes": {
+        "won": 10
+      },
+      "deathCauses": {},
+      "actions": {
+        "median": 402,
+        "p95": 408.2,
+        "peak": 410
+      },
+      "ticks": {
+        "median": 4272,
+        "p95": 4333.1,
+        "peak": 4334
+      },
+      "minHp": {
+        "median": 51,
+        "p95": 51,
+        "peak": 51
+      },
+      "minFood": {
+        "median": 125,
+        "p95": 125,
+        "peak": 125
+      },
+      "healing": {
+        "median": 102,
+        "p95": 118.6,
+        "peak": 124
+      },
+      "foodUsed": {
+        "median": 2,
+        "p95": 2,
+        "peak": 2
+      },
+      "healingPerAction": {
+        "median": 17,
+        "p95": 19.766666666666666,
+        "peak": 20.666666666666668
+      },
+      "foodPressureActions": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "itemUses": {
+        "median": 4,
+        "p95": 5.549999999999999,
+        "peak": 6
+      },
+      "unknownUses": 0,
+      "unknownHarmfulOutcomes": 0,
+      "goldSpent": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "goldEarned": {
+        "median": 140,
+        "p95": 140,
+        "peak": 140
+      },
+      "conditionsAcquired": {
+        "median": 11,
+        "p95": 14.649999999999997,
+        "peak": 16
+      },
+      "conditionsCleared": {
+        "median": 11,
+        "p95": 14.649999999999997,
+        "peak": 16
+      },
+      "kills": {
+        "median": 16,
+        "p95": 16,
+        "peak": 16
+      },
+      "collected": {
+        "median": 9,
+        "p95": 10.549999999999999,
+        "peak": 11
+      },
+      "knownItems": {
+        "median": 13,
+        "p95": 14,
+        "peak": 14
+      },
+      "damageSources": {
+        "crawler": 4,
+        "environment-or-periodic": 1188,
+        "raider": 1,
+        "emberling": 7,
+        "venomfang": 1,
+        "warden": 34,
+        "acidmaw": 7,
+        "scavenger": 1,
+        "sentinel": 6
+      },
+      "equipmentSelections": {
+        "cap": 10,
+        "leather": 10,
+        "boots": 10,
+        "staff": 10,
+        "shield": 10,
+        "helm": 3,
+        "plate": 2,
+        "tower": 1,
+        "brigandine": 1
+      },
+      "depths": [
+        {
+          "depth": 0,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 1,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 2,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 3,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 4,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 5,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        }
+      ]
+    },
+    "channeler/fighter": {
+      "games": 10,
+      "wins": 10,
+      "winRate": 1,
+      "winCI95": [
+        0.7224672001371107,
+        1
+      ],
+      "outcomes": {
+        "won": 10
+      },
+      "deathCauses": {},
+      "actions": {
+        "median": 397,
+        "p95": 399,
+        "peak": 399
+      },
+      "ticks": {
+        "median": 4230,
+        "p95": 4269.1,
+        "peak": 4270
+      },
+      "minHp": {
+        "median": 26,
+        "p95": 30,
+        "peak": 30
+      },
+      "minFood": {
+        "median": 71,
+        "p95": 71,
+        "peak": 71
+      },
+      "healing": {
+        "median": 88,
+        "p95": 88,
+        "peak": 88
+      },
+      "foodUsed": {
+        "median": 1,
+        "p95": 1,
+        "peak": 1
+      },
+      "healingPerAction": {
+        "median": 22,
+        "p95": 22,
+        "peak": 22
+      },
+      "foodPressureActions": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "itemUses": {
+        "median": 3,
+        "p95": 3,
+        "peak": 3
+      },
+      "unknownUses": 0,
+      "unknownHarmfulOutcomes": 0,
+      "goldSpent": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "goldEarned": {
+        "median": 140,
+        "p95": 140,
+        "peak": 140
+      },
+      "conditionsAcquired": {
+        "median": 11,
+        "p95": 11.549999999999999,
+        "peak": 12
+      },
+      "conditionsCleared": {
+        "median": 11,
+        "p95": 11.549999999999999,
+        "peak": 12
+      },
+      "kills": {
+        "median": 16,
+        "p95": 16,
+        "peak": 16
+      },
+      "collected": {
+        "median": 8,
+        "p95": 8,
+        "peak": 8
+      },
+      "knownItems": {
+        "median": 14,
+        "p95": 14.549999999999999,
+        "peak": 15
+      },
+      "damageSources": {
+        "crawler": 4,
+        "environment-or-periodic": 1154,
+        "scavenger": 1,
+        "emberling": 7,
+        "venomfang": 2,
+        "warden": 30
+      },
+      "equipmentSelections": {
+        "cap": 10,
+        "leather": 10,
+        "boots": 10,
+        "staff": 10,
+        "shield": 10
+      },
+      "depths": [
+        {
+          "depth": 0,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 1,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 2,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 3,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 4,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        },
+        {
+          "depth": 5,
+          "entered": 10,
+          "deaths": 0,
+          "deathRiskAmongEntered": 0,
+          "deathCI95": [
+            0,
+            0.2775327998628892
+          ],
+          "eventualWins": 10
+        }
+      ]
+    }
+  },
+  "paired": {
+    "vanguard:survivor minus novice": {
+      "pairs": 10,
+      "meanDifference": 0,
+      "ci95": [
+        0,
+        0
+      ],
+      "method": "paired percentile bootstrap; 2000 resamples; fixed seed 362"
+    },
+    "breaker:survivor minus novice": {
+      "pairs": 10,
+      "meanDifference": 0,
+      "ci95": [
+        0,
+        0
+      ],
+      "method": "paired percentile bootstrap; 2000 resamples; fixed seed 362"
+    },
+    "channeler:survivor minus novice": {
+      "pairs": 10,
+      "meanDifference": 0,
+      "ci95": [
+        0,
+        0
+      ],
+      "method": "paired percentile bootstrap; 2000 resamples; fixed seed 362"
+    },
+    "vanguard:fighter minus novice": {
+      "pairs": 10,
+      "meanDifference": 0,
+      "ci95": [
+        0,
+        0
+      ],
+      "method": "paired percentile bootstrap; 2000 resamples; fixed seed 362"
+    },
+    "breaker:fighter minus novice": {
+      "pairs": 10,
+      "meanDifference": -0.1,
+      "ci95": [
+        -0.3,
+        0
+      ],
+      "method": "paired percentile bootstrap; 2000 resamples; fixed seed 362"
+    },
+    "channeler:fighter minus novice": {
+      "pairs": 10,
+      "meanDifference": 0,
+      "ci95": [
+        0,
+        0
+      ],
+      "method": "paired percentile bootstrap; 2000 resamples; fixed seed 362"
+    },
+    "vanguard:fighter minus survivor": {
+      "pairs": 10,
+      "meanDifference": 0,
+      "ci95": [
+        0,
+        0
+      ],
+      "method": "paired percentile bootstrap; 2000 resamples; fixed seed 362"
+    },
+    "breaker:fighter minus survivor": {
+      "pairs": 10,
+      "meanDifference": -0.1,
+      "ci95": [
+        -0.3,
+        0
+      ],
+      "method": "paired percentile bootstrap; 2000 resamples; fixed seed 362"
+    },
+    "channeler:fighter minus survivor": {
+      "pairs": 10,
+      "meanDifference": 0,
+      "ci95": [
+        0,
+        0
+      ],
+      "method": "paired percentile bootstrap; 2000 resamples; fixed seed 362"
+    }
+  },
+  "baselineComparison": {
+    "matched": 90,
+    "unmatched": 0,
+    "winRate": {
+      "pairs": 90,
+      "meanDifference": 0,
+      "ci95": [
+        0,
+        0
+      ],
+      "method": "paired percentile bootstrap; 2000 resamples; fixed seed 362"
+    },
+    "ticks": {
+      "pairs": 90,
+      "meanDifference": 0,
+      "ci95": [
+        0,
+        0
+      ],
+      "method": "paired percentile bootstrap; 2000 resamples; fixed seed 362"
+    },
+    "changedDigests": 0
+  },
+  "limitations": [
+    "90-game smoke is a regression sample, not calibrated human difficulty.",
+    "Death source uses the last public hurt journal entry; other damage attribution groups environmental and periodic damage.",
+    "Condition counts are changes observed at command boundaries; no hidden intermediate events are inferred.",
+    "Unknown harmful outcome is correlation during the use command, not causal attribution.",
+    "Rarity is absent from public projection and is intentionally not inferred.",
+    "Tick budget stops at the first stable boundary at or beyond the threshold; an accepted command is never interrupted.",
+    "Current strategies do not experiment with unknown consumables; zero unknown trials is not evidence that those effects are safe.",
+    "No CPU timing is included in deterministic game results. Device/browser performance is separate."
+  ]
+}

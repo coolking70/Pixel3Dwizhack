@@ -1,0 +1,35 @@
+{
+  "limits": [
+    "Natural alpha4 win/golden and paired balance-agent resource sufficiency not independently rerun; A/root owns",
+    "Did not rerun seven historical full goldens or 9000 corpus; byte comparison and focused legacy capacity test only",
+    "Generated supplies accessibleGuaranteed checks resource ownership/type and ordinary openability, not a proof of survival for every player policy",
+    "No claim of physical devices or Firefox"
+  ],
+  "changed": [],
+  "hashesStable": true,
+  "independentProbe": "probe.mjs / probe-results.json",
+  "findings": [],
+  "round": 1,
+  "frozenFileCount": 16,
+  "historicalComparison": {
+    "source": "releases/fallen-star-0.25.0-rc.2-source.zip (read-only)",
+    "observation": "All old accept/generation/effects/content source bytes unchanged. Shared changes add optional public slot projection, alpha4 type and explicit dispatch branches. Session adds alpha4 dispatch/identity/archive branch, old branches retained.",
+    "existingCoreAndContentChanged": [
+      "src/core/alpha2-types.ts",
+      "src/core/alpha2-view.ts",
+      "src/core/simulation.ts",
+      "src/core/types.ts"
+    ]
+  },
+  "candidate": "candidate-r1.json",
+  "tests": {
+    "command": "npx vitest run tests/alpha4.test.ts tests/alpha4-generation.test.ts",
+    "result": "10/10, 2 files, 2.93s"
+  },
+  "firstProbeFailure": "Reviewer harness used invalid definition cure (effect id), corrected external fixture to antidote and reran; no source modification.",
+  "subsequentDocumentationOnlyChange": {
+    "path": "src/content/alpha4.ts",
+    "reason": "Parent authorized append-only formula comment documenting per-definition weighting; no mechanics/numeric edits; first review candidate remains preserved",
+    "sha256": "A5854BC4645C5FA28AB50C38457D589FB93E3D24283DF8658A2C23E67B13D7BC"
+  }
+}

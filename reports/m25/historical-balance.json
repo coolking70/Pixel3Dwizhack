@@ -1,0 +1,14 @@
+{
+  "games": 9000,
+  "durationMs": 4018490,
+  "outcomes": {
+    "won": 8969,
+    "dead": 31
+  },
+  "pairs": 9000,
+  "exactTraceAndDigestMatches": 9000,
+  "divergent": [],
+  "frozenInputsMatched": 43,
+  "evidence": "C:\\Users\\coolking\\.codex\\visualizations\\2026\\10\\11\\01a129c4-1522-7131-8c77-c1a1ae3a19cd\\m25\\old-9000",
+  "comparisonSha256": "60e90c60efed68a9b40ea72d1dbd9cff9936b80cd6cdb41c27c0852239393e8b"
+}

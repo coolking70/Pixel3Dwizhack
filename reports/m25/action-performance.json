@@ -1,0 +1,826 @@
+[
+  {
+    "mode": "hardware",
+    "device": {
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4070 Ti SUPER (0x00002705) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "vendor": "Google Inc. (NVIDIA)",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "jsHeapAvailable": true,
+      "softwareRenderer": false,
+      "renderingPath": "reported non-software GPU path"
+    },
+    "host": {
+      "os": "win32 10.0.26300 x64",
+      "cpu": "12th Gen Intel(R) Core(TM) i5-12600KF",
+      "logicalCpus": 16,
+      "totalMemoryBytes": 68523843584
+    },
+    "browser": "156.0.8078.4",
+    "archiveChecks": 24,
+    "sourceStable": true,
+    "summaries": [
+      {
+        "quality": "normal",
+        "scenario": "throw",
+        "repeats": 3,
+        "frames": 203,
+        "cpuMs": {
+          "samples": 203,
+          "median": 0.7,
+          "p95": 1.4,
+          "peak": 1.9,
+          "minimum": 0.5
+        },
+        "drawCalls": {
+          "samples": 203,
+          "median": 182,
+          "p95": 183,
+          "peak": 183,
+          "minimum": 179
+        },
+        "triangles": {
+          "samples": 203,
+          "median": 17376,
+          "p95": 17472,
+          "peak": 17472,
+          "minimum": 17212
+        },
+        "geometry": {
+          "samples": 203,
+          "median": 286,
+          "p95": 286,
+          "peak": 286,
+          "minimum": 286
+        },
+        "textures": {
+          "samples": 203,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 203,
+          "median": 38283790,
+          "p95": 48767648,
+          "peak": 50324092,
+          "minimum": 20411190
+        },
+        "frameIntervalMs": {
+          "samples": 200,
+          "median": 16.600000008940697,
+          "p95": 18.100000008940697,
+          "peak": 26,
+          "minimum": 1.2999999970197678
+        }
+      },
+      {
+        "quality": "normal",
+        "scenario": "zap",
+        "repeats": 3,
+        "frames": 187,
+        "cpuMs": {
+          "samples": 187,
+          "median": 0.7,
+          "p95": 1.3,
+          "peak": 1.8,
+          "minimum": 0.5
+        },
+        "drawCalls": {
+          "samples": 187,
+          "median": 178,
+          "p95": 180,
+          "peak": 180,
+          "minimum": 178
+        },
+        "triangles": {
+          "samples": 187,
+          "median": 7056,
+          "p95": 7176,
+          "peak": 7176,
+          "minimum": 7056
+        },
+        "geometry": {
+          "samples": 187,
+          "median": 278,
+          "p95": 278,
+          "peak": 278,
+          "minimum": 278
+        },
+        "textures": {
+          "samples": 187,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 187,
+          "median": 28582896,
+          "p95": 32463033,
+          "peak": 33434949,
+          "minimum": 23405292
+        },
+        "frameIntervalMs": {
+          "samples": 184,
+          "median": 16.600000008940697,
+          "p95": 18.299999997019768,
+          "peak": 104.59999999403954,
+          "minimum": 1.199999988079071
+        }
+      },
+      {
+        "quality": "normal",
+        "scenario": "readItem",
+        "repeats": 3,
+        "frames": 237,
+        "cpuMs": {
+          "samples": 237,
+          "median": 0.7,
+          "p95": 1.3,
+          "peak": 2,
+          "minimum": 0.5
+        },
+        "drawCalls": {
+          "samples": 237,
+          "median": 150,
+          "p95": 150,
+          "peak": 150,
+          "minimum": 150
+        },
+        "triangles": {
+          "samples": 237,
+          "median": 7034,
+          "p95": 7034,
+          "peak": 7034,
+          "minimum": 7034
+        },
+        "geometry": {
+          "samples": 237,
+          "median": 254,
+          "p95": 254,
+          "peak": 254,
+          "minimum": 254
+        },
+        "textures": {
+          "samples": 237,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 237,
+          "median": 28400263,
+          "p95": 47049901,
+          "peak": 51365780,
+          "minimum": 20552502
+        },
+        "frameIntervalMs": {
+          "samples": 234,
+          "median": 16.700000002980232,
+          "p95": 18.299999997019768,
+          "peak": 81.5,
+          "minimum": 1.5
+        }
+      },
+      {
+        "quality": "low",
+        "scenario": "throw",
+        "repeats": 3,
+        "frames": 201,
+        "cpuMs": {
+          "samples": 201,
+          "median": 0.6,
+          "p95": 1,
+          "peak": 1.5,
+          "minimum": 0.4
+        },
+        "drawCalls": {
+          "samples": 201,
+          "median": 91,
+          "p95": 92,
+          "peak": 92,
+          "minimum": 88
+        },
+        "triangles": {
+          "samples": 201,
+          "median": 8314,
+          "p95": 8410,
+          "peak": 8410,
+          "minimum": 8258
+        },
+        "geometry": {
+          "samples": 201,
+          "median": 317,
+          "p95": 317,
+          "peak": 317,
+          "minimum": 317
+        },
+        "textures": {
+          "samples": 201,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 201,
+          "median": 36585470,
+          "p95": 49954268,
+          "peak": 50921748,
+          "minimum": 29057542
+        },
+        "frameIntervalMs": {
+          "samples": 198,
+          "median": 16.700000002980232,
+          "p95": 17.700000002980232,
+          "peak": 18.400000005960464,
+          "minimum": 2
+        }
+      },
+      {
+        "quality": "low",
+        "scenario": "zap",
+        "repeats": 3,
+        "frames": 192,
+        "cpuMs": {
+          "samples": 192,
+          "median": 0.5,
+          "p95": 1,
+          "peak": 1.4,
+          "minimum": 0.4
+        },
+        "drawCalls": {
+          "samples": 192,
+          "median": 96,
+          "p95": 98,
+          "peak": 98,
+          "minimum": 96
+        },
+        "triangles": {
+          "samples": 192,
+          "median": 3306,
+          "p95": 3426,
+          "peak": 3426,
+          "minimum": 3306
+        },
+        "geometry": {
+          "samples": 192,
+          "median": 321,
+          "p95": 321,
+          "peak": 321,
+          "minimum": 321
+        },
+        "textures": {
+          "samples": 192,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 192,
+          "median": 28954417,
+          "p95": 39369612,
+          "peak": 40193600,
+          "minimum": 24456725
+        },
+        "frameIntervalMs": {
+          "samples": 189,
+          "median": 16.700000002980232,
+          "p95": 18,
+          "peak": 84.40000000596046,
+          "minimum": 1
+        }
+      },
+      {
+        "quality": "low",
+        "scenario": "readItem",
+        "repeats": 3,
+        "frames": 229,
+        "cpuMs": {
+          "samples": 229,
+          "median": 0.6,
+          "p95": 0.9,
+          "peak": 1.3,
+          "minimum": 0.4
+        },
+        "drawCalls": {
+          "samples": 229,
+          "median": 91,
+          "p95": 91,
+          "peak": 91,
+          "minimum": 91
+        },
+        "triangles": {
+          "samples": 229,
+          "median": 3238,
+          "p95": 3238,
+          "peak": 3238,
+          "minimum": 3238
+        },
+        "geometry": {
+          "samples": 229,
+          "median": 306,
+          "p95": 306,
+          "peak": 306,
+          "minimum": 306
+        },
+        "textures": {
+          "samples": 229,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 229,
+          "median": 42413819,
+          "p95": 49118218,
+          "peak": 49766422,
+          "minimum": 23836594
+        },
+        "frameIntervalMs": {
+          "samples": 226,
+          "median": 16.600000008940697,
+          "p95": 18.19999998807907,
+          "peak": 97.79999999701977,
+          "minimum": 1
+        }
+      }
+    ],
+    "sourceHashes": [
+      {
+        "path": "tests/m25-trace.ts",
+        "sha256": "cbb7ae41f26bcd392da8178634dab2c1e45faeabf60fe4d2442cb84d715a4ccc"
+      },
+      {
+        "path": "tests/m18-trace.ts",
+        "sha256": "07277f79ccd2ad6a811cbecfae48eb938b87c501a27578bff9ad1a1a72569f82"
+      },
+      {
+        "path": "tests/fixtures/alpha2-v1.json",
+        "sha256": "80a1404c29c2fdee0576aab76f36714d4b6c2cee2d2b6cc612946ae1d26e49ea"
+      },
+      {
+        "path": "src/alpha2/Game.vue",
+        "sha256": "c523578d23cc1513343d31a32d562fbb961369697f2fb2d1054350770863ade8"
+      },
+      {
+        "path": "src/game-ui/native-ui.ts",
+        "sha256": "a4947a47f5edec9ace8a7584426f97ae889b8f5e4a9ff07f92675bb620b7564e"
+      },
+      {
+        "path": "src/game-ui/menus.ts",
+        "sha256": "d0684766a3fbae0cdb383e420b621a568d92dea1111cd966ed89fc407b0aa9d9"
+      },
+      {
+        "path": "src/room/renderer.ts",
+        "sha256": "bb3293dac4e3bfeefc13af307476e2e8b175163d28dd223c76c5c215bd789115"
+      },
+      {
+        "path": "src/core/alpha3.ts",
+        "sha256": "5d82b21e2278abed4e76a0bb5fafbd1ee80de9ad70b12a0a29a222fc5009ac39"
+      },
+      {
+        "path": "src/session/session.ts",
+        "sha256": "e99d6741525d9074e9a328a2aeb485b2d784abf9ec16ec0f42fdc39e8a1bfbd1"
+      },
+      {
+        "path": "public/assets/items/manifest.json",
+        "sha256": "c43841a6f21d92fb7f958efeed406d94fe420ee93034e3cff0cb10bcd26bf636"
+      },
+      {
+        "path": "scripts/profile-m25-performance.mjs",
+        "sha256": "64e1182e468a34a1a69d79317504d46f15ef5d1c6151db4d7f56b4716d3a7632"
+      }
+    ],
+    "rawReportSha256": "179b96042abbbf06abc4e9ca7f0cfc69adaef96749f38db91c06e5288db66007",
+    "limitations": [
+      "Desktop headless Chromium at 1440\u00d7900/DPR1; this does not represent a physical phone.",
+      "renderMs is CPU render submission, not GPU completion. Busy-frame intervals include browser scheduling and observation.",
+      "geometry/texture totals include world and native UI resources sharing the renderer. JS heap excludes GPU memory.",
+      "Natural archives and public query candidates drive formal canvas UI; no mechanical state is injected or mutated outside commands.",
+      "All warmup and measured actions are checked against their exact complete archive oracle. No throughput or timing claim comes from Node oracle generation.",
+      "--hardware requests a GPU path; the actual WebGL renderer is recorded and software fallback is rejected for that option."
+    ]
+  },
+  {
+    "mode": "software",
+    "device": {
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "vendor": "Google Inc. (Google)",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "jsHeapAvailable": true,
+      "softwareRenderer": true,
+      "renderingPath": "software"
+    },
+    "host": {
+      "os": "win32 10.0.26300 x64",
+      "cpu": "12th Gen Intel(R) Core(TM) i5-12600KF",
+      "logicalCpus": 16,
+      "totalMemoryBytes": 68523843584
+    },
+    "browser": "156.0.8078.4",
+    "archiveChecks": 24,
+    "sourceStable": true,
+    "summaries": [
+      {
+        "quality": "normal",
+        "scenario": "throw",
+        "repeats": 3,
+        "frames": 57,
+        "cpuMs": {
+          "samples": 57,
+          "median": 0.8,
+          "p95": 4.4,
+          "peak": 4.7,
+          "minimum": 0.6
+        },
+        "drawCalls": {
+          "samples": 57,
+          "median": 182,
+          "p95": 183,
+          "peak": 183,
+          "minimum": 179
+        },
+        "triangles": {
+          "samples": 57,
+          "median": 17376,
+          "p95": 17472,
+          "peak": 17472,
+          "minimum": 17212
+        },
+        "geometry": {
+          "samples": 57,
+          "median": 286,
+          "p95": 286,
+          "peak": 286,
+          "minimum": 286
+        },
+        "textures": {
+          "samples": 57,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 57,
+          "median": 30445343,
+          "p95": 36224535,
+          "peak": 36531311,
+          "minimum": 28193676
+        },
+        "frameIntervalMs": {
+          "samples": 54,
+          "median": 51.5,
+          "p95": 241.6000000089407,
+          "peak": 252,
+          "minimum": 1.2999999970197678
+        }
+      },
+      {
+        "quality": "normal",
+        "scenario": "zap",
+        "repeats": 3,
+        "frames": 74,
+        "cpuMs": {
+          "samples": 74,
+          "median": 0.7,
+          "p95": 1,
+          "peak": 5.2,
+          "minimum": 0.6
+        },
+        "drawCalls": {
+          "samples": 74,
+          "median": 178,
+          "p95": 180,
+          "peak": 180,
+          "minimum": 178
+        },
+        "triangles": {
+          "samples": 74,
+          "median": 7056,
+          "p95": 7176,
+          "peak": 7176,
+          "minimum": 7056
+        },
+        "geometry": {
+          "samples": 74,
+          "median": 278,
+          "p95": 278,
+          "peak": 278,
+          "minimum": 278
+        },
+        "textures": {
+          "samples": 74,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 74,
+          "median": 32496650,
+          "p95": 52337641,
+          "peak": 52814837,
+          "minimum": 23708561
+        },
+        "frameIntervalMs": {
+          "samples": 71,
+          "median": 41.69999998807907,
+          "p95": 45.79999999701977,
+          "peak": 195.09999999403954,
+          "minimum": 1.4000000059604645
+        }
+      },
+      {
+        "quality": "normal",
+        "scenario": "readItem",
+        "repeats": 3,
+        "frames": 93,
+        "cpuMs": {
+          "samples": 93,
+          "median": 0.7,
+          "p95": 1,
+          "peak": 5.1,
+          "minimum": 0.5
+        },
+        "drawCalls": {
+          "samples": 93,
+          "median": 150,
+          "p95": 150,
+          "peak": 150,
+          "minimum": 150
+        },
+        "triangles": {
+          "samples": 93,
+          "median": 7034,
+          "p95": 7034,
+          "peak": 7034,
+          "minimum": 7034
+        },
+        "geometry": {
+          "samples": 93,
+          "median": 254,
+          "p95": 254,
+          "peak": 254,
+          "minimum": 254
+        },
+        "textures": {
+          "samples": 93,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 93,
+          "median": 29100757,
+          "p95": 42335896,
+          "peak": 42917116,
+          "minimum": 22644123
+        },
+        "frameIntervalMs": {
+          "samples": 90,
+          "median": 41.70000000298023,
+          "p95": 46,
+          "peak": 164.79999999701977,
+          "minimum": 1.2999999970197678
+        }
+      },
+      {
+        "quality": "low",
+        "scenario": "throw",
+        "repeats": 3,
+        "frames": 70,
+        "cpuMs": {
+          "samples": 70,
+          "median": 0.6,
+          "p95": 0.8,
+          "peak": 5,
+          "minimum": 0.4
+        },
+        "drawCalls": {
+          "samples": 70,
+          "median": 91,
+          "p95": 92,
+          "peak": 92,
+          "minimum": 88
+        },
+        "triangles": {
+          "samples": 70,
+          "median": 8314,
+          "p95": 8410,
+          "peak": 8410,
+          "minimum": 8258
+        },
+        "geometry": {
+          "samples": 70,
+          "median": 317,
+          "p95": 317,
+          "peak": 317,
+          "minimum": 317
+        },
+        "textures": {
+          "samples": 70,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 70,
+          "median": 30721035,
+          "p95": 35170698,
+          "peak": 35460018,
+          "minimum": 28994710
+        },
+        "frameIntervalMs": {
+          "samples": 67,
+          "median": 41,
+          "p95": 45.20000000298023,
+          "peak": 300.29999999701977,
+          "minimum": 1
+        }
+      },
+      {
+        "quality": "low",
+        "scenario": "zap",
+        "repeats": 3,
+        "frames": 92,
+        "cpuMs": {
+          "samples": 92,
+          "median": 0.5,
+          "p95": 0.8,
+          "peak": 5.2,
+          "minimum": 0.4
+        },
+        "drawCalls": {
+          "samples": 92,
+          "median": 96,
+          "p95": 98,
+          "peak": 98,
+          "minimum": 96
+        },
+        "triangles": {
+          "samples": 92,
+          "median": 3306,
+          "p95": 3426,
+          "peak": 3426,
+          "minimum": 3306
+        },
+        "geometry": {
+          "samples": 92,
+          "median": 321,
+          "p95": 321,
+          "peak": 321,
+          "minimum": 321
+        },
+        "textures": {
+          "samples": 92,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 92,
+          "median": 27985055,
+          "p95": 52468983,
+          "peak": 52846783,
+          "minimum": 24586111
+        },
+        "frameIntervalMs": {
+          "samples": 89,
+          "median": 33.5,
+          "p95": 36.29999999701977,
+          "peak": 183,
+          "minimum": 1.0999999940395355
+        }
+      },
+      {
+        "quality": "low",
+        "scenario": "readItem",
+        "repeats": 3,
+        "frames": 111,
+        "cpuMs": {
+          "samples": 111,
+          "median": 0.6,
+          "p95": 0.8,
+          "peak": 5.2,
+          "minimum": 0.4
+        },
+        "drawCalls": {
+          "samples": 111,
+          "median": 91,
+          "p95": 91,
+          "peak": 91,
+          "minimum": 91
+        },
+        "triangles": {
+          "samples": 111,
+          "median": 3238,
+          "p95": 3238,
+          "peak": 3238,
+          "minimum": 3238
+        },
+        "geometry": {
+          "samples": 111,
+          "median": 306,
+          "p95": 306,
+          "peak": 306,
+          "minimum": 306
+        },
+        "textures": {
+          "samples": 111,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 111,
+          "median": 37124128,
+          "p95": 47715591,
+          "peak": 48198615,
+          "minimum": 26285458
+        },
+        "frameIntervalMs": {
+          "samples": 108,
+          "median": 34.30000001192093,
+          "p95": 38.1000000089407,
+          "peak": 154.29999999701977,
+          "minimum": 1.1000000089406967
+        }
+      }
+    ],
+    "sourceHashes": [
+      {
+        "path": "tests/m25-trace.ts",
+        "sha256": "cbb7ae41f26bcd392da8178634dab2c1e45faeabf60fe4d2442cb84d715a4ccc"
+      },
+      {
+        "path": "tests/m18-trace.ts",
+        "sha256": "07277f79ccd2ad6a811cbecfae48eb938b87c501a27578bff9ad1a1a72569f82"
+      },
+      {
+        "path": "tests/fixtures/alpha2-v1.json",
+        "sha256": "80a1404c29c2fdee0576aab76f36714d4b6c2cee2d2b6cc612946ae1d26e49ea"
+      },
+      {
+        "path": "src/alpha2/Game.vue",
+        "sha256": "c523578d23cc1513343d31a32d562fbb961369697f2fb2d1054350770863ade8"
+      },
+      {
+        "path": "src/game-ui/native-ui.ts",
+        "sha256": "a4947a47f5edec9ace8a7584426f97ae889b8f5e4a9ff07f92675bb620b7564e"
+      },
+      {
+        "path": "src/game-ui/menus.ts",
+        "sha256": "d0684766a3fbae0cdb383e420b621a568d92dea1111cd966ed89fc407b0aa9d9"
+      },
+      {
+        "path": "src/room/renderer.ts",
+        "sha256": "bb3293dac4e3bfeefc13af307476e2e8b175163d28dd223c76c5c215bd789115"
+      },
+      {
+        "path": "src/core/alpha3.ts",
+        "sha256": "5d82b21e2278abed4e76a0bb5fafbd1ee80de9ad70b12a0a29a222fc5009ac39"
+      },
+      {
+        "path": "src/session/session.ts",
+        "sha256": "e99d6741525d9074e9a328a2aeb485b2d784abf9ec16ec0f42fdc39e8a1bfbd1"
+      },
+      {
+        "path": "public/assets/items/manifest.json",
+        "sha256": "c43841a6f21d92fb7f958efeed406d94fe420ee93034e3cff0cb10bcd26bf636"
+      },
+      {
+        "path": "scripts/profile-m25-performance.mjs",
+        "sha256": "64e1182e468a34a1a69d79317504d46f15ef5d1c6151db4d7f56b4716d3a7632"
+      }
+    ],
+    "rawReportSha256": "c18fba4485f48f20d9eb7a1705bf616ac1f47cd000dd2576a95d88f769babef1",
+    "limitations": [
+      "Desktop headless Chromium at 1440\u00d7900/DPR1; this does not represent a physical phone.",
+      "renderMs is CPU render submission, not GPU completion. Busy-frame intervals include browser scheduling and observation.",
+      "geometry/texture totals include world and native UI resources sharing the renderer. JS heap excludes GPU memory.",
+      "Natural archives and public query candidates drive formal canvas UI; no mechanical state is injected or mutated outside commands.",
+      "All warmup and measured actions are checked against their exact complete archive oracle. No throughput or timing claim comes from Node oracle generation.",
+      "--hardware requests a GPU path; the actual WebGL renderer is recorded and software fallback is rejected for that option."
+    ]
+  }
+]

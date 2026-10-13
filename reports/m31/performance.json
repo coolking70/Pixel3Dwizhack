@@ -1,0 +1,260 @@
+{
+  "source": "browser-final/display-profile.json",
+  "device": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+    "viewport": [
+      1280,
+      800
+    ],
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+  },
+  "profiles": [
+    {
+      "name": "manual-sporeBed",
+      "cpuMs": {
+        "samples": 23,
+        "median": 1,
+        "p95": 1.5,
+        "peak": 4.3
+      },
+      "drawCalls": {
+        "samples": 23,
+        "median": 149,
+        "p95": 149,
+        "peak": 149
+      },
+      "triangles": {
+        "samples": 23,
+        "median": 8414,
+        "p95": 8414,
+        "peak": 8414
+      },
+      "geometry": {
+        "samples": 23,
+        "median": 144,
+        "p95": 144,
+        "peak": 144
+      },
+      "frameIntervalMs": {
+        "samples": 22,
+        "median": 38.549999999813735,
+        "p95": 62.20000000111759,
+        "peak": 382.90000000037253
+      }
+    },
+    {
+      "name": "tool-sporeBell",
+      "cpuMs": {
+        "samples": 21,
+        "median": 1,
+        "p95": 1.4,
+        "peak": 4.6
+      },
+      "drawCalls": {
+        "samples": 21,
+        "median": 213,
+        "p95": 213,
+        "peak": 213
+      },
+      "triangles": {
+        "samples": 21,
+        "median": 13796,
+        "p95": 13796,
+        "peak": 13796
+      },
+      "geometry": {
+        "samples": 21,
+        "median": 258,
+        "p95": 258,
+        "peak": 258
+      },
+      "frameIntervalMs": {
+        "samples": 20,
+        "median": 47.90000000130385,
+        "p95": 51.40000000037253,
+        "peak": 289.69999999925494
+      }
+    },
+    {
+      "name": "manual-relay",
+      "cpuMs": {
+        "samples": 12,
+        "median": 1.0,
+        "p95": 4.3,
+        "peak": 4.3
+      },
+      "drawCalls": {
+        "samples": 12,
+        "median": 219.0,
+        "p95": 219,
+        "peak": 219
+      },
+      "triangles": {
+        "samples": 12,
+        "median": 29140.0,
+        "p95": 29140,
+        "peak": 29140
+      },
+      "geometry": {
+        "samples": 12,
+        "median": 269.0,
+        "p95": 269,
+        "peak": 269
+      },
+      "frameIntervalMs": {
+        "samples": 11,
+        "median": 53.100000001490116,
+        "p95": 621.8999999985099,
+        "peak": 621.8999999985099
+      }
+    },
+    {
+      "name": "tool-coilKey",
+      "cpuMs": {
+        "samples": 14,
+        "median": 1.5,
+        "p95": 5.5,
+        "peak": 5.5
+      },
+      "drawCalls": {
+        "samples": 14,
+        "median": 321.5,
+        "p95": 351,
+        "peak": 351
+      },
+      "triangles": {
+        "samples": 14,
+        "median": 39786.0,
+        "p95": 40134,
+        "peak": 40134
+      },
+      "geometry": {
+        "samples": 14,
+        "median": 348.0,
+        "p95": 348,
+        "peak": 348
+      },
+      "frameIntervalMs": {
+        "samples": 13,
+        "median": 64.09999999962747,
+        "p95": 320.80000000074506,
+        "peak": 320.80000000074506
+      }
+    },
+    {
+      "name": "manual-barricade",
+      "cpuMs": {
+        "samples": 12,
+        "median": 0.8500000000000001,
+        "p95": 3.8,
+        "peak": 3.8
+      },
+      "drawCalls": {
+        "samples": 12,
+        "median": 155.0,
+        "p95": 161,
+        "peak": 161
+      },
+      "triangles": {
+        "samples": 12,
+        "median": 43150.0,
+        "p95": 43222,
+        "peak": 43222
+      },
+      "geometry": {
+        "samples": 12,
+        "median": 262.0,
+        "p95": 265,
+        "peak": 265
+      },
+      "frameIntervalMs": {
+        "samples": 11,
+        "median": 58.0,
+        "p95": 676.1999999992549,
+        "peak": 676.1999999992549
+      }
+    }
+  ],
+  "cycles": [
+    {
+      "geometry": 253,
+      "textures": 6,
+      "heapUsed": 16590368,
+      "heapTotal": 18489344
+    },
+    {
+      "geometry": 253,
+      "textures": 6,
+      "heapUsed": 16660744,
+      "heapTotal": 18227200
+    },
+    {
+      "geometry": 253,
+      "textures": 6,
+      "heapUsed": 16681032,
+      "heapTotal": 17965056
+    },
+    {
+      "geometry": 253,
+      "textures": 6,
+      "heapUsed": 16719220,
+      "heapTotal": 18227200
+    },
+    {
+      "geometry": 253,
+      "textures": 6,
+      "heapUsed": 16778348,
+      "heapTotal": 18227200
+    },
+    {
+      "geometry": 253,
+      "textures": 6,
+      "heapUsed": 16789856,
+      "heapTotal": 18227200
+    },
+    {
+      "geometry": 253,
+      "textures": 6,
+      "heapUsed": 16803168,
+      "heapTotal": 18227200
+    },
+    {
+      "geometry": 253,
+      "textures": 6,
+      "heapUsed": 16849568,
+      "heapTotal": 17965056
+    },
+    {
+      "geometry": 253,
+      "textures": 6,
+      "heapUsed": 16856360,
+      "heapTotal": 18227200
+    },
+    {
+      "geometry": 253,
+      "textures": 6,
+      "heapUsed": 16899836,
+      "heapTotal": 18489344
+    },
+    {
+      "geometry": 253,
+      "textures": 6,
+      "heapUsed": 16908552,
+      "heapTotal": 18489344
+    },
+    {
+      "geometry": 253,
+      "textures": 6,
+      "heapUsed": 16914340,
+      "heapTotal": 18489344
+    }
+  ],
+  "limits": "Chromium desktop; five natural actions and 12 reload/bag cycles, no phone/controller certification, samples include screenshots/setup and are not a warmed FPS benchmark.",
+  "gcHeapBytes": {
+    "samples": 12,
+    "median": 16796512.0,
+    "p95": 16914340,
+    "peak": 16914340
+  },
+  "lastMinusFirstHeapBytes": 323972
+}

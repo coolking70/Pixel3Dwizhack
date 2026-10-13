@@ -1,0 +1,14 @@
+{
+  "author": "Kay Lousberg",
+  "license": "CC0-1.0",
+  "commit": "672074b73ba276876a19e8816ecdc5241817ab47",
+  "url": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/672074b73ba276876a19e8816ecdc5241817ab47/addons/kaykit_character_pack_adventures/Characters/gltf/Knight.glb",
+  "sha256": "60428e3abc09ba83e595d256e3af8c5c976b46cdae599f0802fc82b4a3445168",
+  "derived": "Selected rotation tracks, pelvis bob, renamed skeleton and profile-specific segment scaling. Original meshes, textures, IK controls and root movement omitted.",
+  "clips": {
+    "idle": "Idle",
+    "walk": "Walking_A",
+    "attack": "1H_Melee_Attack_Chop",
+    "block": "Blocking"
+  }
+}

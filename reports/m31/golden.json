@@ -1,0 +1,11 @@
+{
+  "sourceRun": "C:/Users/coolking/.codex/visualizations/2026/10/11/01a129c4-1522-7131-8c77-c1a1ae3a19cd/m31/balance-first/runs/alpha5-1-vanguard-survivor.json",
+  "sourceSha256": "dc2296c2ee56fa74764e4a87981a2cfca9632b5ca1b9a082a4ee47cc6fdb9442",
+  "traceSha256": "5e489a70e6242e2913fcba99787a2f0906201c6ed118ab81c518f6b656779578",
+  "archiveSha256": "eb450bac77dc5980bcaebbb42ae05eeb1e622936f3e09f7b8a8a077864ee0a57",
+  "seed": 1,
+  "loadout": "vanguard",
+  "strategy": "survivor",
+  "actions": 459,
+  "digest": "b527a2d3"
+}

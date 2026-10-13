@@ -1,0 +1,18 @@
+name: Validate
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run check:models
+      - run: npm run check:items
+      - run: npm run check
+      - run: npx playwright install --with-deps chromium firefox webkit
+      - run: npm run test:e2e
+      - run: npx playwright test --config playwright.m25.config.ts

@@ -1,0 +1,638 @@
+{
+  "schema": 1,
+  "productVersion": "0.20.0-rc.1",
+  "agentVersion": "m16-public-1",
+  "identity": {
+    "rules": "alpha2-1",
+    "commands": 6,
+    "content": "144ae545"
+  },
+  "configuration": {
+    "seeds": [
+      1,
+      1000
+    ],
+    "loadouts": [
+      "vanguard",
+      "breaker",
+      "channeler"
+    ],
+    "strategies": [
+      "novice",
+      "survivor",
+      "fighter"
+    ],
+    "maxActions": 1800,
+    "maxTicks": 30000,
+    "stuckLimit": 96,
+    "concurrency": 6,
+    "games": 9000
+  },
+  "comparison": {
+    "schema": 1,
+    "pairs": 9000,
+    "seedBlocks": 1000,
+    "exactTraceAndDigestMatches": 9000,
+    "divergent": [],
+    "pairedWinDifference": {
+      "pairs": 1000,
+      "meanDifference": 0,
+      "ci95": [
+        0,
+        0
+      ],
+      "method": "paired percentile bootstrap; 2000 resamples; fixed seed 362",
+      "pairedConfigurations": 9000,
+      "seedBlocks": 1000,
+      "unit": "mean paired difference across configurations within each seed"
+    },
+    "pairedTickDifference": {
+      "pairs": 1000,
+      "meanDifference": 0,
+      "ci95": [
+        0,
+        0
+      ],
+      "method": "paired percentile bootstrap; 2000 resamples; fixed seed 362",
+      "pairedConfigurations": 9000,
+      "seedBlocks": 1000,
+      "unit": "mean paired difference across configurations within each seed"
+    },
+    "note": "A trace SHA covers the ordered command/acceptance/rejection/tick/digest entries. Matrix equality is required, not inferred from equal aggregate win rates."
+  },
+  "frozenCandidate": {
+    "manifestPath": "C:/Users/coolking/.codex/visualizations/2026/10/11/01a129c4-1522-7131-8c77-c1a1ae3a19cd/m20-frozen-candidate.json",
+    "manifestSha256": "2efa4e9667c8fa034ec6ca61a07f9a1b0e367f1e8c94d9ccb9ae8772797240d4",
+    "files": 334,
+    "before": {
+      "time": "2026-10-11T09:31:30.974Z",
+      "changed": []
+    },
+    "after": {
+      "time": "2026-10-11T10:36:28.657Z",
+      "changed": []
+    },
+    "exitCode": 0
+  },
+  "durationMs": 3897367,
+  "total": {
+    "games": 9000,
+    "wins": 8969,
+    "winRate": 0.9965555555555555,
+    "winCI95": [
+      0.9951151331548801,
+      0.997572270424823
+    ],
+    "outcomes": {
+      "won": 8969,
+      "dead": 31
+    },
+    "deathCauses": {
+      "Emberling": 28,
+      "Fallen Star warden": 2,
+      "Ember bed": 1
+    },
+    "actions": {
+      "median": 416,
+      "p95": 469,
+      "peak": 508
+    },
+    "ticks": {
+      "median": 4378,
+      "p95": 4952,
+      "peak": 5402
+    },
+    "minHp": {
+      "median": 26,
+      "p95": 50,
+      "peak": 54
+    },
+    "minFood": {
+      "median": 71,
+      "p95": 125,
+      "peak": 125
+    },
+    "healing": {
+      "median": 118,
+      "p95": 173,
+      "peak": 233
+    },
+    "foodUsed": {
+      "median": 1,
+      "p95": 2,
+      "peak": 2
+    },
+    "healingPerAction": {
+      "median": 22.6,
+      "p95": 24.714285714285715,
+      "peak": 30
+    },
+    "foodPressureActions": {
+      "median": 0,
+      "p95": 0,
+      "peak": 0
+    },
+    "itemUses": {
+      "median": 4,
+      "p95": 7,
+      "peak": 8
+    },
+    "unknownUses": 0,
+    "unknownHarmfulOutcomes": 0,
+    "goldSpent": {
+      "median": 0,
+      "p95": 0,
+      "peak": 0
+    },
+    "goldEarned": {
+      "median": 140,
+      "p95": 142,
+      "peak": 147
+    },
+    "conditionsAcquired": {
+      "median": 16,
+      "p95": 18,
+      "peak": 22
+    },
+    "conditionsCleared": {
+      "median": 16,
+      "p95": 18,
+      "peak": 22
+    },
+    "kills": {
+      "median": 16,
+      "p95": 18,
+      "peak": 23
+    },
+    "collected": {
+      "median": 9,
+      "p95": 11,
+      "peak": 13
+    },
+    "knownItems": {
+      "median": 13,
+      "p95": 14,
+      "peak": 16
+    },
+    "damageSources": {
+      "crawler": 17324,
+      "environment-or-periodic": 1178674,
+      "venomfang": 6975,
+      "raider": 11378,
+      "shade": 22470,
+      "warden": 98807,
+      "hexer": 10219,
+      "sentinel": 19944,
+      "scavenger": 7424,
+      "rimebeast": 7293,
+      "emberling": 37019,
+      "brood": 287,
+      "acidmaw": 6223
+    },
+    "equipmentSelections": {
+      "cap": 9000,
+      "brigandine": 3257,
+      "boots": 9000,
+      "sword": 3267,
+      "shield": 6000,
+      "helm": 922,
+      "plate": 3513,
+      "maul": 3000,
+      "tower": 3549,
+      "fireblade": 94,
+      "leather": 3000,
+      "staff": 3000,
+      "silverblade": 141,
+      "knife": 246
+    },
+    "depths": [
+      {
+        "depth": 0,
+        "entered": 9000,
+        "deaths": 0,
+        "deathRiskAmongEntered": 0,
+        "deathCI95": [
+          0,
+          0.0004266466527940478
+        ],
+        "eventualWins": 8969
+      },
+      {
+        "depth": 1,
+        "entered": 9000,
+        "deaths": 0,
+        "deathRiskAmongEntered": 0,
+        "deathCI95": [
+          0,
+          0.0004266466527940478
+        ],
+        "eventualWins": 8969
+      },
+      {
+        "depth": 2,
+        "entered": 9000,
+        "deaths": 4,
+        "deathRiskAmongEntered": 0.00044444444444444447,
+        "deathCI95": [
+          0.00017284891106461483,
+          0.0011423073891491718
+        ],
+        "eventualWins": 8969
+      },
+      {
+        "depth": 3,
+        "entered": 8996,
+        "deaths": 9,
+        "deathRiskAmongEntered": 0.0010004446420631393,
+        "deathCI95": [
+          0.0005264393466972411,
+          0.0019004321621655551
+        ],
+        "eventualWins": 8969
+      },
+      {
+        "depth": 4,
+        "entered": 8987,
+        "deaths": 15,
+        "deathRiskAmongEntered": 0.0016690775564704573,
+        "deathCI95": [
+          0.0010117777933069088,
+          0.0027522145955804628
+        ],
+        "eventualWins": 8969
+      },
+      {
+        "depth": 5,
+        "entered": 8972,
+        "deaths": 3,
+        "deathRiskAmongEntered": 0.00033437360677663843,
+        "deathCI95": [
+          0.00011372356986723856,
+          0.0009827150053732785
+        ],
+        "eventualWins": 8969
+      }
+    ]
+  },
+  "groups": {
+    "loadout:vanguard": {
+      "games": 3000,
+      "wins": 3000,
+      "outcomes": {
+        "won": 3000
+      },
+      "winRate": 1,
+      "winCI95": [
+        0.9987211512746742,
+        1
+      ]
+    },
+    "loadout:breaker": {
+      "games": 3000,
+      "wins": 2972,
+      "outcomes": {
+        "won": 2972,
+        "dead": 28
+      },
+      "winRate": 0.9906666666666667,
+      "winCI95": [
+        0.9865437152737208,
+        0.9935346411771594
+      ]
+    },
+    "loadout:channeler": {
+      "games": 3000,
+      "wins": 2997,
+      "outcomes": {
+        "won": 2997,
+        "dead": 3
+      },
+      "winRate": 0.999,
+      "winCI95": [
+        0.9970638561911638,
+        0.9996598527809608
+      ]
+    },
+    "strategy:novice": {
+      "games": 3000,
+      "wins": 2997,
+      "outcomes": {
+        "won": 2997,
+        "dead": 3
+      },
+      "winRate": 0.999,
+      "winCI95": [
+        0.9970638561911638,
+        0.9996598527809608
+      ]
+    },
+    "strategy:survivor": {
+      "games": 3000,
+      "wins": 3000,
+      "outcomes": {
+        "won": 3000
+      },
+      "winRate": 1,
+      "winCI95": [
+        0.9987211512746742,
+        1
+      ]
+    },
+    "strategy:fighter": {
+      "games": 3000,
+      "wins": 2972,
+      "outcomes": {
+        "won": 2972,
+        "dead": 28
+      },
+      "winRate": 0.9906666666666667,
+      "winCI95": [
+        0.9865437152737208,
+        0.9935346411771594
+      ]
+    },
+    "vanguard/novice": {
+      "games": 1000,
+      "wins": 1000,
+      "outcomes": {
+        "won": 1000
+      },
+      "winRate": 1,
+      "winCI95": [
+        0.996173241514445,
+        1
+      ]
+    },
+    "vanguard/survivor": {
+      "games": 1000,
+      "wins": 1000,
+      "outcomes": {
+        "won": 1000
+      },
+      "winRate": 1,
+      "winCI95": [
+        0.996173241514445,
+        1
+      ]
+    },
+    "vanguard/fighter": {
+      "games": 1000,
+      "wins": 1000,
+      "outcomes": {
+        "won": 1000
+      },
+      "winRate": 1,
+      "winCI95": [
+        0.996173241514445,
+        1
+      ]
+    },
+    "breaker/novice": {
+      "games": 1000,
+      "wins": 1000,
+      "outcomes": {
+        "won": 1000
+      },
+      "winRate": 1,
+      "winCI95": [
+        0.996173241514445,
+        1
+      ]
+    },
+    "breaker/survivor": {
+      "games": 1000,
+      "wins": 1000,
+      "outcomes": {
+        "won": 1000
+      },
+      "winRate": 1,
+      "winCI95": [
+        0.996173241514445,
+        1
+      ]
+    },
+    "breaker/fighter": {
+      "games": 1000,
+      "wins": 972,
+      "outcomes": {
+        "won": 972,
+        "dead": 28
+      },
+      "winRate": 0.972,
+      "winCI95": [
+        0.9598298168024069,
+        0.9805577231872291
+      ]
+    },
+    "channeler/novice": {
+      "games": 1000,
+      "wins": 997,
+      "outcomes": {
+        "won": 997,
+        "dead": 3
+      },
+      "winRate": 0.997,
+      "winCI95": [
+        0.9912169859464969,
+        0.9989792161188614
+      ]
+    },
+    "channeler/survivor": {
+      "games": 1000,
+      "wins": 1000,
+      "outcomes": {
+        "won": 1000
+      },
+      "winRate": 1,
+      "winCI95": [
+        0.996173241514445,
+        1
+      ]
+    },
+    "channeler/fighter": {
+      "games": 1000,
+      "wins": 1000,
+      "outcomes": {
+        "won": 1000
+      },
+      "winRate": 1,
+      "winCI95": [
+        0.996173241514445,
+        1
+      ]
+    }
+  },
+  "environment": {
+    "node": "v24.14.0",
+    "platform": "win32 10.0.26300 x64",
+    "cpu": "12th Gen Intel(R) Core(TM) i5-12600KF"
+  },
+  "batches": [
+    {
+      "folder": "seeds-1-100",
+      "games": 900,
+      "durationMs": 315652.22900000005,
+      "perGameMs": {
+        "median": 1859.0935000000027,
+        "p95": 3574.045904999977,
+        "peak": 4672.302400000044
+      },
+      "workerHeapBytes": {
+        "median": 57488352,
+        "p95": 89181146.8,
+        "peak": 98531392
+      }
+    },
+    {
+      "folder": "seeds-101-200",
+      "games": 900,
+      "durationMs": 494186.1637,
+      "perGameMs": {
+        "median": 3205.98520000001,
+        "p95": 4567.571170000008,
+        "peak": 10327.444099999964
+      },
+      "workerHeapBytes": {
+        "median": 52336092,
+        "p95": 88697807.2,
+        "peak": 98285776
+      }
+    },
+    {
+      "folder": "seeds-201-300",
+      "games": 900,
+      "durationMs": 724914.6891000001,
+      "perGameMs": {
+        "median": 3568.1380500000087,
+        "p95": 11715.704474999953,
+        "peak": 53575.634300000005
+      },
+      "workerHeapBytes": {
+        "median": 50279696,
+        "p95": 85094269.6,
+        "peak": 91456848
+      }
+    },
+    {
+      "folder": "seeds-301-400",
+      "games": 900,
+      "durationMs": 447801.61809999996,
+      "perGameMs": {
+        "median": 2930.9308499999897,
+        "p95": 4136.298724999984,
+        "peak": 6165.292000000016
+      },
+      "workerHeapBytes": {
+        "median": 54950492,
+        "p95": 88355385.6,
+        "peak": 100669024
+      }
+    },
+    {
+      "folder": "seeds-401-500",
+      "games": 900,
+      "durationMs": 402722.72339999996,
+      "perGameMs": {
+        "median": 2682.4987499999843,
+        "p95": 3840.186370000011,
+        "peak": 5111.080600000001
+      },
+      "workerHeapBytes": {
+        "median": 58160184,
+        "p95": 88816945.19999999,
+        "peak": 96305216
+      }
+    },
+    {
+      "folder": "seeds-501-600",
+      "games": 900,
+      "durationMs": 262509.7731,
+      "perGameMs": {
+        "median": 1633.4946500000078,
+        "p95": 2430.4771050000004,
+        "peak": 2896.063
+      },
+      "workerHeapBytes": {
+        "median": 57234716,
+        "p95": 89070496,
+        "peak": 101585576
+      }
+    },
+    {
+      "folder": "seeds-601-700",
+      "games": 900,
+      "durationMs": 398810.58139999997,
+      "perGameMs": {
+        "median": 2667.9406000000017,
+        "p95": 3773.6895500000073,
+        "peak": 4578.87910000002
+      },
+      "workerHeapBytes": {
+        "median": 54240092,
+        "p95": 88697142,
+        "peak": 101007376
+      }
+    },
+    {
+      "folder": "seeds-701-800",
+      "games": 900,
+      "durationMs": 356034.63790000003,
+      "perGameMs": {
+        "median": 2451.014599999997,
+        "p95": 3662.2109149999997,
+        "peak": 4517.6273
+      },
+      "workerHeapBytes": {
+        "median": 54114068,
+        "p95": 88456243.6,
+        "peak": 95085480
+      }
+    },
+    {
+      "folder": "seeds-801-900",
+      "games": 900,
+      "durationMs": 246056.9124,
+      "perGameMs": {
+        "median": 1555.194100000008,
+        "p95": 1832.314075000022,
+        "peak": 4437.3496000000005
+      },
+      "workerHeapBytes": {
+        "median": 57753908,
+        "p95": 89365294.8,
+        "peak": 103785360
+      }
+    },
+    {
+      "folder": "seeds-901-1000",
+      "games": 900,
+      "durationMs": 233342.2755,
+      "perGameMs": {
+        "median": 1540.5489500000076,
+        "p95": 1745.1418700000056,
+        "peak": 1943.7663999999932
+      },
+      "workerHeapBytes": {
+        "median": 56088000,
+        "p95": 87257654,
+        "peak": 103666680
+      }
+    }
+  ],
+  "baseline": "C:/Users/coolking/.codex/visualizations/2026/10/11/01a129c4-1522-7131-8c77-c1a1ae3a19cd/m17-balance/baseline-9000",
+  "candidate": "C:/Users/coolking/.codex/visualizations/2026/10/11/01a129c4-1522-7131-8c77-c1a1ae3a19cd/m20-balance-candidate-9000/",
+  "failureReplay": {
+    "baselineVerified": 31,
+    "candidateDeaths": 31,
+    "identicalTraceAndDigest": 31,
+    "replayedAgain": false,
+    "reference": "m17-failure-verification.json"
+  },
+  "limitations": [
+    "Repeated configurations are a paired regression, not 18000 independent samples.",
+    "1000 seed blocks determine bootstrap sampling; all 9000 pairs separately require exact traces and digest.",
+    "Functional browser tests and earlier source tests overlapped part of this run; throughput is not an isolated product performance comparison.",
+    "GPU/phone/browser performance is outside this Node experiment.",
+    "Zero divergence covers these seeds, configurations and policies only; not all possible play."
+  ]
+}

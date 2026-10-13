@@ -1,0 +1,47 @@
+{
+  "reviewer": "M26I / root (not world implementation author)",
+  "round": 1,
+  "candidate": [
+    {
+      "sha256": "4C840581FF47BB33F11D1914894BFCED0FF7F886BADB31292874321059EBB0B6",
+      "path": "src/room/ground-pile.ts"
+    },
+    {
+      "sha256": "DBEAF5EE49EB6BE866D209364A23FE142BAA35FE7C43EFE34AB11EFAA8067034",
+      "path": "src/room/ground-pile-bounds.json"
+    },
+    {
+      "sha256": "4EAE5FE3544DEE46433C8E7ADB316C7D75A2664911CBD6C7A261B6DCD46A0506",
+      "path": "scripts/check-pile-bounds.mjs"
+    },
+    {
+      "sha256": "F9FC43BDAD19CEF6D89BE91813ACC574DD869322EA85BB51697DA604D61ED74F",
+      "path": "src/room/scene-hit-test.ts"
+    },
+    {
+      "sha256": "8FBB5C23896F4E4119B21DFC2842F6C4F86AF38D00CAC5047FB2F6595EB2EB68",
+      "path": "src/room/renderer.ts"
+    },
+    {
+      "sha256": "0017358980E93DD2A39ECFDDA8F4203C6C6A5E6F3416C389165471B471D66C5F",
+      "path": "src/interaction/intent.ts"
+    },
+    {
+      "sha256": "61F7E91FC12618E5A1D7ED2EE0D2B4A10D4FBA38541500637E3B661D24AEE3EE",
+      "path": "tests/interaction-m26-world.test.ts"
+    }
+  ],
+  "shaUnchanged": true,
+  "findings": [],
+  "executed": [
+    "Desktop Chromium M26 ladder explicit down/up archive equivalence",
+    "Natural alpha4 1/2/4/8 piles exact requested item ID archive equivalence",
+    "World long press release zero action; explicit pickup-all exact complete archive"
+  ],
+  "result": "3/3 browser integration tests, 40.2 seconds on dev server; not final production acceptance",
+  "limitations": [
+    "Headless Chromium and emulated touch events are not physical device acceptance",
+    "Cold unloaded asset may show bounded loading box until GLB available",
+    "World review does not cover renderer GPU memory or long-duration stress"
+  ]
+}

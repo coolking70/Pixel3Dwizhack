@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-13T20:34:07.790937",
+  "unit": {
+    "command": "npm run check:m31",
+    "passed": 96,
+    "files": 11,
+    "newTests": 40,
+    "scope": "Changed-only; not full historical suite"
+  },
+  "browser": {
+    "config": "playwright.m31.config.ts",
+    "uniquePassed": 3,
+    "additionalPackageSmoke": 1,
+    "device": "Chromium156 Windows1280x800; software GPU; simulated gamepad"
+  },
+  "balance": {
+    "seeds": 4,
+    "configurations": 36,
+    "won": 36,
+    "doubleRunAndExactReplay": true
+  },
+  "sourceRebuild": {
+    "candidateFiles": 421,
+    "candidateMatches": true,
+    "builtFiles": 181,
+    "buildMatches": true,
+    "npmCi": true,
+    "typecheckAndBuild": true,
+    "sourceDirectory": "C:\\Users\\coolking\\.codex\\visualizations\\2026\\10\\11\\01a129c4-1522-7131-8c77-c1a1ae3a19cd\\m31\\package-check\\source\\project"
+  },
+  "http": {
+    "url": "http://127.0.0.1:4232",
+    "redirect": "/alpha5.html",
+    "files": 181,
+    "allSha256": true
+  },
+  "review": "single-author self-review; no new independent sign-off",
+  "evidenceRoot": "C:\\Users\\coolking\\.codex\\visualizations\\2026\\10\\11\\01a129c4-1522-7131-8c77-c1a1ae3a19cd\\m31"
+}

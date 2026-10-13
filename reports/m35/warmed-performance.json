@@ -1,0 +1,57 @@
+{
+  "scope": "One natural censer checkpoint; each quality one warmup and three samples; SwiftShader desktop only, no screenshot inside measured action",
+  "device": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+    "viewport": [
+      1280,
+      720
+    ],
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+  },
+  "runs": 8,
+  "measuredRuns": 6,
+  "groups": [
+    {
+      "low": false,
+      "cpuMs": {
+        "samples": 61,
+        "median": 1.4,
+        "p95": 4.7,
+        "peak": 5
+      },
+      "frameIntervalMs": {
+        "samples": 58,
+        "median": 63.65,
+        "p95": 1167.4,
+        "peak": 1173.2
+      },
+      "drawCalls": {
+        "samples": 61,
+        "median": 350,
+        "p95": 352,
+        "peak": 352
+      }
+    },
+    {
+      "low": true,
+      "cpuMs": {
+        "samples": 79,
+        "median": 1.1,
+        "p95": 4.2,
+        "peak": 5.7
+      },
+      "frameIntervalMs": {
+        "samples": 76,
+        "median": 44.6,
+        "p95": 50.7,
+        "peak": 816.0
+      },
+      "drawCalls": {
+        "samples": 79,
+        "median": 186,
+        "p95": 188,
+        "peak": 188
+      }
+    }
+  ]
+}

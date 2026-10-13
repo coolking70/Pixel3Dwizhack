@@ -1,0 +1,145 @@
+{
+  "focusDetail": {
+    "prior": {
+      "item": 6,
+      "nav": {
+        "page": "bag",
+        "selectedItemId": 6,
+        "originIndex": 0,
+        "selectedSlot": null,
+        "previousActionId": "throw"
+      },
+      "tick": 10,
+      "revision": 2
+    },
+    "after": {
+      "events": [],
+      "item": 6,
+      "nav": {
+        "page": "bag",
+        "selectedItemId": 6,
+        "originIndex": 0,
+        "selectedSlot": null,
+        "previousActionId": "throw"
+      },
+      "tick": 10,
+      "revision": 2,
+      "readOnly": false,
+      "hasFocus": true
+    },
+    "realBlurObserved": false,
+    "panel": "aim",
+    "synthetic": {
+      "item": 6,
+      "nav": {
+        "page": "bag",
+        "selectedItemId": 6,
+        "originIndex": 0,
+        "selectedSlot": null,
+        "previousActionId": "throw"
+      },
+      "tick": 10,
+      "revision": 2
+    },
+    "pendingRevoked": true
+  },
+  "point": {
+    "x": 219.60428950451617,
+    "y": 610.3124131780498
+  },
+  "beforePointer": {
+    "panel": null,
+    "covers": false,
+    "state": {
+      "direct": true,
+      "bag": false,
+      "notice": "远征进度已验证并恢复。",
+      "state": "世界静止 · 等待行动",
+      "blocked": false,
+      "readOnly": false,
+      "busy": false,
+      "panel": null,
+      "seed": "24681",
+      "loadout": "vanguard",
+      "seedError": false,
+      "length": 2,
+      "replayAt": null,
+      "sound": false,
+      "volume": 0.25,
+      "low": false,
+      "textured": true,
+      "ready": true
+    },
+    "hit": {
+      "hits": [
+        {
+          "ref": {
+            "type": "world-cell",
+            "floor": 0,
+            "x": 1
+          },
+          "position": {
+            "floor": 0,
+            "x": 1
+          }
+        }
+      ],
+      "ladderEdges": []
+    }
+  },
+  "afterPointer": {
+    "panel": null,
+    "covers": false,
+    "state": {
+      "direct": true,
+      "bag": false,
+      "notice": "新旅程已就绪。",
+      "state": "世界静止 · 等待行动",
+      "blocked": false,
+      "readOnly": false,
+      "busy": false,
+      "panel": null,
+      "seed": "24681",
+      "loadout": "vanguard",
+      "seedError": false,
+      "length": 4,
+      "replayAt": null,
+      "sound": false,
+      "volume": 0.25,
+      "low": false,
+      "textured": true,
+      "ready": true
+    },
+    "tick": 30,
+    "regions": [
+      "bag",
+      "aux",
+      "assist"
+    ]
+  },
+  "pointerLifecycle": {
+    "oldReleaseTick": 10,
+    "activationClickTick": 10,
+    "freshClickTick": 30
+  },
+  "pointerArchiveEqual": true,
+  "stale": {
+    "rejected": true,
+    "reason": "interaction.unavailable",
+    "archiveEqual": true
+  },
+  "errors": [],
+  "beforeHash": {
+    "src/interaction/focus.ts": "036afd09c99fd0b1be96f1200c84d86dd09be952c7dbcea7ac980e6e9e6ac0e7",
+    "src/interaction/pickup.ts": "0fb5f65fc0dc83e5abd0e0f92f32d4bf5ed51f549fd9c371903d2ca13584a85a",
+    "src/game-ui/input.ts": "768ced3fde33b6c302a510753573f89f43d6afd0ba2648047a5f0792faa80830",
+    "src/alpha2/Game.vue": "816939d48298357069a614ef5935971716c8a74ecd3d218503e9b3f20626c413"
+  },
+  "afterHash": {
+    "src/interaction/focus.ts": "036afd09c99fd0b1be96f1200c84d86dd09be952c7dbcea7ac980e6e9e6ac0e7",
+    "src/interaction/pickup.ts": "0fb5f65fc0dc83e5abd0e0f92f32d4bf5ed51f549fd9c371903d2ca13584a85a",
+    "src/game-ui/input.ts": "768ced3fde33b6c302a510753573f89f43d6afd0ba2648047a5f0792faa80830",
+    "src/alpha2/Game.vue": "816939d48298357069a614ef5935971716c8a74ecd3d218503e9b3f20626c413"
+  },
+  "sourceStable": true
+}

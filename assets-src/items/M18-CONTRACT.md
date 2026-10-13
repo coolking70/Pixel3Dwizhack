@@ -1,0 +1,20 @@
+# M18 item production contract
+
+Scope: 45 public visual identities (24 fixed definitions and 21 seed-assigned secret appearance keys), with original recipes and actual three-level GLBs. No changes to simulation, saves, commands, item definitions, or random streams. M16 sample entries remain attributable to their original production stage; completion is recorded only after artifact and browser checks.
+
+`ItemVisualSpec` keeps its M16 fields. Compatible additions:
+
+- `lod`: three entries `{level:0|1|2,uri,sha256,triangles,drawCalls,bytes}`. `source` remains the high-quality level 0 GLB. Asset identity never includes a hidden effect; LOD is presentation quality only.
+- `worn.bindings`: optional `{node,bone,position,rotation,scale}` array. `node` names are `piece_torso`, `piece_armL`, etc. Each piece has local geometry and an assembly transform in the GLB for ground/preview. Wearing detaches the named node and replaces its assembly transform with the bone-local binding. Bones belong to existing 23-bone profile; mechanical slots stay the same six.
+- `worn.maskRegions`: union of currently loaded replacements. Masks and old-slot suppression must restore on removal, load failure and disposal, without rebuilding or disposing shared item resources.
+- `grip` and optional `muzzle` remain metre-based item-local points. Scene/projectile presenters may query the transformed named socket; they cannot decide hit outcomes.
+- `contact` is the visible bottle mouth/food contact in model-local metres. `supportGrip` is the scroll's opposite spindle endpoint; reading places the +Y spindle axis across both hands.
+- Every scroll GLB at all LODs includes `ReadingSheet`, translated `[0,0,.10]` with default scale `[.001,1,1]`. Sheet local X spans `[0,.40]`, local Y spans the roll's height, thickness `.008`. Animate `scale.x` toward `1` to unfold toward +X and back toward `.001` to recover. Its three plain lines encode no item effect, and it never controls simulation.
+- `createItemModelCache().instantiate/peek/preload(spec, level=0)` retain default behavior. Each `(public assetId, level)` has one parsed template; instances share its geometry/material. Caller must detach instances before cache disposal.
+- `ItemEquipment` covers all six slots and adds `setLOD(level)`; it selects geometry from ready public specs, resolves async results against current requested slots, and never attaches a stale prior item.
+- Character `setItemMasks` and `setItemSlots` own fallback visibility, including current hand variants. Clearing replacements immediately restores the current selected outfit and hands; item equipment does not cache stale base visibility.
+- `appearance.ts` exports `applyItemAppearance(root,item)` and `itemAppearanceKey(item)`. Only public food `freshness` changes the `FreshnessOverlay` clone visibility/scale; no shared material mutates. Food GLBs contain the overlay with zero scale by default, and cached fresh templates hide it. Fresh/stale keep the same asset ID. Every scene/action clone must apply its public item's appearance. `ItemThumbnailCache.getItem(item,size=64,level=0)` keys both model and public condition, preserving the base framing. Non-food condition fields never change an appearance key.
+
+Geometry simplification lowers radial segments and removes explicitly tagged fine ornaments. It does not replace an item with a generic box, change sockets, merge secret effect identities, or alter mechanical results. The generated manifest records actual vertices/triangles/calls/bytes per level. Material batching is by public surface color within each independently moving piece.
+
+Verification: structural and hash audit, real GLTFLoader parsing of every exported level, socket/partition invariants, same public identity before/after identification, cache and async teardown, all-slot swapping/masks, and actual browser 48/64/96 atlas plus ground/worn fixtures. Output images go to external `m18-assets`; screenshots are inspected before reporting acceptance. Physical phone performance remains separate. No full E2E or performance run is performed by this asset task.

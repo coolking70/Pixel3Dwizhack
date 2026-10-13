@@ -1,0 +1,5084 @@
+{
+  "schema": 2,
+  "license": "MIT",
+  "assets": [
+    {
+      "assetId": "fixed-sword",
+      "status": "ready",
+      "family": "weapon",
+      "silhouetteTag": "straight-point-crossguard",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-sword.glb",
+        "license": "MIT",
+        "sha256": "127be74ab84d5ad14ccc0682d290cd5d52ae97c0bcf310d22ecd253d5b6c096a"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.20999999344348907,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "muzzle": [
+        0,
+        0.935,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-sword.glb",
+          "sha256": "127be74ab84d5ad14ccc0682d290cd5d52ae97c0bcf310d22ecd253d5b6c096a",
+          "triangles": 156,
+          "drawCalls": 4,
+          "bytes": 13968
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-sword-lod1.glb",
+          "sha256": "c7739e5799d77f4915e52b24210b6a400221519c72b621a498e0b53774bbea12",
+          "triangles": 102,
+          "drawCalls": 4,
+          "bytes": 10076
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-sword-lod2.glb",
+          "sha256": "e7edd54d1bf9e436d358588c115ea322c8793f09358bd97de1ffdc5ea729115b",
+          "triangles": 78,
+          "drawCalls": 4,
+          "bytes": 8348
+        }
+      ],
+      "budget": {
+        "vertices": 468,
+        "triangles": 156,
+        "drawCalls": 4,
+        "bounds": {
+          "min": [
+            -0.15000000596046448,
+            -0.20999999344348907,
+            -0.06505382061004639
+          ],
+          "max": [
+            0.15000000596046448,
+            0.9350000023841858,
+            0.06505382061004639
+          ]
+        },
+        "bytes": 13968,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-knife",
+      "status": "ready",
+      "family": "weapon",
+      "silhouetteTag": "short-wide-asymmetric-blade",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-knife.glb",
+        "license": "MIT",
+        "sha256": "6b88032fe9aaf1d8587e30ad7084cdd776fcec251410b8223c6acd457889bd93"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.10999999940395355,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "muzzle": [
+        0,
+        0.56,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-knife.glb",
+          "sha256": "6b88032fe9aaf1d8587e30ad7084cdd776fcec251410b8223c6acd457889bd93",
+          "triangles": 78,
+          "drawCalls": 5,
+          "bytes": 8932
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-knife-lod1.glb",
+          "sha256": "41d80308bd72cdca0e2c27304f5d5bf8d2ab5ac9dd7df60ffb6b5a4ce3ae6c17",
+          "triangles": 66,
+          "drawCalls": 5,
+          "bytes": 8072
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-knife-lod2.glb",
+          "sha256": "4718bba8f55fa83aa9ffda5468943b95cb2267a52627fc5dad50efe518852462",
+          "triangles": 54,
+          "drawCalls": 4,
+          "bytes": 6620
+        }
+      ],
+      "budget": {
+        "vertices": 234,
+        "triangles": 78,
+        "drawCalls": 5,
+        "bounds": {
+          "min": [
+            -0.10499999672174454,
+            -0.10999999940395355,
+            -0.10999999940395355
+          ],
+          "max": [
+            0.2645464241504669,
+            0.5550000071525574,
+            0.0952627956867218
+          ]
+        },
+        "bytes": 8932,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-maul",
+      "status": "ready",
+      "family": "weapon",
+      "silhouetteTag": "double-headed-hammer-counterweight",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-maul.glb",
+        "license": "MIT",
+        "sha256": "7f3eb5b5d97bb404e2a06907bd034c4e7403a63e34534dffb2ec758fecbd1df1"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.2750000059604645,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "muzzle": [
+        0,
+        0.81,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-maul.glb",
+          "sha256": "7f3eb5b5d97bb404e2a06907bd034c4e7403a63e34534dffb2ec758fecbd1df1",
+          "triangles": 180,
+          "drawCalls": 4,
+          "bytes": 15692
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-maul-lod1.glb",
+          "sha256": "51aca71186e8d25d2459096ff6ba1ce47c41ae6050c9ca3296d95c32d81420fe",
+          "triangles": 120,
+          "drawCalls": 4,
+          "bytes": 11368
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-maul-lod2.glb",
+          "sha256": "b750f8957d1dbe40ca86c4586d02d867388d92038b3f02098ea54fd59be995b8",
+          "triangles": 88,
+          "drawCalls": 4,
+          "bytes": 9060
+        }
+      ],
+      "budget": {
+        "vertices": 540,
+        "triangles": 180,
+        "drawCalls": 4,
+        "bounds": {
+          "min": [
+            -0.3199999928474426,
+            -0.2750000059604645,
+            -0.15000000596046448
+          ],
+          "max": [
+            0.3199999928474426,
+            0.8349999785423279,
+            0.15000000596046448
+          ]
+        },
+        "bytes": 15692,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-shield",
+      "status": "ready",
+      "family": "armor",
+      "silhouetteTag": "round-board-rim-boss",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-shield.glb",
+        "license": "MIT",
+        "sha256": "da9bf0447a20aac2634bda6dc57634c37cfae9465f36e0c687b45441b9147d5a"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.36500000953674316,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        -0.09
+      ],
+      "hand": {
+        "socket": "leftGrip",
+        "gripPreset": "board-z"
+      },
+      "worn": {
+        "slot": "offHand",
+        "meshGroup": "whole",
+        "maskRegions": []
+      },
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-shield.glb",
+          "sha256": "da9bf0447a20aac2634bda6dc57634c37cfae9465f36e0c687b45441b9147d5a",
+          "triangles": 304,
+          "drawCalls": 4,
+          "bytes": 24600
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-shield-lod1.glb",
+          "sha256": "ce945a8eaa657763bfaf218138ff5bda94e7a5eb9dd98bde5e80744e53e22c39",
+          "triangles": 192,
+          "drawCalls": 4,
+          "bytes": 16532
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-shield-lod2.glb",
+          "sha256": "91e67be815110cd467cd7df379e9be47b90cd9511e364461ed5749a3d6059189",
+          "triangles": 120,
+          "drawCalls": 4,
+          "bytes": 11340
+        }
+      ],
+      "budget": {
+        "vertices": 912,
+        "triangles": 304,
+        "drawCalls": 4,
+        "bounds": {
+          "min": [
+            -0.36500000953674316,
+            -0.36500000953674316,
+            -0.11999999731779099
+          ],
+          "max": [
+            0.36500000953674316,
+            0.36500000953674316,
+            0.16657395660877228
+          ]
+        },
+        "bytes": 24600,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-helm",
+      "status": "ready",
+      "family": "armor",
+      "silhouetteTag": "faceted-dome-narrow-visor",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-helm.glb",
+        "license": "MIT",
+        "sha256": "bb7f92b6e5fa78ddfdb547e44d03e541b2ff70e6e7d9191e8219e3d32ba037cc"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.15000000596046448,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "worn": {
+        "slot": "head",
+        "meshGroup": "whole",
+        "maskRegions": [
+          "hair"
+        ],
+        "bindings": [
+          {
+            "node": "piece_whole",
+            "bone": "Head",
+            "position": [
+              0,
+              0.31,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-helm.glb",
+          "sha256": "bb7f92b6e5fa78ddfdb547e44d03e541b2ff70e6e7d9191e8219e3d32ba037cc",
+          "triangles": 160,
+          "drawCalls": 3,
+          "bytes": 13632
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-helm-lod1.glb",
+          "sha256": "f79912585ff7bdec2629c208da758ea76fe0f428365cacfa3eec80b8bd61aedb",
+          "triangles": 108,
+          "drawCalls": 3,
+          "bytes": 9884
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-helm-lod2.glb",
+          "sha256": "6008dcd29f442deb98bbc06fd0047b9a8a4211d4ccec24fb757cca31125e4691",
+          "triangles": 84,
+          "drawCalls": 3,
+          "bytes": 8156
+        }
+      ],
+      "budget": {
+        "vertices": 480,
+        "triangles": 160,
+        "drawCalls": 3,
+        "bounds": {
+          "min": [
+            -0.2475000023841858,
+            -0.15000000596046448,
+            -0.2199999988079071
+          ],
+          "max": [
+            0.2475000023841858,
+            0.3700000047683716,
+            0.2524999976158142
+          ]
+        },
+        "bytes": 13632,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-ration",
+      "status": "ready",
+      "family": "food",
+      "silhouetteTag": "cloth-wrapped-loaf-cross-ties",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-ration.glb",
+        "license": "MIT",
+        "sha256": "de29c55a02cae07f655d8ce61246d839eb095b8844a55910a3066efeae2f4c69"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.020000001415610313,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "contact": [
+        0,
+        0.26,
+        0.11
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-ration.glb",
+          "sha256": "de29c55a02cae07f655d8ce61246d839eb095b8844a55910a3066efeae2f4c69",
+          "triangles": 448,
+          "drawCalls": 5,
+          "bytes": 35696
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-ration-lod1.glb",
+          "sha256": "d46f30888a9fb7d36e3779c8181a02e59260d0b3812f85c5d6f1d2ac7b6f28d6",
+          "triangles": 240,
+          "drawCalls": 5,
+          "bytes": 20720
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-ration-lod2.glb",
+          "sha256": "da68b545b1ebd20b22663110cf385097b644826a672ecbc9589d4fe7b0f237cc",
+          "triangles": 144,
+          "drawCalls": 5,
+          "bytes": 13796
+        }
+      ],
+      "budget": {
+        "vertices": 1344,
+        "triangles": 448,
+        "drawCalls": 5,
+        "bounds": {
+          "min": [
+            -0.23000000417232513,
+            -0.020000001415610313,
+            -0.15000000596046448
+          ],
+          "max": [
+            0.23000000417232513,
+            0.3700000047683716,
+            0.15000000596046448
+          ]
+        },
+        "bytes": 35696,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-lantern",
+      "status": "ready",
+      "family": "tool",
+      "silhouetteTag": "hanging-cage-stone-lantern",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-lantern.glb",
+        "license": "MIT",
+        "sha256": "a253cfab7f025a94000d726771113df9dea901c1809df84975c6ea2db1764aab"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.027499999850988388,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0.67,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "contact": [
+        0,
+        0.22,
+        0.11
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-lantern.glb",
+          "sha256": "a253cfab7f025a94000d726771113df9dea901c1809df84975c6ea2db1764aab",
+          "triangles": 188,
+          "drawCalls": 3,
+          "bytes": 15704
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-lantern-lod1.glb",
+          "sha256": "a52e3527e9e476acd6eec6f46694dc4e308dbd0988f73595b1e745dd7b87b09c",
+          "triangles": 142,
+          "drawCalls": 3,
+          "bytes": 12388
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-lantern-lod2.glb",
+          "sha256": "e54007c91115569f19a12acd37cf7aefa586e249f51eb5d24a75c70affac3748",
+          "triangles": 116,
+          "drawCalls": 3,
+          "bytes": 10516
+        }
+      ],
+      "budget": {
+        "vertices": 564,
+        "triangles": 188,
+        "drawCalls": 3,
+        "bounds": {
+          "min": [
+            -0.14499999582767487,
+            -0.027499999850988388,
+            -0.1414213627576828
+          ],
+          "max": [
+            0.14499999582767487,
+            0.7465183138847351,
+            0.1414213627576828
+          ]
+        },
+        "bytes": 15704,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-kit",
+      "status": "ready",
+      "family": "tool",
+      "silhouetteTag": "open-repair-satchel-and-small-hammer",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-kit.glb",
+        "license": "MIT",
+        "sha256": "c861e5c7bfc4233c426045c6194a731a6876a9afb933a827280e11df1c9db0ea"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          -2.6822091214739885e-9,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0.28,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "contact": [
+        0.14,
+        0.4775,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-kit.glb",
+          "sha256": "c861e5c7bfc4233c426045c6194a731a6876a9afb933a827280e11df1c9db0ea",
+          "triangles": 96,
+          "drawCalls": 5,
+          "bytes": 10244
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-kit-lod1.glb",
+          "sha256": "ce5230572fc3fc302b3dc5b85ede907e3f696ae60b120ab7e6964b1a0082caf0",
+          "triangles": 88,
+          "drawCalls": 5,
+          "bytes": 9664
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-kit-lod2.glb",
+          "sha256": "4b113c6db14ee6bf55a6b02b7b4ad27fda9bf95feadc44e01173b39d0f9b0d1d",
+          "triangles": 84,
+          "drawCalls": 5,
+          "bytes": 9376
+        }
+      ],
+      "budget": {
+        "vertices": 288,
+        "triangles": 96,
+        "drawCalls": 5,
+        "bounds": {
+          "min": [
+            -0.23999999463558197,
+            2.6822091214739885e-9,
+            -0.19067932665348053
+          ],
+          "max": [
+            0.23999999463558197,
+            0.47749999165534973,
+            0.14749999344348907
+          ]
+        },
+        "bytes": 10244,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "potion-0",
+      "status": "ready",
+      "family": "potion",
+      "silhouetteTag": "flattened-flask",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/potion-0.glb",
+        "license": "MIT",
+        "sha256": "566f18c95b47f1637bd4f89beb810f94ef0c33f8622a9944eeb098935cd51538"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          -0.019999992102384567,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0.39,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "contact": [
+        0,
+        0.52,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/potion-0.glb",
+          "sha256": "566f18c95b47f1637bd4f89beb810f94ef0c33f8622a9944eeb098935cd51538",
+          "triangles": 244,
+          "drawCalls": 4,
+          "bytes": 20320
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/potion-0-lod1.glb",
+          "sha256": "4cad6bc751a2d834689eb18057951889f10741f5afdf1d66fa0bc0fbdb02de2c",
+          "triangles": 144,
+          "drawCalls": 4,
+          "bytes": 13112
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/potion-0-lod2.glb",
+          "sha256": "bcd48baf1b24897d080a36c260a9e33236203f3c501849f7bb84fdecd0e46616",
+          "triangles": 80,
+          "drawCalls": 4,
+          "bytes": 8496
+        }
+      ],
+      "budget": {
+        "vertices": 732,
+        "triangles": 244,
+        "drawCalls": 4,
+        "bounds": {
+          "min": [
+            -0.18000000715255737,
+            0.019999992102384567,
+            -0.07999999821186066
+          ],
+          "max": [
+            0.18000000715255737,
+            0.5199999809265137,
+            0.10211901366710663
+          ]
+        },
+        "bytes": 20320,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "potion-1",
+      "status": "ready",
+      "family": "potion",
+      "silhouetteTag": "globular-bottle",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/potion-1.glb",
+        "license": "MIT",
+        "sha256": "e5ce0e842c2c9053ab7d2c5f77fbbc2a71c6d0c2d229ab1e14af209c1431fc67"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          -0.019999992102384567,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0.39,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "contact": [
+        0,
+        0.52,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/potion-1.glb",
+          "sha256": "e5ce0e842c2c9053ab7d2c5f77fbbc2a71c6d0c2d229ab1e14af209c1431fc67",
+          "triangles": 284,
+          "drawCalls": 4,
+          "bytes": 23204
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/potion-1-lod1.glb",
+          "sha256": "fe640a57f1857ad07ffa0048258b966e13fbbc29c9f770c3ce472cf93177acf0",
+          "triangles": 168,
+          "drawCalls": 4,
+          "bytes": 14844
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/potion-1-lod2.glb",
+          "sha256": "0e7410b62842afd752acb85707f7b10ab97b36a73f57056f41f2a7fa4afd8b02",
+          "triangles": 92,
+          "drawCalls": 4,
+          "bytes": 9368
+        }
+      ],
+      "budget": {
+        "vertices": 852,
+        "triangles": 284,
+        "drawCalls": 4,
+        "bounds": {
+          "min": [
+            -0.18000000715255737,
+            0.019999992102384567,
+            -0.17399999499320984
+          ],
+          "max": [
+            0.18000000715255737,
+            0.5199999809265137,
+            0.17399999499320984
+          ]
+        },
+        "bytes": 23204,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "potion-2",
+      "status": "ready",
+      "family": "potion",
+      "silhouetteTag": "long-neck",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/potion-2.glb",
+        "license": "MIT",
+        "sha256": "fd24845f26cb18fb4a18d79c262bb9dbf6ce7cab2e10e39dab08f29e73288416"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.03999999538064003,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0.39,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "contact": [
+        0,
+        0.615,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/potion-2.glb",
+          "sha256": "fd24845f26cb18fb4a18d79c262bb9dbf6ce7cab2e10e39dab08f29e73288416",
+          "triangles": 164,
+          "drawCalls": 3,
+          "bytes": 13972
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/potion-2-lod1.glb",
+          "sha256": "3f838e5b948a9a9910aa3c770f733f67025221d2540d3330789d6ec7275fd668",
+          "triangles": 96,
+          "drawCalls": 3,
+          "bytes": 9068
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/potion-2-lod2.glb",
+          "sha256": "d26e790ceb4761cc20fc76f63ace43a9af3c363fe2e591d76119d4b578eed5d6",
+          "triangles": 56,
+          "drawCalls": 3,
+          "bytes": 6184
+        }
+      ],
+      "budget": {
+        "vertices": 492,
+        "triangles": 164,
+        "drawCalls": 3,
+        "bounds": {
+          "min": [
+            -0.11999999731779099,
+            -0.03999999538064003,
+            -0.14265848696231842
+          ],
+          "max": [
+            0.11999999731779099,
+            0.6150000095367432,
+            0.14265848696231842
+          ]
+        },
+        "bytes": 13972,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "potion-3",
+      "status": "ready",
+      "family": "potion",
+      "silhouetteTag": "twin-handles",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/potion-3.glb",
+        "license": "MIT",
+        "sha256": "98fe2b081644327e6a8070ad952ce523a56a30568b7a3f18fcd0a075ab837890"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          -0.019999992102384567,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0.39,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "contact": [
+        0,
+        0.52,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/potion-3.glb",
+          "sha256": "98fe2b081644327e6a8070ad952ce523a56a30568b7a3f18fcd0a075ab837890",
+          "triangles": 324,
+          "drawCalls": 4,
+          "bytes": 26080
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/potion-3-lod1.glb",
+          "sha256": "642189fbe32d1f32364726c1c613cbc78f31b21dd93e3363107de9d953fe5c8d",
+          "triangles": 192,
+          "drawCalls": 4,
+          "bytes": 16572
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/potion-3-lod2.glb",
+          "sha256": "4594ef542a7e78bffc3c27e8987f7257bb0916cea68d9b63d92367f0c858d9dd",
+          "triangles": 104,
+          "drawCalls": 4,
+          "bytes": 10232
+        }
+      ],
+      "budget": {
+        "vertices": 972,
+        "triangles": 324,
+        "drawCalls": 4,
+        "bounds": {
+          "min": [
+            -0.27399998903274536,
+            0.019999992102384567,
+            -0.14265848696231842
+          ],
+          "max": [
+            0.27399998903274536,
+            0.5199999809265137,
+            0.14265848696231842
+          ]
+        },
+        "bytes": 26080,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "potion-4",
+      "status": "ready",
+      "family": "potion",
+      "silhouetteTag": "square-bottle",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/potion-4.glb",
+        "license": "MIT",
+        "sha256": "9fe82a83616312e12465cbc6f01df04b6b97e034c0c00e529a6943ee979fd38e"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          -0.03999999538064003,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0.39,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "contact": [
+        0,
+        0.52,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/potion-4.glb",
+          "sha256": "9fe82a83616312e12465cbc6f01df04b6b97e034c0c00e529a6943ee979fd38e",
+          "triangles": 76,
+          "drawCalls": 3,
+          "bytes": 7600
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/potion-4-lod1.glb",
+          "sha256": "6fdd8b98dc43b021412a531714db09da1a9adba6ade98538a03e1df48f7a5545",
+          "triangles": 60,
+          "drawCalls": 3,
+          "bytes": 6440
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/potion-4-lod2.glb",
+          "sha256": "6afd6bf051e3304d5cd5d56e1a85a9d48887a42874de71b9032ab0db80454767",
+          "triangles": 44,
+          "drawCalls": 3,
+          "bytes": 5292
+        }
+      ],
+      "budget": {
+        "vertices": 228,
+        "triangles": 76,
+        "drawCalls": 3,
+        "bounds": {
+          "min": [
+            -0.1599999964237213,
+            0.03999999538064003,
+            -0.125
+          ],
+          "max": [
+            0.1599999964237213,
+            0.5199999809265137,
+            0.125
+          ]
+        },
+        "bytes": 7600,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "potion-5",
+      "status": "ready",
+      "family": "potion",
+      "silhouetteTag": "pointed-foot",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/potion-5.glb",
+        "license": "MIT",
+        "sha256": "f4aed870b5e68a84fb066e1974ed9d780921a79d9a46b4b067df22800c24c8d1"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.0650000050663948,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0.39,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "contact": [
+        0,
+        0.52,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/potion-5.glb",
+          "sha256": "f4aed870b5e68a84fb066e1974ed9d780921a79d9a46b4b067df22800c24c8d1",
+          "triangles": 176,
+          "drawCalls": 4,
+          "bytes": 15424
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/potion-5-lod1.glb",
+          "sha256": "aeadd5ab2682f6eba115d563f495325dee188c71e94f4eaf7235d23643a55732",
+          "triangles": 104,
+          "drawCalls": 4,
+          "bytes": 10232
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/potion-5-lod2.glb",
+          "sha256": "1487c40dee3534e90c9ee621460e9326344d9584e8c8312d17be62b14405b574",
+          "triangles": 62,
+          "drawCalls": 4,
+          "bytes": 7204
+        }
+      ],
+      "budget": {
+        "vertices": 528,
+        "triangles": 176,
+        "drawCalls": 4,
+        "bounds": {
+          "min": [
+            -0.18000000715255737,
+            -0.0650000050663948,
+            -0.14265848696231842
+          ],
+          "max": [
+            0.18000000715255737,
+            0.5199999809265137,
+            0.14265848696231842
+          ]
+        },
+        "bytes": 15424,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "potion-6",
+      "status": "ready",
+      "family": "potion",
+      "silhouetteTag": "clay-seal",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/potion-6.glb",
+        "license": "MIT",
+        "sha256": "cddd95d8c21516aa21418efae951429710186f37a12d739c53238f2e9f13e754"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          -0.019999992102384567,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0.39,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "contact": [
+        0,
+        0.52,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/potion-6.glb",
+          "sha256": "cddd95d8c21516aa21418efae951429710186f37a12d739c53238f2e9f13e754",
+          "triangles": 264,
+          "drawCalls": 4,
+          "bytes": 21764
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/potion-6-lod1.glb",
+          "sha256": "cf2326272dc3e346b6a3d5d4395b1c1508eee601007e1212820583c55924f0f5",
+          "triangles": 144,
+          "drawCalls": 4,
+          "bytes": 13116
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/potion-6-lod2.glb",
+          "sha256": "7effe462108f39ba9b84dd7183a4a38e766bb4e196f0eedf55651edfa605ad08",
+          "triangles": 80,
+          "drawCalls": 4,
+          "bytes": 8500
+        }
+      ],
+      "budget": {
+        "vertices": 792,
+        "triangles": 264,
+        "drawCalls": 4,
+        "bounds": {
+          "min": [
+            -0.18000000715255737,
+            0.019999992102384567,
+            -0.14265848696231842
+          ],
+          "max": [
+            0.18000000715255737,
+            0.5400000214576721,
+            0.14265848696231842
+          ]
+        },
+        "bytes": 21764,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "potion-7",
+      "status": "ready",
+      "family": "potion",
+      "silhouetteTag": "bone-collar",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/potion-7.glb",
+        "license": "MIT",
+        "sha256": "12a27639bbf157738c2cdfa18480609c710e6b8ab30cdf8767a608474cad7512"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          -0.019999992102384567,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0.39,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "contact": [
+        0,
+        0.52,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/potion-7.glb",
+          "sha256": "12a27639bbf157738c2cdfa18480609c710e6b8ab30cdf8767a608474cad7512",
+          "triangles": 188,
+          "drawCalls": 4,
+          "bytes": 16284
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/potion-7-lod1.glb",
+          "sha256": "1552e802ae8e03e1cd0f3e919eee8c737d8d304a33a1a1c198f93d9780e0f90e",
+          "triangles": 120,
+          "drawCalls": 4,
+          "bytes": 11380
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/potion-7-lod2.glb",
+          "sha256": "490921f66c63c0771dbfb433a261da84c98a34ad206f0aa8f903f115c75d78dc",
+          "triangles": 80,
+          "drawCalls": 4,
+          "bytes": 8496
+        }
+      ],
+      "budget": {
+        "vertices": 564,
+        "triangles": 188,
+        "drawCalls": 4,
+        "bounds": {
+          "min": [
+            -0.19900229573249817,
+            0.019999992102384567,
+            -0.14265848696231842
+          ],
+          "max": [
+            0.19900229573249817,
+            0.5199999809265137,
+            0.14265848696231842
+          ]
+        },
+        "bytes": 16284,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "scroll-0",
+      "status": "ready",
+      "family": "scroll",
+      "silhouetteTag": "short-roll",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/scroll-0.glb",
+        "license": "MIT",
+        "sha256": "e1ff870a20bb8b96beb7e77ba55da9c2603cc4887a5f855cfee277461b40c3f2"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.04000000283122063,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        -0.04,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "supportGrip": [
+        0,
+        0.32999999999999996,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/scroll-0.glb",
+          "sha256": "e1ff870a20bb8b96beb7e77ba55da9c2603cc4887a5f855cfee277461b40c3f2",
+          "triangles": 144,
+          "drawCalls": 5,
+          "bytes": 13484
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/scroll-0-lod1.glb",
+          "sha256": "d77abe4785a719fa1f4ab057f5b06fcbfd7e18ea55878693a6c9c712cb82086b",
+          "triangles": 124,
+          "drawCalls": 5,
+          "bytes": 12044
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/scroll-0-lod2.glb",
+          "sha256": "6ea50202c13e87450f19c0945153dcc6245ef9168f93b787e4c117fdb13a781f",
+          "triangles": 108,
+          "drawCalls": 5,
+          "bytes": 10888
+        }
+      ],
+      "budget": {
+        "vertices": 432,
+        "triangles": 144,
+        "drawCalls": 5,
+        "bounds": {
+          "min": [
+            -0.10000000149011612,
+            -0.04000000283122063,
+            -0.10000000149011612
+          ],
+          "max": [
+            0.22513923048973083,
+            0.33000001311302185,
+            0.10749999983236194
+          ]
+        },
+        "bytes": 13484,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "scroll-1",
+      "status": "ready",
+      "family": "scroll",
+      "silhouetteTag": "long-spindle",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/scroll-1.glb",
+        "license": "MIT",
+        "sha256": "3960a1667f455d6d6575aeab3622f88844c0701d32d5125971cdfa6206351c28"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.07999999821186066,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        -0.04,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "supportGrip": [
+        0,
+        0.40499999999999997,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/scroll-1.glb",
+          "sha256": "3960a1667f455d6d6575aeab3622f88844c0701d32d5125971cdfa6206351c28",
+          "triangles": 332,
+          "drawCalls": 5,
+          "bytes": 27032
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/scroll-1-lod1.glb",
+          "sha256": "bde814ec75f3ed14d6b52ffa96492208ace4bcd5b1b5064775b661484d0c3eb7",
+          "triangles": 208,
+          "drawCalls": 5,
+          "bytes": 18100
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/scroll-1-lod2.glb",
+          "sha256": "ecbb6252fd96a2336e474427855df805b072d53e4df35947f98effbcfa78942f",
+          "triangles": 144,
+          "drawCalls": 5,
+          "bytes": 13484
+        }
+      ],
+      "budget": {
+        "vertices": 996,
+        "triangles": 332,
+        "drawCalls": 5,
+        "bounds": {
+          "min": [
+            -0.07000000029802322,
+            -0.07999999821186066,
+            -0.07000000029802322
+          ],
+          "max": [
+            0.07000000029802322,
+            0.4449999928474426,
+            0.10749999983236194
+          ]
+        },
+        "bytes": 27032,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "scroll-2",
+      "status": "ready",
+      "family": "scroll",
+      "silhouetteTag": "double-roll",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/scroll-2.glb",
+        "license": "MIT",
+        "sha256": "313a79aa11af89df9abb56e9108057ca6c280cd87013634feca407fdcc98964e"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.03999999165534973,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        -0.04,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "supportGrip": [
+        0,
+        0.4799999999999999,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/scroll-2.glb",
+          "sha256": "313a79aa11af89df9abb56e9108057ca6c280cd87013634feca407fdcc98964e",
+          "triangles": 164,
+          "drawCalls": 5,
+          "bytes": 14920
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/scroll-2-lod1.glb",
+          "sha256": "e359770285fe9131d19235438df8f65c959415fd2dc5164b2ec784312bda24da",
+          "triangles": 136,
+          "drawCalls": 5,
+          "bytes": 12900
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/scroll-2-lod2.glb",
+          "sha256": "e9f2abc0e70de04335e270847f8729bcefd2e6e70d17854ca879baef7f373a51",
+          "triangles": 112,
+          "drawCalls": 5,
+          "bytes": 11172
+        }
+      ],
+      "budget": {
+        "vertices": 492,
+        "triangles": 164,
+        "drawCalls": 5,
+        "bounds": {
+          "min": [
+            -0.10000000149011612,
+            -0.03999999165534973,
+            -0.10000000149011612
+          ],
+          "max": [
+            0.20499999821186066,
+            0.47999998927116394,
+            0.10749999983236194
+          ]
+        },
+        "bytes": 14920,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "scroll-3",
+      "status": "ready",
+      "family": "scroll",
+      "silhouetteTag": "wax-seal",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/scroll-3.glb",
+        "license": "MIT",
+        "sha256": "2138053111b26b2bce8560d11799c2dc9123108700dba17d61f687ac4b0ecf0e"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.04000000283122063,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        -0.04,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "supportGrip": [
+        0,
+        0.32999999999999996,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/scroll-3.glb",
+          "sha256": "2138053111b26b2bce8560d11799c2dc9123108700dba17d61f687ac4b0ecf0e",
+          "triangles": 232,
+          "drawCalls": 6,
+          "bytes": 20416
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/scroll-3-lod1.glb",
+          "sha256": "e6b464cb2c395fb7a3a1f6bd2854e7c685d40af0eedd36b96d9e48725248f732",
+          "triangles": 160,
+          "drawCalls": 6,
+          "bytes": 15228
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/scroll-3-lod2.glb",
+          "sha256": "14a87173e7e0f8edd1b9f17a293172ae8148b3599620ecfa7c912dee2fd7c540",
+          "triangles": 120,
+          "drawCalls": 6,
+          "bytes": 12336
+        }
+      ],
+      "budget": {
+        "vertices": 696,
+        "triangles": 232,
+        "drawCalls": 6,
+        "bounds": {
+          "min": [
+            -0.10000000149011612,
+            -0.04000000283122063,
+            -0.10000000149011612
+          ],
+          "max": [
+            0.10000000149011612,
+            0.33000001311302185,
+            0.13377641141414642
+          ]
+        },
+        "bytes": 20416,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "scroll-4",
+      "status": "ready",
+      "family": "scroll",
+      "silhouetteTag": "metal-hoop",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/scroll-4.glb",
+        "license": "MIT",
+        "sha256": "69f908a09aba1043ddec22a8796d31ec6c89aa5c8e7d5593db95ab6c8a02c522"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.03999999538064003,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        -0.04,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "supportGrip": [
+        0,
+        0.40499999999999997,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/scroll-4.glb",
+          "sha256": "69f908a09aba1043ddec22a8796d31ec6c89aa5c8e7d5593db95ab6c8a02c522",
+          "triangles": 232,
+          "drawCalls": 6,
+          "bytes": 20416
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/scroll-4-lod1.glb",
+          "sha256": "bc68af84edc121609b9d1ed48f323c2f48dd3e6de19e88d10e0f16f0f96904b4",
+          "triangles": 168,
+          "drawCalls": 6,
+          "bytes": 15804
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/scroll-4-lod2.glb",
+          "sha256": "5c6f97a5b491650a09e9846e97b387bc49e706a647b8722687d72422fb2042e8",
+          "triangles": 126,
+          "drawCalls": 6,
+          "bytes": 12772
+        }
+      ],
+      "budget": {
+        "vertices": 696,
+        "triangles": 232,
+        "drawCalls": 6,
+        "bounds": {
+          "min": [
+            -0.12800000607967377,
+            -0.03999999538064003,
+            -0.12173523753881454
+          ],
+          "max": [
+            0.12800000607967377,
+            0.4050000011920929,
+            0.12173523753881454
+          ]
+        },
+        "bytes": 20416,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "scroll-5",
+      "status": "ready",
+      "family": "scroll",
+      "silhouetteTag": "cloth-envelope",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/scroll-5.glb",
+        "license": "MIT",
+        "sha256": "3beb4464b591fbe25cb9be20397e74426502e86bf49f3ebb6a1b72169a77772c"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.03999999165534973,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        -0.04,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "supportGrip": [
+        0,
+        0.4799999999999999,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/scroll-5.glb",
+          "sha256": "3beb4464b591fbe25cb9be20397e74426502e86bf49f3ebb6a1b72169a77772c",
+          "triangles": 176,
+          "drawCalls": 6,
+          "bytes": 16372
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/scroll-5-lod1.glb",
+          "sha256": "dbe3495d8a16afb728e4b4beb2bd69dd31f9c19e3edb991e27cf5b28ac4e110e",
+          "triangles": 148,
+          "drawCalls": 6,
+          "bytes": 14356
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/scroll-5-lod2.glb",
+          "sha256": "0261a0e338749db704cc601293bc9afd5cba16943ec5010062f03808a0fe1e88",
+          "triangles": 124,
+          "drawCalls": 6,
+          "bytes": 12624
+        }
+      ],
+      "budget": {
+        "vertices": 528,
+        "triangles": 176,
+        "drawCalls": 6,
+        "bounds": {
+          "min": [
+            -0.10000000149011612,
+            -0.03999999165534973,
+            -0.10000000149011612
+          ],
+          "max": [
+            0.2150000035762787,
+            0.47999998927116394,
+            0.10749999983236194
+          ]
+        },
+        "bytes": 16372,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "wand-0",
+      "status": "ready",
+      "family": "wand",
+      "silhouetteTag": "fork-tip",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/wand-0.glb",
+        "license": "MIT",
+        "sha256": "ff000a01e77a613fccc5eb05422fa8e3a5d8d58714247ae31ad5aca56d58176c"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.10499998927116394,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "muzzle": [
+        0,
+        0.78,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/wand-0.glb",
+          "sha256": "ff000a01e77a613fccc5eb05422fa8e3a5d8d58714247ae31ad5aca56d58176c",
+          "triangles": 64,
+          "drawCalls": 3,
+          "bytes": 6760
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/wand-0-lod1.glb",
+          "sha256": "ef3f7df569c72f0fdc9076d1dce3101a081772cd74edc8f6249673ab5b413a40",
+          "triangles": 56,
+          "drawCalls": 3,
+          "bytes": 6184
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/wand-0-lod2.glb",
+          "sha256": "55b2f71b19b4669820bdfe5de1ac6b3d9aa431e19fd579949a56a65722aad993",
+          "triangles": 48,
+          "drawCalls": 3,
+          "bytes": 5604
+        }
+      ],
+      "budget": {
+        "vertices": 192,
+        "triangles": 64,
+        "drawCalls": 3,
+        "bounds": {
+          "min": [
+            -0.1688559651374817,
+            -0.10499998927116394,
+            -0.04054360091686249
+          ],
+          "max": [
+            0.1688559651374817,
+            0.731657862663269,
+            0.04500000178813934
+          ]
+        },
+        "bytes": 6760,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "wand-1",
+      "status": "ready",
+      "family": "wand",
+      "silhouetteTag": "ring-tip",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/wand-1.glb",
+        "license": "MIT",
+        "sha256": "76b8882351ddf785c7a062ba3ee112428cf0c536ae62d4939a6f73dd5553a6c2"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.10499998927116394,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "muzzle": [
+        0,
+        0.78,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/wand-1.glb",
+          "sha256": "76b8882351ddf785c7a062ba3ee112428cf0c536ae62d4939a6f73dd5553a6c2",
+          "triangles": 140,
+          "drawCalls": 3,
+          "bytes": 12240
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/wand-1-lod1.glb",
+          "sha256": "cc55f09dae4b10023f8d558cf1669477589bcdea0add6f3c3adce5dd96e5cd52",
+          "triangles": 88,
+          "drawCalls": 3,
+          "bytes": 8496
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/wand-1-lod2.glb",
+          "sha256": "cc2a8da0c2afca6fb8caad4e944d465631e1361783ea57f88789eb1a84a6c245",
+          "triangles": 54,
+          "drawCalls": 3,
+          "bytes": 6040
+        }
+      ],
+      "budget": {
+        "vertices": 420,
+        "triangles": 140,
+        "drawCalls": 3,
+        "bounds": {
+          "min": [
+            -0.15000000596046448,
+            -0.10499998927116394,
+            -0.04054360091686249
+          ],
+          "max": [
+            0.15000000596046448,
+            0.7826584577560425,
+            0.04500000178813934
+          ]
+        },
+        "bytes": 12240,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "wand-2",
+      "status": "ready",
+      "family": "wand",
+      "silhouetteTag": "prism-tip",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/wand-2.glb",
+        "license": "MIT",
+        "sha256": "8a818fb6edba00880c4f76e805d76c47d0f8bbe0722dd8aa9291db47210b3ab1"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.10499998927116394,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "muzzle": [
+        0,
+        0.78,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/wand-2.glb",
+          "sha256": "8a818fb6edba00880c4f76e805d76c47d0f8bbe0722dd8aa9291db47210b3ab1",
+          "triangles": 48,
+          "drawCalls": 3,
+          "bytes": 5604
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/wand-2-lod1.glb",
+          "sha256": "856403321c38a07823d87f411fd37a75780ed9007b27a1f66946d58db0dadeb7",
+          "triangles": 40,
+          "drawCalls": 3,
+          "bytes": 5028
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/wand-2-lod2.glb",
+          "sha256": "c5b6c8cd4dc78e94d4ac4b1730b2a38672b36b667df5cddd7c533774e71e559b",
+          "triangles": 32,
+          "drawCalls": 3,
+          "bytes": 4448
+        }
+      ],
+      "budget": {
+        "vertices": 144,
+        "triangles": 48,
+        "drawCalls": 3,
+        "bounds": {
+          "min": [
+            -0.14000000059604645,
+            -0.10499998927116394,
+            -0.14000000059604645
+          ],
+          "max": [
+            0.14000000059604645,
+            0.800000011920929,
+            0.14000000059604645
+          ]
+        },
+        "bytes": 5604,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "wand-3",
+      "status": "ready",
+      "family": "wand",
+      "silhouetteTag": "vine-knot",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/wand-3.glb",
+        "license": "MIT",
+        "sha256": "0f2a0abe2f19f47404685b06c419410415e925b33fef2d2b4c0f6f9b29fc8449"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.10499998927116394,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "muzzle": [
+        0,
+        0.78,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/wand-3.glb",
+          "sha256": "0f2a0abe2f19f47404685b06c419410415e925b33fef2d2b4c0f6f9b29fc8449",
+          "triangles": 210,
+          "drawCalls": 3,
+          "bytes": 17284
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/wand-3-lod1.glb",
+          "sha256": "35a04e66710594fae25ee7299d38fb19e620ffe09320164eac1a0b8a170c38cc",
+          "triangles": 120,
+          "drawCalls": 3,
+          "bytes": 10804
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/wand-3-lod2.glb",
+          "sha256": "0f98824975e421c5949d4bcbad4ffc0c065eac233e103e83a53bc025bde9a093",
+          "triangles": 66,
+          "drawCalls": 3,
+          "bytes": 6908
+        }
+      ],
+      "budget": {
+        "vertices": 630,
+        "triangles": 210,
+        "drawCalls": 3,
+        "bounds": {
+          "min": [
+            -0.12999999523162842,
+            -0.10499998927116394,
+            -0.08185523748397827
+          ],
+          "max": [
+            0.13355915248394012,
+            0.7599999904632568,
+            0.08376866579055786
+          ]
+        },
+        "bytes": 17284,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "wand-4",
+      "status": "ready",
+      "family": "wand",
+      "silhouetteTag": "metal-clamp",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/wand-4.glb",
+        "license": "MIT",
+        "sha256": "64465d6f0b65251b77e6506d73443224d73db31c3aa2b7118158e9b5496b444f"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.10499998927116394,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "muzzle": [
+        0,
+        0.78,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/wand-4.glb",
+          "sha256": "64465d6f0b65251b77e6506d73443224d73db31c3aa2b7118158e9b5496b444f",
+          "triangles": 76,
+          "drawCalls": 3,
+          "bytes": 7628
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/wand-4-lod1.glb",
+          "sha256": "165a49bcb6ec51dcfc38840820969696e630a6d930927d3591521578e3aca8ba",
+          "triangles": 68,
+          "drawCalls": 3,
+          "bytes": 7048
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/wand-4-lod2.glb",
+          "sha256": "999a33b1d651b8690cdaebcd102e5ff0c78182b2f5b392d1bb3a417839f132b6",
+          "triangles": 60,
+          "drawCalls": 3,
+          "bytes": 6472
+        }
+      ],
+      "budget": {
+        "vertices": 228,
+        "triangles": 76,
+        "drawCalls": 3,
+        "bounds": {
+          "min": [
+            -0.11250000447034836,
+            -0.10499998927116394,
+            -0.05000000074505806
+          ],
+          "max": [
+            0.11250000447034836,
+            0.7425000071525574,
+            0.05000000074505806
+          ]
+        },
+        "bytes": 7628,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "accessory-0",
+      "status": "ready",
+      "family": "accessory",
+      "silhouetteTag": "broad-ring-raised-bezel",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/accessory-0.glb",
+        "license": "MIT",
+        "sha256": "271c4a90c2a9536790ed9ba97d4561d46894d0ded5449e9d7eba399da851f5ba"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          -0.0019999926444143057,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "worn": {
+        "slot": "charm",
+        "meshGroup": "whole",
+        "maskRegions": [],
+        "bindings": [
+          {
+            "node": "piece_whole",
+            "bone": "Chest",
+            "position": [
+              0,
+              0.05,
+              0.3
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              0.6,
+              0.6,
+              0.6
+            ]
+          }
+        ]
+      },
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/accessory-0.glb",
+          "sha256": "271c4a90c2a9536790ed9ba97d4561d46894d0ded5449e9d7eba399da851f5ba",
+          "triangles": 140,
+          "drawCalls": 3,
+          "bytes": 12172
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/accessory-0-lod1.glb",
+          "sha256": "9b02d896ed156e8967fef06dd397747dc71e4671954f730dbb0c356eec9a6c3f",
+          "triangles": 92,
+          "drawCalls": 3,
+          "bytes": 8712
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/accessory-0-lod2.glb",
+          "sha256": "407c02b2309ff7f137417e692c193d2751f7c3dcaab35c98aebc8dca88593804",
+          "triangles": 56,
+          "drawCalls": 3,
+          "bytes": 6124
+        }
+      ],
+      "budget": {
+        "vertices": 420,
+        "triangles": 140,
+        "drawCalls": 3,
+        "bounds": {
+          "min": [
+            -0.15800000727176666,
+            0.0019999926444143057,
+            -0.06499999761581421
+          ],
+          "max": [
+            0.15800000727176666,
+            0.42500001192092896,
+            0.06499999761581421
+          ]
+        },
+        "bytes": 12172,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "accessory-1",
+      "status": "ready",
+      "family": "accessory",
+      "silhouetteTag": "pierced-pendant-and-rope",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/accessory-1.glb",
+        "license": "MIT",
+        "sha256": "e47c862d31f28b4133651bfbd2ad3c4aaa31ae5b469ee08ca6081d59e9714010"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.06999999284744263,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "worn": {
+        "slot": "charm",
+        "meshGroup": "whole",
+        "maskRegions": [],
+        "bindings": [
+          {
+            "node": "piece_whole",
+            "bone": "Chest",
+            "position": [
+              0,
+              0.05,
+              0.3
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              0.6,
+              0.6,
+              0.6
+            ]
+          }
+        ]
+      },
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/accessory-1.glb",
+          "sha256": "e47c862d31f28b4133651bfbd2ad3c4aaa31ae5b469ee08ca6081d59e9714010",
+          "triangles": 208,
+          "drawCalls": 3,
+          "bytes": 17096
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/accessory-1-lod1.glb",
+          "sha256": "ef676de7b3cea75e85431775b0de36fab27eaf12d7c545b5b8f3376bbff6b65e",
+          "triangles": 128,
+          "drawCalls": 3,
+          "bytes": 11336
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/accessory-1-lod2.glb",
+          "sha256": "3a0ca4d4ee2335f303dfe3183462fd36704987cc3afd6776b1beb670dac01ab6",
+          "triangles": 68,
+          "drawCalls": 3,
+          "bytes": 7008
+        }
+      ],
+      "budget": {
+        "vertices": 624,
+        "triangles": 208,
+        "drawCalls": 3,
+        "bounds": {
+          "min": [
+            -0.1850000023841858,
+            -0.06999999284744263,
+            -0.12999999523162842
+          ],
+          "max": [
+            0.1850000023841858,
+            0.4749999940395355,
+            0.12999999523162842
+          ]
+        },
+        "bytes": 17096,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-spear",
+      "status": "ready",
+      "family": "weapon",
+      "silhouetteTag": "long-shaft-leaf-head-butt-cap",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-spear.glb",
+        "license": "MIT",
+        "sha256": "319689acf271ca63ab4148f60463b130588033818c7dff7ed64203499070b97f"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.550000011920929,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "muzzle": [
+        0,
+        1.32,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-spear.glb",
+          "sha256": "319689acf271ca63ab4148f60463b130588033818c7dff7ed64203499070b97f",
+          "triangles": 176,
+          "drawCalls": 5,
+          "bytes": 15992
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-spear-lod1.glb",
+          "sha256": "ec212925eff2356a84e688c898c91dde50b6e059f5257319dbc72027e2087563",
+          "triangles": 74,
+          "drawCalls": 4,
+          "bytes": 8056
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-spear-lod2.glb",
+          "sha256": "bf754ef9e9529e8992a3db4ead0a9f3d6d397d044d7a6a8ea6a9b2d164ea6008",
+          "triangles": 56,
+          "drawCalls": 4,
+          "bytes": 6756
+        }
+      ],
+      "budget": {
+        "vertices": 528,
+        "triangles": 176,
+        "drawCalls": 5,
+        "bounds": {
+          "min": [
+            -0.09192387759685516,
+            -0.550000011920929,
+            -0.09192387759685516
+          ],
+          "max": [
+            0.09192387759685516,
+            1.3200000524520874,
+            0.09192387759685516
+          ]
+        },
+        "bytes": 15992,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-bow",
+      "status": "ready",
+      "family": "weapon",
+      "silhouetteTag": "recurved-bow-visible-string-and-limb-caps",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-bow.glb",
+        "license": "MIT",
+        "sha256": "3863c1a051bffcb0b7e2cc0de675aa16f4f2ebc16f9329e6f35f7dc3fe153435"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.7212838530540466,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0.18,
+        0,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "muzzle": [
+        -0.11,
+        0,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-bow.glb",
+          "sha256": "3863c1a051bffcb0b7e2cc0de675aa16f4f2ebc16f9329e6f35f7dc3fe153435",
+          "triangles": 144,
+          "drawCalls": 5,
+          "bytes": 13696
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-bow-lod1.glb",
+          "sha256": "942af3bfabe438695d1e6a9994573ecbaa8a965c0aca7ccb6295ff09dfe65398",
+          "triangles": 120,
+          "drawCalls": 4,
+          "bytes": 11388
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-bow-lod2.glb",
+          "sha256": "d99dbff2d62c8508f612b0b2a3e99e376846e649e2b3f9e39b7f8007481d07b0",
+          "triangles": 96,
+          "drawCalls": 3,
+          "bytes": 9072
+        }
+      ],
+      "budget": {
+        "vertices": 432,
+        "triangles": 144,
+        "drawCalls": 5,
+        "bounds": {
+          "min": [
+            -0.14011245965957642,
+            -0.7212838530540466,
+            -0.054999999701976776
+          ],
+          "max": [
+            0.2816506326198578,
+            0.7212838530540466,
+            0.054999999701976776
+          ]
+        },
+        "bytes": 13696,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-fireblade",
+      "status": "ready",
+      "family": "weapon",
+      "silhouetteTag": "notched-broad-blade-charcoal-cage-guard",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-fireblade.glb",
+        "license": "MIT",
+        "sha256": "cab779c147be6e828c05c9a5f51545d5140a58c01b55d3a368ef53283ea4aba8"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.2199999988079071,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "muzzle": [
+        0.02,
+        1.01,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-fireblade.glb",
+          "sha256": "cab779c147be6e828c05c9a5f51545d5140a58c01b55d3a368ef53283ea4aba8",
+          "triangles": 214,
+          "drawCalls": 4,
+          "bytes": 18156
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-fireblade-lod1.glb",
+          "sha256": "bfb89c2a6848e9be4e842a898ac43334ec3068442653374cd13f4469d9b1af8c",
+          "triangles": 138,
+          "drawCalls": 4,
+          "bytes": 12676
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-fireblade-lod2.glb",
+          "sha256": "c1eff808ac2fa75ca6a18b48441995dc78e71416dc1f71fd5072a0e3f6a8f0fc",
+          "triangles": 102,
+          "drawCalls": 3,
+          "bytes": 9500
+        }
+      ],
+      "budget": {
+        "vertices": 642,
+        "triangles": 214,
+        "drawCalls": 4,
+        "bounds": {
+          "min": [
+            -0.18417999148368835,
+            -0.2199999988079071,
+            -0.08660253882408142
+          ],
+          "max": [
+            0.18417999148368835,
+            1.0099999904632568,
+            0.08660253882408142
+          ]
+        },
+        "bytes": 18156,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-silverblade",
+      "status": "ready",
+      "family": "weapon",
+      "silhouetteTag": "curved-slim-blade-open-crescent-guard",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-silverblade.glb",
+        "license": "MIT",
+        "sha256": "0751fe98617ba8d5e1047ac244ca19c203001b9126c13ade5dc0cd5802520dff"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.20999999344348907,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "muzzle": [
+        0.25,
+        0.92,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-silverblade.glb",
+          "sha256": "0751fe98617ba8d5e1047ac244ca19c203001b9126c13ade5dc0cd5802520dff",
+          "triangles": 354,
+          "drawCalls": 4,
+          "bytes": 28236
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-silverblade-lod1.glb",
+          "sha256": "39042447f2ffe3446830d682caa4c059f2bd1e4a84ccdd688fa478cb44bde0bb",
+          "triangles": 158,
+          "drawCalls": 4,
+          "bytes": 14124
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-silverblade-lod2.glb",
+          "sha256": "769cc5244c98dff5a379a5814e17cf5172b8b50183b61548286fbb0725f14e90",
+          "triangles": 108,
+          "drawCalls": 4,
+          "bytes": 10512
+        }
+      ],
+      "budget": {
+        "vertices": 1062,
+        "triangles": 354,
+        "drawCalls": 4,
+        "bounds": {
+          "min": [
+            -0.18299999833106995,
+            -0.20999999344348907,
+            -0.04279754310846329
+          ],
+          "max": [
+            0.2800000011920929,
+            0.9164268970489502,
+            0.06914562731981277
+          ]
+        },
+        "bytes": 28236,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-staff",
+      "status": "ready",
+      "family": "weapon",
+      "silhouetteTag": "long-wrapped-shaft-five-point-star-head",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-staff.glb",
+        "license": "MIT",
+        "sha256": "2b20856bd20ae11f43b78597153338ca45d4a3e4ca8ab1afe890382179ce5a64"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.28999999165534973,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "muzzle": [
+        0,
+        1.28,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-staff.glb",
+          "sha256": "2b20856bd20ae11f43b78597153338ca45d4a3e4ca8ab1afe890382179ce5a64",
+          "triangles": 192,
+          "drawCalls": 4,
+          "bytes": 16564
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-staff-lod1.glb",
+          "sha256": "6d1d7f0b51b79476dd9756639299378ba340ee20bae8ecac694ed8fd8fd4ff74",
+          "triangles": 74,
+          "drawCalls": 3,
+          "bytes": 7480
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-staff-lod2.glb",
+          "sha256": "6db6f3e0e1875bb359ff77b20b7d04aca5e62970c1932d7a5eb39fa0c18d13b3",
+          "triangles": 66,
+          "drawCalls": 3,
+          "bytes": 6904
+        }
+      ],
+      "budget": {
+        "vertices": 576,
+        "triangles": 192,
+        "drawCalls": 4,
+        "bounds": {
+          "min": [
+            -0.21398770809173584,
+            -0.28999999165534973,
+            -0.09000000357627869
+          ],
+          "max": [
+            0.21398770809173584,
+            1.274999976158142,
+            0.09000000357627869
+          ]
+        },
+        "bytes": 16564,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-brigandine",
+      "status": "ready",
+      "family": "armor",
+      "silhouetteTag": "riveted-overlapping-scale-jacket",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-brigandine.glb",
+        "license": "MIT",
+        "sha256": "3394325498e04b54ff46813a1b4bd71b651c6869fe1f2e1b4dd86531e5288777"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          -0.15000000596046448,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "worn": {
+        "slot": "chest",
+        "meshGroup": "pieces",
+        "maskRegions": [
+          "torso"
+        ],
+        "bindings": [
+          {
+            "node": "piece_torso",
+            "bone": "Chest",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "node": "piece_armL",
+            "bone": "UpperArmL",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "node": "piece_armR",
+            "bone": "UpperArmR",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "node": "piece_waist",
+            "bone": "Pelvis",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-brigandine.glb",
+          "sha256": "3394325498e04b54ff46813a1b4bd71b651c6869fe1f2e1b4dd86531e5288777",
+          "triangles": 1692,
+          "drawCalls": 9,
+          "bytes": 126872
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-brigandine-lod1.glb",
+          "sha256": "e0f7975779cdd3e153f7cf9b578693ae0a46a7e338873e472234bef8cc5943b5",
+          "triangles": 492,
+          "drawCalls": 8,
+          "bytes": 40040
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-brigandine-lod2.glb",
+          "sha256": "07d78393d4cb99da3c7564abc161e8456e84b7534f84dfe4df72c1cff66f674d",
+          "triangles": 468,
+          "drawCalls": 6,
+          "bytes": 37300
+        }
+      ],
+      "budget": {
+        "vertices": 5076,
+        "triangles": 1692,
+        "drawCalls": 9,
+        "bounds": {
+          "min": [
+            -0.5850000011920928,
+            0.15000000596046448,
+            -0.26584601402282715
+          ],
+          "max": [
+            0.5850000011920928,
+            1.009326229095459,
+            0.2843147814273834
+          ]
+        },
+        "bytes": 126872,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-plate",
+      "status": "ready",
+      "family": "armor",
+      "silhouetteTag": "heavy-layered-breastplate-ridge-and-pauldrons",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-plate.glb",
+        "license": "MIT",
+        "sha256": "cdc37942e55c1ef56c928f72224e415da14634437d682e36bf8dbf25706c2529"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          -0.06999999284744263,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "worn": {
+        "slot": "chest",
+        "meshGroup": "pieces",
+        "maskRegions": [
+          "torso"
+        ],
+        "bindings": [
+          {
+            "node": "piece_torso",
+            "bone": "Chest",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "node": "piece_armL",
+            "bone": "UpperArmL",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "node": "piece_armR",
+            "bone": "UpperArmR",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "node": "piece_waist",
+            "bone": "Pelvis",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-plate.glb",
+          "sha256": "cdc37942e55c1ef56c928f72224e415da14634437d682e36bf8dbf25706c2529",
+          "triangles": 204,
+          "drawCalls": 11,
+          "bytes": 20548
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-plate-lod1.glb",
+          "sha256": "d5d0af4711e809d840b5fe343729def3efbd6f31e9196c46ecf2c76b65357d5e",
+          "triangles": 180,
+          "drawCalls": 9,
+          "bytes": 17976
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-plate-lod2.glb",
+          "sha256": "c34308062d4ac0392869c1c9b5dae5f31f49d087db800f4ecd1858e81deaecc0",
+          "triangles": 156,
+          "drawCalls": 8,
+          "bytes": 15660
+        }
+      ],
+      "budget": {
+        "vertices": 612,
+        "triangles": 204,
+        "drawCalls": 11,
+        "bounds": {
+          "min": [
+            -0.6125000047683715,
+            0.06999999284744263,
+            -0.2199999988079071
+          ],
+          "max": [
+            0.6125000047683715,
+            1.009326229095459,
+            0.3100000023841858
+          ]
+        },
+        "bytes": 20548,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-leather",
+      "status": "ready",
+      "family": "armor",
+      "silhouetteTag": "fungal-hide-wide-folded-collar-and-overlap",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-leather.glb",
+        "license": "MIT",
+        "sha256": "051fa7503545a2f5fe3939dfdd85710829345115c0918d123b30fdc126ab3b37"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          -0.07467527687549591,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "worn": {
+        "slot": "chest",
+        "meshGroup": "pieces",
+        "maskRegions": [
+          "torso"
+        ],
+        "bindings": [
+          {
+            "node": "piece_torso",
+            "bone": "Chest",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "node": "piece_armL",
+            "bone": "UpperArmL",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "node": "piece_armR",
+            "bone": "UpperArmR",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "node": "piece_waist",
+            "bone": "Pelvis",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-leather.glb",
+          "sha256": "051fa7503545a2f5fe3939dfdd85710829345115c0918d123b30fdc126ab3b37",
+          "triangles": 296,
+          "drawCalls": 7,
+          "bytes": 25436
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-leather-lod1.glb",
+          "sha256": "352aac34f3154a1b0c742909ced9a094309e66c3865a34107544be80232698da",
+          "triangles": 144,
+          "drawCalls": 7,
+          "bytes": 14484
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-leather-lod2.glb",
+          "sha256": "d0909eecb385ee3404c343204491b9f705423ff04949a081f092901db5c48e10",
+          "triangles": 96,
+          "drawCalls": 6,
+          "bytes": 10432
+        }
+      ],
+      "budget": {
+        "vertices": 888,
+        "triangles": 296,
+        "drawCalls": 7,
+        "bounds": {
+          "min": [
+            -0.5549999999999999,
+            0.07467527687549591,
+            -0.2150000035762787
+          ],
+          "max": [
+            0.5549999999999999,
+            1.0158152377605438,
+            0.2800000011920929
+          ]
+        },
+        "bytes": 25436,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-cap",
+      "status": "ready",
+      "family": "armor",
+      "silhouetteTag": "cloth-hood-pointed-crown-and-folded-neck",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-cap.glb",
+        "license": "MIT",
+        "sha256": "d10b640f37f5bf4fa36dde113657643d2ba4d89d00a244a2f10052ae85b0e17d"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.06999999761581421,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "worn": {
+        "slot": "head",
+        "meshGroup": "pieces",
+        "maskRegions": [
+          "hair"
+        ],
+        "bindings": [
+          {
+            "node": "piece_hood",
+            "bone": "Head",
+            "position": [
+              0,
+              0.3,
+              -0.025
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-cap.glb",
+          "sha256": "d10b640f37f5bf4fa36dde113657643d2ba4d89d00a244a2f10052ae85b0e17d",
+          "triangles": 170,
+          "drawCalls": 3,
+          "bytes": 14324
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-cap-lod1.glb",
+          "sha256": "ed515e61d17dc4f2db6c87586241eaf995c8b4bf7ed6ae6a3f6684d302b464e5",
+          "triangles": 102,
+          "drawCalls": 3,
+          "bytes": 9424
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-cap-lod2.glb",
+          "sha256": "a12fba6addb1637eff29ae79781a3a0971fe986b0f8a3d1669e59b1c21f20b10",
+          "triangles": 66,
+          "drawCalls": 2,
+          "bytes": 6248
+        }
+      ],
+      "budget": {
+        "vertices": 510,
+        "triangles": 170,
+        "drawCalls": 3,
+        "bounds": {
+          "min": [
+            -0.26750001311302185,
+            -0.06999999761581421,
+            -0.25800883769989014
+          ],
+          "max": [
+            0.26750001311302185,
+            0.5800000083446503,
+            0.23499999940395355
+          ]
+        },
+        "bytes": 14324,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-boots",
+      "status": "ready",
+      "family": "armor",
+      "silhouetteTag": "paired-flared-rime-greaves-with-toe-plates",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-boots.glb",
+        "license": "MIT",
+        "sha256": "b7e1fb2a67bea8eb263ad82f18f5bcb7ca0aaba30752fb104ef900ce7baeea45"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          -7.748603814139443e-9,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "worn": {
+        "slot": "legs",
+        "meshGroup": "pieces",
+        "maskRegions": [
+          "shinL",
+          "shinR"
+        ],
+        "bindings": [
+          {
+            "node": "piece_shinL",
+            "bone": "ShinL",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "node": "piece_shinR",
+            "bone": "ShinR",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-boots.glb",
+          "sha256": "b7e1fb2a67bea8eb263ad82f18f5bcb7ca0aaba30752fb104ef900ce7baeea45",
+          "triangles": 320,
+          "drawCalls": 10,
+          "bytes": 28504
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-boots-lod1.glb",
+          "sha256": "fb6a2316781f43b474bc9037181089af6c4e2a0cd2f578dbff54dc3cb13d0c24",
+          "triangles": 96,
+          "drawCalls": 8,
+          "bytes": 11356
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-boots-lod2.glb",
+          "sha256": "ceca5eda1f397276f9a054ca7250287c3623569d0948e2e081fc40872123e263",
+          "triangles": 72,
+          "drawCalls": 6,
+          "bytes": 8624
+        }
+      ],
+      "budget": {
+        "vertices": 960,
+        "triangles": 320,
+        "drawCalls": 10,
+        "bounds": {
+          "min": [
+            -0.3350000011920929,
+            7.748603814139443e-9,
+            -0.17000000178813934
+          ],
+          "max": [
+            0.3350000011920929,
+            0.4374999928474426,
+            0.27000001072883606
+          ]
+        },
+        "bytes": 28504,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-tower",
+      "status": "ready",
+      "family": "armor",
+      "silhouetteTag": "tall-tapered-tower-shield-with-spine",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-tower.glb",
+        "license": "MIT",
+        "sha256": "c4ccca7e8c581a091fe6d5b3212b9db25b81082543e1eb7d13d30c003b1cc5ea"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.6550000309944153,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        -0.09
+      ],
+      "hand": {
+        "socket": "leftGrip",
+        "gripPreset": "board-z"
+      },
+      "worn": {
+        "slot": "offHand",
+        "meshGroup": "whole",
+        "maskRegions": []
+      },
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-tower.glb",
+          "sha256": "c4ccca7e8c581a091fe6d5b3212b9db25b81082543e1eb7d13d30c003b1cc5ea",
+          "triangles": 104,
+          "drawCalls": 5,
+          "bytes": 10740
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-tower-lod1.glb",
+          "sha256": "2d2578b69ad26c202410f0c984b64175ff73474b2b275a732dce2097829bad52",
+          "triangles": 90,
+          "drawCalls": 5,
+          "bytes": 9728
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-tower-lod2.glb",
+          "sha256": "6c3fcb26757877369dfec46c248d5505e0bd4e40970eadce55a041ab24f1f19d",
+          "triangles": 78,
+          "drawCalls": 4,
+          "bytes": 8284
+        }
+      ],
+      "budget": {
+        "vertices": 312,
+        "triangles": 104,
+        "drawCalls": 5,
+        "bounds": {
+          "min": [
+            -0.2750000059604645,
+            -0.6550000309944153,
+            -0.1767766922712326
+          ],
+          "max": [
+            0.2750000059604645,
+            0.5975000262260437,
+            0.1767766922712326
+          ]
+        },
+        "bytes": 10740,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-fruit",
+      "status": "ready",
+      "family": "food",
+      "silhouetteTag": "five-lobed-cave-fruit-with-stem",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-fruit.glb",
+        "license": "MIT",
+        "sha256": "0daa2f71d73073876722a7f1a23e9c5c5c40b9e0e7af4146f53264d7ddd2e6cd"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "contact": [
+        0.13,
+        0.16,
+        0.04
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-fruit.glb",
+          "sha256": "0daa2f71d73073876722a7f1a23e9c5c5c40b9e0e7af4146f53264d7ddd2e6cd",
+          "triangles": 836,
+          "drawCalls": 5,
+          "bytes": 63632
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-fruit-lod1.glb",
+          "sha256": "cfdae9d81b7d013e4b597f21195b60110451f1b6962a039a22b7d52babeb2dc5",
+          "triangles": 412,
+          "drawCalls": 5,
+          "bytes": 33096
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-fruit-lod2.glb",
+          "sha256": "9158a7f073f9645a716513fd33fb67083f175df27151be2b4bec6c69556476b0",
+          "triangles": 204,
+          "drawCalls": 4,
+          "bytes": 17520
+        }
+      ],
+      "budget": {
+        "vertices": 2508,
+        "triangles": 836,
+        "drawCalls": 5,
+        "bounds": {
+          "min": [
+            -0.17281153798103333,
+            0,
+            -0.18070074915885925
+          ],
+          "max": [
+            0.1899999976158142,
+            0.375,
+            0.18070074915885925
+          ]
+        },
+        "bytes": 63632,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-mushroom",
+      "status": "ready",
+      "family": "food",
+      "silhouetteTag": "broad-fan-cap-radial-gills-and-spots",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-mushroom.glb",
+        "license": "MIT",
+        "sha256": "8f992552d37bdbbbfa1ac55ea39640d2f16c9ed0015a00e0ea2f56e1982dad09"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.004999999888241291,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "contact": [
+        0.1,
+        0.32,
+        0.1
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-mushroom.glb",
+          "sha256": "8f992552d37bdbbbfa1ac55ea39640d2f16c9ed0015a00e0ea2f56e1982dad09",
+          "triangles": 768,
+          "drawCalls": 6,
+          "bytes": 59292
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-mushroom-lod1.glb",
+          "sha256": "8d125df433c093073a6b209a50464ceb4053f87dd7197c764b3c2c5451a1392d",
+          "triangles": 300,
+          "drawCalls": 6,
+          "bytes": 25592
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-mushroom-lod2.glb",
+          "sha256": "5f06f461970016389844bf764a9b34ddfb24540108800639b84701d3cedac3f0",
+          "triangles": 148,
+          "drawCalls": 5,
+          "bytes": 14048
+        }
+      ],
+      "budget": {
+        "vertices": 2304,
+        "triangles": 768,
+        "drawCalls": 6,
+        "bounds": {
+          "min": [
+            -0.3100000023841858,
+            -0.004999999888241291,
+            -0.19021131098270416
+          ],
+          "max": [
+            0.3100000023841858,
+            0.4099999964237213,
+            0.19021131098270416
+          ]
+        },
+        "bytes": 59292,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-meat",
+      "status": "ready",
+      "family": "food",
+      "silhouetteTag": "bone-handle-and-asymmetric-haunch",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-meat.glb",
+        "license": "MIT",
+        "sha256": "caaf56539dd4c438105330a854c204c3f2dfad637b774237b24faca659abdafb"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.15799999237060547,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "contact": [
+        0.08,
+        0.26,
+        0.1
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-meat.glb",
+          "sha256": "caaf56539dd4c438105330a854c204c3f2dfad637b774237b24faca659abdafb",
+          "triangles": 740,
+          "drawCalls": 5,
+          "bytes": 56720
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-meat-lod1.glb",
+          "sha256": "4cb7915d2480530c3a6adccec56a55a9ae334b330d4e4f7bc64cc2afa2b7632e",
+          "triangles": 368,
+          "drawCalls": 5,
+          "bytes": 29936
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-meat-lod2.glb",
+          "sha256": "e22a58104725ebed8dbfdca11127829d57ffdf2ba4c9ad5272ff0e894ef43c80",
+          "triangles": 180,
+          "drawCalls": 4,
+          "bytes": 15816
+        }
+      ],
+      "budget": {
+        "vertices": 2220,
+        "triangles": 740,
+        "drawCalls": 5,
+        "bounds": {
+          "min": [
+            -0.2199999988079071,
+            -0.15799999237060547,
+            -0.14265848696231842
+          ],
+          "max": [
+            0.2849999964237213,
+            0.38999998569488525,
+            0.14265848696231842
+          ]
+        },
+        "bytes": 56720,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-pot",
+      "status": "ready",
+      "family": "tool",
+      "silhouetteTag": "open-twin-handle-cauldron-and-three-feet",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-pot.glb",
+        "license": "MIT",
+        "sha256": "afe799498378489c81372c211feab36087202a8318c97a293dbb118f4f48e3e2"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.005000000819563866,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0.3,
+        0.32,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "contact": [
+        0,
+        0.356,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-pot.glb",
+          "sha256": "afe799498378489c81372c211feab36087202a8318c97a293dbb118f4f48e3e2",
+          "triangles": 464,
+          "drawCalls": 4,
+          "bytes": 36168
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-pot-lod1.glb",
+          "sha256": "776f796e382f7d027f48df553f12d6e79715bf16e7720f89f5e3f1733b76b8ce",
+          "triangles": 304,
+          "drawCalls": 4,
+          "bytes": 24636
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-pot-lod2.glb",
+          "sha256": "8ec5bf5a26f9f54ad4b882c51e15469f2e4bbe9f07d0a852bc8046f3694a489b",
+          "triangles": 180,
+          "drawCalls": 3,
+          "bytes": 15120
+        }
+      ],
+      "budget": {
+        "vertices": 1392,
+        "triangles": 464,
+        "drawCalls": 4,
+        "bounds": {
+          "min": [
+            -0.41499999165534973,
+            -0.005000000819563866,
+            -0.28600001335144043
+          ],
+          "max": [
+            0.41499999165534973,
+            0.35937148332595825,
+            0.28600001335144043
+          ]
+        },
+        "bytes": 36168,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-salve",
+      "status": "ready",
+      "family": "tool",
+      "silhouetteTag": "low-medicine-jar-with-crossed-cloth-seal",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-salve.glb",
+        "license": "MIT",
+        "sha256": "badb54386185bd7df451f571cb783bf23b2b260ad83cd215aa1360fcbb7c3a66"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          -0.01499999687075615,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0.15,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "contact": [
+        0,
+        0.287,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-salve.glb",
+          "sha256": "badb54386185bd7df451f571cb783bf23b2b260ad83cd215aa1360fcbb7c3a66",
+          "triangles": 128,
+          "drawCalls": 3,
+          "bytes": 11376
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-salve-lod1.glb",
+          "sha256": "88f895c647ee7b81897851a1b7cdfeacd64e57be00991c0ca33ee045feca0c15",
+          "triangles": 92,
+          "drawCalls": 3,
+          "bytes": 8784
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-salve-lod2.glb",
+          "sha256": "83ac2cd055b8a163fceb2dc64c2459ab55ac86d572fa11da168aa9a0e268cbca",
+          "triangles": 64,
+          "drawCalls": 3,
+          "bytes": 6760
+        }
+      ],
+      "budget": {
+        "vertices": 384,
+        "triangles": 128,
+        "drawCalls": 3,
+        "bounds": {
+          "min": [
+            -0.1764066219329834,
+            0.01499999687075615,
+            -0.1599999964237213
+          ],
+          "max": [
+            0.1764066219329834,
+            0.28700000047683716,
+            0.1599999964237213
+          ]
+        },
+        "bytes": 11376,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-sporeBell",
+      "status": "ready",
+      "family": "tool",
+      "silhouetteTag": "flared-hollow-bell-loop-handle-and-clapper",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-sporeBell.glb",
+        "license": "MIT",
+        "sha256": "4815bc7349911d6a60eafaee1f7b45f18d0b2d900dce296ea52052e2b3127b67"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.06499999761581421,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0.48,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "contact": [
+        0,
+        0,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-sporeBell.glb",
+          "sha256": "4815bc7349911d6a60eafaee1f7b45f18d0b2d900dce296ea52052e2b3127b67",
+          "triangles": 532,
+          "drawCalls": 5,
+          "bytes": 41652
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-sporeBell-lod1.glb",
+          "sha256": "12927a138acfc84326442a054b68f8b8fc5f845f35dfb3609ab74de258f40530",
+          "triangles": 264,
+          "drawCalls": 5,
+          "bytes": 22348
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-sporeBell-lod2.glb",
+          "sha256": "eb8887a63a730da3c2ae382d051a81dfbced92dede2933eed16ae6ad3df0d9a6",
+          "triangles": 136,
+          "drawCalls": 4,
+          "bytes": 12536
+        }
+      ],
+      "budget": {
+        "vertices": 1596,
+        "triangles": 532,
+        "drawCalls": 5,
+        "bounds": {
+          "min": [
+            -0.26499998569488525,
+            -0.06499999761581421,
+            -0.26499998569488525
+          ],
+          "max": [
+            0.26499998569488525,
+            0.5960000157356262,
+            0.26499998569488525
+          ]
+        },
+        "bytes": 41652,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-coilKey",
+      "status": "ready",
+      "family": "tool",
+      "silhouetteTag": "open-tuning-fork-copper-coil-and-side-crank",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-coilKey.glb",
+        "license": "MIT",
+        "sha256": "c7c91c0faa92492810382d94e40e17560f190e5b4ba118719fd322ab50df1063"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.14000000059604645,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0.02,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "contact": [
+        0,
+        0.56,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-coilKey.glb",
+          "sha256": "c7c91c0faa92492810382d94e40e17560f190e5b4ba118719fd322ab50df1063",
+          "triangles": 604,
+          "drawCalls": 5,
+          "bytes": 46832
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-coilKey-lod1.glb",
+          "sha256": "03134ceb82384e0f0c05bb022fc5d75977a6fc1939e52322d4e4d7d3fb8878bd",
+          "triangles": 320,
+          "drawCalls": 4,
+          "bytes": 25796
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-coilKey-lod2.glb",
+          "sha256": "0cabe23386d0f564c5715ac549f1ca2c3a43de17bb50c76a7752169e39e12ab9",
+          "triangles": 196,
+          "drawCalls": 4,
+          "bytes": 16868
+        }
+      ],
+      "budget": {
+        "vertices": 1812,
+        "triangles": 604,
+        "drawCalls": 5,
+        "bounds": {
+          "min": [
+            -0.1850000023841858,
+            -0.14000000059604645,
+            -0.09320353716611862
+          ],
+          "max": [
+            0.23000000417232513,
+            0.5950000286102295,
+            0.09320353716611862
+          ]
+        },
+        "bytes": 46832,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-rimeUrn",
+      "status": "ready",
+      "family": "tool",
+      "silhouetteTag": "angular-siphon-jug-long-spout-open-handle",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-rimeUrn.glb",
+        "license": "MIT",
+        "sha256": "88c381bba78959afba2e7b0855780db8147a25075cee6265b6aa00aab4474ab4"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          -0.04000000283122063,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        -0.22,
+        0.31,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "contact": [
+        0.39,
+        0.4,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-rimeUrn.glb",
+          "sha256": "88c381bba78959afba2e7b0855780db8147a25075cee6265b6aa00aab4474ab4",
+          "triangles": 272,
+          "drawCalls": 4,
+          "bytes": 22332
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-rimeUrn-lod1.glb",
+          "sha256": "989e4412834b62b18940bf6c90ccf1be57bc0bda80cff897979f06ffaa18fd0a",
+          "triangles": 112,
+          "drawCalls": 4,
+          "bytes": 10804
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-rimeUrn-lod2.glb",
+          "sha256": "4f6c9002cbe8fc3533f79cf42714393be3829647c78d718a50163b1e14dd1ad7",
+          "triangles": 66,
+          "drawCalls": 3,
+          "bytes": 6904
+        }
+      ],
+      "budget": {
+        "vertices": 816,
+        "triangles": 272,
+        "drawCalls": 4,
+        "bounds": {
+          "min": [
+            -0.4000000059604645,
+            0.04000000283122063,
+            -0.2199999988079071
+          ],
+          "max": [
+            0.40412116050720215,
+            0.4399999976158142,
+            0.2199999988079071
+          ]
+        },
+        "bytes": 22332,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-silverCenser",
+      "status": "ready",
+      "family": "tool",
+      "silhouetteTag": "pierced-censer-tripod-chain-crown",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-silverCenser.glb",
+        "license": "MIT",
+        "sha256": "a07f2ef48c66bfb4970579133895a2e7f4c500f77eb72da6c9fd190c3584c867"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          -0.08500000089406967,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0.67,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "muzzle": [
+        0,
+        0.49,
+        0
+      ],
+      "contact": [
+        0,
+        0.49,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-silverCenser.glb",
+          "sha256": "a07f2ef48c66bfb4970579133895a2e7f4c500f77eb72da6c9fd190c3584c867",
+          "triangles": 436,
+          "drawCalls": 4,
+          "bytes": 34188
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-silverCenser-lod1.glb",
+          "sha256": "d99d9f6937dc53cbcae3ebabe6a48cf5699c3c3c764b17211919b9397ff005f8",
+          "triangles": 228,
+          "drawCalls": 3,
+          "bytes": 18624
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-silverCenser-lod2.glb",
+          "sha256": "f82f8357cf37f585c35f0ac55a30b7b0b9c9179d39641250ba69086cc0e2bc37",
+          "triangles": 118,
+          "drawCalls": 3,
+          "bytes": 10696
+        }
+      ],
+      "budget": {
+        "vertices": 1308,
+        "triangles": 436,
+        "drawCalls": 4,
+        "bounds": {
+          "min": [
+            -0.2199999988079071,
+            0.08500000089406967,
+            -0.2199999988079071
+          ],
+          "max": [
+            0.2199999988079071,
+            0.7689098715782166,
+            0.2199999988079071
+          ]
+        },
+        "bytes": 34188,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    },
+    {
+      "assetId": "fixed-vigilMirror",
+      "status": "ready",
+      "family": "tool",
+      "silhouetteTag": "triangular-prism-cradle-stem-and-three-ribs",
+      "source": {
+        "kind": "glb",
+        "uri": "/assets/items/fixed-vigilMirror.glb",
+        "license": "MIT",
+        "sha256": "c35a15973e2a4bea8782b6b7abca1a6b9a626de73fea53c094ce9c95bd3ee931"
+      },
+      "recipe": {
+        "uri": "assets-src/items/recipes.mjs",
+        "sha256": "6be7c7576b41fd4013c041ccc582986af39d3ccb434145622b518d5d4871b145",
+        "author": "Fallen Star project — original procedural geometry"
+      },
+      "ground": {
+        "scale": 1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "anchor": [
+          0,
+          0.1599999964237213,
+          0
+        ]
+      },
+      "preview": {
+        "cameraPreset": "three-quarter",
+        "framing": 1.18,
+        "background": "transparent"
+      },
+      "grip": [
+        0,
+        0,
+        0
+      ],
+      "hand": {
+        "socket": "rightGrip",
+        "gripPreset": "upright-y"
+      },
+      "contact": [
+        0,
+        0.5,
+        0
+      ],
+      "lod": [
+        {
+          "level": 0,
+          "uri": "/assets/items/fixed-vigilMirror.glb",
+          "sha256": "c35a15973e2a4bea8782b6b7abca1a6b9a626de73fea53c094ce9c95bd3ee931",
+          "triangles": 178,
+          "drawCalls": 5,
+          "bytes": 16120
+        },
+        {
+          "level": 1,
+          "uri": "/assets/items/fixed-vigilMirror-lod1.glb",
+          "sha256": "8e7a1a4bee9645d1c1178f9d121f9718ea85e0f8d8d995a8f7481e218f85f3b9",
+          "triangles": 70,
+          "drawCalls": 5,
+          "bytes": 8328
+        },
+        {
+          "level": 2,
+          "uri": "/assets/items/fixed-vigilMirror-lod2.glb",
+          "sha256": "d4358c502f1e15eb5a9c169d260918b2b35435fba746ed2cedd28a53874b2f77",
+          "triangles": 54,
+          "drawCalls": 4,
+          "bytes": 6592
+        }
+      ],
+      "budget": {
+        "vertices": 534,
+        "triangles": 178,
+        "drawCalls": 5,
+        "bounds": {
+          "min": [
+            -0.22673307359218597,
+            -0.1599999964237213,
+            -0.19918584823608398
+          ],
+          "max": [
+            0.23000000417232513,
+            0.5849999785423279,
+            0.19918584823608398
+          ]
+        },
+        "bytes": 16120,
+        "textures": 0,
+        "minimumPreviewPixels": 48
+      }
+    }
+  ]
+}

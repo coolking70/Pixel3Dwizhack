@@ -1,0 +1,667 @@
+{
+  "metadata": {
+    "schema": 1,
+    "agentVersion": "m26-resource-public-1",
+    "sourceSha256": "1eb1cd6cf2da438558a19cd1b9c09c1d89119ac947ce717765a4bc896958db6f",
+    "node": "v24.14.0",
+    "platform": "win32 10.0.26300 x64",
+    "cpu": "12th Gen Intel(R) Core(TM) i5-12600KF",
+    "concurrency": 1,
+    "seedStart": 1,
+    "seeds": 10,
+    "games": 180,
+    "config": {
+      "maxActions": 1800,
+      "maxTicks": 30000,
+      "stuckLimit": 96
+    },
+    "scenarios": [
+      "alpha3",
+      "alpha4"
+    ],
+    "doubleRun": true,
+    "startedAt": "2026-10-13T10:08:47.503Z",
+    "notes": "Node headless; each duration includes run and exact replay, plus optional second run. Heap/RSS sampled after each game, not peak memory. Sequential jobs, no browser-performance claim. Paired Alpha3/Alpha4 resource outcomes; no cross-identity digest comparison. Outcomes descriptive; nine configurations per seed are not independent seed samples.",
+    "finishedAt": "2026-10-13T10:45:56.914Z",
+    "durationMs": 2227624.3019,
+    "inputsUnchanged": true,
+    "completed": 180,
+    "valid": true
+  },
+  "outcomes": {
+    "won": 180
+  },
+  "groups": {
+    "alpha3/novice/vanguard": {
+      "games": 10,
+      "outcomes": {
+        "won": 10
+      },
+      "actions": 4210,
+      "rejected": 3,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 81,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 24,
+        "healingDrinks": 21,
+        "foodEaten": 10,
+        "healingNet": 610,
+        "foodNet": 650,
+        "fullBoundaries": 3102,
+        "boundaries": 4210,
+        "peakOrdinary": 160,
+        "peakWeight": 250,
+        "healingAcquired": 31,
+        "foodAcquired": 50,
+        "unknownAcquired": 0
+      },
+      "minHp": 160,
+      "minFood": 710
+    },
+    "alpha4/novice/vanguard": {
+      "games": 10,
+      "outcomes": {
+        "won": 10
+      },
+      "actions": 4317,
+      "rejected": 3,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 131,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 80,
+        "healingDrinks": 22,
+        "foodEaten": 10,
+        "healingNet": 636,
+        "foodNet": 650,
+        "fullBoundaries": 1503,
+        "boundaries": 4317,
+        "peakOrdinary": 160,
+        "peakWeight": 300,
+        "healingAcquired": 59,
+        "foodAcquired": 72,
+        "unknownAcquired": 0
+      },
+      "minHp": 142,
+      "minFood": 710
+    },
+    "alpha3/survivor/vanguard": {
+      "games": 10,
+      "outcomes": {
+        "won": 10
+      },
+      "actions": 4406,
+      "rejected": 3,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 105,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 40,
+        "healingDrinks": 36,
+        "foodEaten": 20,
+        "healingNet": 1003,
+        "foodNet": 1100,
+        "fullBoundaries": 2954,
+        "boundaries": 4406,
+        "peakOrdinary": 160,
+        "peakWeight": 272,
+        "healingAcquired": 41,
+        "foodAcquired": 59,
+        "unknownAcquired": 0
+      },
+      "minHp": 464,
+      "minFood": 1250
+    },
+    "alpha4/survivor/vanguard": {
+      "games": 10,
+      "outcomes": {
+        "won": 10
+      },
+      "actions": 4482,
+      "rejected": 3,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 148,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 84,
+        "healingDrinks": 33,
+        "foodEaten": 20,
+        "healingNet": 939,
+        "foodNet": 1100,
+        "fullBoundaries": 1392,
+        "boundaries": 4482,
+        "peakOrdinary": 158,
+        "peakWeight": 359,
+        "healingAcquired": 65,
+        "foodAcquired": 70,
+        "unknownAcquired": 0
+      },
+      "minHp": 464,
+      "minFood": 1250
+    },
+    "alpha3/fighter/vanguard": {
+      "games": 10,
+      "outcomes": {
+        "won": 10
+      },
+      "actions": 4323,
+      "rejected": 3,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 93,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 34,
+        "healingDrinks": 33,
+        "foodEaten": 10,
+        "healingNet": 963,
+        "foodNet": 649,
+        "fullBoundaries": 3109,
+        "boundaries": 4323,
+        "peakOrdinary": 160,
+        "peakWeight": 250,
+        "healingAcquired": 42,
+        "foodAcquired": 51,
+        "unknownAcquired": 0
+      },
+      "minHp": 257,
+      "minFood": 710
+    },
+    "alpha4/fighter/vanguard": {
+      "games": 10,
+      "outcomes": {
+        "won": 10
+      },
+      "actions": 4423,
+      "rejected": 3,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 141,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 88,
+        "healingDrinks": 34,
+        "foodEaten": 10,
+        "healingNet": 1016,
+        "foodNet": 650,
+        "fullBoundaries": 1325,
+        "boundaries": 4423,
+        "peakOrdinary": 159,
+        "peakWeight": 299,
+        "healingAcquired": 65,
+        "foodAcquired": 76,
+        "unknownAcquired": 0
+      },
+      "minHp": 272,
+      "minFood": 710
+    },
+    "alpha3/novice/breaker": {
+      "games": 10,
+      "outcomes": {
+        "won": 10
+      },
+      "actions": 4055,
+      "rejected": 3,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 81,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 33,
+        "healingDrinks": 21,
+        "foodEaten": 10,
+        "healingNet": 600,
+        "foodNet": 650,
+        "fullBoundaries": 3016,
+        "boundaries": 4055,
+        "peakOrdinary": 160,
+        "peakWeight": 340,
+        "healingAcquired": 38,
+        "foodAcquired": 43,
+        "unknownAcquired": 0
+      },
+      "minHp": 146,
+      "minFood": 710
+    },
+    "alpha4/novice/breaker": {
+      "games": 10,
+      "outcomes": {
+        "won": 10
+      },
+      "actions": 4158,
+      "rejected": 3,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 132,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 82,
+        "healingDrinks": 24,
+        "foodEaten": 10,
+        "healingNet": 684,
+        "foodNet": 650,
+        "fullBoundaries": 1370,
+        "boundaries": 4158,
+        "peakOrdinary": 160,
+        "peakWeight": 390,
+        "healingAcquired": 58,
+        "foodAcquired": 74,
+        "unknownAcquired": 0
+      },
+      "minHp": 151,
+      "minFood": 710
+    },
+    "alpha3/survivor/breaker": {
+      "games": 10,
+      "outcomes": {
+        "won": 10
+      },
+      "actions": 4176,
+      "rejected": 3,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 111,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 48,
+        "healingDrinks": 41,
+        "foodEaten": 20,
+        "healingNet": 1128,
+        "foodNet": 1099,
+        "fullBoundaries": 2768,
+        "boundaries": 4176,
+        "peakOrdinary": 160,
+        "peakWeight": 346,
+        "healingAcquired": 46,
+        "foodAcquired": 62,
+        "unknownAcquired": 0
+      },
+      "minHp": 467,
+      "minFood": 1250
+    },
+    "alpha4/survivor/breaker": {
+      "games": 10,
+      "outcomes": {
+        "won": 10
+      },
+      "actions": 4282,
+      "rejected": 3,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 154,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 94,
+        "healingDrinks": 46,
+        "foodEaten": 20,
+        "healingNet": 1300,
+        "foodNet": 1100,
+        "fullBoundaries": 804,
+        "boundaries": 4282,
+        "peakOrdinary": 152,
+        "peakWeight": 388,
+        "healingAcquired": 70,
+        "foodAcquired": 81,
+        "unknownAcquired": 0
+      },
+      "minHp": 462,
+      "minFood": 1250
+    },
+    "alpha3/fighter/breaker": {
+      "games": 10,
+      "outcomes": {
+        "won": 10
+      },
+      "actions": 4250,
+      "rejected": 3,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 86,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 30,
+        "healingDrinks": 26,
+        "foodEaten": 10,
+        "healingNet": 752,
+        "foodNet": 650,
+        "fullBoundaries": 3346,
+        "boundaries": 4250,
+        "peakOrdinary": 160,
+        "peakWeight": 348,
+        "healingAcquired": 36,
+        "foodAcquired": 44,
+        "unknownAcquired": 0
+      },
+      "minHp": 268,
+      "minFood": 710
+    },
+    "alpha4/fighter/breaker": {
+      "games": 10,
+      "outcomes": {
+        "won": 10
+      },
+      "actions": 4409,
+      "rejected": 4,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 142,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 81,
+        "healingDrinks": 34,
+        "foodEaten": 10,
+        "healingNet": 1007,
+        "foodNet": 650,
+        "fullBoundaries": 1683,
+        "boundaries": 4409,
+        "peakOrdinary": 160,
+        "peakWeight": 408,
+        "healingAcquired": 56,
+        "foodAcquired": 75,
+        "unknownAcquired": 0
+      },
+      "minHp": 259,
+      "minFood": 710
+    },
+    "alpha3/novice/channeler": {
+      "games": 10,
+      "outcomes": {
+        "won": 10
+      },
+      "actions": 4742,
+      "rejected": 3,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 97,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 33,
+        "healingDrinks": 37,
+        "foodEaten": 10,
+        "healingNet": 1073,
+        "foodNet": 650,
+        "fullBoundaries": 3175,
+        "boundaries": 4742,
+        "peakOrdinary": 160,
+        "peakWeight": 210,
+        "healingAcquired": 44,
+        "foodAcquired": 53,
+        "unknownAcquired": 0
+      },
+      "minHp": 142,
+      "minFood": 710
+    },
+    "alpha4/novice/channeler": {
+      "games": 10,
+      "outcomes": {
+        "won": 10
+      },
+      "actions": 4842,
+      "rejected": 3,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 144,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 87,
+        "healingDrinks": 37,
+        "foodEaten": 11,
+        "healingNet": 1090,
+        "foodNet": 715,
+        "fullBoundaries": 1362,
+        "boundaries": 4842,
+        "peakOrdinary": 158,
+        "peakWeight": 258,
+        "healingAcquired": 67,
+        "foodAcquired": 77,
+        "unknownAcquired": 0
+      },
+      "minHp": 121,
+      "minFood": 710
+    },
+    "alpha3/survivor/channeler": {
+      "games": 10,
+      "outcomes": {
+        "won": 10
+      },
+      "actions": 4042,
+      "rejected": 3,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 91,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 34,
+        "healingDrinks": 21,
+        "foodEaten": 20,
+        "healingNet": 578,
+        "foodNet": 1100,
+        "fullBoundaries": 2852,
+        "boundaries": 4042,
+        "peakOrdinary": 160,
+        "peakWeight": 232,
+        "healingAcquired": 36,
+        "foodAcquired": 50,
+        "unknownAcquired": 0
+      },
+      "minHp": 497,
+      "minFood": 1250
+    },
+    "alpha4/survivor/channeler": {
+      "games": 10,
+      "outcomes": {
+        "won": 10
+      },
+      "actions": 4161,
+      "rejected": 3,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 143,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 84,
+        "healingDrinks": 23,
+        "foodEaten": 20,
+        "healingNet": 644,
+        "foodNet": 1100,
+        "fullBoundaries": 1642,
+        "boundaries": 4161,
+        "peakOrdinary": 160,
+        "peakWeight": 327,
+        "healingAcquired": 58,
+        "foodAcquired": 69,
+        "unknownAcquired": 0
+      },
+      "minHp": 488,
+      "minFood": 1250
+    },
+    "alpha3/fighter/channeler": {
+      "games": 10,
+      "outcomes": {
+        "won": 10
+      },
+      "actions": 3988,
+      "rejected": 3,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 79,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 23,
+        "healingDrinks": 19,
+        "foodEaten": 10,
+        "healingNet": 540,
+        "foodNet": 650,
+        "fullBoundaries": 3015,
+        "boundaries": 3988,
+        "peakOrdinary": 160,
+        "peakWeight": 234,
+        "healingAcquired": 26,
+        "foodAcquired": 41,
+        "unknownAcquired": 0
+      },
+      "minHp": 268,
+      "minFood": 710
+    },
+    "alpha4/fighter/channeler": {
+      "games": 10,
+      "outcomes": {
+        "won": 10
+      },
+      "actions": 4065,
+      "rejected": 3,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 129,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 50,
+        "healingDrinks": 19,
+        "foodEaten": 10,
+        "healingNet": 540,
+        "foodNet": 650,
+        "fullBoundaries": 2401,
+        "boundaries": 4065,
+        "peakOrdinary": 160,
+        "peakWeight": 338,
+        "healingAcquired": 38,
+        "foodAcquired": 47,
+        "unknownAcquired": 0
+      },
+      "minHp": 272,
+      "minFood": 710
+    }
+  },
+  "paired": {
+    "method": "alpha4 minus alpha3; nine paired configurations averaged inside each independent seed, then 2000 deterministic seed-block bootstrap replicates",
+    "independentSeeds": 10,
+    "pairedConfigurations": 90,
+    "metrics": {
+      "won": {
+        "mean": 0,
+        "interval95": [
+          0,
+          0
+        ]
+      },
+      "minHp": {
+        "mean": -0.4222222222222225,
+        "interval95": [
+          -0.955555555555555,
+          0.11111111111111036
+        ]
+      },
+      "minFood": {
+        "mean": 0,
+        "interval95": [
+          0,
+          0
+        ]
+      },
+      "picked": {
+        "mean": 4.888888888888888,
+        "interval95": [
+          4.588888888888889,
+          5.177777777777776
+        ]
+      },
+      "healingAcquired": {
+        "mean": 2.177777777777778,
+        "interval95": [
+          1.6777777777777778,
+          2.6222222222222222
+        ]
+      },
+      "foodAcquired": {
+        "mean": 2.0888888888888886,
+        "interval95": [
+          1.4666666666666668,
+          2.666666666666667
+        ]
+      },
+      "healingDrinks": {
+        "mean": 0.18888888888888883,
+        "interval95": [
+          -0.033333333333333395,
+          0.37777777777777777
+        ]
+      },
+      "foodEaten": {
+        "mean": 0.011111111111111117,
+        "interval95": [
+          0,
+          0.03333333333333335
+        ]
+      },
+      "healingNet": {
+        "mean": 6.766666666666666,
+        "interval95": [
+          0.06666666666666429,
+          12.866666666666665
+        ]
+      },
+      "foodNet": {
+        "mean": 0.7444444444444457,
+        "interval95": [
+          0.011111111111111427,
+          2.200000000000003
+        ]
+      },
+      "fullBoundaries": {
+        "mean": -153.94444444444446,
+        "interval95": [
+          -191.23333333333335,
+          -117.7666666666667
+        ]
+      },
+      "containersOpened": {
+        "mean": 4.78888888888889,
+        "interval95": [
+          3.944444444444445,
+          5.711111111111111
+        ]
+      },
+      "peakOrdinary": {
+        "mean": -0.14444444444444446,
+        "interval95": [
+          -0.3111111111111112,
+          -0.022222222222222143
+        ]
+      },
+      "peakWeight": {
+        "mean": 6.5,
+        "interval95": [
+          6.044444444444446,
+          6.9222222222222225
+        ]
+      }
+    }
+  },
+  "actions": 77331,
+  "rejected": 55,
+  "adaptedThrows": 0,
+  "golden": null,
+  "perGameMs": {
+    "samples": 180,
+    "median": 7969.259900000179,
+    "p95": 34322.119999999995,
+    "max": 70383.52480000001
+  },
+  "sampledHeapBytes": {
+    "samples": 180,
+    "median": 47301736,
+    "p95": 82249872,
+    "max": 101080672
+  },
+  "sampledRssBytes": {
+    "samples": 180,
+    "median": 257474560,
+    "p95": 271532032,
+    "max": 278704128
+  }
+}

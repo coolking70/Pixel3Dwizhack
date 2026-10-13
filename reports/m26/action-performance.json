@@ -1,0 +1,936 @@
+{
+  "hardware": {
+    "date": "2026-10-13T11:02:46.589Z",
+    "purpose": "exclusive warmed action performance",
+    "options": {
+      "out": "C:/Users/coolking/.codex/visualizations/2026/10/11/01a129c4-1522-7131-8c77-c1a1ae3a19cd/m26/action-hardware",
+      "url": "http://127.0.0.1:4199/alpha3.html",
+      "hardware": true,
+      "smoke": false,
+      "exclusive": true
+    },
+    "host": {
+      "os": "win32 10.0.26300 x64",
+      "cpu": "12th Gen Intel(R) Core(TM) i5-12600KF",
+      "logicalCpus": 16,
+      "totalMemoryBytes": 68523843584
+    },
+    "browser": "156.0.8078.4",
+    "device": {
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4070 Ti SUPER (0x00002705) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "vendor": "Google Inc. (NVIDIA)",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "jsHeapAvailable": true,
+      "softwareRenderer": false,
+      "renderingPath": "reported non-software GPU path"
+    },
+    "scenarios": [
+      {
+        "name": "throw",
+        "motion": "throw",
+        "sourceId": 72,
+        "command": "a3:throw:72:1:20",
+        "beforeSha256": "cd3ffb701626974ab30ae4a7a7dcc75826bb89679430f6543a349d92be21e09b",
+        "oracleSha256": "a742f2faa8d6c9c33f281d924e02e46fdd76a178e809a8812b2f249ab2ecc5f4",
+        "beforeRevision": 99,
+        "afterRevision": 100
+      },
+      {
+        "name": "zap",
+        "motion": "zap",
+        "sourceId": 74,
+        "command": "a2:use:74:zap:e1",
+        "beforeSha256": "cf443b6c4e4f99919da89e891cd61a25ffdd68939534ee564b579fb37ff7e40e",
+        "oracleSha256": "168995c622f2a69345177693ef1497d4d274a332067308d293b2530750e78350",
+        "beforeRevision": 15,
+        "afterRevision": 16
+      },
+      {
+        "name": "readItem",
+        "motion": "read",
+        "sourceId": 10,
+        "command": "a2:use:10:read:i1",
+        "beforeSha256": "8c4405e4c2a34ac3a46cae922e2c67339316458d8281999cebeb667297a1647d",
+        "oracleSha256": "c4d8b735bad2910c404ce615abe32777cc17d1cd08a5e89e0bea5ebc515005d9",
+        "beforeRevision": 7,
+        "afterRevision": 8
+      }
+    ],
+    "summaries": [
+      {
+        "quality": "normal",
+        "scenario": "throw",
+        "repeats": 3,
+        "frames": 201,
+        "cpuMs": {
+          "samples": 201,
+          "median": 0.8,
+          "p95": 1,
+          "peak": 1.6,
+          "minimum": 0.6
+        },
+        "drawCalls": {
+          "samples": 201,
+          "median": 184,
+          "p95": 185,
+          "peak": 185,
+          "minimum": 181
+        },
+        "triangles": {
+          "samples": 201,
+          "median": 17388,
+          "p95": 17484,
+          "peak": 17484,
+          "minimum": 17224
+        },
+        "geometry": {
+          "samples": 201,
+          "median": 288,
+          "p95": 288,
+          "peak": 288,
+          "minimum": 288
+        },
+        "textures": {
+          "samples": 201,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 201,
+          "median": 41858266,
+          "p95": 48278234,
+          "peak": 55173390,
+          "minimum": 31132691
+        },
+        "frameIntervalMs": {
+          "samples": 198,
+          "median": 16.699999999720603,
+          "p95": 17.5,
+          "peak": 44.60000000009313,
+          "minimum": 1.2999999998137355
+        }
+      },
+      {
+        "quality": "normal",
+        "scenario": "zap",
+        "repeats": 3,
+        "frames": 181,
+        "cpuMs": {
+          "samples": 181,
+          "median": 0.7,
+          "p95": 1.1,
+          "peak": 1.9,
+          "minimum": 0.6
+        },
+        "drawCalls": {
+          "samples": 181,
+          "median": 179,
+          "p95": 181,
+          "peak": 181,
+          "minimum": 179
+        },
+        "triangles": {
+          "samples": 181,
+          "median": 7062,
+          "p95": 7182,
+          "peak": 7182,
+          "minimum": 7062
+        },
+        "geometry": {
+          "samples": 181,
+          "median": 279,
+          "p95": 279,
+          "peak": 279,
+          "minimum": 279
+        },
+        "textures": {
+          "samples": 181,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 181,
+          "median": 30281915,
+          "p95": 34377523,
+          "peak": 35417210,
+          "minimum": 24818427
+        },
+        "frameIntervalMs": {
+          "samples": 178,
+          "median": 16.700000000186265,
+          "p95": 18.199999999720603,
+          "peak": 116.10000000009313,
+          "minimum": 1.7000000001862645
+        }
+      },
+      {
+        "quality": "normal",
+        "scenario": "readItem",
+        "repeats": 3,
+        "frames": 227,
+        "cpuMs": {
+          "samples": 227,
+          "median": 0.7,
+          "p95": 1,
+          "peak": 1.5,
+          "minimum": 0.5
+        },
+        "drawCalls": {
+          "samples": 227,
+          "median": 151,
+          "p95": 151,
+          "peak": 151,
+          "minimum": 151
+        },
+        "triangles": {
+          "samples": 227,
+          "median": 7040,
+          "p95": 7040,
+          "peak": 7040,
+          "minimum": 7040
+        },
+        "geometry": {
+          "samples": 227,
+          "median": 255,
+          "p95": 255,
+          "peak": 255,
+          "minimum": 255
+        },
+        "textures": {
+          "samples": 227,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 227,
+          "median": 27401166,
+          "p95": 47251303,
+          "peak": 49618114,
+          "minimum": 21532638
+        },
+        "frameIntervalMs": {
+          "samples": 224,
+          "median": 16.699999999720603,
+          "p95": 18,
+          "peak": 97.39999999990687,
+          "minimum": 1.2999999998137355
+        }
+      },
+      {
+        "quality": "low",
+        "scenario": "throw",
+        "repeats": 3,
+        "frames": 202,
+        "cpuMs": {
+          "samples": 202,
+          "median": 0.6,
+          "p95": 0.7,
+          "peak": 0.8,
+          "minimum": 0.4
+        },
+        "drawCalls": {
+          "samples": 202,
+          "median": 93,
+          "p95": 94,
+          "peak": 94,
+          "minimum": 90
+        },
+        "triangles": {
+          "samples": 202,
+          "median": 8326,
+          "p95": 8422,
+          "peak": 8422,
+          "minimum": 8270
+        },
+        "geometry": {
+          "samples": 202,
+          "median": 319,
+          "p95": 319,
+          "peak": 319,
+          "minimum": 319
+        },
+        "textures": {
+          "samples": 202,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 202,
+          "median": 38627983,
+          "p95": 52314815,
+          "peak": 53329799,
+          "minimum": 30139566
+        },
+        "frameIntervalMs": {
+          "samples": 199,
+          "median": 16.699999999720603,
+          "p95": 18,
+          "peak": 29.199999999720603,
+          "minimum": 0.8999999999068677
+        }
+      },
+      {
+        "quality": "low",
+        "scenario": "zap",
+        "repeats": 3,
+        "frames": 180,
+        "cpuMs": {
+          "samples": 180,
+          "median": 0.6,
+          "p95": 0.8,
+          "peak": 1.5,
+          "minimum": 0.3
+        },
+        "drawCalls": {
+          "samples": 180,
+          "median": 97,
+          "p95": 99,
+          "peak": 99,
+          "minimum": 97
+        },
+        "triangles": {
+          "samples": 180,
+          "median": 3312,
+          "p95": 3432,
+          "peak": 3432,
+          "minimum": 3312
+        },
+        "geometry": {
+          "samples": 180,
+          "median": 322,
+          "p95": 322,
+          "peak": 322,
+          "minimum": 322
+        },
+        "textures": {
+          "samples": 180,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 180,
+          "median": 31487808,
+          "p95": 42777965,
+          "peak": 43710865,
+          "minimum": 26096818
+        },
+        "frameIntervalMs": {
+          "samples": 177,
+          "median": 16.699999999720603,
+          "p95": 18.100000000093132,
+          "peak": 117.3000000002794,
+          "minimum": 1.1999999997206032
+        }
+      },
+      {
+        "quality": "low",
+        "scenario": "readItem",
+        "repeats": 3,
+        "frames": 225,
+        "cpuMs": {
+          "samples": 225,
+          "median": 0.6,
+          "p95": 0.8,
+          "peak": 1.2,
+          "minimum": 0.4
+        },
+        "drawCalls": {
+          "samples": 225,
+          "median": 92,
+          "p95": 92,
+          "peak": 92,
+          "minimum": 92
+        },
+        "triangles": {
+          "samples": 225,
+          "median": 3244,
+          "p95": 3244,
+          "peak": 3244,
+          "minimum": 3244
+        },
+        "geometry": {
+          "samples": 225,
+          "median": 307,
+          "p95": 307,
+          "peak": 307,
+          "minimum": 307
+        },
+        "textures": {
+          "samples": 225,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 225,
+          "median": 27721930,
+          "p95": 50405373,
+          "peak": 52463242,
+          "minimum": 22458640
+        },
+        "frameIntervalMs": {
+          "samples": 222,
+          "median": 16.700000000186265,
+          "p95": 18,
+          "peak": 106.79999999981374,
+          "minimum": 5.7000000001862645
+        }
+      }
+    ],
+    "errors": [],
+    "sourceStable": true,
+    "sourceHashes": [
+      {
+        "path": "tests/m25-trace.ts",
+        "sha256": "cbb7ae41f26bcd392da8178634dab2c1e45faeabf60fe4d2442cb84d715a4ccc"
+      },
+      {
+        "path": "tests/m18-trace.ts",
+        "sha256": "07277f79ccd2ad6a811cbecfae48eb938b87c501a27578bff9ad1a1a72569f82"
+      },
+      {
+        "path": "tests/fixtures/alpha2-v1.json",
+        "sha256": "80a1404c29c2fdee0576aab76f36714d4b6c2cee2d2b6cc612946ae1d26e49ea"
+      },
+      {
+        "path": "src/alpha2/Game.vue",
+        "sha256": "e5958b598eaf9eaa52e2fa58cbb3f0283a46944802a2ed97611a8ddd06375d3c"
+      },
+      {
+        "path": "src/game-ui/native-ui.ts",
+        "sha256": "f432cbce70cf2a22e64f5f781793e6f62059aac5862ba5a6095e157001c9cd0b"
+      },
+      {
+        "path": "src/game-ui/menus.ts",
+        "sha256": "0abe4a94a81acdd0e12ea904ce1c11a274aba9fd8184bfa9b545fe966dd706e0"
+      },
+      {
+        "path": "src/room/renderer.ts",
+        "sha256": "fb749a8d52cb2e7fcbe51d9aeae2d343051fa8e5893a97bbb094142b6d6d9408"
+      },
+      {
+        "path": "src/core/alpha3.ts",
+        "sha256": "5d82b21e2278abed4e76a0bb5fafbd1ee80de9ad70b12a0a29a222fc5009ac39"
+      },
+      {
+        "path": "src/interaction/ux-types.ts",
+        "sha256": "5866d3015af69773dda397650252830c16dbc1b8a67028fc04ab5aff96f19463"
+      },
+      {
+        "path": "src/room/ground-pile.ts",
+        "sha256": "4c840581ff47bb33f11d1914894bfced0ff7f886badb31292874321059ebb0b6"
+      },
+      {
+        "path": "src/room/scene-hit-test.ts",
+        "sha256": "49d365c1bf4a1b03515a0d1755b25aa3de0a71735bca3147b126edab17e543d4"
+      },
+      {
+        "path": "src/session/session.ts",
+        "sha256": "aba50d01be5f70c0419b16d26e43b6016c536feb684fe67c6aa317555cc55b97"
+      },
+      {
+        "path": "public/assets/items/manifest.json",
+        "sha256": "c43841a6f21d92fb7f958efeed406d94fe420ee93034e3cff0cb10bcd26bf636"
+      },
+      {
+        "path": "scripts/profile-m26-performance.mjs",
+        "sha256": "054ee2e45142daabca1872439389f011e520f78842eafc61ead2b19a7938d65a"
+      }
+    ],
+    "limitations": [
+      "Desktop headless Chromium at 1440×900/DPR1; this does not represent a physical phone.",
+      "renderMs is CPU render submission, not GPU completion. Busy-frame intervals include browser scheduling and observation.",
+      "geometry/texture totals include world and native UI resources sharing the renderer. JS heap excludes GPU memory.",
+      "Natural archives and public query candidates drive formal canvas UI; no mechanical state is injected or mutated outside commands.",
+      "All warmup and measured actions are checked against their exact complete archive oracle. No throughput or timing claim comes from Node oracle generation.",
+      "--hardware requests a GPU path; the actual WebGL renderer is recorded and software fallback is rejected for that option."
+    ],
+    "archiveChecks": 24,
+    "warmupChecks": 6,
+    "evidence": "C:\\Users\\coolking\\.codex\\visualizations\\2026\\10\\11\\01a129c4-1522-7131-8c77-c1a1ae3a19cd\\m26\\action-hardware\\profile.json",
+    "evidenceSha256": "5f9d760d441e8736ef843bfbdd0a5fd5cbbba7ad19cfef350325ea2551b469f3"
+  },
+  "software": {
+    "date": "2026-10-13T11:10:23.167Z",
+    "purpose": "exclusive warmed action performance",
+    "options": {
+      "out": "C:/Users/coolking/.codex/visualizations/2026/10/11/01a129c4-1522-7131-8c77-c1a1ae3a19cd/m26/action-software",
+      "url": "http://127.0.0.1:4199/alpha3.html",
+      "hardware": false,
+      "smoke": false,
+      "exclusive": true
+    },
+    "host": {
+      "os": "win32 10.0.26300 x64",
+      "cpu": "12th Gen Intel(R) Core(TM) i5-12600KF",
+      "logicalCpus": 16,
+      "totalMemoryBytes": 68523843584
+    },
+    "browser": "156.0.8078.4",
+    "device": {
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "vendor": "Google Inc. (Google)",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "jsHeapAvailable": true,
+      "softwareRenderer": true,
+      "renderingPath": "software"
+    },
+    "scenarios": [
+      {
+        "name": "throw",
+        "motion": "throw",
+        "sourceId": 72,
+        "command": "a3:throw:72:1:20",
+        "beforeSha256": "cd3ffb701626974ab30ae4a7a7dcc75826bb89679430f6543a349d92be21e09b",
+        "oracleSha256": "a742f2faa8d6c9c33f281d924e02e46fdd76a178e809a8812b2f249ab2ecc5f4",
+        "beforeRevision": 99,
+        "afterRevision": 100
+      },
+      {
+        "name": "zap",
+        "motion": "zap",
+        "sourceId": 74,
+        "command": "a2:use:74:zap:e1",
+        "beforeSha256": "cf443b6c4e4f99919da89e891cd61a25ffdd68939534ee564b579fb37ff7e40e",
+        "oracleSha256": "168995c622f2a69345177693ef1497d4d274a332067308d293b2530750e78350",
+        "beforeRevision": 15,
+        "afterRevision": 16
+      },
+      {
+        "name": "readItem",
+        "motion": "read",
+        "sourceId": 10,
+        "command": "a2:use:10:read:i1",
+        "beforeSha256": "8c4405e4c2a34ac3a46cae922e2c67339316458d8281999cebeb667297a1647d",
+        "oracleSha256": "c4d8b735bad2910c404ce615abe32777cc17d1cd08a5e89e0bea5ebc515005d9",
+        "beforeRevision": 7,
+        "afterRevision": 8
+      }
+    ],
+    "summaries": [
+      {
+        "quality": "normal",
+        "scenario": "throw",
+        "repeats": 3,
+        "frames": 50,
+        "cpuMs": {
+          "samples": 50,
+          "median": 1.3,
+          "p95": 5.6,
+          "peak": 8.6,
+          "minimum": 0.7
+        },
+        "drawCalls": {
+          "samples": 50,
+          "median": 184,
+          "p95": 185,
+          "peak": 185,
+          "minimum": 181
+        },
+        "triangles": {
+          "samples": 50,
+          "median": 17388,
+          "p95": 17484,
+          "peak": 17484,
+          "minimum": 17224
+        },
+        "geometry": {
+          "samples": 50,
+          "median": 288,
+          "p95": 288,
+          "peak": 288,
+          "minimum": 288
+        },
+        "textures": {
+          "samples": 50,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 50,
+          "median": 33984081,
+          "p95": 37856742,
+          "peak": 38179094,
+          "minimum": 29691725
+        },
+        "frameIntervalMs": {
+          "samples": 47,
+          "median": 57.799999999813735,
+          "p95": 258.10000000009313,
+          "peak": 281.6999999997206,
+          "minimum": 2.1000000000931323
+        }
+      },
+      {
+        "quality": "normal",
+        "scenario": "zap",
+        "repeats": 3,
+        "frames": 65,
+        "cpuMs": {
+          "samples": 65,
+          "median": 1.2,
+          "p95": 2.4,
+          "peak": 6.4,
+          "minimum": 0.7
+        },
+        "drawCalls": {
+          "samples": 65,
+          "median": 180,
+          "p95": 181,
+          "peak": 181,
+          "minimum": 179
+        },
+        "triangles": {
+          "samples": 65,
+          "median": 7158,
+          "p95": 7182,
+          "peak": 7182,
+          "minimum": 7062
+        },
+        "geometry": {
+          "samples": 65,
+          "median": 279,
+          "p95": 279,
+          "peak": 279,
+          "minimum": 279
+        },
+        "textures": {
+          "samples": 65,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 65,
+          "median": 27898989,
+          "p95": 33398542,
+          "peak": 33901066,
+          "minimum": 25020865
+        },
+        "frameIntervalMs": {
+          "samples": 62,
+          "median": 46.5,
+          "p95": 57.60000000009313,
+          "peak": 180.39999999990687,
+          "minimum": 1.5
+        }
+      },
+      {
+        "quality": "normal",
+        "scenario": "readItem",
+        "repeats": 3,
+        "frames": 81,
+        "cpuMs": {
+          "samples": 81,
+          "median": 1.1,
+          "p95": 1.7,
+          "peak": 7.9,
+          "minimum": 0.7
+        },
+        "drawCalls": {
+          "samples": 81,
+          "median": 151,
+          "p95": 151,
+          "peak": 151,
+          "minimum": 151
+        },
+        "triangles": {
+          "samples": 81,
+          "median": 7040,
+          "p95": 7040,
+          "peak": 7040,
+          "minimum": 7040
+        },
+        "geometry": {
+          "samples": 81,
+          "median": 255,
+          "p95": 255,
+          "peak": 255,
+          "minimum": 255
+        },
+        "textures": {
+          "samples": 81,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 81,
+          "median": 46168859,
+          "p95": 51990127,
+          "peak": 52608603,
+          "minimum": 23788898
+        },
+        "frameIntervalMs": {
+          "samples": 78,
+          "median": 46.700000000186265,
+          "p95": 56.10000000009313,
+          "peak": 214.79999999981374,
+          "minimum": 2.3000000002793968
+        }
+      },
+      {
+        "quality": "low",
+        "scenario": "throw",
+        "repeats": 3,
+        "frames": 64,
+        "cpuMs": {
+          "samples": 64,
+          "median": 0.8,
+          "p95": 1.8,
+          "peak": 6.5,
+          "minimum": 0.4
+        },
+        "drawCalls": {
+          "samples": 64,
+          "median": 93,
+          "p95": 94,
+          "peak": 94,
+          "minimum": 90
+        },
+        "triangles": {
+          "samples": 64,
+          "median": 8366,
+          "p95": 8422,
+          "peak": 8422,
+          "minimum": 8270
+        },
+        "geometry": {
+          "samples": 64,
+          "median": 319,
+          "p95": 319,
+          "peak": 319,
+          "minimum": 319
+        },
+        "textures": {
+          "samples": 64,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 64,
+          "median": 31386112,
+          "p95": 35633848,
+          "peak": 35942168,
+          "minimum": 26156229
+        },
+        "frameIntervalMs": {
+          "samples": 61,
+          "median": 44.60000000009313,
+          "p95": 53.89999999990687,
+          "peak": 241.89999999990687,
+          "minimum": 1.3000000002793968
+        }
+      },
+      {
+        "quality": "low",
+        "scenario": "zap",
+        "repeats": 3,
+        "frames": 80,
+        "cpuMs": {
+          "samples": 80,
+          "median": 0.8,
+          "p95": 1.7,
+          "peak": 6.1,
+          "minimum": 0.6
+        },
+        "drawCalls": {
+          "samples": 80,
+          "median": 97,
+          "p95": 99,
+          "peak": 99,
+          "minimum": 97
+        },
+        "triangles": {
+          "samples": 80,
+          "median": 3312,
+          "p95": 3432,
+          "peak": 3432,
+          "minimum": 3312
+        },
+        "geometry": {
+          "samples": 80,
+          "median": 322,
+          "p95": 322,
+          "peak": 322,
+          "minimum": 322
+        },
+        "textures": {
+          "samples": 80,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 80,
+          "median": 46029775,
+          "p95": 51661318,
+          "peak": 52097962,
+          "minimum": 36550413
+        },
+        "frameIntervalMs": {
+          "samples": 77,
+          "median": 38,
+          "p95": 48.200000000186265,
+          "peak": 162.70000000018626,
+          "minimum": 1.3999999999068677
+        }
+      },
+      {
+        "quality": "low",
+        "scenario": "readItem",
+        "repeats": 3,
+        "frames": 98,
+        "cpuMs": {
+          "samples": 98,
+          "median": 0.8,
+          "p95": 1.5,
+          "peak": 7,
+          "minimum": 0.5
+        },
+        "drawCalls": {
+          "samples": 98,
+          "median": 92,
+          "p95": 92,
+          "peak": 92,
+          "minimum": 92
+        },
+        "triangles": {
+          "samples": 98,
+          "median": 3244,
+          "p95": 3244,
+          "peak": 3244,
+          "minimum": 3244
+        },
+        "geometry": {
+          "samples": 98,
+          "median": 307,
+          "p95": 307,
+          "peak": 307,
+          "minimum": 307
+        },
+        "textures": {
+          "samples": 98,
+          "median": 6,
+          "p95": 6,
+          "peak": 6,
+          "minimum": 6
+        },
+        "heapBytes": {
+          "samples": 98,
+          "median": 39573055,
+          "p95": 48623641,
+          "peak": 49031581,
+          "minimum": 27427016
+        },
+        "frameIntervalMs": {
+          "samples": 95,
+          "median": 38.39999999990687,
+          "p95": 46.700000000186265,
+          "peak": 193.29999999981374,
+          "minimum": 1.6000000000931323
+        }
+      }
+    ],
+    "errors": [],
+    "sourceStable": true,
+    "sourceHashes": [
+      {
+        "path": "tests/m25-trace.ts",
+        "sha256": "cbb7ae41f26bcd392da8178634dab2c1e45faeabf60fe4d2442cb84d715a4ccc"
+      },
+      {
+        "path": "tests/m18-trace.ts",
+        "sha256": "07277f79ccd2ad6a811cbecfae48eb938b87c501a27578bff9ad1a1a72569f82"
+      },
+      {
+        "path": "tests/fixtures/alpha2-v1.json",
+        "sha256": "80a1404c29c2fdee0576aab76f36714d4b6c2cee2d2b6cc612946ae1d26e49ea"
+      },
+      {
+        "path": "src/alpha2/Game.vue",
+        "sha256": "e5958b598eaf9eaa52e2fa58cbb3f0283a46944802a2ed97611a8ddd06375d3c"
+      },
+      {
+        "path": "src/game-ui/native-ui.ts",
+        "sha256": "f432cbce70cf2a22e64f5f781793e6f62059aac5862ba5a6095e157001c9cd0b"
+      },
+      {
+        "path": "src/game-ui/menus.ts",
+        "sha256": "0abe4a94a81acdd0e12ea904ce1c11a274aba9fd8184bfa9b545fe966dd706e0"
+      },
+      {
+        "path": "src/room/renderer.ts",
+        "sha256": "fb749a8d52cb2e7fcbe51d9aeae2d343051fa8e5893a97bbb094142b6d6d9408"
+      },
+      {
+        "path": "src/core/alpha3.ts",
+        "sha256": "5d82b21e2278abed4e76a0bb5fafbd1ee80de9ad70b12a0a29a222fc5009ac39"
+      },
+      {
+        "path": "src/interaction/ux-types.ts",
+        "sha256": "5866d3015af69773dda397650252830c16dbc1b8a67028fc04ab5aff96f19463"
+      },
+      {
+        "path": "src/room/ground-pile.ts",
+        "sha256": "4c840581ff47bb33f11d1914894bfced0ff7f886badb31292874321059ebb0b6"
+      },
+      {
+        "path": "src/room/scene-hit-test.ts",
+        "sha256": "49d365c1bf4a1b03515a0d1755b25aa3de0a71735bca3147b126edab17e543d4"
+      },
+      {
+        "path": "src/session/session.ts",
+        "sha256": "aba50d01be5f70c0419b16d26e43b6016c536feb684fe67c6aa317555cc55b97"
+      },
+      {
+        "path": "public/assets/items/manifest.json",
+        "sha256": "c43841a6f21d92fb7f958efeed406d94fe420ee93034e3cff0cb10bcd26bf636"
+      },
+      {
+        "path": "scripts/profile-m26-performance.mjs",
+        "sha256": "054ee2e45142daabca1872439389f011e520f78842eafc61ead2b19a7938d65a"
+      }
+    ],
+    "limitations": [
+      "Desktop headless Chromium at 1440×900/DPR1; this does not represent a physical phone.",
+      "renderMs is CPU render submission, not GPU completion. Busy-frame intervals include browser scheduling and observation.",
+      "geometry/texture totals include world and native UI resources sharing the renderer. JS heap excludes GPU memory.",
+      "Natural archives and public query candidates drive formal canvas UI; no mechanical state is injected or mutated outside commands.",
+      "All warmup and measured actions are checked against their exact complete archive oracle. No throughput or timing claim comes from Node oracle generation.",
+      "--hardware requests a GPU path; the actual WebGL renderer is recorded and software fallback is rejected for that option."
+    ],
+    "archiveChecks": 24,
+    "warmupChecks": 6,
+    "evidence": "C:\\Users\\coolking\\.codex\\visualizations\\2026\\10\\11\\01a129c4-1522-7131-8c77-c1a1ae3a19cd\\m26\\action-software\\profile.json",
+    "evidenceSha256": "f955bbfde48b6731bcad8da03892c1d57e410d36ae96da23210c0f87ca8ab90b"
+  }
+}

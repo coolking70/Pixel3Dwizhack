@@ -1,0 +1,338 @@
+{
+  "metadata": {
+    "schema": 1,
+    "agentVersion": "m26-resource-public-1",
+    "sourceSha256": "dc2296c2ee56fa74764e4a87981a2cfca9632b5ca1b9a082a4ee47cc6fdb9442",
+    "node": "v24.14.0",
+    "platform": "win32 10.0.26300 x64",
+    "cpu": "12th Gen Intel(R) Core(TM) i5-12600KF",
+    "concurrency": 1,
+    "seedStart": 1,
+    "seeds": 4,
+    "games": 36,
+    "config": {
+      "maxActions": 1800,
+      "maxTicks": 30000,
+      "stuckLimit": 96
+    },
+    "scenarios": [
+      "alpha5"
+    ],
+    "doubleRun": true,
+    "startedAt": "2026-10-13T12:08:54.560Z",
+    "notes": "Node headless; each duration includes run and exact replay, plus optional second run. Heap/RSS sampled after each game, not peak memory. Sequential jobs, no browser-performance claim. Paired Alpha3/Alpha4 resource outcomes; no cross-identity digest comparison. Outcomes descriptive; nine configurations per seed are not independent seed samples.",
+    "finishedAt": "2026-10-13T12:11:28.029Z",
+    "durationMs": 153466.5255,
+    "inputsUnchanged": true,
+    "completed": 36,
+    "valid": true
+  },
+  "outcomes": {
+    "won": 36
+  },
+  "groups": {
+    "alpha5/novice/vanguard": {
+      "games": 4,
+      "outcomes": {
+        "won": 4
+      },
+      "actions": 1609,
+      "rejected": 2,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 50,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 21,
+        "healingDrinks": 7,
+        "foodEaten": 4,
+        "healingNet": 202,
+        "foodNet": 260,
+        "fullBoundaries": 777,
+        "boundaries": 1609,
+        "peakOrdinary": 64,
+        "peakWeight": 127,
+        "healingAcquired": 22,
+        "foodAcquired": 21,
+        "unknownAcquired": 0
+      },
+      "minHp": 66,
+      "minFood": 284
+    },
+    "alpha5/survivor/vanguard": {
+      "games": 4,
+      "outcomes": {
+        "won": 4
+      },
+      "actions": 1827,
+      "rejected": 2,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 61,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 28,
+        "healingDrinks": 14,
+        "foodEaten": 8,
+        "healingNet": 395,
+        "foodNet": 440,
+        "fullBoundaries": 532,
+        "boundaries": 1827,
+        "peakOrdinary": 64,
+        "peakWeight": 150,
+        "healingAcquired": 25,
+        "foodAcquired": 23,
+        "unknownAcquired": 0
+      },
+      "minHp": 184,
+      "minFood": 500
+    },
+    "alpha5/fighter/vanguard": {
+      "games": 4,
+      "outcomes": {
+        "won": 4
+      },
+      "actions": 1729,
+      "rejected": 2,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 57,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 29,
+        "healingDrinks": 14,
+        "foodEaten": 4,
+        "healingNet": 403,
+        "foodNet": 260,
+        "fullBoundaries": 626,
+        "boundaries": 1729,
+        "peakOrdinary": 64,
+        "peakWeight": 127,
+        "healingAcquired": 24,
+        "foodAcquired": 26,
+        "unknownAcquired": 0
+      },
+      "minHp": 97,
+      "minFood": 284
+    },
+    "alpha5/novice/breaker": {
+      "games": 4,
+      "outcomes": {
+        "won": 4
+      },
+      "actions": 1621,
+      "rejected": 2,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 55,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 29,
+        "healingDrinks": 13,
+        "foodEaten": 4,
+        "healingNet": 376,
+        "foodNet": 259,
+        "fullBoundaries": 596,
+        "boundaries": 1621,
+        "peakOrdinary": 64,
+        "peakWeight": 163,
+        "healingAcquired": 23,
+        "foodAcquired": 25,
+        "unknownAcquired": 0
+      },
+      "minHp": 58,
+      "minFood": 284
+    },
+    "alpha5/survivor/breaker": {
+      "games": 4,
+      "outcomes": {
+        "won": 4
+      },
+      "actions": 1757,
+      "rejected": 2,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 66,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 35,
+        "healingDrinks": 24,
+        "foodEaten": 9,
+        "healingNet": 679,
+        "foodNet": 495,
+        "fullBoundaries": 136,
+        "boundaries": 1757,
+        "peakOrdinary": 61,
+        "peakWeight": 165,
+        "healingAcquired": 28,
+        "foodAcquired": 28,
+        "unknownAcquired": 0
+      },
+      "minHp": 183,
+      "minFood": 500
+    },
+    "alpha5/fighter/breaker": {
+      "games": 4,
+      "outcomes": {
+        "won": 4
+      },
+      "actions": 1789,
+      "rejected": 3,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 55,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 26,
+        "healingDrinks": 13,
+        "foodEaten": 4,
+        "healingNet": 378,
+        "foodNet": 260,
+        "fullBoundaries": 780,
+        "boundaries": 1789,
+        "peakOrdinary": 64,
+        "peakWeight": 171,
+        "healingAcquired": 20,
+        "foodAcquired": 23,
+        "unknownAcquired": 0
+      },
+      "minHp": 107,
+      "minFood": 284
+    },
+    "alpha5/novice/channeler": {
+      "games": 4,
+      "outcomes": {
+        "won": 4
+      },
+      "actions": 1859,
+      "rejected": 2,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 61,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 29,
+        "healingDrinks": 20,
+        "foodEaten": 4,
+        "healingNet": 594,
+        "foodNet": 260,
+        "fullBoundaries": 489,
+        "boundaries": 1859,
+        "peakOrdinary": 64,
+        "peakWeight": 112,
+        "healingAcquired": 27,
+        "foodAcquired": 26,
+        "unknownAcquired": 0
+      },
+      "minHp": 62,
+      "minFood": 284
+    },
+    "alpha5/survivor/channeler": {
+      "games": 4,
+      "outcomes": {
+        "won": 4
+      },
+      "actions": 1667,
+      "rejected": 2,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 59,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 29,
+        "healingDrinks": 11,
+        "foodEaten": 8,
+        "healingNet": 310,
+        "foodNet": 440,
+        "fullBoundaries": 640,
+        "boundaries": 1667,
+        "peakOrdinary": 64,
+        "peakWeight": 138,
+        "healingAcquired": 21,
+        "foodAcquired": 24,
+        "unknownAcquired": 0
+      },
+      "minHp": 188,
+      "minFood": 500
+    },
+    "alpha5/fighter/channeler": {
+      "games": 4,
+      "outcomes": {
+        "won": 4
+      },
+      "actions": 1619,
+      "rejected": 2,
+      "adaptedThrows": 0,
+      "resources": {
+        "picked": 53,
+        "bought": 0,
+        "dropped": 0,
+        "containersOpened": 19,
+        "healingDrinks": 9,
+        "foodEaten": 4,
+        "healingNet": 258,
+        "foodNet": 260,
+        "fullBoundaries": 1050,
+        "boundaries": 1619,
+        "peakOrdinary": 64,
+        "peakWeight": 151,
+        "healingAcquired": 10,
+        "foodAcquired": 15,
+        "unknownAcquired": 0
+      },
+      "minHp": 113,
+      "minFood": 284
+    }
+  },
+  "paired": {
+    "method": "alpha4 minus alpha3; nine paired configurations averaged inside each independent seed, then 2000 deterministic seed-block bootstrap replicates",
+    "independentSeeds": 0,
+    "pairedConfigurations": 0,
+    "metrics": {
+      "won": null,
+      "minHp": null,
+      "minFood": null,
+      "picked": null,
+      "healingAcquired": null,
+      "foodAcquired": null,
+      "healingDrinks": null,
+      "foodEaten": null,
+      "healingNet": null,
+      "foodNet": null,
+      "fullBoundaries": null,
+      "containersOpened": null,
+      "peakOrdinary": null,
+      "peakWeight": null
+    }
+  },
+  "actions": 15477,
+  "rejected": 19,
+  "adaptedThrows": 0,
+  "golden": {
+    "file": "natural-alpha5-won.json",
+    "sourceRun": "runs/alpha5-1-vanguard-novice.json",
+    "traceSha256": "56f8b1c5e418040af59fe04bd08e3ce1802f1ddeb5f2a83ecfb91c18da067e16",
+    "finalDigest": "a3d3674d",
+    "seed": 1,
+    "loadout": "vanguard",
+    "strategy": "novice"
+  },
+  "perGameMs": {
+    "samples": 36,
+    "median": 4220.0658,
+    "p95": 4565.809800000017,
+    "max": 4621.945599999992
+  },
+  "sampledHeapBytes": {
+    "samples": 36,
+    "median": 67335272,
+    "p95": 95766248,
+    "max": 98750072
+  },
+  "sampledRssBytes": {
+    "samples": 36,
+    "median": 264491008,
+    "p95": 282492928,
+    "max": 282583040
+  }
+}

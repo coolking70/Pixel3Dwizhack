@@ -1,0 +1,22 @@
+{
+  "reviewer": "M26I, separate from balance4 implementation author",
+  "scope": "Read-only review of public-agent runner, resource counters, distribution audit and CLI; execution results separate",
+  "files": [
+    "src/balance4/agent.ts",
+    "src/balance4/runner.ts",
+    "src/balance4/resources.ts",
+    "src/balance4/distribution.ts",
+    "scripts/balance-alpha4.mjs"
+  ],
+  "findings": [],
+  "checks": [
+    "Agent uses public projection and formal submit only; map audit not injected into play",
+    "Double-run, replay and source SHA guards",
+    "Paired intervals use independent seed blocks, not nine correlated configs as independent seeds"
+  ],
+  "limits": [
+    "peakOrdinary is identity capacity counter; old identity includes worn, alpha4 excludes worn, so it is not an apples-to-apples ordinary inventory statistic",
+    "Only 10 independent natural seeds; 1000 map seeds are a separate distribution audit",
+    "This is source review, not a claim of completed 180-game execution"
+  ]
+}

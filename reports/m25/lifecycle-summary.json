@@ -1,0 +1,5588 @@
+{
+  "browser": "156.0.8078.4",
+  "device": {
+    "os": "win32 10.0.26300 x64",
+    "cpu": "12th Gen Intel(R) Core(TM) i5-12600KF",
+    "logicalCpus": 16,
+    "totalMemoryBytes": 68523843584
+  },
+  "viewports": [
+    {
+      "mode": "hardware",
+      "width": 1440,
+      "height": 900,
+      "measuredCycles": 100,
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4070 Ti SUPER (0x00002705) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "byPhase": {
+        "bag": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 0.8,
+            "p95": 1.4,
+            "peak": 1.7,
+            "minimum": 0.5
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 66,
+            "p95": 66,
+            "peak": 66,
+            "minimum": 66
+          },
+          "triangles": {
+            "count": 100,
+            "median": 3064,
+            "p95": 3064,
+            "peak": 3064,
+            "minimum": 3064
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17098349,
+            "p95": 17305673,
+            "peak": 21044978,
+            "minimum": 16035957
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 96.33880000000136,
+            "p95": 174.30749999999898,
+            "peak": 197.7080999999962,
+            "minimum": 55.492200000000594
+          }
+        },
+        "detail": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 0.3,
+            "p95": 0.5,
+            "peak": 1,
+            "minimum": 0.1
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 100,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17192232,
+            "p95": 17947972,
+            "peak": 21939489,
+            "minimum": 16336244
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 110.82359999999971,
+            "p95": 127.79260000000068,
+            "peak": 161.66049999999814,
+            "minimum": 54.95709999999963
+          }
+        },
+        "world-target": {
+          "geometry": {
+            "count": 50,
+            "median": 238,
+            "p95": 238,
+            "peak": 238,
+            "minimum": 238
+          },
+          "textures": {
+            "count": 50,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 50,
+            "median": 1.4,
+            "p95": 2.4,
+            "peak": 2.7,
+            "minimum": 1
+          },
+          "drawCalls": {
+            "count": 50,
+            "median": 156,
+            "p95": 156,
+            "peak": 156,
+            "minimum": 156
+          },
+          "triangles": {
+            "count": 50,
+            "median": 7596,
+            "p95": 7596,
+            "peak": 7596,
+            "minimum": 7596
+          },
+          "jsHeapBytes": {
+            "count": 50,
+            "median": 17820648,
+            "p95": 18789539,
+            "peak": 23542879,
+            "minimum": 16811515
+          },
+          "transitionMs": {
+            "count": 50,
+            "median": 130.10120000000006,
+            "p95": 160.72910000000047,
+            "peak": 195.17599999999948,
+            "minimum": 103.96030000000064
+          }
+        },
+        "cancel-detail": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 0.5,
+            "p95": 0.8,
+            "peak": 1.3,
+            "minimum": 0.3
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 100,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17593716,
+            "p95": 18487645,
+            "peak": 24205599,
+            "minimum": 16855877
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 29.16610000000219,
+            "p95": 45.75849999999991,
+            "peak": 47.1588000000047,
+            "minimum": 25.75879999999961
+          }
+        },
+        "cancel-bag": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 0.9,
+            "p95": 1.8,
+            "peak": 2.5,
+            "minimum": 0.7
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 66,
+            "p95": 66,
+            "peak": 66,
+            "minimum": 66
+          },
+          "triangles": {
+            "count": 100,
+            "median": 3064,
+            "p95": 3064,
+            "peak": 3064,
+            "minimum": 3064
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17788652,
+            "p95": 18689401,
+            "peak": 24457415,
+            "minimum": 16564112
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 28.866500000003725,
+            "p95": 30.435300000000097,
+            "peak": 42.85580000000027,
+            "minimum": 26.741399999998976
+          }
+        },
+        "world": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 0.9,
+            "p95": 1.7,
+            "peak": 2.8,
+            "minimum": 0.5
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 148,
+            "p95": 148,
+            "peak": 148,
+            "minimum": 148
+          },
+          "triangles": {
+            "count": 100,
+            "median": 7308,
+            "p95": 7308,
+            "peak": 7308,
+            "minimum": 7308
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17839471,
+            "p95": 18791256,
+            "peak": 19281679,
+            "minimum": 16480724
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 62.2474000000002,
+            "p95": 137.82970000000205,
+            "peak": 157.80409999999756,
+            "minimum": 55.28899999999976
+          }
+        },
+        "bag-target": {
+          "geometry": {
+            "count": 50,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 50,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 50,
+            "median": 0.8,
+            "p95": 1.6,
+            "peak": 1.9,
+            "minimum": 0.6
+          },
+          "drawCalls": {
+            "count": 50,
+            "median": 66,
+            "p95": 66,
+            "peak": 66,
+            "minimum": 66
+          },
+          "triangles": {
+            "count": 50,
+            "median": 3064,
+            "p95": 3064,
+            "peak": 3064,
+            "minimum": 3064
+          },
+          "jsHeapBytes": {
+            "count": 50,
+            "median": 17195447,
+            "p95": 18013475,
+            "peak": 18803780,
+            "minimum": 16281292
+          },
+          "transitionMs": {
+            "count": 50,
+            "median": 79.38239999999496,
+            "p95": 96.08910000000105,
+            "peak": 161.94670000000042,
+            "minimum": 75.62380000000121
+          }
+        }
+      },
+      "trends": {
+        "geometry": {
+          "first": 230,
+          "last": 230,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            }
+          ]
+        },
+        "textures": {
+          "first": 6,
+          "last": 6,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            }
+          ]
+        },
+        "heapUsedBytes": {
+          "first": 13020396,
+          "last": 14435660,
+          "delta": 1415264,
+          "positiveSteps": 50,
+          "negativeSteps": 49,
+          "longestNondecreasingRun": 2,
+          "slopePerCycle": 8042.598091809179,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 13512772,
+              "p95": 13760780,
+              "peak": 13760780,
+              "minimum": 13020396
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 13806688,
+              "p95": 13970160,
+              "peak": 13970160,
+              "minimum": 13645016
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 13970540,
+              "p95": 14086300,
+              "peak": 14086300,
+              "minimum": 13885188
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 13991412,
+              "p95": 14114636,
+              "peak": 14114636,
+              "minimum": 13960740
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 14104044,
+              "p95": 14207152,
+              "peak": 14207152,
+              "minimum": 14017456
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 14162908,
+              "p95": 14277096,
+              "peak": 14277096,
+              "minimum": 14119620
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 14220804,
+              "p95": 14331032,
+              "peak": 14331032,
+              "minimum": 14178492
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 14235496,
+              "p95": 14343424,
+              "peak": 14343424,
+              "minimum": 14226056
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 14253516,
+              "p95": 14358788,
+              "peak": 14358788,
+              "minimum": 14238140
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 14313484,
+              "p95": 14435660,
+              "peak": 14435660,
+              "minimum": 14257788
+            }
+          ]
+        },
+        "nodes": {
+          "first": 472,
+          "last": 472,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            }
+          ]
+        },
+        "eventListeners": {
+          "first": 97,
+          "last": 97,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            }
+          ]
+        }
+      },
+      "webglFirst": [
+        {
+          "id": 0,
+          "main": true,
+          "connected": true,
+          "textures": 10,
+          "buffers": 763,
+          "createdTextures": 10,
+          "deletedTextures": 0,
+          "createdBuffers": 925,
+          "deletedBuffers": 162
+        },
+        {
+          "id": 1,
+          "main": false,
+          "connected": false,
+          "textures": 5,
+          "buffers": 96,
+          "createdTextures": 14,
+          "deletedTextures": 9,
+          "createdBuffers": 96,
+          "deletedBuffers": 0
+        }
+      ],
+      "webglLast": [
+        {
+          "id": 0,
+          "main": true,
+          "connected": true,
+          "textures": 10,
+          "buffers": 763,
+          "createdTextures": 10,
+          "deletedTextures": 0,
+          "createdBuffers": 2248,
+          "deletedBuffers": 1485
+        },
+        {
+          "id": 1,
+          "main": false,
+          "connected": false,
+          "textures": 5,
+          "buffers": 96,
+          "createdTextures": 14,
+          "deletedTextures": 9,
+          "createdBuffers": 96,
+          "deletedBuffers": 0
+        }
+      ],
+      "sourceSha256": "4c3f3b062c789f8a17eea22da268511ce14186ee566c97ee763281b338277eb1",
+      "errors": []
+    },
+    {
+      "mode": "hardware",
+      "width": 844,
+      "height": 390,
+      "measuredCycles": 100,
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4070 Ti SUPER (0x00002705) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "byPhase": {
+        "bag": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 0.8,
+            "p95": 1.2,
+            "peak": 1.8,
+            "minimum": 0.5
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 66,
+            "p95": 66,
+            "peak": 66,
+            "minimum": 66
+          },
+          "triangles": {
+            "count": 100,
+            "median": 3064,
+            "p95": 3064,
+            "peak": 3064,
+            "minimum": 3064
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17125808,
+            "p95": 17317380,
+            "peak": 22952277,
+            "minimum": 16025444
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 63.92849999999453,
+            "p95": 81.7390999999916,
+            "peak": 112.31680000000051,
+            "minimum": 44.30999999999767
+          }
+        },
+        "detail": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 0.2,
+            "p95": 0.4,
+            "peak": 0.5,
+            "minimum": 0.1
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 100,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17181723,
+            "p95": 18009227,
+            "peak": 23875656,
+            "minimum": 16385903
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 60.81930000000284,
+            "p95": 62.78360000000248,
+            "peak": 79.13529999999446,
+            "minimum": 56.02410000000964
+          }
+        },
+        "world-target": {
+          "geometry": {
+            "count": 50,
+            "median": 238,
+            "p95": 238,
+            "peak": 238,
+            "minimum": 238
+          },
+          "textures": {
+            "count": 50,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 50,
+            "median": 1.6,
+            "p95": 2.8,
+            "peak": 3.4,
+            "minimum": 1
+          },
+          "drawCalls": {
+            "count": 50,
+            "median": 156,
+            "p95": 156,
+            "peak": 156,
+            "minimum": 156
+          },
+          "triangles": {
+            "count": 50,
+            "median": 7596,
+            "p95": 7596,
+            "peak": 7596,
+            "minimum": 7596
+          },
+          "jsHeapBytes": {
+            "count": 50,
+            "median": 17392608,
+            "p95": 18118936,
+            "peak": 25696990,
+            "minimum": 16611524
+          },
+          "transitionMs": {
+            "count": 50,
+            "median": 113.18540000000212,
+            "p95": 130.15639999999257,
+            "peak": 146.5853999999963,
+            "minimum": 110.08120000000054
+          }
+        },
+        "cancel-detail": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 0.4,
+            "p95": 0.5,
+            "peak": 0.6,
+            "minimum": 0.2
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 100,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17783329,
+            "p95": 18494412,
+            "peak": 26358022,
+            "minimum": 16515841
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 28.78839999999036,
+            "p95": 30.362600000000384,
+            "peak": 42.334600000001956,
+            "minimum": 25.480400000000373
+          }
+        },
+        "cancel-bag": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 1,
+            "p95": 1.9,
+            "peak": 2.5,
+            "minimum": 0.7
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 66,
+            "p95": 66,
+            "peak": 66,
+            "minimum": 66
+          },
+          "triangles": {
+            "count": 100,
+            "median": 3064,
+            "p95": 3064,
+            "peak": 3064,
+            "minimum": 3064
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17714667,
+            "p95": 18682665,
+            "peak": 26620766,
+            "minimum": 16698891
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 29.24889999999141,
+            "p95": 30.90790000000561,
+            "peak": 31.277700000006007,
+            "minimum": 25.86149999999907
+          }
+        },
+        "world": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 0.7,
+            "p95": 1.6,
+            "peak": 2.6,
+            "minimum": 0.4
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 148,
+            "p95": 148,
+            "peak": 148,
+            "minimum": 148
+          },
+          "triangles": {
+            "count": 100,
+            "median": 7308,
+            "p95": 7308,
+            "peak": 7308,
+            "minimum": 7308
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17733816,
+            "p95": 18872295,
+            "peak": 27802818,
+            "minimum": 16496267
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 62.37919999999576,
+            "p95": 64.55849999999919,
+            "peak": 80.79949999999371,
+            "minimum": 59.025399999998626
+          }
+        },
+        "bag-target": {
+          "geometry": {
+            "count": 50,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 50,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 50,
+            "median": 0.7,
+            "p95": 1.5,
+            "peak": 2.4,
+            "minimum": 0.6
+          },
+          "drawCalls": {
+            "count": 50,
+            "median": 66,
+            "p95": 66,
+            "peak": 66,
+            "minimum": 66
+          },
+          "triangles": {
+            "count": 50,
+            "median": 3064,
+            "p95": 3064,
+            "peak": 3064,
+            "minimum": 3064
+          },
+          "jsHeapBytes": {
+            "count": 50,
+            "median": 17269014,
+            "p95": 18031346,
+            "peak": 18883011,
+            "minimum": 16297015
+          },
+          "transitionMs": {
+            "count": 50,
+            "median": 62.48489999999583,
+            "p95": 63.90380000000005,
+            "peak": 64.63279999999213,
+            "minimum": 59.42660000000615
+          }
+        }
+      },
+      "trends": {
+        "geometry": {
+          "first": 230,
+          "last": 230,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            }
+          ]
+        },
+        "textures": {
+          "first": 6,
+          "last": 6,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            }
+          ]
+        },
+        "heapUsedBytes": {
+          "first": 13001456,
+          "last": 14450048,
+          "delta": 1448592,
+          "positiveSteps": 50,
+          "negativeSteps": 49,
+          "longestNondecreasingRun": 2,
+          "slopePerCycle": 8011.107014701472,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 13544896,
+              "p95": 13770564,
+              "peak": 13770564,
+              "minimum": 13001456
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 13841272,
+              "p95": 14003384,
+              "peak": 14003384,
+              "minimum": 13652760
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 13973456,
+              "p95": 14089736,
+              "peak": 14089736,
+              "minimum": 13921452
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 14012228,
+              "p95": 14135228,
+              "peak": 14135228,
+              "minimum": 13990444
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 14123052,
+              "p95": 14224548,
+              "peak": 14224548,
+              "minimum": 14036292
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 14188264,
+              "p95": 14302316,
+              "peak": 14302316,
+              "minimum": 14136316
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 14236088,
+              "p95": 14346336,
+              "peak": 14346336,
+              "minimum": 14207408
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 14249308,
+              "p95": 14359312,
+              "peak": 14359312,
+              "minimum": 14241948
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 14272108,
+              "p95": 14371812,
+              "peak": 14371812,
+              "minimum": 14251892
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 14326732,
+              "p95": 14450048,
+              "peak": 14450048,
+              "minimum": 14278452
+            }
+          ]
+        },
+        "nodes": {
+          "first": 472,
+          "last": 472,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            }
+          ]
+        },
+        "eventListeners": {
+          "first": 97,
+          "last": 97,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            }
+          ]
+        }
+      },
+      "webglFirst": [
+        {
+          "id": 0,
+          "main": true,
+          "connected": true,
+          "textures": 10,
+          "buffers": 763,
+          "createdTextures": 10,
+          "deletedTextures": 0,
+          "createdBuffers": 925,
+          "deletedBuffers": 162
+        },
+        {
+          "id": 1,
+          "main": false,
+          "connected": false,
+          "textures": 5,
+          "buffers": 96,
+          "createdTextures": 14,
+          "deletedTextures": 9,
+          "createdBuffers": 96,
+          "deletedBuffers": 0
+        }
+      ],
+      "webglLast": [
+        {
+          "id": 0,
+          "main": true,
+          "connected": true,
+          "textures": 10,
+          "buffers": 763,
+          "createdTextures": 10,
+          "deletedTextures": 0,
+          "createdBuffers": 2248,
+          "deletedBuffers": 1485
+        },
+        {
+          "id": 1,
+          "main": false,
+          "connected": false,
+          "textures": 5,
+          "buffers": 96,
+          "createdTextures": 14,
+          "deletedTextures": 9,
+          "createdBuffers": 96,
+          "deletedBuffers": 0
+        }
+      ],
+      "sourceSha256": "4c3f3b062c789f8a17eea22da268511ce14186ee566c97ee763281b338277eb1",
+      "errors": []
+    },
+    {
+      "mode": "hardware",
+      "width": 390,
+      "height": 844,
+      "measuredCycles": 100,
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4070 Ti SUPER (0x00002705) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "byPhase": {
+        "bag": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 0.8,
+            "p95": 1.5,
+            "peak": 1.8,
+            "minimum": 0.6
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 66,
+            "p95": 66,
+            "peak": 66,
+            "minimum": 66
+          },
+          "triangles": {
+            "count": 100,
+            "median": 3064,
+            "p95": 3064,
+            "peak": 3064,
+            "minimum": 3064
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17084622,
+            "p95": 17285390,
+            "peak": 21884772,
+            "minimum": 16011542
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 65.4707999999955,
+            "p95": 88.54390000001877,
+            "peak": 155.46280000000843,
+            "minimum": 56.23019999999087
+          }
+        },
+        "detail": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 0.3,
+            "p95": 0.7,
+            "peak": 1,
+            "minimum": 0.1
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 100,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17199332,
+            "p95": 17951744,
+            "peak": 22776794,
+            "minimum": 16334644
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 60.41809999999532,
+            "p95": 69.7615000000078,
+            "peak": 90.33920000000217,
+            "minimum": 55.77349999999569
+          }
+        },
+        "world-target": {
+          "geometry": {
+            "count": 50,
+            "median": 237,
+            "p95": 237,
+            "peak": 237,
+            "minimum": 237
+          },
+          "textures": {
+            "count": 50,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 50,
+            "median": 1.6,
+            "p95": 2.6,
+            "peak": 3.6,
+            "minimum": 0.9
+          },
+          "drawCalls": {
+            "count": 50,
+            "median": 151,
+            "p95": 151,
+            "peak": 151,
+            "minimum": 151
+          },
+          "triangles": {
+            "count": 50,
+            "median": 7380,
+            "p95": 7380,
+            "peak": 7380,
+            "minimum": 7380
+          },
+          "jsHeapBytes": {
+            "count": 50,
+            "median": 17809885,
+            "p95": 18814065,
+            "peak": 24376860,
+            "minimum": 16726917
+          },
+          "transitionMs": {
+            "count": 50,
+            "median": 80.27790000000095,
+            "p95": 96.70100000000093,
+            "peak": 107.49729999998817,
+            "minimum": 75.82339999999385
+          }
+        },
+        "cancel-detail": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 0.4,
+            "p95": 0.7,
+            "peak": 1.5,
+            "minimum": 0.3
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 100,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17593782,
+            "p95": 18415003,
+            "peak": 25041740,
+            "minimum": 16848827
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 29.030400000003283,
+            "p95": 30.468900000007125,
+            "peak": 44.211799999990035,
+            "minimum": 25.28729999999632
+          }
+        },
+        "cancel-bag": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 1.1,
+            "p95": 1.8,
+            "peak": 2.5,
+            "minimum": 0.7
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 66,
+            "p95": 66,
+            "peak": 66,
+            "minimum": 66
+          },
+          "triangles": {
+            "count": 100,
+            "median": 3064,
+            "p95": 3064,
+            "peak": 3064,
+            "minimum": 3064
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17776826,
+            "p95": 18564346,
+            "peak": 25298536,
+            "minimum": 16669574
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 28.942499999990105,
+            "p95": 30.754899999999907,
+            "peak": 40.9204000000027,
+            "minimum": 24.809699999997974
+          }
+        },
+        "world": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 0.9,
+            "p95": 1.9,
+            "peak": 2.6,
+            "minimum": 0.5
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 144,
+            "p95": 144,
+            "peak": 144,
+            "minimum": 144
+          },
+          "triangles": {
+            "count": 100,
+            "median": 7140,
+            "p95": 7140,
+            "peak": 7140,
+            "minimum": 7140
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17855689,
+            "p95": 18833989,
+            "peak": 26445092,
+            "minimum": 16489646
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 62.70780000000377,
+            "p95": 81.97699999999895,
+            "peak": 102.40600000000268,
+            "minimum": 58.81590000000142
+          }
+        },
+        "bag-target": {
+          "geometry": {
+            "count": 50,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 50,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 50,
+            "median": 0.8,
+            "p95": 1.5,
+            "peak": 2.1,
+            "minimum": 0.6
+          },
+          "drawCalls": {
+            "count": 50,
+            "median": 66,
+            "p95": 66,
+            "peak": 66,
+            "minimum": 66
+          },
+          "triangles": {
+            "count": 50,
+            "median": 3064,
+            "p95": 3064,
+            "peak": 3064,
+            "minimum": 3064
+          },
+          "jsHeapBytes": {
+            "count": 50,
+            "median": 17234618,
+            "p95": 17899821,
+            "peak": 18897266,
+            "minimum": 16274186
+          },
+          "transitionMs": {
+            "count": 50,
+            "median": 62.22520000000077,
+            "p95": 76.61619999998948,
+            "peak": 194.14429999999993,
+            "minimum": 59.09449999999197
+          }
+        }
+      },
+      "trends": {
+        "geometry": {
+          "first": 230,
+          "last": 230,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            }
+          ]
+        },
+        "textures": {
+          "first": 6,
+          "last": 6,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            }
+          ]
+        },
+        "heapUsedBytes": {
+          "first": 12994160,
+          "last": 14430976,
+          "delta": 1436816,
+          "positiveSteps": 50,
+          "negativeSteps": 49,
+          "longestNondecreasingRun": 2,
+          "slopePerCycle": 8035.442304230423,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 13522008,
+              "p95": 13762224,
+              "peak": 13762224,
+              "minimum": 12994160
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 13810012,
+              "p95": 13975116,
+              "peak": 13975116,
+              "minimum": 13645040
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 13964616,
+              "p95": 14084296,
+              "peak": 14084296,
+              "minimum": 13886404
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 13994840,
+              "p95": 14120168,
+              "peak": 14120168,
+              "minimum": 13965096
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 14107544,
+              "p95": 14213568,
+              "peak": 14213568,
+              "minimum": 14023200
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 14148792,
+              "p95": 14268616,
+              "peak": 14268616,
+              "minimum": 14120772
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 14221656,
+              "p95": 14334972,
+              "peak": 14334972,
+              "minimum": 14166888
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 14238276,
+              "p95": 14345228,
+              "peak": 14345228,
+              "minimum": 14227492
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 14256348,
+              "p95": 14364468,
+              "peak": 14364468,
+              "minimum": 14241580
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 14305952,
+              "p95": 14430976,
+              "peak": 14430976,
+              "minimum": 14260752
+            }
+          ]
+        },
+        "nodes": {
+          "first": 472,
+          "last": 472,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            }
+          ]
+        },
+        "eventListeners": {
+          "first": 97,
+          "last": 97,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            }
+          ]
+        }
+      },
+      "webglFirst": [
+        {
+          "id": 0,
+          "main": true,
+          "connected": true,
+          "textures": 10,
+          "buffers": 763,
+          "createdTextures": 10,
+          "deletedTextures": 0,
+          "createdBuffers": 917,
+          "deletedBuffers": 154
+        },
+        {
+          "id": 1,
+          "main": false,
+          "connected": false,
+          "textures": 5,
+          "buffers": 96,
+          "createdTextures": 14,
+          "deletedTextures": 9,
+          "createdBuffers": 96,
+          "deletedBuffers": 0
+        }
+      ],
+      "webglLast": [
+        {
+          "id": 0,
+          "main": true,
+          "connected": true,
+          "textures": 10,
+          "buffers": 763,
+          "createdTextures": 10,
+          "deletedTextures": 0,
+          "createdBuffers": 2044,
+          "deletedBuffers": 1281
+        },
+        {
+          "id": 1,
+          "main": false,
+          "connected": false,
+          "textures": 5,
+          "buffers": 96,
+          "createdTextures": 14,
+          "deletedTextures": 9,
+          "createdBuffers": 96,
+          "deletedBuffers": 0
+        }
+      ],
+      "sourceSha256": "4c3f3b062c789f8a17eea22da268511ce14186ee566c97ee763281b338277eb1",
+      "errors": []
+    },
+    {
+      "mode": "software",
+      "width": 1440,
+      "height": 900,
+      "measuredCycles": 100,
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "byPhase": {
+        "bag": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 5.8,
+            "p95": 7.7,
+            "peak": 9.3,
+            "minimum": 4.8
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 66,
+            "p95": 66,
+            "peak": 66,
+            "minimum": 66
+          },
+          "triangles": {
+            "count": 100,
+            "median": 3064,
+            "p95": 3064,
+            "peak": 3064,
+            "minimum": 3064
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17077997,
+            "p95": 17278677,
+            "peak": 19902661,
+            "minimum": 16046629
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 342.28800000000047,
+            "p95": 361.1769999999997,
+            "peak": 386.40710000000036,
+            "minimum": 322.66419999999925
+          }
+        },
+        "detail": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 4.9,
+            "p95": 6.1,
+            "peak": 8.6,
+            "minimum": 4.2
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 100,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17209636,
+            "p95": 17858504,
+            "peak": 20802408,
+            "minimum": 16364368
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 176.51090000000113,
+            "p95": 191.78839999999764,
+            "peak": 223.76049999999668,
+            "minimum": 157.78519999999844
+          }
+        },
+        "world-target": {
+          "geometry": {
+            "count": 50,
+            "median": 238,
+            "p95": 238,
+            "peak": 238,
+            "minimum": 238
+          },
+          "textures": {
+            "count": 50,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 50,
+            "median": 6.4,
+            "p95": 7.6,
+            "peak": 8.9,
+            "minimum": 5
+          },
+          "drawCalls": {
+            "count": 50,
+            "median": 156,
+            "p95": 156,
+            "peak": 156,
+            "minimum": 156
+          },
+          "triangles": {
+            "count": 50,
+            "median": 7596,
+            "p95": 7596,
+            "peak": 7596,
+            "minimum": 7596
+          },
+          "jsHeapBytes": {
+            "count": 50,
+            "median": 17835623,
+            "p95": 18731907,
+            "peak": 22411570,
+            "minimum": 16465015
+          },
+          "transitionMs": {
+            "count": 50,
+            "median": 315.021900000007,
+            "p95": 346.15869999999904,
+            "peak": 362.7999999999993,
+            "minimum": 310.5256999999983
+          }
+        },
+        "cancel-detail": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 5.1,
+            "p95": 6.8,
+            "peak": 8.2,
+            "minimum": 4.2
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 100,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17607132,
+            "p95": 18470209,
+            "peak": 23077334,
+            "minimum": 16998976
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 94.51020000000062,
+            "p95": 112.23419999999896,
+            "peak": 112.52649999999267,
+            "minimum": 74.44800000000396
+          }
+        },
+        "cancel-bag": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 6,
+            "p95": 8,
+            "peak": 8.9,
+            "minimum": 4.9
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 66,
+            "p95": 66,
+            "peak": 66,
+            "minimum": 66
+          },
+          "triangles": {
+            "count": 100,
+            "median": 3064,
+            "p95": 3064,
+            "peak": 3064,
+            "minimum": 3064
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17805228,
+            "p95": 18673037,
+            "peak": 23335722,
+            "minimum": 16610072
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 33.63999999999942,
+            "p95": 59.41620000000694,
+            "peak": 62.52390000000014,
+            "minimum": 28.106800000001385
+          }
+        },
+        "world": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 6.3,
+            "p95": 7.9,
+            "peak": 9,
+            "minimum": 4.6
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 148,
+            "p95": 148,
+            "peak": 148,
+            "minimum": 148
+          },
+          "triangles": {
+            "count": 100,
+            "median": 7308,
+            "p95": 7308,
+            "peak": 7308,
+            "minimum": 7308
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17818551,
+            "p95": 18789572,
+            "peak": 24493450,
+            "minimum": 16485856
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 293.41070000000764,
+            "p95": 312.53610000000026,
+            "peak": 334.3433999999979,
+            "minimum": 273.4227000000028
+          }
+        },
+        "bag-target": {
+          "geometry": {
+            "count": 50,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 50,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 50,
+            "median": 6.3,
+            "p95": 8,
+            "peak": 8.6,
+            "minimum": 5
+          },
+          "drawCalls": {
+            "count": 50,
+            "median": 66,
+            "p95": 66,
+            "peak": 66,
+            "minimum": 66
+          },
+          "triangles": {
+            "count": 50,
+            "median": 3064,
+            "p95": 3064,
+            "peak": 3064,
+            "minimum": 3064
+          },
+          "jsHeapBytes": {
+            "count": 50,
+            "median": 17189143,
+            "p95": 17430175,
+            "peak": 18098727,
+            "minimum": 16463691
+          },
+          "transitionMs": {
+            "count": 50,
+            "median": 194.93439999999828,
+            "p95": 228.78720000000067,
+            "peak": 246.09289999998873,
+            "minimum": 177.13550000000396
+          }
+        }
+      },
+      "trends": {
+        "geometry": {
+          "first": 230,
+          "last": 230,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            }
+          ]
+        },
+        "textures": {
+          "first": 6,
+          "last": 6,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            }
+          ]
+        },
+        "heapUsedBytes": {
+          "first": 13019804,
+          "last": 14427636,
+          "delta": 1407832,
+          "positiveSteps": 50,
+          "negativeSteps": 49,
+          "longestNondecreasingRun": 2,
+          "slopePerCycle": 7997.437071707171,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 13511900,
+              "p95": 13759748,
+              "peak": 13759748,
+              "minimum": 13019804
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 13812432,
+              "p95": 13976392,
+              "peak": 13976392,
+              "minimum": 13642552
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 13966332,
+              "p95": 14081520,
+              "peak": 14081520,
+              "minimum": 13886656
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 13989332,
+              "p95": 14112324,
+              "peak": 14112324,
+              "minimum": 13958804
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 14099048,
+              "p95": 14203204,
+              "peak": 14203204,
+              "minimum": 14015096
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 14160464,
+              "p95": 14274576,
+              "peak": 14274576,
+              "minimum": 14115004
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 14218004,
+              "p95": 14328280,
+              "peak": 14328280,
+              "minimum": 14175884
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 14232404,
+              "p95": 14340480,
+              "peak": 14340480,
+              "minimum": 14223208
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 14249716,
+              "p95": 14355008,
+              "peak": 14355008,
+              "minimum": 14234392
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 14305460,
+              "p95": 14427636,
+              "peak": 14427636,
+              "minimum": 14254008
+            }
+          ]
+        },
+        "nodes": {
+          "first": 472,
+          "last": 472,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            }
+          ]
+        },
+        "eventListeners": {
+          "first": 97,
+          "last": 97,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            }
+          ]
+        }
+      },
+      "webglFirst": [
+        {
+          "id": 0,
+          "main": true,
+          "connected": true,
+          "textures": 10,
+          "buffers": 763,
+          "createdTextures": 10,
+          "deletedTextures": 0,
+          "createdBuffers": 925,
+          "deletedBuffers": 162
+        },
+        {
+          "id": 1,
+          "main": false,
+          "connected": false,
+          "textures": 5,
+          "buffers": 96,
+          "createdTextures": 14,
+          "deletedTextures": 9,
+          "createdBuffers": 96,
+          "deletedBuffers": 0
+        }
+      ],
+      "webglLast": [
+        {
+          "id": 0,
+          "main": true,
+          "connected": true,
+          "textures": 10,
+          "buffers": 763,
+          "createdTextures": 10,
+          "deletedTextures": 0,
+          "createdBuffers": 2248,
+          "deletedBuffers": 1485
+        },
+        {
+          "id": 1,
+          "main": false,
+          "connected": false,
+          "textures": 5,
+          "buffers": 96,
+          "createdTextures": 14,
+          "deletedTextures": 9,
+          "createdBuffers": 96,
+          "deletedBuffers": 0
+        }
+      ],
+      "sourceSha256": "4d9212690d64a355a04d9053170c26c16b2dda2be7b319b1ce9187c3b2bb746f",
+      "errors": []
+    },
+    {
+      "mode": "software",
+      "width": 844,
+      "height": 390,
+      "measuredCycles": 100,
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "byPhase": {
+        "bag": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 2.2,
+            "p95": 3.1,
+            "peak": 4.5,
+            "minimum": 1.7
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 66,
+            "p95": 66,
+            "peak": 66,
+            "minimum": 66
+          },
+          "triangles": {
+            "count": 100,
+            "median": 3064,
+            "p95": 3064,
+            "peak": 3064,
+            "minimum": 3064
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17111980,
+            "p95": 17322452,
+            "peak": 22935944,
+            "minimum": 16018640
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 164.444599999988,
+            "p95": 181.80499999999302,
+            "peak": 192.86389999999665,
+            "minimum": 157.1987000000081
+          }
+        },
+        "detail": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 1.5,
+            "p95": 2.1,
+            "peak": 3.3,
+            "minimum": 1.2
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 100,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17194643,
+            "p95": 17902663,
+            "peak": 23844999,
+            "minimum": 16387319
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 93.3920999999973,
+            "p95": 96.07559999998193,
+            "peak": 120.78059999999823,
+            "minimum": 63.92369999998482
+          }
+        },
+        "world-target": {
+          "geometry": {
+            "count": 50,
+            "median": 238,
+            "p95": 238,
+            "peak": 238,
+            "minimum": 238
+          },
+          "textures": {
+            "count": 50,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 50,
+            "median": 2.9,
+            "p95": 4.2,
+            "peak": 4.9,
+            "minimum": 2.2
+          },
+          "drawCalls": {
+            "count": 50,
+            "median": 156,
+            "p95": 156,
+            "peak": 156,
+            "minimum": 156
+          },
+          "triangles": {
+            "count": 50,
+            "median": 7596,
+            "p95": 7596,
+            "peak": 7596,
+            "minimum": 7596
+          },
+          "jsHeapBytes": {
+            "count": 50,
+            "median": 17380400,
+            "p95": 18097628,
+            "peak": 25676081,
+            "minimum": 16605952
+          },
+          "transitionMs": {
+            "count": 50,
+            "median": 213.69800000000396,
+            "p95": 270.26599999997416,
+            "peak": 277.9395000000077,
+            "minimum": 204.13790000000154
+          }
+        },
+        "cancel-detail": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 1.5,
+            "p95": 2.2,
+            "peak": 2.9,
+            "minimum": 1.3
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 100,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17775635,
+            "p95": 18467746,
+            "peak": 26335937,
+            "minimum": 16515373
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 32.89379999999073,
+            "p95": 44.91129999997793,
+            "peak": 61.015199999994365,
+            "minimum": 27.96820000000298
+          }
+        },
+        "cancel-bag": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 2.4,
+            "p95": 3.7,
+            "peak": 4.9,
+            "minimum": 1.9
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 66,
+            "p95": 66,
+            "peak": 66,
+            "minimum": 66
+          },
+          "triangles": {
+            "count": 100,
+            "median": 3064,
+            "p95": 3064,
+            "peak": 3064,
+            "minimum": 3064
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17764699,
+            "p95": 18684210,
+            "peak": 26602313,
+            "minimum": 16696495
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 25.76929999998538,
+            "p95": 40.368900000001304,
+            "peak": 41.96710000000894,
+            "minimum": 22.66030000001774
+          }
+        },
+        "world": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 2.4,
+            "p95": 3.8,
+            "peak": 4.5,
+            "minimum": 1.6
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 148,
+            "p95": 148,
+            "peak": 148,
+            "minimum": 148
+          },
+          "triangles": {
+            "count": 100,
+            "median": 7308,
+            "p95": 7308,
+            "peak": 7308,
+            "minimum": 7308
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17718076,
+            "p95": 18801959,
+            "peak": 27788065,
+            "minimum": 16520867
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 145.7104999999865,
+            "p95": 161.1698000000033,
+            "peak": 196.15020000000368,
+            "minimum": 128.82990000001155
+          }
+        },
+        "bag-target": {
+          "geometry": {
+            "count": 50,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 50,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 50,
+            "median": 2.3,
+            "p95": 3.4,
+            "peak": 4.7,
+            "minimum": 1.9
+          },
+          "drawCalls": {
+            "count": 50,
+            "median": 66,
+            "p95": 66,
+            "peak": 66,
+            "minimum": 66
+          },
+          "triangles": {
+            "count": 50,
+            "median": 3064,
+            "p95": 3064,
+            "peak": 3064,
+            "minimum": 3064
+          },
+          "jsHeapBytes": {
+            "count": 50,
+            "median": 17254918,
+            "p95": 17877562,
+            "peak": 18116270,
+            "minimum": 16285007
+          },
+          "transitionMs": {
+            "count": 50,
+            "median": 111.54859999998007,
+            "p95": 119.96820000000298,
+            "peak": 121.64530000000377,
+            "minimum": 70.25600000002305
+          }
+        }
+      },
+      "trends": {
+        "geometry": {
+          "first": 230,
+          "last": 230,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            }
+          ]
+        },
+        "textures": {
+          "first": 6,
+          "last": 6,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            }
+          ]
+        },
+        "heapUsedBytes": {
+          "first": 12990588,
+          "last": 14447944,
+          "delta": 1457356,
+          "positiveSteps": 50,
+          "negativeSteps": 49,
+          "longestNondecreasingRun": 2,
+          "slopePerCycle": 7955.190063006301,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 13543312,
+              "p95": 13765716,
+              "peak": 13765716,
+              "minimum": 12990588
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 13838388,
+              "p95": 14002964,
+              "peak": 14002964,
+              "minimum": 13649788
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 13971388,
+              "p95": 14088668,
+              "peak": 14088668,
+              "minimum": 13917716
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 14009412,
+              "p95": 14132392,
+              "peak": 14132392,
+              "minimum": 13985308
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 14117528,
+              "p95": 14219024,
+              "peak": 14219024,
+              "minimum": 14034048
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 14182364,
+              "p95": 14296436,
+              "peak": 14296436,
+              "minimum": 14130724
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 14230084,
+              "p95": 14340380,
+              "peak": 14340380,
+              "minimum": 14202100
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 14243160,
+              "p95": 14349404,
+              "peak": 14349404,
+              "minimum": 14233240
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 14265900,
+              "p95": 14365676,
+              "peak": 14365676,
+              "minimum": 14245716
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 14325248,
+              "p95": 14447944,
+              "peak": 14447944,
+              "minimum": 14272184
+            }
+          ]
+        },
+        "nodes": {
+          "first": 472,
+          "last": 472,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            }
+          ]
+        },
+        "eventListeners": {
+          "first": 97,
+          "last": 97,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            }
+          ]
+        }
+      },
+      "webglFirst": [
+        {
+          "id": 0,
+          "main": true,
+          "connected": true,
+          "textures": 10,
+          "buffers": 763,
+          "createdTextures": 10,
+          "deletedTextures": 0,
+          "createdBuffers": 925,
+          "deletedBuffers": 162
+        },
+        {
+          "id": 1,
+          "main": false,
+          "connected": false,
+          "textures": 5,
+          "buffers": 96,
+          "createdTextures": 14,
+          "deletedTextures": 9,
+          "createdBuffers": 96,
+          "deletedBuffers": 0
+        }
+      ],
+      "webglLast": [
+        {
+          "id": 0,
+          "main": true,
+          "connected": true,
+          "textures": 10,
+          "buffers": 763,
+          "createdTextures": 10,
+          "deletedTextures": 0,
+          "createdBuffers": 2248,
+          "deletedBuffers": 1485
+        },
+        {
+          "id": 1,
+          "main": false,
+          "connected": false,
+          "textures": 5,
+          "buffers": 96,
+          "createdTextures": 14,
+          "deletedTextures": 9,
+          "createdBuffers": 96,
+          "deletedBuffers": 0
+        }
+      ],
+      "sourceSha256": "4d9212690d64a355a04d9053170c26c16b2dda2be7b319b1ce9187c3b2bb746f",
+      "errors": []
+    },
+    {
+      "mode": "software",
+      "width": 390,
+      "height": 844,
+      "measuredCycles": 100,
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "byPhase": {
+        "bag": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 2.5,
+            "p95": 3.3,
+            "peak": 4.9,
+            "minimum": 1.9
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 66,
+            "p95": 66,
+            "peak": 66,
+            "minimum": 66
+          },
+          "triangles": {
+            "count": 100,
+            "median": 3064,
+            "p95": 3064,
+            "peak": 3064,
+            "minimum": 3064
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17092614,
+            "p95": 17291406,
+            "peak": 27379083,
+            "minimum": 15993398
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 147.2951999999932,
+            "p95": 163.60659999999916,
+            "peak": 188.3344999999972,
+            "minimum": 139.17029999999795
+          }
+        },
+        "detail": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 1.6,
+            "p95": 2.8,
+            "peak": 3.7,
+            "minimum": 1.1
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 100,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17190960,
+            "p95": 17967540,
+            "peak": 21903403,
+            "minimum": 16346784
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 94.10979999997653,
+            "p95": 110.60449999998673,
+            "peak": 111.90009999999893,
+            "minimum": 65.77170000001206
+          }
+        },
+        "world-target": {
+          "geometry": {
+            "count": 50,
+            "median": 237,
+            "p95": 237,
+            "peak": 237,
+            "minimum": 237
+          },
+          "textures": {
+            "count": 50,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 50,
+            "median": 2.9,
+            "p95": 4.1,
+            "peak": 5,
+            "minimum": 2.2
+          },
+          "drawCalls": {
+            "count": 50,
+            "median": 151,
+            "p95": 151,
+            "peak": 151,
+            "minimum": 151
+          },
+          "triangles": {
+            "count": 50,
+            "median": 7380,
+            "p95": 7380,
+            "peak": 7380,
+            "minimum": 7380
+          },
+          "jsHeapBytes": {
+            "count": 50,
+            "median": 17794477,
+            "p95": 18898145,
+            "peak": 23499727,
+            "minimum": 16768665
+          },
+          "transitionMs": {
+            "count": 50,
+            "median": 178.59429999999702,
+            "p95": 210.21199999999953,
+            "peak": 228.48580000002403,
+            "minimum": 158.85859999997774
+          }
+        },
+        "cancel-detail": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 1.8,
+            "p95": 2.4,
+            "peak": 3.4,
+            "minimum": 1.4
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 4,
+            "p95": 4,
+            "peak": 4,
+            "minimum": 4
+          },
+          "triangles": {
+            "count": 100,
+            "median": 150,
+            "p95": 150,
+            "peak": 150,
+            "minimum": 150
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17607978,
+            "p95": 18354239,
+            "peak": 24168003,
+            "minimum": 16852415
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 33.818599999998696,
+            "p95": 58.39260000002105,
+            "peak": 74.3530000000028,
+            "minimum": 30.94759999998496
+          }
+        },
+        "cancel-bag": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 2.7,
+            "p95": 4.1,
+            "peak": 5.4,
+            "minimum": 2
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 66,
+            "p95": 66,
+            "peak": 66,
+            "minimum": 66
+          },
+          "triangles": {
+            "count": 100,
+            "median": 3064,
+            "p95": 3064,
+            "peak": 3064,
+            "minimum": 3064
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17772863,
+            "p95": 18557491,
+            "peak": 24420199,
+            "minimum": 16611226
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 27.262300000002142,
+            "p95": 40.31160000001546,
+            "peak": 41.50659999999334,
+            "minimum": 21.17160000000149
+          }
+        },
+        "world": {
+          "geometry": {
+            "count": 100,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 100,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 100,
+            "median": 2.7,
+            "p95": 3.8,
+            "peak": 5.8,
+            "minimum": 1.7
+          },
+          "drawCalls": {
+            "count": 100,
+            "median": 144,
+            "p95": 144,
+            "peak": 144,
+            "minimum": 144
+          },
+          "triangles": {
+            "count": 100,
+            "median": 7140,
+            "p95": 7140,
+            "peak": 7140,
+            "minimum": 7140
+          },
+          "jsHeapBytes": {
+            "count": 100,
+            "median": 17818645,
+            "p95": 18814754,
+            "peak": 25575015,
+            "minimum": 16493722
+          },
+          "transitionMs": {
+            "count": 100,
+            "median": 143.22139999998035,
+            "p95": 147.0847000000067,
+            "peak": 175.29240000000573,
+            "minimum": 126.62859999999637
+          }
+        },
+        "bag-target": {
+          "geometry": {
+            "count": 50,
+            "median": 230,
+            "p95": 230,
+            "peak": 230,
+            "minimum": 230
+          },
+          "textures": {
+            "count": 50,
+            "median": 6,
+            "p95": 6,
+            "peak": 6,
+            "minimum": 6
+          },
+          "cpuRenderMs": {
+            "count": 50,
+            "median": 2.5,
+            "p95": 3.9,
+            "peak": 4.2,
+            "minimum": 1.9
+          },
+          "drawCalls": {
+            "count": 50,
+            "median": 66,
+            "p95": 66,
+            "peak": 66,
+            "minimum": 66
+          },
+          "triangles": {
+            "count": 50,
+            "median": 3064,
+            "p95": 3064,
+            "peak": 3064,
+            "minimum": 3064
+          },
+          "jsHeapBytes": {
+            "count": 50,
+            "median": 17229661,
+            "p95": 17429409,
+            "peak": 18102573,
+            "minimum": 16277890
+          },
+          "transitionMs": {
+            "count": 50,
+            "median": 112.09359999999288,
+            "p95": 121.00680000000284,
+            "peak": 142.60430000000633,
+            "minimum": 79.47409999999218
+          }
+        }
+      },
+      "trends": {
+        "geometry": {
+          "first": 230,
+          "last": 230,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 230,
+              "p95": 230,
+              "peak": 230,
+              "minimum": 230
+            }
+          ]
+        },
+        "textures": {
+          "first": 6,
+          "last": 6,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 6,
+              "p95": 6,
+              "peak": 6,
+              "minimum": 6
+            }
+          ]
+        },
+        "heapUsedBytes": {
+          "first": 12993440,
+          "last": 14432528,
+          "delta": 1439088,
+          "positiveSteps": 50,
+          "negativeSteps": 49,
+          "longestNondecreasingRun": 2,
+          "slopePerCycle": 8028.454317431745,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 13522200,
+              "p95": 13759044,
+              "peak": 13759044,
+              "minimum": 12993440
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 13820036,
+              "p95": 13983716,
+              "peak": 13983716,
+              "minimum": 13650852
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 13965988,
+              "p95": 14082300,
+              "peak": 14082300,
+              "minimum": 13893128
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 13999028,
+              "p95": 14122088,
+              "peak": 14122088,
+              "minimum": 13965952
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 14111724,
+              "p95": 14216528,
+              "peak": 14216528,
+              "minimum": 14027340
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 14152580,
+              "p95": 14266024,
+              "peak": 14266024,
+              "minimum": 14126504
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 14226556,
+              "p95": 14336424,
+              "peak": 14336424,
+              "minimum": 14170096
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 14241748,
+              "p95": 14345868,
+              "peak": 14345868,
+              "minimum": 14231004
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 14260360,
+              "p95": 14365592,
+              "peak": 14365592,
+              "minimum": 14245004
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 14309772,
+              "p95": 14432528,
+              "peak": 14432528,
+              "minimum": 14264552
+            }
+          ]
+        },
+        "nodes": {
+          "first": 472,
+          "last": 472,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 472,
+              "p95": 472,
+              "peak": 472,
+              "minimum": 472
+            }
+          ]
+        },
+        "eventListeners": {
+          "first": 97,
+          "last": 97,
+          "delta": 0,
+          "positiveSteps": 0,
+          "negativeSteps": 0,
+          "longestNondecreasingRun": 100,
+          "slopePerCycle": 0,
+          "strictlyNondecreasing": false,
+          "windows": [
+            {
+              "fromCycle": 0,
+              "toCycle": 9,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 10,
+              "toCycle": 19,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 20,
+              "toCycle": 29,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 30,
+              "toCycle": 39,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 40,
+              "toCycle": 49,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 50,
+              "toCycle": 59,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 60,
+              "toCycle": 69,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 70,
+              "toCycle": 79,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 80,
+              "toCycle": 89,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            },
+            {
+              "fromCycle": 90,
+              "toCycle": 99,
+              "count": 10,
+              "median": 97,
+              "p95": 97,
+              "peak": 97,
+              "minimum": 97
+            }
+          ]
+        }
+      },
+      "webglFirst": [
+        {
+          "id": 0,
+          "main": true,
+          "connected": true,
+          "textures": 10,
+          "buffers": 763,
+          "createdTextures": 10,
+          "deletedTextures": 0,
+          "createdBuffers": 917,
+          "deletedBuffers": 154
+        },
+        {
+          "id": 1,
+          "main": false,
+          "connected": false,
+          "textures": 5,
+          "buffers": 96,
+          "createdTextures": 14,
+          "deletedTextures": 9,
+          "createdBuffers": 96,
+          "deletedBuffers": 0
+        }
+      ],
+      "webglLast": [
+        {
+          "id": 0,
+          "main": true,
+          "connected": true,
+          "textures": 10,
+          "buffers": 763,
+          "createdTextures": 10,
+          "deletedTextures": 0,
+          "createdBuffers": 2044,
+          "deletedBuffers": 1281
+        },
+        {
+          "id": 1,
+          "main": false,
+          "connected": false,
+          "textures": 5,
+          "buffers": 96,
+          "createdTextures": 14,
+          "deletedTextures": 9,
+          "createdBuffers": 96,
+          "deletedBuffers": 0
+        }
+      ],
+      "sourceSha256": "4d9212690d64a355a04d9053170c26c16b2dda2be7b319b1ce9187c3b2bb746f",
+      "errors": []
+    }
+  ],
+  "limitations": [
+    "Desktop headless Chromium, DPR 1; viewport emulation is not a physical phone.",
+    "Geometry/texture counters are shared renderer totals, grouped by visible UI/world phase; they are not per-scene asset ownership.",
+    "WebGL live counters mean create minus explicit delete calls, not allocated bytes or GPU memory; GC/context loss may retire native objects independently.",
+    "CPU render submission excludes GPU completion. Automation transition time includes input transport and two-frame settling.",
+    "Heap is JavaScript memory, not GPU memory; post-GC checkpoints intentionally run outside transition timing.",
+    "Instrumentation and automation add overhead. A short run cannot establish absence of leaks.",
+    "Firefox executable probe is not a browser compatibility test."
+  ]
+}

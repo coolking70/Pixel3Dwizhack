@@ -1,0 +1,9 @@
+{
+  "candidate": "reports/m31/candidate.json",
+  "checkedFiles": 421,
+  "mismatches": [],
+  "archives": {
+    "fallen-star-0.31.0-beta.1.zip": "80de05d2d8f601574664c2a723d86fe911c9d846fe1869c635ec623d8d197540",
+    "fallen-star-0.31.0-beta.1-source.zip": "3669b181a226682643f80171d57d40721e60c723135d0366f1b2e579098bab2e"
+  }
+}

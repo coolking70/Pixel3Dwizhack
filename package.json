@@ -1,0 +1,48 @@
+{
+  "name": "dungeon-descent",
+  "version": "0.35.0-beta.2",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "assets:items": "node scripts/build-item-models.mjs",
+    "check:items": "node scripts/audit-item-models.mjs",
+    "check:piles": "node scripts/check-pile-bounds.mjs",
+    "balance:smoke": "node scripts/balance-run.mjs --preset smoke",
+    "balance:nightly": "node scripts/balance-run.mjs --preset nightly",
+    "balance:milestone": "node scripts/balance-run.mjs --preset milestone",
+    "assets:models": "node scripts/build-character-pack.mjs",
+    "check:models": "node scripts/build-character-pack.mjs --check",
+    "assets:motion": "node scripts/import-character-motion.mjs",
+    "dev": "vite --host 127.0.0.1",
+    "typecheck": "vue-tsc --noEmit",
+    "build": "npm run typecheck && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "check:boundaries": "node scripts/check-boundaries.mjs",
+    "check": "npm run check:boundaries && npm run test && npm run build",
+    "release": "npm run check:models && npm run check:items && npm run check:piles && npm run build && node scripts/package-release.mjs",
+    "test:m31": "vitest run tests/alpha5-jump.test.ts tests/alpha5-ecology.test.ts tests/alpha5-presentation.test.ts tests/alpha5-natural.test.ts tests/action-query.test.ts tests/balance-alpha4.test.ts tests/alpha4.test.ts tests/interaction-m26-world.test.ts tests/visual/items-equipment.test.ts tests/interaction-hit-test.test.ts tests/visual/motions.test.ts",
+    "check:m31": "npm run check:boundaries && npm run check:models && npm run check:items && npm run check:piles && npm run test:m31 && npm run build",
+    "test:m35": "vitest run tests/m35-ui.test.ts tests/alpha6-ecology.test.ts tests/alpha6-natural.test.ts tests/alpha5-natural.test.ts tests/alpha5-jump.test.ts tests/alpha5-ecology.test.ts tests/game-ui-interaction.test.ts tests/interaction-hit-test.test.ts tests/interaction-intent.test.ts tests/interaction-pointer.test.ts tests/interaction-m26-world.test.ts tests/visual/items-equipment.test.ts tests/visual/motions.test.ts tests/action-query.test.ts tests/balance-alpha4.test.ts --maxWorkers=1 --no-file-parallelism",
+    "check:m35": "npm run check:boundaries && npm run check:models && npm run check:items && npm run check:piles && npm run test:m35 && npm run build"
+  },
+  "dependencies": {
+    "three": "0.186.1",
+    "vue": "3.5.43"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.0.0",
+    "@types/three": "0.186.0",
+    "@vitejs/plugin-vue": "6.0.10",
+    "typescript": "~5.9.3",
+    "vite": "8.3.4",
+    "vitest": "5.0.3",
+    "vue-tsc": "^3.1.0"
+  }
+}

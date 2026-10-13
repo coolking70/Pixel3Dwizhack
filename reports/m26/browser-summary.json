@@ -1,0 +1,125 @@
+{
+  "batches": [
+    {
+      "batch": "production-historical",
+      "sha256": "44bc522b66ad41db12d89f6cecb5b25930808714004cd953cfca725305f3c71b",
+      "stats": {
+        "startTime": "2026-10-13T10:10:33.599Z",
+        "duration": 1410714.145,
+        "expected": 94,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "batch": "production-m26-final",
+      "sha256": "3b541153b420ac993e203b60446e88b2c7c81b7a7dcf4ee946aeae5cfd744ee4",
+      "stats": {
+        "startTime": "2026-10-13T10:22:39.563Z",
+        "duration": 1053982.6639999999,
+        "expected": 27,
+        "skipped": 0,
+        "unexpected": 1,
+        "flaky": 0
+      }
+    },
+    {
+      "batch": "pixel-retake",
+      "sha256": "617369e063b0d6b32d515ff18787436930f27a51f0f760e48f2ac7ed27069ad9",
+      "stats": {
+        "startTime": "2026-10-13T10:41:39.219Z",
+        "duration": 95620.405,
+        "expected": 4,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "batch": "firefox-full",
+      "sha256": "5a24fc9ce0aef60233f70e45af579e7466361b65010d131fb437b24cf5e8bb28",
+      "stats": {
+        "startTime": "2026-10-13T10:31:30.167Z",
+        "duration": 254869.849,
+        "expected": 6,
+        "skipped": 0,
+        "unexpected": 1,
+        "flaky": 0
+      }
+    },
+    {
+      "batch": "firefox-pixel-retake",
+      "sha256": "b2c671a0c7e7e5f8c13ef1b1b5049112f699bf89eed329fa9ea732e91db79cb6",
+      "stats": {
+        "startTime": "2026-10-13T10:36:42.883Z",
+        "duration": 27680.852,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "batch": "production-direct-final",
+      "sha256": "bef6ed69ead620d26868c165c02eef4e8930dda4a05f67cbeb580828f0d4d98b",
+      "stats": {
+        "startTime": "2026-10-13T10:36:42.878Z",
+        "duration": 757750.906,
+        "expected": 24,
+        "skipped": 0,
+        "unexpected": 4,
+        "flaky": 0
+      }
+    },
+    {
+      "batch": "direct-cancel-retake",
+      "sha256": "e1c05b97ddbfa49f06e391b4bf954a11824c0988014efc830a5f296aea252da1",
+      "stats": {
+        "startTime": "2026-10-13T10:44:00.430Z",
+        "duration": 95034.03,
+        "expected": 4,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "batch": "webkit-door-retake",
+      "sha256": "88a66950b386dfe3a462a74e23b0b042dc3715295536ab2c3e36b02ee1d70668",
+      "stats": {
+        "startTime": "2026-10-13T10:50:14.358Z",
+        "duration": 18722.23,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "batch": "final-shared-renderer",
+      "sha256": "6614909b9d097f1d4c3d3ff7a908b26a41bb6dc720e408c00b360b477ace1cf2",
+      "stats": {
+        "startTime": "2026-10-13T10:51:33.623Z",
+        "duration": 109271.889,
+        "expected": 12,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    }
+  ],
+  "uniquePassingCases": {
+    "historical": 94,
+    "retainedDirect": 28,
+    "m26": 35
+  },
+  "notes": [
+    "Historical94 passed before final ladder cue/segment delta; final shared-renderer room+dungeon12/12 rerun passed. These12 overlap the historical94 and are not additional unique cases.",
+    "M26 first final matrix27/28; Firefox6/7; safe integer pixel retakes preserve exact ID+archive assertions. Actual Firefox pointer quantization was reproduced.",
+    "Retained direct24/28: three stale test bag ordinals and one WebKit door timing failure. Four cancellation and unchanged door retakes all passed.",
+    "No overlapping reruns are added to unique case totals.",
+    "Chromium touch viewports and gamepad shims are emulated; Windows WebKit is not iOS Safari.",
+    "Original interrupted production batches have no complete report and are excluded."
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "verified": 31,
+  "categories": {
+    "dead:Emberling": 28,
+    "dead:Fallen Star warden": 2,
+    "dead:Ember bed": 1
+  },
+  "errors": [],
+  "traces": [
+    {
+      "file": "seeds-1-100/failures/13-breaker-fighter.json",
+      "seed": 13,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 164,
+      "digest": "c9b7cd2c"
+    },
+    {
+      "file": "seeds-1-100/failures/2-breaker-fighter.json",
+      "seed": 2,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 277,
+      "digest": "91ac71b4"
+    },
+    {
+      "file": "seeds-1-100/failures/27-breaker-fighter.json",
+      "seed": 27,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 283,
+      "digest": "a9c26ba6"
+    },
+    {
+      "file": "seeds-1-100/failures/36-breaker-fighter.json",
+      "seed": 36,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 278,
+      "digest": "d857cc6a"
+    },
+    {
+      "file": "seeds-1-100/failures/40-breaker-fighter.json",
+      "seed": 40,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 283,
+      "digest": "3fc80ad3"
+    },
+    {
+      "file": "seeds-1-100/failures/51-breaker-fighter.json",
+      "seed": 51,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 224,
+      "digest": "faddd664"
+    },
+    {
+      "file": "seeds-101-200/failures/104-breaker-fighter.json",
+      "seed": 104,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 219,
+      "digest": "5d75b21e"
+    },
+    {
+      "file": "seeds-101-200/failures/105-breaker-fighter.json",
+      "seed": 105,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 306,
+      "digest": "03e0b5dc"
+    },
+    {
+      "file": "seeds-101-200/failures/146-breaker-fighter.json",
+      "seed": 146,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 169,
+      "digest": "7acc281b"
+    },
+    {
+      "file": "seeds-101-200/failures/157-breaker-fighter.json",
+      "seed": 157,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 297,
+      "digest": "d3f977fb"
+    },
+    {
+      "file": "seeds-101-200/failures/177-breaker-fighter.json",
+      "seed": 177,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 295,
+      "digest": "33644e19"
+    },
+    {
+      "file": "seeds-201-300/failures/247-breaker-fighter.json",
+      "seed": 247,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 273,
+      "digest": "db34dcf9"
+    },
+    {
+      "file": "seeds-201-300/failures/268-breaker-fighter.json",
+      "seed": 268,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 213,
+      "digest": "e27f9c68"
+    },
+    {
+      "file": "seeds-301-400/failures/328-breaker-fighter.json",
+      "seed": 328,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 295,
+      "digest": "11fa342e"
+    },
+    {
+      "file": "seeds-501-600/failures/507-channeler-novice.json",
+      "seed": 507,
+      "loadout": "channeler",
+      "strategy": "novice",
+      "outcome": "dead",
+      "cause": "Fallen Star warden",
+      "attempts": 406,
+      "digest": "a65d4de6"
+    },
+    {
+      "file": "seeds-501-600/failures/527-breaker-fighter.json",
+      "seed": 527,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 168,
+      "digest": "bf8d3e3a"
+    },
+    {
+      "file": "seeds-501-600/failures/540-breaker-fighter.json",
+      "seed": 540,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 177,
+      "digest": "5b80fbdf"
+    },
+    {
+      "file": "seeds-501-600/failures/595-breaker-fighter.json",
+      "seed": 595,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 233,
+      "digest": "aa9dbc52"
+    },
+    {
+      "file": "seeds-601-700/failures/614-breaker-fighter.json",
+      "seed": 614,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 301,
+      "digest": "7bfb8ef4"
+    },
+    {
+      "file": "seeds-601-700/failures/620-breaker-fighter.json",
+      "seed": 620,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 218,
+      "digest": "42d3607d"
+    },
+    {
+      "file": "seeds-601-700/failures/637-breaker-fighter.json",
+      "seed": 637,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 212,
+      "digest": "036ef064"
+    },
+    {
+      "file": "seeds-701-800/failures/728-breaker-fighter.json",
+      "seed": 728,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 285,
+      "digest": "138fc598"
+    },
+    {
+      "file": "seeds-701-800/failures/741-channeler-novice.json",
+      "seed": 741,
+      "loadout": "channeler",
+      "strategy": "novice",
+      "outcome": "dead",
+      "cause": "Ember bed",
+      "attempts": 383,
+      "digest": "b59a5d39"
+    },
+    {
+      "file": "seeds-701-800/failures/742-breaker-fighter.json",
+      "seed": 742,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 287,
+      "digest": "54c1a67a"
+    },
+    {
+      "file": "seeds-701-800/failures/746-breaker-fighter.json",
+      "seed": 746,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 211,
+      "digest": "1fe07596"
+    },
+    {
+      "file": "seeds-701-800/failures/750-breaker-fighter.json",
+      "seed": 750,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 296,
+      "digest": "d40e40a8"
+    },
+    {
+      "file": "seeds-901-1000/failures/924-breaker-fighter.json",
+      "seed": 924,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 297,
+      "digest": "3fc41081"
+    },
+    {
+      "file": "seeds-901-1000/failures/925-channeler-novice.json",
+      "seed": 925,
+      "loadout": "channeler",
+      "strategy": "novice",
+      "outcome": "dead",
+      "cause": "Fallen Star warden",
+      "attempts": 418,
+      "digest": "0c23bfb4"
+    },
+    {
+      "file": "seeds-901-1000/failures/933-breaker-fighter.json",
+      "seed": 933,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 246,
+      "digest": "6a4387f5"
+    },
+    {
+      "file": "seeds-901-1000/failures/941-breaker-fighter.json",
+      "seed": 941,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 286,
+      "digest": "c9c0b49a"
+    },
+    {
+      "file": "seeds-901-1000/failures/985-breaker-fighter.json",
+      "seed": 985,
+      "loadout": "breaker",
+      "strategy": "fighter",
+      "outcome": "dead",
+      "cause": "Emberling",
+      "attempts": 238,
+      "digest": "fbe73a3d"
+    }
+  ]
+}

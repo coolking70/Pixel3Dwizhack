@@ -1,0 +1,117 @@
+{
+  "baseline": "0.20.0-rc.1-source.zip",
+  "comparison": [
+    {
+      "path": "src/content/alpha.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/content/alpha2.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/content/dungeon.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/content/expedition.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/content/mine.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/content/room.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/core/alpha-map.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/core/alpha-types.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/core/alpha.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/core/alpha2-clock.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/core/alpha2-effects.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/core/alpha2-map.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/core/alpha2-shared.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/core/alpha2-types.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/core/alpha2-view.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/core/alpha2.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/core/digest.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/core/expedition-map.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/core/expedition-types.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/core/expedition.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/core/simulation.ts",
+      "unchanged": false
+    },
+    {
+      "path": "src/core/types.ts",
+      "unchanged": false
+    },
+    {
+      "path": "tests/fixtures/alpha-v1.json",
+      "unchanged": true
+    },
+    {
+      "path": "tests/fixtures/alpha2-v1.json",
+      "unchanged": true
+    },
+    {
+      "path": "tests/fixtures/dungeon-v1.json",
+      "unchanged": true
+    },
+    {
+      "path": "tests/fixtures/expedition-v1.json",
+      "unchanged": true
+    },
+    {
+      "path": "tests/fixtures/mine-v1.json",
+      "unchanged": true
+    },
+    {
+      "path": "tests/fixtures/room-v1.json",
+      "unchanged": true
+    }
+  ]
+}

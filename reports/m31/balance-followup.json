@@ -1,0 +1,19 @@
+{
+  "baselineSourceSha256": "dc2296c2ee56fa74764e4a87981a2cfca9632b5ca1b9a082a4ee47cc6fdb9442",
+  "postRunChangedInputs": [
+    "package-lock.json",
+    "package.json"
+  ],
+  "explanation": "Only package version metadata bumped after frozen 36-game run; all recorded core/content/session/agent inputs match final source. No numeric or policy tuning after baseline.",
+  "actionsRange": [
+    394,
+    473
+  ],
+  "minHp": 13,
+  "minFood": 71,
+  "rejected": 19,
+  "acceptedAlpha5Commands": {
+    "jump": 317,
+    "feature": 141
+  }
+}

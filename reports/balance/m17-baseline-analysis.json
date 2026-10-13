@@ -1,0 +1,2687 @@
+{
+  "schema": 1,
+  "groups": {
+    "all": {
+      "games": 9000,
+      "healingPerPositiveHealingAction": {
+        "median": 22.6,
+        "p95": 24.714285714285715,
+        "peak": 30
+      },
+      "healingActionCoverage": 9000,
+      "foodPressureActionFraction": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "foodUsed": {
+        "median": 1,
+        "p95": 2,
+        "peak": 2
+      },
+      "minFood": {
+        "median": 71,
+        "p95": 125,
+        "peak": 125
+      },
+      "equipmentRates": {
+        "boots": {
+          "runsSelecting": 9000,
+          "denominator": 9000,
+          "rate": 1,
+          "ci95": [
+            0.999573353347206,
+            1
+          ]
+        },
+        "brigandine": {
+          "runsSelecting": 3257,
+          "denominator": 9000,
+          "rate": 0.36188888888888887,
+          "ci95": [
+            0.35202173740116066,
+            0.37187388966315565
+          ]
+        },
+        "cap": {
+          "runsSelecting": 9000,
+          "denominator": 9000,
+          "rate": 1,
+          "ci95": [
+            0.999573353347206,
+            1
+          ]
+        },
+        "fireblade": {
+          "runsSelecting": 94,
+          "denominator": 9000,
+          "rate": 0.010444444444444444,
+          "ci95": [
+            0.008543057805429138,
+            0.01276356556172877
+          ]
+        },
+        "helm": {
+          "runsSelecting": 922,
+          "denominator": 9000,
+          "rate": 0.10244444444444445,
+          "ci95": [
+            0.09634837985018467,
+            0.10887974053285916
+          ]
+        },
+        "knife": {
+          "runsSelecting": 246,
+          "denominator": 9000,
+          "rate": 0.027333333333333334,
+          "ci95": [
+            0.024161037346538527,
+            0.030908952622569454
+          ]
+        },
+        "leather": {
+          "runsSelecting": 3000,
+          "denominator": 9000,
+          "rate": 0.3333333333333333,
+          "ci95": [
+            0.32366711993697267,
+            0.3431417622806254
+          ]
+        },
+        "maul": {
+          "runsSelecting": 3000,
+          "denominator": 9000,
+          "rate": 0.3333333333333333,
+          "ci95": [
+            0.32366711993697267,
+            0.3431417622806254
+          ]
+        },
+        "plate": {
+          "runsSelecting": 3513,
+          "denominator": 9000,
+          "rate": 0.3903333333333333,
+          "ci95": [
+            0.38030378025864836,
+            0.4004564642405312
+          ]
+        },
+        "shield": {
+          "runsSelecting": 6000,
+          "denominator": 9000,
+          "rate": 0.6666666666666666,
+          "ci95": [
+            0.6568582377193746,
+            0.6763328800630273
+          ]
+        },
+        "silverblade": {
+          "runsSelecting": 141,
+          "denominator": 9000,
+          "rate": 0.015666666666666666,
+          "ci95": [
+            0.01329995928616766,
+            0.01844665243817217
+          ]
+        },
+        "staff": {
+          "runsSelecting": 3000,
+          "denominator": 9000,
+          "rate": 0.3333333333333333,
+          "ci95": [
+            0.32366711993697267,
+            0.3431417622806254
+          ]
+        },
+        "sword": {
+          "runsSelecting": 3267,
+          "denominator": 9000,
+          "rate": 0.363,
+          "ci95": [
+            0.353125810023897,
+            0.37299109115896867
+          ]
+        },
+        "tower": {
+          "runsSelecting": 3549,
+          "denominator": 9000,
+          "rate": 0.3943333333333333,
+          "ci95": [
+            0.38428386286873467,
+            0.4044729684572225
+          ]
+        }
+      },
+      "damageShares": {
+        "crawler": {
+          "damage": 17324,
+          "share": 0.012165414241343448
+        },
+        "environment-or-periodic": {
+          "damage": 1178674,
+          "share": 0.8276989993939764
+        },
+        "venomfang": {
+          "damage": 6975,
+          "share": 0.004898046890635567
+        },
+        "raider": {
+          "damage": 11378,
+          "share": 0.007989960935003796
+        },
+        "shade": {
+          "damage": 22470,
+          "share": 0.015779084391767912
+        },
+        "warden": {
+          "damage": 98807,
+          "share": 0.06938513535814027
+        },
+        "hexer": {
+          "damage": 10219,
+          "share": 0.007176077587871663
+        },
+        "sentinel": {
+          "damage": 19944,
+          "share": 0.014005254076965698
+        },
+        "scavenger": {
+          "damage": 7424,
+          "share": 0.005213347686892967
+        },
+        "rimebeast": {
+          "damage": 7293,
+          "share": 0.0051213556951118545
+        },
+        "emberling": {
+          "damage": 37019,
+          "share": 0.02599581331103054
+        },
+        "brood": {
+          "damage": 287,
+          "share": 0.00020153970718457455
+        },
+        "acidmaw": {
+          "damage": 6223,
+          "share": 0.0043699707240752875
+        }
+      },
+      "unknownUse": {
+        "trials": 0,
+        "allItemUses": 38396,
+        "fraction": 0,
+        "coincidentHarm": 0
+      },
+      "failures": {
+        "dead": [
+          {
+            "seed": 2,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "91ac71b4",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 13,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "c9b7cd2c",
+            "depth": 2,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 27,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "a9c26ba6",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 36,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "d857cc6a",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 40,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "3fc80ad3",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 51,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "faddd664",
+            "depth": 3,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 104,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "5d75b21e",
+            "depth": 3,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 105,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "03e0b5dc",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 146,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "7acc281b",
+            "depth": 2,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 157,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "d3f977fb",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 177,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "33644e19",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 247,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "db34dcf9",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 268,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "e27f9c68",
+            "depth": 3,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 328,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "11fa342e",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 507,
+            "loadout": "channeler",
+            "strategy": "novice",
+            "digest": "a65d4de6",
+            "depth": 5,
+            "cause": "Fallen Star warden"
+          },
+          {
+            "seed": 527,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "bf8d3e3a",
+            "depth": 2,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 540,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "5b80fbdf",
+            "depth": 2,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 595,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "aa9dbc52",
+            "depth": 3,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 614,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "7bfb8ef4",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 620,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "42d3607d",
+            "depth": 3,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 637,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "036ef064",
+            "depth": 3,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 728,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "138fc598",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 741,
+            "loadout": "channeler",
+            "strategy": "novice",
+            "digest": "b59a5d39",
+            "depth": 5,
+            "cause": "Ember bed"
+          },
+          {
+            "seed": 742,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "54c1a67a",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 746,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "1fe07596",
+            "depth": 3,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 750,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "d40e40a8",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 924,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "3fc41081",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 925,
+            "loadout": "channeler",
+            "strategy": "novice",
+            "digest": "0c23bfb4",
+            "depth": 5,
+            "cause": "Fallen Star warden"
+          },
+          {
+            "seed": 933,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "6a4387f5",
+            "depth": 3,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 941,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "c9c0b49a",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 985,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "fbe73a3d",
+            "depth": 3,
+            "cause": "Emberling"
+          }
+        ]
+      },
+      "depthRisk": [
+        {
+          "depth": 0,
+          "entered": 9000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0004266466527940478
+          ]
+        },
+        {
+          "depth": 1,
+          "entered": 9000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0004266466527940478
+          ]
+        },
+        {
+          "depth": 2,
+          "entered": 9000,
+          "deaths": 4,
+          "censoredRuns": 0,
+          "risk": 0.00044444444444444447,
+          "ci95": [
+            0.00017284891106461483,
+            0.0011423073891491718
+          ]
+        },
+        {
+          "depth": 3,
+          "entered": 8996,
+          "deaths": 9,
+          "censoredRuns": 0,
+          "risk": 0.0010004446420631393,
+          "ci95": [
+            0.0005264393466972411,
+            0.0019004321621655551
+          ]
+        },
+        {
+          "depth": 4,
+          "entered": 8987,
+          "deaths": 15,
+          "censoredRuns": 0,
+          "risk": 0.0016690775564704573,
+          "ci95": [
+            0.0010117777933069088,
+            0.0027522145955804628
+          ]
+        },
+        {
+          "depth": 5,
+          "entered": 8972,
+          "deaths": 3,
+          "censoredRuns": 0,
+          "risk": 0.00033437360677663843,
+          "ci95": [
+            0.00011372356986723856,
+            0.0009827150053732785
+          ]
+        }
+      ]
+    },
+    "vanguard/novice": {
+      "games": 1000,
+      "healingPerPositiveHealingAction": {
+        "median": 22.6,
+        "p95": 24.6,
+        "peak": 27.6
+      },
+      "healingActionCoverage": 1000,
+      "foodPressureActionFraction": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "foodUsed": {
+        "median": 1,
+        "p95": 1,
+        "peak": 1
+      },
+      "minFood": {
+        "median": 71,
+        "p95": 71,
+        "peak": 71
+      },
+      "equipmentRates": {
+        "boots": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "brigandine": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "cap": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "shield": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "sword": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        }
+      },
+      "damageShares": {
+        "crawler": {
+          "damage": 2121,
+          "share": 0.013056244652233597
+        },
+        "environment-or-periodic": {
+          "damage": 139854,
+          "share": 0.8608995943392161
+        },
+        "venomfang": {
+          "damage": 778,
+          "share": 0.0047891364165194425
+        },
+        "raider": {
+          "damage": 1250,
+          "share": 0.007694627918572369
+        },
+        "shade": {
+          "damage": 2537,
+          "share": 0.015617016823534481
+        },
+        "warden": {
+          "damage": 8816,
+          "share": 0.05426867178410721
+        },
+        "scavenger": {
+          "damage": 470,
+          "share": 0.002893180097383211
+        },
+        "rimebeast": {
+          "damage": 852,
+          "share": 0.005244658389298927
+        },
+        "emberling": {
+          "damage": 3668,
+          "share": 0.022579116164258763
+        },
+        "sentinel": {
+          "damage": 2004,
+          "share": 0.012336027479055222
+        },
+        "brood": {
+          "damage": 23,
+          "share": 0.0001415811537017316
+        },
+        "acidmaw": {
+          "damage": 56,
+          "share": 0.00034471933075204213
+        },
+        "hexer": {
+          "damage": 22,
+          "share": 0.0001354254513668737
+        }
+      },
+      "unknownUse": {
+        "trials": 0,
+        "allItemUses": 3261,
+        "fraction": 0,
+        "coincidentHarm": 0
+      },
+      "failures": {},
+      "depthRisk": [
+        {
+          "depth": 0,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 1,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 2,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 3,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 4,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 5,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        }
+      ]
+    },
+    "vanguard/survivor": {
+      "games": 1000,
+      "healingPerPositiveHealingAction": {
+        "median": 20.142857142857142,
+        "p95": 23.503571428571426,
+        "peak": 29.8
+      },
+      "healingActionCoverage": 1000,
+      "foodPressureActionFraction": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "foodUsed": {
+        "median": 2,
+        "p95": 2,
+        "peak": 2
+      },
+      "minFood": {
+        "median": 125,
+        "p95": 125,
+        "peak": 125
+      },
+      "equipmentRates": {
+        "boots": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "brigandine": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "cap": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "helm": {
+          "runsSelecting": 303,
+          "denominator": 1000,
+          "rate": 0.303,
+          "ci95": [
+            0.27531542432193984,
+            0.3321923185213688
+          ]
+        },
+        "plate": {
+          "runsSelecting": 257,
+          "denominator": 1000,
+          "rate": 0.257,
+          "ci95": [
+            0.23088201740604794,
+            0.28497778721793177
+          ]
+        },
+        "shield": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "sword": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "tower": {
+          "runsSelecting": 277,
+          "denominator": 1000,
+          "rate": 0.277,
+          "ci95": [
+            0.25015649034831283,
+            0.3055502439362448
+          ]
+        }
+      },
+      "damageShares": {
+        "crawler": {
+          "damage": 2201,
+          "share": 0.014613418318228596
+        },
+        "environment-or-periodic": {
+          "damage": 117774,
+          "share": 0.7819539886465492
+        },
+        "venomfang": {
+          "damage": 746,
+          "share": 0.0049530259270325
+        },
+        "raider": {
+          "damage": 1286,
+          "share": 0.008538326195930021
+        },
+        "hexer": {
+          "damage": 3938,
+          "share": 0.026146134183182287
+        },
+        "sentinel": {
+          "damage": 2536,
+          "share": 0.01683763237393354
+        },
+        "shade": {
+          "damage": 2511,
+          "share": 0.01667164625037347
+        },
+        "warden": {
+          "damage": 12031,
+          "share": 0.07987916210204826
+        },
+        "scavenger": {
+          "damage": 612,
+          "share": 0.004063340304750523
+        },
+        "rimebeast": {
+          "damage": 877,
+          "share": 0.005822793214487269
+        },
+        "emberling": {
+          "damage": 3878,
+          "share": 0.025747767486638116
+        },
+        "brood": {
+          "damage": 34,
+          "share": 0.00022574112804169571
+        },
+        "acidmaw": {
+          "damage": 2191,
+          "share": 0.014547023868804567
+        }
+      },
+      "unknownUse": {
+        "trials": 0,
+        "allItemUses": 5413,
+        "fraction": 0,
+        "coincidentHarm": 0
+      },
+      "failures": {},
+      "depthRisk": [
+        {
+          "depth": 0,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 1,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 2,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 3,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 4,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 5,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        }
+      ]
+    },
+    "vanguard/fighter": {
+      "games": 1000,
+      "healingPerPositiveHealingAction": {
+        "median": 23.833333333333332,
+        "p95": 25.5,
+        "peak": 28
+      },
+      "healingActionCoverage": 1000,
+      "foodPressureActionFraction": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "foodUsed": {
+        "median": 1,
+        "p95": 1,
+        "peak": 1
+      },
+      "minFood": {
+        "median": 71,
+        "p95": 71,
+        "peak": 71
+      },
+      "equipmentRates": {
+        "boots": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "brigandine": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "cap": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "shield": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "sword": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        }
+      },
+      "damageShares": {
+        "crawler": {
+          "damage": 2034,
+          "share": 0.012442421684314841
+        },
+        "environment-or-periodic": {
+          "damage": 139926,
+          "share": 0.8559578646014938
+        },
+        "venomfang": {
+          "damage": 751,
+          "share": 0.004594030818544958
+        },
+        "raider": {
+          "damage": 1238,
+          "share": 0.007573116049745218
+        },
+        "shade": {
+          "damage": 2467,
+          "share": 0.015091177136285503
+        },
+        "warden": {
+          "damage": 10064,
+          "share": 0.06156368329938277
+        },
+        "sentinel": {
+          "damage": 1764,
+          "share": 0.010790772788166854
+        },
+        "emberling": {
+          "damage": 3843,
+          "share": 0.02350846928850636
+        },
+        "rimebeast": {
+          "damage": 857,
+          "share": 0.005242455940736391
+        },
+        "scavenger": {
+          "damage": 407,
+          "share": 0.0024897077804897443
+        },
+        "acidmaw": {
+          "damage": 56,
+          "share": 0.0003425642154973604
+        },
+        "hexer": {
+          "damage": 66,
+          "share": 0.0004037363968361748
+        }
+      },
+      "unknownUse": {
+        "trials": 0,
+        "allItemUses": 4388,
+        "fraction": 0,
+        "coincidentHarm": 0
+      },
+      "failures": {},
+      "depthRisk": [
+        {
+          "depth": 0,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 1,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 2,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 3,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 4,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 5,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        }
+      ]
+    },
+    "breaker/novice": {
+      "games": 1000,
+      "healingPerPositiveHealingAction": {
+        "median": 22.6,
+        "p95": 23.833333333333332,
+        "peak": 24.666666666666668
+      },
+      "healingActionCoverage": 1000,
+      "foodPressureActionFraction": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "foodUsed": {
+        "median": 1,
+        "p95": 1,
+        "peak": 1
+      },
+      "minFood": {
+        "median": 71,
+        "p95": 71,
+        "peak": 71
+      },
+      "equipmentRates": {
+        "boots": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "cap": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "maul": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "plate": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "tower": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        }
+      },
+      "damageShares": {
+        "crawler": {
+          "damage": 2390,
+          "share": 0.01485311573622358
+        },
+        "scavenger": {
+          "damage": 1353,
+          "share": 0.008408479326824479
+        },
+        "environment-or-periodic": {
+          "damage": 141000,
+          "share": 0.8762716815094246
+        },
+        "venomfang": {
+          "damage": 953,
+          "share": 0.005922602216159444
+        },
+        "raider": {
+          "damage": 1549,
+          "share": 0.009626559111050346
+        },
+        "sentinel": {
+          "damage": 456,
+          "share": 0.002833899906158139
+        },
+        "shade": {
+          "damage": 3533,
+          "share": 0.021956509579948914
+        },
+        "warden": {
+          "damage": 4072,
+          "share": 0.025306228986570048
+        },
+        "rimebeast": {
+          "damage": 859,
+          "share": 0.005338421095153161
+        },
+        "emberling": {
+          "damage": 4459,
+          "share": 0.02771131509113847
+        },
+        "brood": {
+          "damage": 61,
+          "share": 0.00037909625937641774
+        },
+        "acidmaw": {
+          "damage": 147,
+          "share": 0.0009135598381694001
+        },
+        "hexer": {
+          "damage": 77,
+          "share": 0.0004785313438030191
+        }
+      },
+      "unknownUse": {
+        "trials": 0,
+        "allItemUses": 3120,
+        "fraction": 0,
+        "coincidentHarm": 0
+      },
+      "failures": {},
+      "depthRisk": [
+        {
+          "depth": 0,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 1,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 2,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 3,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 4,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 5,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        }
+      ]
+    },
+    "breaker/survivor": {
+      "games": 1000,
+      "healingPerPositiveHealingAction": {
+        "median": 21.25,
+        "p95": 23.714285714285715,
+        "peak": 28.285714285714285
+      },
+      "healingActionCoverage": 1000,
+      "foodPressureActionFraction": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "foodUsed": {
+        "median": 2,
+        "p95": 2,
+        "peak": 2
+      },
+      "minFood": {
+        "median": 125,
+        "p95": 125,
+        "peak": 125
+      },
+      "equipmentRates": {
+        "boots": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "cap": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "helm": {
+          "runsSelecting": 329,
+          "denominator": 1000,
+          "rate": 0.329,
+          "ci95": [
+            0.3005817152780353,
+            0.3587270361240246
+          ]
+        },
+        "maul": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "plate": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "tower": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        }
+      },
+      "damageShares": {
+        "crawler": {
+          "damage": 2480,
+          "share": 0.014672819784640872
+        },
+        "scavenger": {
+          "damage": 1306,
+          "share": 0.007726896225298781
+        },
+        "environment-or-periodic": {
+          "damage": 143244,
+          "share": 0.8474973375931842
+        },
+        "venomfang": {
+          "damage": 976,
+          "share": 0.005774464560407052
+        },
+        "raider": {
+          "damage": 1582,
+          "share": 0.009359839072299135
+        },
+        "sentinel": {
+          "damage": 827,
+          "share": 0.004892912081410484
+        },
+        "shade": {
+          "damage": 3555,
+          "share": 0.021033013844515443
+        },
+        "warden": {
+          "damage": 5472,
+          "share": 0.03237486687965921
+        },
+        "hexer": {
+          "damage": 2981,
+          "share": 0.01763696603952195
+        },
+        "rimebeast": {
+          "damage": 874,
+          "share": 0.0051709856821677905
+        },
+        "emberling": {
+          "damage": 4900,
+          "share": 0.028990651993846882
+        },
+        "acidmaw": {
+          "damage": 749,
+          "share": 0.004431428233345166
+        },
+        "brood": {
+          "damage": 74,
+          "share": 0.00043781800970299375
+        }
+      },
+      "unknownUse": {
+        "trials": 0,
+        "allItemUses": 6134,
+        "fraction": 0,
+        "coincidentHarm": 0
+      },
+      "failures": {},
+      "depthRisk": [
+        {
+          "depth": 0,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 1,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 2,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 3,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 4,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 5,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        }
+      ]
+    },
+    "breaker/fighter": {
+      "games": 1000,
+      "healingPerPositiveHealingAction": {
+        "median": 23.6,
+        "p95": 25.5,
+        "peak": 30
+      },
+      "healingActionCoverage": 1000,
+      "foodPressureActionFraction": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "foodUsed": {
+        "median": 1,
+        "p95": 1,
+        "peak": 1
+      },
+      "minFood": {
+        "median": 71,
+        "p95": 71,
+        "peak": 119
+      },
+      "equipmentRates": {
+        "boots": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "cap": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "fireblade": {
+          "runsSelecting": 94,
+          "denominator": 1000,
+          "rate": 0.094,
+          "ci95": [
+            0.07743417357376373,
+            0.11367315431650704
+          ]
+        },
+        "knife": {
+          "runsSelecting": 246,
+          "denominator": 1000,
+          "rate": 0.246,
+          "ci95": [
+            0.22031215328683612,
+            0.2736318400238259
+          ]
+        },
+        "maul": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "plate": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "silverblade": {
+          "runsSelecting": 141,
+          "denominator": 1000,
+          "rate": 0.141,
+          "ci95": [
+            0.12080112670494819,
+            0.1639464858876804
+          ]
+        },
+        "sword": {
+          "runsSelecting": 267,
+          "denominator": 1000,
+          "rate": 0.267,
+          "ci95": [
+            0.24051036845887877,
+            0.29527290099538994
+          ]
+        },
+        "tower": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        }
+      },
+      "damageShares": {
+        "crawler": {
+          "damage": 2174,
+          "share": 0.013493467399062781
+        },
+        "scavenger": {
+          "damage": 1253,
+          "share": 0.0077770536573255125
+        },
+        "environment-or-periodic": {
+          "damage": 139642,
+          "share": 0.86672252738727
+        },
+        "venomfang": {
+          "damage": 908,
+          "share": 0.0056357260341991745
+        },
+        "raider": {
+          "damage": 1477,
+          "share": 0.009167364925674208
+        },
+        "shade": {
+          "damage": 2585,
+          "share": 0.016044440306613287
+        },
+        "warden": {
+          "damage": 4473,
+          "share": 0.027762778139838004
+        },
+        "rimebeast": {
+          "damage": 818,
+          "share": 0.005077118828166216
+        },
+        "emberling": {
+          "damage": 7206,
+          "share": 0.044725816963038824
+        },
+        "acidmaw": {
+          "damage": 98,
+          "share": 0.000608261179902554
+        },
+        "sentinel": {
+          "damage": 426,
+          "share": 0.0026440741085560003
+        },
+        "hexer": {
+          "damage": 55,
+          "share": 0.0003413710703534742
+        }
+      },
+      "unknownUse": {
+        "trials": 0,
+        "allItemUses": 4188,
+        "fraction": 0,
+        "coincidentHarm": 0
+      },
+      "failures": {
+        "dead": [
+          {
+            "seed": 2,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "91ac71b4",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 13,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "c9b7cd2c",
+            "depth": 2,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 27,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "a9c26ba6",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 36,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "d857cc6a",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 40,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "3fc80ad3",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 51,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "faddd664",
+            "depth": 3,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 104,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "5d75b21e",
+            "depth": 3,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 105,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "03e0b5dc",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 146,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "7acc281b",
+            "depth": 2,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 157,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "d3f977fb",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 177,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "33644e19",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 247,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "db34dcf9",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 268,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "e27f9c68",
+            "depth": 3,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 328,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "11fa342e",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 527,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "bf8d3e3a",
+            "depth": 2,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 540,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "5b80fbdf",
+            "depth": 2,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 595,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "aa9dbc52",
+            "depth": 3,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 614,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "7bfb8ef4",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 620,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "42d3607d",
+            "depth": 3,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 637,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "036ef064",
+            "depth": 3,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 728,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "138fc598",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 742,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "54c1a67a",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 746,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "1fe07596",
+            "depth": 3,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 750,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "d40e40a8",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 924,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "3fc41081",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 933,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "6a4387f5",
+            "depth": 3,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 941,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "c9c0b49a",
+            "depth": 4,
+            "cause": "Emberling"
+          },
+          {
+            "seed": 985,
+            "loadout": "breaker",
+            "strategy": "fighter",
+            "digest": "fbe73a3d",
+            "depth": 3,
+            "cause": "Emberling"
+          }
+        ]
+      },
+      "depthRisk": [
+        {
+          "depth": 0,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 1,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 2,
+          "entered": 1000,
+          "deaths": 4,
+          "censoredRuns": 0,
+          "risk": 0.004,
+          "ci95": [
+            0.0015565881404084308,
+            0.010239556277262253
+          ]
+        },
+        {
+          "depth": 3,
+          "entered": 996,
+          "deaths": 9,
+          "censoredRuns": 0,
+          "risk": 0.009036144578313253,
+          "ci95": [
+            0.004761133358444028,
+            0.01708378878196808
+          ]
+        },
+        {
+          "depth": 4,
+          "entered": 987,
+          "deaths": 15,
+          "censoredRuns": 0,
+          "risk": 0.015197568389057751,
+          "ci95": [
+            0.00923125525013664,
+            0.02492300678586299
+          ]
+        },
+        {
+          "depth": 5,
+          "entered": 972,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.003936560376658452
+          ]
+        }
+      ]
+    },
+    "channeler/novice": {
+      "games": 1000,
+      "healingPerPositiveHealingAction": {
+        "median": 24.666666666666668,
+        "p95": 25.5,
+        "peak": 28
+      },
+      "healingActionCoverage": 1000,
+      "foodPressureActionFraction": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "foodUsed": {
+        "median": 1,
+        "p95": 1,
+        "peak": 2
+      },
+      "minFood": {
+        "median": 71,
+        "p95": 71,
+        "peak": 71
+      },
+      "equipmentRates": {
+        "boots": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "cap": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "leather": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "shield": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "staff": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        }
+      },
+      "damageShares": {
+        "crawler": {
+          "damage": 3639,
+          "share": 0.017607013774984397
+        },
+        "scavenger": {
+          "damage": 1855,
+          "share": 0.008975270830611722
+        },
+        "environment-or-periodic": {
+          "damage": 118744,
+          "share": 0.5745334552615409
+        },
+        "venomfang": {
+          "damage": 1584,
+          "share": 0.007664058757783809
+        },
+        "raider": {
+          "damage": 2714,
+          "share": 0.013131474412010897
+        },
+        "sentinel": {
+          "damage": 11434,
+          "share": 0.055322504947285404
+        },
+        "shade": {
+          "damage": 5188,
+          "share": 0.025101727800115155
+        },
+        "warden": {
+          "damage": 46071,
+          "share": 0.22291089080167797
+        },
+        "rimebeast": {
+          "damage": 1860,
+          "share": 0.008999462935276443
+        },
+        "emberling": {
+          "damage": 8022,
+          "share": 0.03881381272407937
+        },
+        "hexer": {
+          "damage": 3058,
+          "share": 0.014795891212943744
+        },
+        "acidmaw": {
+          "damage": 2415,
+          "share": 0.011684786553060543
+        },
+        "brood": {
+          "damage": 95,
+          "share": 0.00045964998862971083
+        }
+      },
+      "unknownUse": {
+        "trials": 0,
+        "allItemUses": 4846,
+        "fraction": 0,
+        "coincidentHarm": 0
+      },
+      "failures": {
+        "dead": [
+          {
+            "seed": 507,
+            "loadout": "channeler",
+            "strategy": "novice",
+            "digest": "a65d4de6",
+            "depth": 5,
+            "cause": "Fallen Star warden"
+          },
+          {
+            "seed": 741,
+            "loadout": "channeler",
+            "strategy": "novice",
+            "digest": "b59a5d39",
+            "depth": 5,
+            "cause": "Ember bed"
+          },
+          {
+            "seed": 925,
+            "loadout": "channeler",
+            "strategy": "novice",
+            "digest": "0c23bfb4",
+            "depth": 5,
+            "cause": "Fallen Star warden"
+          }
+        ]
+      },
+      "depthRisk": [
+        {
+          "depth": 0,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 1,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 2,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 3,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 4,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 5,
+          "entered": 1000,
+          "deaths": 3,
+          "censoredRuns": 0,
+          "risk": 0.003,
+          "ci95": [
+            0.0010207838811386186,
+            0.008783014053503173
+          ]
+        }
+      ]
+    },
+    "channeler/survivor": {
+      "games": 1000,
+      "healingPerPositiveHealingAction": {
+        "median": 17.5,
+        "p95": 20.166666666666668,
+        "peak": 23
+      },
+      "healingActionCoverage": 1000,
+      "foodPressureActionFraction": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "foodUsed": {
+        "median": 2,
+        "p95": 2,
+        "peak": 2
+      },
+      "minFood": {
+        "median": 125,
+        "p95": 125,
+        "peak": 125
+      },
+      "equipmentRates": {
+        "boots": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "brigandine": {
+          "runsSelecting": 257,
+          "denominator": 1000,
+          "rate": 0.257,
+          "ci95": [
+            0.23088201740604794,
+            0.28497778721793177
+          ]
+        },
+        "cap": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "helm": {
+          "runsSelecting": 290,
+          "denominator": 1000,
+          "rate": 0.29,
+          "ci95": [
+            0.2627220349939292,
+            0.31888520357000394
+          ]
+        },
+        "leather": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "plate": {
+          "runsSelecting": 256,
+          "denominator": 1000,
+          "rate": 0.256,
+          "ci95": [
+            0.22992018472379963,
+            0.2839472734171513
+          ]
+        },
+        "shield": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "staff": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "tower": {
+          "runsSelecting": 272,
+          "denominator": 1000,
+          "rate": 0.272,
+          "ci95": [
+            0.24533124703883705,
+            0.3004137548305761
+          ]
+        }
+      },
+      "damageShares": {
+        "crawler": {
+          "damage": 147,
+          "share": 0.0011411005798653967
+        },
+        "environment-or-periodic": {
+          "damage": 123216,
+          "share": 0.9564751635965627
+        },
+        "raider": {
+          "damage": 149,
+          "share": 0.001156625757822749
+        },
+        "emberling": {
+          "damage": 518,
+          "share": 0.004021021090954255
+        },
+        "venomfang": {
+          "damage": 141,
+          "share": 0.0010945250459933396
+        },
+        "warden": {
+          "damage": 3728,
+          "share": 0.028938931712504754
+        },
+        "acidmaw": {
+          "damage": 273,
+          "share": 0.002119186791178594
+        },
+        "scavenger": {
+          "damage": 76,
+          "share": 0.0005899567623793888
+        },
+        "sentinel": {
+          "damage": 353,
+          "share": 0.0027401939094726874
+        },
+        "rimebeast": {
+          "damage": 151,
+          "share": 0.0011721509357801015
+        },
+        "shade": {
+          "damage": 49,
+          "share": 0.00038036685995513226
+        },
+        "hexer": {
+          "damage": 22,
+          "share": 0.0001707769575308757
+        }
+      },
+      "unknownUse": {
+        "trials": 0,
+        "allItemUses": 4248,
+        "fraction": 0,
+        "coincidentHarm": 0
+      },
+      "failures": {},
+      "depthRisk": [
+        {
+          "depth": 0,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 1,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 2,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 3,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 4,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 5,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        }
+      ]
+    },
+    "channeler/fighter": {
+      "games": 1000,
+      "healingPerPositiveHealingAction": {
+        "median": 22,
+        "p95": 23.25,
+        "peak": 24.6
+      },
+      "healingActionCoverage": 1000,
+      "foodPressureActionFraction": {
+        "median": 0,
+        "p95": 0,
+        "peak": 0
+      },
+      "foodUsed": {
+        "median": 1,
+        "p95": 1,
+        "peak": 1
+      },
+      "minFood": {
+        "median": 71,
+        "p95": 71,
+        "peak": 71
+      },
+      "equipmentRates": {
+        "boots": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "cap": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "leather": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "shield": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        },
+        "staff": {
+          "runsSelecting": 1000,
+          "denominator": 1000,
+          "rate": 1,
+          "ci95": [
+            0.996173241514445,
+            1
+          ]
+        }
+      },
+      "damageShares": {
+        "crawler": {
+          "damage": 138,
+          "share": 0.0011409484754282692
+        },
+        "environment-or-periodic": {
+          "damage": 115274,
+          "share": 0.9530557576559296
+        },
+        "scavenger": {
+          "damage": 92,
+          "share": 0.0007606323169521794
+        },
+        "emberling": {
+          "damage": 525,
+          "share": 0.004340564852172763
+        },
+        "venomfang": {
+          "damage": 138,
+          "share": 0.0011409484754282692
+        },
+        "warden": {
+          "damage": 4080,
+          "share": 0.03373238970831404
+        },
+        "rimebeast": {
+          "damage": 145,
+          "share": 0.0011988226734572392
+        },
+        "sentinel": {
+          "damage": 144,
+          "share": 0.001190554930881672
+        },
+        "raider": {
+          "damage": 133,
+          "share": 0.0010996097625504333
+        },
+        "shade": {
+          "damage": 45,
+          "share": 0.0003720484159005225
+        },
+        "acidmaw": {
+          "damage": 238,
+          "share": 0.001967722732984986
+        }
+      },
+      "unknownUse": {
+        "trials": 0,
+        "allItemUses": 2798,
+        "fraction": 0,
+        "coincidentHarm": 0
+      },
+      "failures": {},
+      "depthRisk": [
+        {
+          "depth": 0,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 1,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 2,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 3,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 4,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        },
+        {
+          "depth": 5,
+          "entered": 1000,
+          "deaths": 0,
+          "censoredRuns": 0,
+          "risk": 0,
+          "ci95": [
+            0,
+            0.0038267584855551234
+          ]
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Healing efficiency is observed HP restored per positive healing action, including fountains; not hidden theoretical potion potency.",
+    "Food pressure counts observations <=25% public maximum food before a command.",
+    "Equipment rate is fraction of runs selecting an item at least once; starting loadout selections included.",
+    "Unknown coincident harm is not causal attribution.",
+    "Depth risk denominator is runs entering that depth, with unfinished runs explicitly censored; not a human survival estimate.",
+    "Failure lists are diagnostics, not proof of a rule defect. Use raw trace replay before root-cause claims."
+  ]
+}

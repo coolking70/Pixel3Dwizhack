@@ -1,0 +1,14 @@
+{
+  "frozenFiles": 362,
+  "frozenSha256": "98da375628d09a5e6c4ad27301f362cb004baf1d8de8107c2d1a5a62234d701d",
+  "rebuiltFiles": 173,
+  "allRebuiltFilesMatch": true,
+  "npmCiExit": 0,
+  "npmCheckExit": 0,
+  "toolingNote": "Only the standalone lifecycle sampler changed after extraction: it now selects a target before cancelling. Product source/tests were unchanged during npm run check. Sampler syntax check passed; its actual 100-cycle results are reported separately. The sampler copy was synchronized for final manifest comparison.",
+  "tests": {
+    "passed": 229,
+    "files": 32,
+    "durationSeconds": 164.57
+  }
+}

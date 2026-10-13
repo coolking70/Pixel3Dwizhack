@@ -1,0 +1,36 @@
+{
+  "hashesStable": true,
+  "findings": [
+    {
+      "actual": "ID1 screen point (190.4388,283.3017) lies fully behind opaque panel x12..400.24 y88..374. Actual 3 material clones exist but are obscured; screenshot independently inspected",
+      "severity": "P2",
+      "file": "src/game-ui/native-ui.ts",
+      "line": 142,
+      "resolution": "Maintainer decision / integration repair; maximum two UI independent rounds reached",
+      "reproduction": "alpha4 seed1 choose:vanguard, unequip/drop IDs1..4, player remains floor0/x2. tick48/revision9. viewport844x390, open pile selector then hover ID1",
+      "title": "Landscape edge camera leaves the entire selected pile behind the choice panel",
+      "evidence": "independent-r2-844.png / independent-r2-browser.json",
+      "expected": "Highlighted actual ground model remains visible alongside chooser",
+      "cause": "worldChoices picks side via logical pile.x >= player.x; camera clamps near world edge so actual pile projection is on the left"
+    }
+  ],
+  "candidate": "candidate-round2.json",
+  "changed": [],
+  "passed": [
+    "43/43 two UI spec tests in 502ms",
+    "three actual Chromium pages 390x844/844x390/1440x900",
+    "hover first ID clones real materials; Tab moves selection to second ID",
+    "coversWorld=false, worldChoicesOpen=true, worldInputAllowed=false",
+    "click outside selector cannot advance tick",
+    "Escape clears renderer hover; full archive remains exact",
+    "no pageerrors"
+  ],
+  "limits": [
+    "No third independent review",
+    "Natural camera-edge landscape still fails selected-model visibility",
+    "Touch longpress behavior covered unit here; author browser receipts separate",
+    "Physical mobile/Firefox not run"
+  ],
+  "files": 6,
+  "round": 2
+}

@@ -1,0 +1,22 @@
+{
+  "decision": "Integrator closure after two allowed independent rounds; no third round claimed",
+  "uiSecondRoundP2": {
+    "issue": "844x390 clamped entry camera chooser occluded pile",
+    "resolution": "Projected model position margin used to place chooser",
+    "evidence": "Final production three Chromium viewports plus Firefox/WebKit natural longpress/selector exact archives; model centers outside panel; desktop/landscape/portrait screenshots inspected."
+  },
+  "inputSecondRoundP2": {
+    "issue": "Focus changed readOnly and erased selected detail",
+    "resolution": "Focus cancellation separated from readonly classification",
+    "evidence": "Independent C round2 exact archive, retained source6 and cleared pending confirmation; final production five projects focus-detail cases passed."
+  },
+  "integrationLadderP2": {
+    "issue": "Lower ladder center collided with landscape bottom HUD",
+    "resolution": "Lower segment at floor-.25 and independent already-committed destination cue",
+    "evidence": "HUD clearance tests, five projects down/up plus full six-floor natural golden route exact archive and destination-floor cue."
+  },
+  "limits": [
+    "Final projection callback, layout patch and climb cue have integrator tests and author checks, not a new independent review round.",
+    "Physical devices and OS lock-screen focus remain unverified."
+  ]
+}
