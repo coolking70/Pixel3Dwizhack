@@ -2,6 +2,10 @@
 
 TypeScript + Vue 3 + Three.js 的原创横版 roguelike 开发工程，保留早期 Canvas 基线。玩家不行动时规则世界静止；已接受的行动具有确定的时间成本，可以存档并从种子验证回放。
 
+网页预览：[GitHub Pages](https://coolking70.github.io/Pixel3Dwizhack/)（main通过CI后自动发布，默认进入M35）。历史入口仍可按原HTML文件名访问，Pages中的M01入口为`mine.html`。网页存档按浏览器和站点隔离；从本地版本迁移时，在原页面导出JSON，再在网页“更多→游戏→存录”导入。
+
+部署使用`npm run build:pages`生成`dist-pages/`；本地验证运行`npx playwright test --config playwright.pages.config.ts`，或`npm run preview -- --mode pages --port 5180 --strictPort`后访问`http://127.0.0.1:5180/Pixel3Dwizhack/`。常规`npm run build`及本地分发仍使用`dist/`。CI保留完整单测与历史/M31/M35浏览器分组，Pages在全部门禁通过后部署。
+
 当前已交付本地候选 **M35 · 0.35.0-beta.2**：`/alpha6.html`，独立alpha6-1/commands10与dungeon-descent.m35存档。全画幅轻量HUD、短日志、两菜单入口、成功操作回世界、公开设施说明与分组、墓烬回廊2怪/3工具/2设施。158项精简检查及6条Chromium功能/局部性能链通过，18配置双跑/回放通关；旧九身份保留。操作见[M35试玩](docs/M35-PLAYTEST.md)，规则见[M35合同](docs/M35-RULES.md)，实际交付状态、首轮失败与设备缺口见[STATUS](docs/STATUS.md)、[M35验收](docs/M35-ACCEPTANCE.md)、[M35性能](docs/M35-PERFORMANCE.md)。软件GPU长尾和JS堆趋势仍开放。
 
 保留已交付本地候选 **M31 · 0.31.0-beta.1**：`/alpha5.html`，独立alpha5-1/commands9与dungeon-descent.m31存档。新增正式跳跃、腐菌矿穴/断层工坊两个可玩生态包（2怪、2物、3设施），47公共外观/141GLB；旧八身份保留。96项精简单测与3条自然浏览器链通过，36配置双跑/回放通过；设备/长期性能缺口保留。玩法见[M31试玩](docs/M31-PLAYTEST.md)，规则见[M31合同](docs/M31-RULES.md)，真实交付状态与结果以[STATUS](docs/STATUS.md)、[M31验收](docs/M31-ACCEPTANCE.md)为准。

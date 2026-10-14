@@ -28,7 +28,27 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        suite: [historical, milestones]
+        include:
+          - suite: historical-desktop-1
+            command: npm run test:e2e -- --project desktop --shard 1/2
+          - suite: historical-desktop-2
+            command: npm run test:e2e -- --project desktop --shard 2/2
+          - suite: historical-mobile-1
+            command: npm run test:e2e -- --project mobile --shard 1/2
+          - suite: historical-mobile-2
+            command: npm run test:e2e -- --project mobile --shard 2/2
+          - suite: m25-desktop
+            command: npx playwright test --config playwright.m25.config.ts --project m25-desktop
+          - suite: m25-landscape
+            command: npx playwright test --config playwright.m25.config.ts --project m25-landscape
+          - suite: m25-portrait
+            command: npx playwright test --config playwright.m25.config.ts --project m25-portrait
+          - suite: m25-firefox
+            command: npx playwright test --config playwright.m25.config.ts --project m25-firefox
+          - suite: m25-webkit
+            command: npx playwright test --config playwright.m25.config.ts --project m25-webkit
+          - suite: milestones
+            command: npx playwright test --config playwright.m31.config.ts && npx playwright test --config playwright.m35.config.ts
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
@@ -38,10 +58,7 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npx playwright install --with-deps chromium firefox webkit
-      - if: matrix.suite == 'historical'
-        run: npm run test:e2e && npx playwright test --config playwright.m25.config.ts
-      - if: matrix.suite == 'milestones'
-        run: npx playwright test --config playwright.m31.config.ts && npx playwright test --config playwright.m35.config.ts
+      - run: ${{ matrix.command }}
       - uses: actions/upload-artifact@v4
         if: failure()
         with:
