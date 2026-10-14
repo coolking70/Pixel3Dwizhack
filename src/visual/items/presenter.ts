@@ -18,7 +18,8 @@ export function disposeItemTemplate(root: T.Object3D): void {
 /** Templates own GPU resources; cloned instances must only be removed, not disposed. */
 export function createItemModelCache(load?: (uri: string) => Promise<T.Group>): ItemModelCache {
   const loader = new GLTFLoader();
-  const fetchModel = load ?? (async (uri: string) => (await loader.loadAsync(uri)).scene);
+  // Manifest URIs remain canonical; only the browser transport applies the host base.
+  const fetchModel = load ?? (async (uri: string) => (await loader.loadAsync(import.meta.env.BASE_URL + uri.replace(/^\//, ''))).scene);
   const templates = new Map<string, T.Group>(), pending = new Map<string, Promise<T.Group | null>>();
   let disposed = false;
   const clone = (template: T.Group): T.Group => { const root = template.clone(true); root.userData.itemAsset = true; return root; };

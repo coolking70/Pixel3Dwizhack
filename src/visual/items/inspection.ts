@@ -23,7 +23,7 @@ export async function inspectItemScene(mode: 'ground' | 'equipment' | 'reading',
     ITEM_VISUALS.filter(s=>s.family==='scroll').forEach((spec,n)=>{for(const expanded of [false,true]){const root=cache.peek(spec,level)!;root.position.set(n*.85-2.25,expanded?.20:1.05,0);root.getObjectByName('ReadingSheet')!.scale.x=expanded?1:.001;scene.add(root);}});
     camera.left=-3.1;camera.right=3.1;camera.top=2.25;camera.bottom=-1.36;camera.position.set(0,2.4,7);camera.lookAt(0,.75,0);
   } else {
-    const rig = parseRig(await (await fetch('/assets/character-study/motions.json')).json());
+    const rig = parseRig(await (await fetch(import.meta.env.BASE_URL + 'assets/character-study/motions.json')).json());
     ['sword', 'knife', 'maul', 'spear', 'bow', 'fireblade', 'silverblade', 'staff'].slice(batch * 3, batch * 3 + 3).forEach((id, n) => {
       const actor = new BlockCharacter(rig); actor.setEquipment({model:'vanguard',outfit:'cloth',helmet:false,sword:true,shield:true}); actor.sample(batch===2?'walk':'idle',.25); actor.root.position.x = (n - 1) * 2.0; actor.root.rotation.y = batch===1?.40:-.22; characters.push(actor); scene.add(actor.root);
       const definitions=[id,n===1?'tower':'shield',n===1?'cap':'helm',['brigandine','plate','leather'][n]!,'boots','public-charm'];

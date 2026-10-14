@@ -9,7 +9,7 @@ const canvas=(p:Page)=>p.locator('canvas[data-ui=native]');
 async function click(p:Page,id:string){const rs=JSON.parse(await canvas(p).getAttribute('data-regions')??'[]'),r=rs.find((r:{id:string})=>r.id===id);expect(r,id).toBeTruthy();await canvas(p).click({position:{x:r.x+r.width/2,y:r.y+r.height/2}});}
 async function start(p:Page){await p.goto('/alpha5.html');await expect(p.locator('[data-state=ready]')).toBeAttached();await click(p,'start');await expect(canvas(p)).toHaveAttribute('data-panel','world');const s=new GameSession(24681,'alpha5');expect(s.submit('choose:vanguard').accepted).toBe(true);return s;}
 async function world(p:Page){for(let n=0;n<4&&await canvas(p).getAttribute('data-panel')!=='world';n++)await p.keyboard.press('Escape');await expect(canvas(p)).toHaveAttribute('data-panel','world');}
-async function saved(p:Page){await click(p,'aux');await click(p,'open:storage');await click(p,'save');return p.evaluate(()=>localStorage.getItem('dungeon-descent.m31'));}
+async function saved(p:Page){await click(p,'aux');await click(p,'open:game');await click(p,'open:storage');await click(p,'save');return p.evaluate(()=>localStorage.getItem('dungeon-descent.m31'));}
 async function air(p:Page,v:PublicView,x:number){
  const rect=(await canvas(p).boundingBox())!,aspect=rect.width/rect.height,span=aspect>1.35?9.8:6.8;
  const cx=T.MathUtils.clamp(v.player.x+v.player.face*.8,span/2-.5,v.map.width-span/2-.5),cy=floorY(v.player.floor)+1.15,c=new T.OrthographicCamera(-span/2,span/2,span/aspect/2,-span/aspect/2,.1,70);
