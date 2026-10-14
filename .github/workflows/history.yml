@@ -1,0 +1,64 @@
+name: Historical compatibility
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: history-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run check:models && npm run check:items && npm run check:piles
+      - run: npm run check
+  browsers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - suite: historical-desktop-1
+            command: npm run test:e2e -- --project desktop --shard 1/2
+          - suite: historical-desktop-2
+            command: npm run test:e2e -- --project desktop --shard 2/2
+          - suite: historical-mobile-1
+            command: npm run test:e2e -- --project mobile --shard 1/2
+          - suite: historical-mobile-2
+            command: npm run test:e2e -- --project mobile --shard 2/2
+          - suite: m25-desktop
+            command: npx playwright test --config playwright.m25.config.ts --project m25-desktop
+          - suite: m25-landscape
+            command: npx playwright test --config playwright.m25.config.ts --project m25-landscape
+          - suite: m25-portrait
+            command: npx playwright test --config playwright.m25.config.ts --project m25-portrait
+          - suite: m25-firefox
+            command: xvfb-run --auto-servernum npx playwright test --config playwright.m25.config.ts --project m25-firefox --headed
+          - suite: m25-webkit
+            command: npx playwright test --config playwright.m25.config.ts --project m25-webkit
+          - suite: milestones
+            command: npx playwright test --config playwright.m31.config.ts && npx playwright test --config playwright.m35.config.ts
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium firefox webkit
+      - run: ${{ matrix.command }}
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: browser-failure-${{ matrix.suite }}
+          path: test-results/
+          retention-days: 7

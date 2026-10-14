@@ -1,7 +1,6 @@
 import { copyFile, mkdir, writeFile } from 'node:fs/promises';
 
-// Keep the historical M01 entry reachable; only the hosted preview gets a new landing page.
-await copyFile('dist-pages/index.html', 'dist-pages/mine.html');
+// Publish only the current playable entry; historical entries remain in local builds.
 await writeFile('dist-pages/index.html', `<!doctype html>
 <html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>星落远征 · Fallen Star</title><meta http-equiv="refresh" content="0;url=./alpha6.html">
@@ -12,4 +11,4 @@ await mkdir('dist-pages/licenses', { recursive: true });
 await copyFile('LICENSE', 'dist-pages/LICENSE.txt');
 await copyFile('node_modules/vue/LICENSE', 'dist-pages/licenses/Vue-LICENSE.txt');
 await copyFile('node_modules/three/LICENSE', 'dist-pages/licenses/Three-LICENSE.txt');
-console.log('Pages preview: alpha6.html; historical M01: mine.html');
+console.log('Pages preview: M35 alpha6.html');
