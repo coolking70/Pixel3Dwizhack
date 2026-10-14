@@ -126,7 +126,15 @@ test('M25 pending target cancellation invalidates delayed pointer release withou
   await page.mouse.move(box.x+r.x+r.width/2,box.y+r.y+r.height/2);await page.mouse.down();
   if(reason==='escape')await page.keyboard.press('Escape');
   if(reason==='blur')await page.evaluate(()=>{window.dispatchEvent(new Event('blur'));window.dispatchEvent(new Event('focus'));});
-  if(reason==='resize'){const size=page.viewportSize()!;await page.setViewportSize({width:size.width-1,height:size.height});await page.setViewportSize(size);}
+  if(reason==='resize'){
+   const size=page.viewportSize()!;
+   // A rapid shrink/restore can be coalesced without any browser resize event.
+   // Observe each real event before proceeding to the delayed pointer release.
+   for(const viewport of [{width:size.width-1,height:size.height},size]){
+    await page.evaluate(()=>{delete document.documentElement.dataset.testResized;window.addEventListener('resize',()=>{document.documentElement.dataset.testResized='true';},{once:true});});
+    await page.setViewportSize(viewport);await expect(page.locator('html')).toHaveAttribute('data-test-resized','true');
+   }
+  }
   if(reason==='pointercancel')await canvas(page).dispatchEvent('pointercancel',{pointerId:1,isPrimary:true});
   if(reason==='restore')await load(page,c.before);
   await page.mouse.up();await expect(canvas(page),reason).toHaveAttribute('data-revision',String(v.revision));
@@ -137,17 +145,21 @@ test('M25 pending target cancellation invalidates delayed pointer release withou
 });
 
 test('M25 one ground click opens an ordinary door then walks, while release and blur stop at the door',async({page})=>{
- test.setTimeout(120000);await page.goto('/alpha3.html');await expect(page.locator('[data-state=ready]')).toBeAttached();
+ test.setTimeout(120000);await page.clock.install();await page.goto('/alpha3.html');await expect(page.locator('[data-state=ready]')).toBeAttached();
  const c=directWorldCases().find(c=>c.name==='paidChest')!,s=GameSession.fromArchive(c.before);
  // Revisit an explored door after this floor's enemies were defeated naturally.
  while(s.view().player.x>10)expect(s.submit('left').accepted).toBe(true);
  expect(s.submit('door:1').accepted).toBe(true);
  const before=s.capture(),v=s.view(),opened=GameSession.fromArchive(before);expect(opened.submit('door:1').accepted).toBe(true);
  for(const reason of ['release','blur']){
-  await load(page,before);await canvas(page).focus();await page.keyboard.down('ArrowRight');
+  await load(page,before);await canvas(page).focus();
+  // Keep real keyboard events on either side of the first command, before its
+  // animation completes. Slow CI protocol round trips must not become a hold.
+  await page.clock.pauseAt(await page.evaluate(()=>Date.now()+1000));await page.keyboard.down('ArrowRight');
   await expect(canvas(page)).toHaveAttribute('data-revision',String(v.revision+1));
+  await expect(canvas(page)).toHaveAttribute('data-busy','true');
   if(reason==='blur')await page.evaluate(()=>{window.dispatchEvent(new Event('blur'));window.dispatchEvent(new Event('focus'));});
-  await page.keyboard.up('ArrowRight');await expect(canvas(page)).toHaveAttribute('data-busy','false',{timeout:15000});
+  await page.keyboard.up('ArrowRight');await page.clock.resume();await expect(canvas(page)).toHaveAttribute('data-busy','false',{timeout:15000});
   expect(await saved(page),reason).toBe(opened.capture());
  }
  await load(page,before);const expected=GameSession.fromArchive(opened.capture());expect(expected.submit('right').accepted).toBe(true);expect(expected.submit('right').accepted).toBe(true);
