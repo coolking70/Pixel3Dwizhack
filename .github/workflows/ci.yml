@@ -44,7 +44,7 @@ jobs:
           - suite: m25-portrait
             command: npx playwright test --config playwright.m25.config.ts --project m25-portrait
           - suite: m25-firefox
-            command: npx playwright test --config playwright.m25.config.ts --project m25-firefox
+            command: xvfb-run --auto-servernum npx playwright test --config playwright.m25.config.ts --project m25-firefox --headed
           - suite: m25-webkit
             command: npx playwright test --config playwright.m25.config.ts --project m25-webkit
           - suite: milestones
