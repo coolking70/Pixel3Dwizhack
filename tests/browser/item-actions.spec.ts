@@ -10,7 +10,7 @@ async function click(page:Page,id:string){
  for(let n=0;n<20;n++){
   const regions=JSON.parse((await canvas(page).getAttribute('data-regions'))!) as {id:string;x:number;y:number;width:number;height:number}[];
   const region=regions.find(r=>r.id===id)??(id.startsWith('near:')?regions.find(r=>r.id==='near:next'):undefined);
-  expect(region,`hotzone ${id}`).toBeTruthy();await canvas(page).click({position:{x:region!.x+region!.width/2,y:region!.y+region!.height/2}});if(region!.id===id)return;
+  expect(region,`hotzone ${id}`).toBeTruthy();const box=(await canvas(page).boundingBox())!;await page.mouse.click(box.x+region!.x+region!.width/2,box.y+region!.y+region!.height/2);if(region!.id===id)return;
  }
  throw new Error(`No region ${id}`);
 }
@@ -29,12 +29,13 @@ async function prepare(page:Page,c:InteractionCase){
  return 'execute';
 }
 for(const interrupt of ['pause','save-load','late-frame'] as const)test(`all natural interaction semantics settle through ${interrupt} without extra commands`,async({page})=>{
- test.setTimeout(240000);
+ test.setTimeout(240000);await page.clock.install();
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
  const items=itemActionCases(),cases=[...interactionCases(),...items,...itemTargetCases(items)];expect(cases).toHaveLength(16);
  await page.goto('/alpha2.html?ui=buttons');await expect(page.locator('[data-state=ready]')).toBeAttached();
  for(const c of cases){
   const id=await prepare(page,c),profile=MOTION_PROFILE[c.motion as InteractionMotion];
+  await page.clock.pauseAt(await page.evaluate(()=>Date.now()+1000));
   await page.evaluate(contact=>{
    window.itemRAF=requestAnimationFrame;window.itemFrozen=false;
    window.requestAnimationFrame=callback=>window.itemRAF(time=>{
@@ -43,7 +44,9 @@ for(const interrupt of ['pause','save-load','late-frame'] as const)test(`all nat
     callback(time);
    });
   },profile.contact);
-  await click(page,id);await page.waitForFunction(()=>window.itemFrozen,undefined,{polling:20});
+  await click(page,id);await page.clock.fastForward(Math.ceil(profile.durationMs*profile.contact)+16);
+  for(let n=0;n<24&&!await page.evaluate(()=>window.itemFrozen);n++)await page.clock.runFor(16);
+  expect(await page.evaluate(()=>window.itemFrozen),c.name).toBe(true);
   await expect(canvas(page)).toHaveAttribute('data-motion',c.motion);
   if(items.some(item=>item.motion===c.motion))await expect(canvas(page)).not.toHaveAttribute('data-item-action-asset','pending');
   const expected=GameSession.fromArchive(c.after).view();
@@ -51,6 +54,7 @@ for(const interrupt of ['pause','save-load','late-frame'] as const)test(`all nat
   // Busy movement must not become a deferred command after recovery.
   await page.keyboard.press('d');await expect(canvas(page)).toHaveAttribute('data-revision',String(expected.revision));
   await page.evaluate(()=>{window.requestAnimationFrame=window.itemRAF;});
+  await page.clock.resume();
   if(interrupt==='pause')await click(page,'pause');
   else if(interrupt==='late-frame')await page.evaluate(()=>window.itemFinish());
   else await click(page,'save');

@@ -7,12 +7,12 @@ async function click(page:Page,id:string){
   for(let n=0;n<20;n++){
     const regions=JSON.parse((await canvas.getAttribute('data-regions'))!) as {id:string;x:number;y:number;width:number;height:number}[];
     const r=regions.find(r=>r.id===id)??regions.find(r=>r.id==='near:next');expect(r,`region ${id}`).toBeTruthy();
-    await canvas.click({position:{x:r!.x+r!.width/2,y:r!.y+r!.height/2}});if(r!.id===id)return;
+    const box=(await canvas.boundingBox())!;await page.mouse.click(box.x+r!.x+r!.width/2,box.y+r!.y+r!.height/2);if(r!.id===id)return;
   }
   throw new Error(`Unreachable region ${id}`);
 }
 test('natural pickup, gate, latch and chest contact then blur/save settle exactly once',async({page})=>{
-  test.setTimeout(120000);
+  test.setTimeout(120000);await page.clock.install();
   const cases=interactionCases(),errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
   expect(cases.map(c=>c.name)).toEqual(expect.arrayContaining(['pickupLow','leverPull','doorClose','chestOpen','doorPush']));
   await page.goto('/alpha2.html?ui=buttons');await expect(page.locator('[data-state=ready]')).toBeAttached();
@@ -20,7 +20,10 @@ test('natural pickup, gate, latch and chest contact then blur/save settle exactl
     await page.getByTestId('import-file').setInputFiles({name:'natural.json',mimeType:'application/json',buffer:Buffer.from(c.before)});
     await expect(page.locator('dialog')).not.toBeVisible();
     await page.waitForTimeout(150);
-    const contact=MOTION_PROFILE[c.motion as InteractionMotion].contact;
+    const profile=MOTION_PROFILE[c.motion as InteractionMotion],contact=profile.contact;
+    // Sample presentation time explicitly: software GPU frames can otherwise
+    // jump over the entire historical contact window before the observer runs.
+    await page.clock.pauseAt(await page.evaluate(()=>Date.now()+1000));
     await page.evaluate(contact=>{
       window.interactionRAF=requestAnimationFrame;window.interactionFrozen=null;
       window.requestAnimationFrame=callback=>window.interactionRAF(time=>{
@@ -30,10 +33,13 @@ test('natural pickup, gate, latch and chest contact then blur/save settle exactl
       });
     },contact);
     await click(page,`near:${c.command}`);
-    await page.waitForFunction(()=>window.interactionFrozen!==null,undefined,{polling:25});
+    await page.clock.fastForward(Math.ceil(profile.durationMs*contact)+16);
+    for(let n=0;n<24&&!await page.evaluate(()=>window.interactionFrozen!==null);n++)await page.clock.runFor(16);
+    expect(await page.evaluate(()=>window.interactionFrozen!==null),c.name).toBe(true);
     const frame=await page.evaluate(()=>window.interactionFrozen!);
     expect(frame.motion).toBe(c.motion);expect(frame.error,`${c.name} actual palm contact`).toBeLessThan(.08);
     await page.evaluate(()=>{window.requestAnimationFrame=window.interactionRAF;window.dispatchEvent(new Event('blur'));});
+    await page.clock.resume();
     await expect(page.locator('canvas')).toHaveAttribute('data-busy','false');
     await click(page,'save');expect(await page.evaluate(()=>localStorage.getItem('dungeon-descent.m15'))).toBe(c.after);
     await page.waitForTimeout(150);expect(await page.locator('canvas').getAttribute('data-tick')).toBe(String(JSON.parse(c.after).world.tick));
